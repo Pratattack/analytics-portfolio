@@ -1,0 +1,50 @@
+{
+  "01-catalyst-commercial-economics": {
+    "stage_1": "PASS: hand-worked unit tests and boundary cases",
+    "stage_2": {
+      "status": "PASS: independent input/output reconciliation",
+      "checks": [
+        "180 unique nonnegative customer/product/period records",
+        "SQL customer totals reconcile to raw data",
+        "Exact margin bridge residual below $0.000001",
+        "135 scenario rows; baseline NPV independently reconciled"
+      ]
+    },
+    "stage_3": "PASS: clean rerun produced byte-identical output artifacts; report structure checked",
+    "artifact_sha256": {
+      "commercial_data.csv": "b5c982676098212492682a0df32dbb16b8ec44c990d59c2a89f7ce26583165f5",
+      "contract_sensitivity.csv": "c7cfd0ca2157b3d7de302de7473f615f5c9a482395e3b170c430fb4e3e5ae5d5",
+      "customer_profitability.csv": "3fd6993875614b87a0d4c7305c0cd60db15d22895f8722a791a34a0e45a4ab54",
+      "decision_memo.md": "237e89b0c24a9220c9726ab9219b2e6199ee3462d8833d303d496bce9f7ce332",
+      "margin_bridge.csv": "bf00f6c1894ace912d8062913ca72f110a8f0dea8e92cdc2db51fd10f98e5c01",
+      "metrics.json": "4eda7fe81df7b6eef39bd509953410fe4d78ec5448c590346f7d160c336ee8e1",
+      "report.html": "a76250387dbd50c7c366b344713b0d4852045a644151a84ee9d023112ddbd4e4"
+    },
+    "unit_test_log": "test_hand_bridge (test_pipeline.Tests.test_hand_bridge) ... ok\ntest_invalid (test_pipeline.Tests.test_invalid) ... ok\ntest_mix (test_pipeline.Tests.test_mix) ... ok\ntest_zero_churn_and_full_churn (test_pipeline.Tests.test_zero_churn_and_full_churn) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK",
+    "review_limit": "Automated verification, not independent human review. HTML structure checked; no browser visual review or production integration performed."
+  },
+  "02-card-acquisition-economics": {
+    "stage_1": "PASS: hand-worked unit tests and boundary cases",
+    "stage_2": {
+      "status": "PASS: independent input/output reconciliation",
+      "checks": [
+        "12,000 unique randomized prospects; binary domains valid",
+        "SQL totals and stratum conversion reconcile to raw data",
+        "81 stress scenarios; $70 incentive reduces account NPV by exactly $70",
+        "Bootstrap and lift intervals present, with conditional uncertainty labeled"
+      ]
+    },
+    "stage_3": "PASS: clean rerun produced byte-identical output artifacts; report structure checked",
+    "artifact_sha256": {
+      "campaign_summary.csv": "4ba12382408a5bef644e549923fc1f8380a6cbb9e78e6abcd1f80f8eab95e11c",
+      "decision_memo.md": "b458a74d0416c07cf4bc1abae94beeb7dd8f7933e6cdadfc9b105dd8f053eab7",
+      "metrics.json": "9bac3f2940cd5b5a2a597d8d03f88bf783fff522afcfa9c439aa05c76d261b16",
+      "randomized_campaign.csv": "0a35b84756f9b4d936d2176c4f21e4831e3c06bd9eb272b7a837dd3029749c22",
+      "report.html": "8d4eea66ad4ab2fc158513878387707c8461e655e03a95972d426f30d8e91031",
+      "risk_sensitivity.csv": "9ea2b627f745ae577b42f5b15cadf2a9eb233475a2beb19c21b045f5f9460122",
+      "segment_economics.csv": "902ca9641ea4c1b689b3dba00501f5cf7ab567abec22be41b829e8ce2aa983f5"
+    },
+    "unit_test_log": "test_cac (test_pipeline.Tests.test_cac) ... ok\ntest_experiment (test_pipeline.Tests.test_experiment) ... ok\ntest_hand_npv (test_pipeline.Tests.test_hand_npv) ... ok\ntest_invalid (test_pipeline.Tests.test_invalid) ... ok\ntest_pd_sensitivity (test_pipeline.Tests.test_pd_sensitivity) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK",
+    "review_limit": "Automated verification, not independent human review. HTML structure checked; no browser visual review or production integration performed."
+  }
+}

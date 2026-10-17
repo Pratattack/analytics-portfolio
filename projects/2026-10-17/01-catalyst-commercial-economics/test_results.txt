@@ -1,0 +1,9 @@
+test_hand_bridge (test_pipeline.Tests.test_hand_bridge) ... ok
+test_invalid (test_pipeline.Tests.test_invalid) ... ok
+test_mix (test_pipeline.Tests.test_mix) ... ok
+test_zero_churn_and_full_churn (test_pipeline.Tests.test_zero_churn_and_full_churn) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK

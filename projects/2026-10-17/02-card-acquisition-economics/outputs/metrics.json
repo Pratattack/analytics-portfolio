@@ -1,0 +1,26 @@
+{
+  "bootstrap_draws": 400,
+  "conditional_bootstrap_95_interval": [
+    -10.797491350207537,
+    5.34201849074131
+  ],
+  "experiment": {
+    "absolute_lift": 0.0088659371589912,
+    "ci_high": 0.01960711876218029,
+    "ci_low": -0.0018752444441978901,
+    "control_n": 5986,
+    "control_rate": 0.09572335449381891,
+    "treatment_n": 6014,
+    "treatment_rate": 0.10458929165281011
+  },
+  "incremental_npv_per_prospect": -2.1990622807335853,
+  "raw_npv_per_prospect": {
+    "0": 77.37152100649816,
+    "1": 75.93675832829568
+  },
+  "scenario_count": 81,
+  "standardized_npv_per_prospect": {
+    "0": 77.78189921178887,
+    "1": 75.58283693105528
+  }
+}

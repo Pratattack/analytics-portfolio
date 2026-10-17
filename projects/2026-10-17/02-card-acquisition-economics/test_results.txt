@@ -1,0 +1,10 @@
+test_cac (test_pipeline.Tests.test_cac) ... ok
+test_experiment (test_pipeline.Tests.test_experiment) ... ok
+test_hand_npv (test_pipeline.Tests.test_hand_npv) ... ok
+test_invalid (test_pipeline.Tests.test_invalid) ... ok
+test_pd_sensitivity (test_pipeline.Tests.test_pd_sensitivity) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK

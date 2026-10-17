@@ -1,0 +1,14 @@
+{
+  "base_variable_contribution": 10092380.26,
+  "bridge": {
+    "cost": -1380512.9776000003,
+    "mix": 15819.701836573071,
+    "price": 979360.3766,
+    "volume": 227626.66196342697
+  },
+  "bridge_residual": -9.313225746154785e-10,
+  "change": -157706.2371999994,
+  "current_variable_contribution": 9934674.0228,
+  "negative_customers": 0,
+  "scenario_count": 135
+}
