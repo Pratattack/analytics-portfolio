@@ -1,0 +1,30 @@
+{
+  "budget_musd": 20,
+  "crew": 5,
+  "critical_districts": 2,
+  "downside_fixed_plan_break_even_hour_value_usd": 10.918015643845346,
+  "equal_weight_dp_oracle_residual": 0.0,
+  "equal_weight_npv_musd": 10.654056429885587,
+  "equal_weight_policy_worst_npv_musd": -8.53909727370219,
+  "external_stress_npv_musd": -6.315641366314828,
+  "feasible_plans": 24631,
+  "greedy_worst_npv_musd": -8.53909727370219,
+  "plans_enumerated": 59049,
+  "reserved_musd": 7.716,
+  "selected": [
+    {
+      "intervention": "automation",
+      "state": "Texas"
+    },
+    {
+      "intervention": "automation",
+      "state": "North Carolina"
+    },
+    {
+      "intervention": "hardening",
+      "state": "Michigan"
+    }
+  ],
+  "source_sha256": "71ca11e308ea1d22b7f9115def8668306f1443ab103a8291461aaefb261d0a26",
+  "worst_social_npv_musd": 0.8266638968262892
+}

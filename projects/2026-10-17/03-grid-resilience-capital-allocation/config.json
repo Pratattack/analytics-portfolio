@@ -1,0 +1,32 @@
+{
+  "budget_musd": 20,
+  "crew_limit": 14,
+  "minimum_critical_districts": 2,
+  "value_per_customer_hour_usd": 12,
+  "discount_rate": 0.07,
+  "life_years": 10,
+  "budget_reserve_factor": 1.2,
+  "districts": [
+    {"state": "Texas", "customers": 42000, "critical": true, "cost_factor": 1.15},
+    {"state": "Louisiana", "customers": 22000, "critical": true, "cost_factor": 1.05},
+    {"state": "Florida", "customers": 38000, "critical": false, "cost_factor": 1.10},
+    {"state": "Georgia", "customers": 30000, "critical": false, "cost_factor": 0.95},
+    {"state": "North Carolina", "customers": 32000, "critical": true, "cost_factor": 1.00},
+    {"state": "South Carolina", "customers": 18000, "critical": true, "cost_factor": 0.90},
+    {"state": "Michigan", "customers": 28000, "critical": false, "cost_factor": 1.10},
+    {"state": "California", "customers": 44000, "critical": false, "cost_factor": 1.40},
+    {"state": "Ohio", "customers": 26000, "critical": false, "cost_factor": 0.95},
+    {"state": "Pennsylvania", "customers": 25000, "critical": false, "cost_factor": 1.00}
+  ],
+  "interventions": [
+    {"name": "automation", "capex_musd": 1.2, "crew": 1, "normal_reduction": 0.35, "event_reduction": 0.08, "annual_opex_musd": 0.035},
+    {"name": "hardening", "capex_musd": 3.5, "crew": 3, "normal_reduction": 0.15, "event_reduction": 0.45, "annual_opex_musd": 0.025}
+  ],
+  "scenarios": [
+    {"name": "low_event", "year": 2023, "normal_factor": 1.0, "event_factor": 0.35, "efficacy": 1.0, "capex_factor": 1.0, "delay_years": 0},
+    {"name": "repeat_2023", "year": 2023, "normal_factor": 1.0, "event_factor": 1.0, "efficacy": 1.0, "capex_factor": 1.0, "delay_years": 0},
+    {"name": "repeat_2024", "year": 2024, "normal_factor": 1.0, "event_factor": 1.0, "efficacy": 1.0, "capex_factor": 1.0, "delay_years": 0},
+    {"name": "execution_downside", "year": 2023, "normal_factor": 1.0, "event_factor": 0.50, "efficacy": 0.65, "capex_factor": 1.20, "delay_years": 1}
+  ],
+  "out_of_set_stress": {"name": "joint_low_value_execution", "year": 2023, "normal_factor": 1.0, "event_factor": 0.20, "efficacy": 0.50, "capex_factor": 1.20, "delay_years": 2, "value_factor": 0.50}
+}

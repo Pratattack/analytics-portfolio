@@ -1,0 +1,23 @@
+{
+  "excluded": [
+    "Texas",
+    "Louisiana"
+  ],
+  "reserved_musd": 7.356,
+  "rule": "Exclude states with IEEE reporting coverage below 80% in either year; illustrative screening rule, not an EIA quality threshold",
+  "selected": [
+    {
+      "intervention": "automation",
+      "state": "North Carolina"
+    },
+    {
+      "intervention": "automation",
+      "state": "South Carolina"
+    },
+    {
+      "intervention": "hardening",
+      "state": "Michigan"
+    }
+  ],
+  "worst_social_npv_musd": -0.42899459999447664
+}

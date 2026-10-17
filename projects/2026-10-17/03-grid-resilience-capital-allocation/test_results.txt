@@ -1,0 +1,17 @@
+test_delay_and_cost_shock (test_model.ModelTests.test_delay_and_cost_shock) ... ok
+test_efficacy_bounds (test_model.ModelTests.test_efficacy_bounds) ... ok
+test_equal_weight_oracle (test_model.ModelTests.test_equal_weight_oracle) ... ok
+test_hand_calculated_social_value (test_model.ModelTests.test_hand_calculated_social_value) ... ok
+test_infeasible_critical_floor (test_model.ModelTests.test_infeasible_critical_floor) ... ok
+test_invalid_assumptions (test_model.ModelTests.test_invalid_assumptions) ... ok
+test_known_robust_optimum (test_model.ModelTests.test_known_robust_optimum) ... ok
+test_monotonic_budget_toy (test_model.ModelTests.test_monotonic_budget_toy) ... ok
+test_no_double_purchase (test_model.ModelTests.test_no_double_purchase) ... ok
+test_reserve_guards_modeled_cost (test_model.ModelTests.test_reserve_guards_modeled_cost) ... ok
+test_unknown_objective (test_model.ModelTests.test_unknown_objective) ... ok
+test_zero_budget (test_model.ModelTests.test_zero_budget) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.002s
+
+OK

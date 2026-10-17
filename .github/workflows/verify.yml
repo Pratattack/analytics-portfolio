@@ -3,13 +3,23 @@ on: [push, pull_request]
 permissions:
   contents: read
 jobs:
-  verify:
+  initial-cases:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Verify October 17 cases
+      - name: Verify initial October 17 cases
         working-directory: projects/2026-10-17
+        run: python verify.py
+  resilience-case:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify resilience allocation
+        working-directory: projects/2026-10-17/03-grid-resilience-capital-allocation
         run: python verify.py

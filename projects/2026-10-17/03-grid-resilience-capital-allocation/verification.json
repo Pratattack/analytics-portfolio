@@ -1,0 +1,49 @@
+{
+  "artifact_sha256": {
+    "outputs/budget_frontier.csv": "0bc83ff2d161e889d398dc944b90d18e75d13160c687bb85177f8faf026b8f98",
+    "outputs/candidate_economics.csv": "018bedaf66d82e6ccaf64a21a28f53cf49e74e021e100e9256e4cb380525c9d2",
+    "outputs/coverage_sensitivity.json": "35c8ee65effc5b236c60d189c4f9b29e46d96fc5c7cc65cd408dee0c2c78797c",
+    "outputs/executive_memo.md": "7b24c9990d994d0e8e75b2e557ad07d4bd5478b6f270396814877893b174f688",
+    "outputs/metrics.json": "7389a6ce35de30179f47eca4ca7d33a2b5c976039fbc6419a2ad2f5b1b8749d2",
+    "outputs/policy_comparison.csv": "79128379238e35ff68e93a055a2562ef669cfddbc56d70dd5bd2f699c911d571",
+    "outputs/report.html": "50bfb3be63c19321b6a91cd91ac679ed38155bee5e37b369e4f94a87310e5314",
+    "outputs/scenario_accounting.csv": "e6ed4a1efa3189b0f16a3ebc262bbbd36b4def81c3130f5b520cbde4fe3db9d3",
+    "outputs/scenario_comparison.svg": "39e50a3c0a0ae44c4abfafd29fb53f71c95c574477c7d6cc47bdc57d50a32a94",
+    "outputs/selected_portfolio.csv": "7e824adf59cfc315b045824906114b1de5ca829513b84318997798c49ec69f78",
+    "outputs/selected_scenario_detail.csv": "81b96e3bc086359c463731d142d58d1ce35b01813499373238673251bca7c541",
+    "outputs/valuation_sensitivity.csv": "ce31634a84fe9ad00582542a9a2348783c29d6e211c876c1dfae94e010ff9730"
+  },
+  "limits": [
+    "Automated verification is not three independent human reviews.",
+    "Historical state benchmarks are not feeder outage forecasts.",
+    "Costs, service territories and effectiveness are hypothetical.",
+    "Out-of-set stress is a diagnostic scenario, not observed validation."
+  ],
+  "source_sha256": "71ca11e308ea1d22b7f9115def8668306f1443ab103a8291461aaefb261d0a26",
+  "stage_1": {
+    "checks": [
+      "12 hand-worked, boundary, feasibility and optimization unit tests",
+      "Known robust optimum differs from equal-weight optimum",
+      "Independent dynamic programming oracle agrees with scalar optimizer"
+    ],
+    "status": "PASS"
+  },
+  "stage_2": {
+    "checks": [
+      "All 60 numerical source fields match preserved EIA table rows",
+      "Selected allocation satisfies budget, crews, one-choice and critical-service constraints",
+      "Independent discounted-flow accounting matches SQL for all five scenarios",
+      "Scenario regret is nonnegative; robust dominates comparison policies on worst-case value",
+      "Budget frontier is feasible and nondecreasing"
+    ],
+    "status": "PASS"
+  },
+  "stage_3": {
+    "checks": [
+      "Cleared outputs and reran pipeline: every artifact byte-identical",
+      "SVG and HTML contain labeled modeled-value reporting",
+      "Frozen source snapshot SHA-256 recorded"
+    ],
+    "status": "PASS"
+  }
+}

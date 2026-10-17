@@ -1,0 +1,6 @@
+value_per_customer_hour_usd,worst_social_npv_musd,reserved_musd,selected
+6.0,-1.644929117578303,3.096,Texas:automation;North Carolina:automation
+9.0,-0.6902949722917349,3.096,Texas:automation;North Carolina:automation
+12.0,0.8266638968262892,7.716,Texas:automation;North Carolina:automation;Michigan:hardening
+15.0,3.789101177829887,12.612,Texas:automation;Louisiana:automation;Georgia:automation;North Carolina:automation;Michigan:hardening;California:automation
+18.0,7.437962962765144,13.98,Texas:automation;Louisiana:automation;Georgia:automation;North Carolina:automation;Michigan:hardening;California:automation;Ohio:automation

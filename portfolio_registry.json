@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2026-10-17",
+    "industry": "specialty chemicals",
+    "title": "Catalyst Pricing & Contract Economics",
+    "path": "projects/2026-10-17/01-catalyst-commercial-economics",
+    "data": "synthetic",
+    "status": "published"
+  },
+  {
+    "date": "2026-10-17",
+    "industry": "consumer credit cards",
+    "title": "Credit Card Acquisition Economics",
+    "path": "projects/2026-10-17/02-card-acquisition-economics",
+    "data": "synthetic",
+    "status": "published"
+  },
+  {
+    "date": "2026-10-17",
+    "industry": "electric utilities",
+    "title": "Grid Resilience Capital Allocation",
+    "path": "projects/2026-10-17/03-grid-resilience-capital-allocation",
+    "data": "EIA public benchmarks plus hypothetical investments",
+    "status": "published"
+  }
+]

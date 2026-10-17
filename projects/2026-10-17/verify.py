@@ -6,7 +6,7 @@ def read(p):
     with p.open() as f: return list(csv.DictReader(f))
 def hashes(d):
     return {p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((d/'outputs').iterdir()) if p.is_file()}
-for d in sorted(ROOT.glob('0*')):
+for d in [ROOT/'01-catalyst-commercial-economics', ROOT/'02-card-acquisition-economics']:
     tests=subprocess.run([sys.executable,'-m','unittest','-v'],cwd=d,capture_output=True,text=True)
     if tests.returncode: raise RuntimeError(tests.stdout+tests.stderr)
     (d/'test_results.txt').write_text(tests.stdout+tests.stderr)
