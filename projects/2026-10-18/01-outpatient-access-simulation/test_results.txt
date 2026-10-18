@@ -1,0 +1,15 @@
+test_absence_respects_capacity (test_model.Tests.test_absence_respects_capacity) ... ok
+test_deterministic_requests (test_model.Tests.test_deterministic_requests) ... ok
+test_fifo_capacity (test_model.Tests.test_fifo_capacity) ... ok
+test_invalid_reserve (test_model.Tests.test_invalid_reserve) ... ok
+test_no_show_separate_from_access (test_model.Tests.test_no_show_separate_from_access) ... ok
+test_poisson_boundary (test_model.Tests.test_poisson_boundary) ... ok
+test_released_reserve (test_model.Tests.test_released_reserve) ... ok
+test_reserved_not_double_counted (test_model.Tests.test_reserved_not_double_counted) ... ok
+test_unbooked_denominator (test_model.Tests.test_unbooked_denominator) ... ok
+test_unused_reserve (test_model.Tests.test_unused_reserve) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+OK

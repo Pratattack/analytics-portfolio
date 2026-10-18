@@ -1,0 +1,13 @@
+{
+  "dataset": "Bike Sharing (daily observations)",
+  "creator": "Hadi Fanaee-T",
+  "citation": "Fanaee-T, H. (2013). Bike Sharing [Dataset]. UCI Machine Learning Repository. DOI: 10.24432/C5W894",
+  "primary_description": "https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset",
+  "mirror_download": "https://raw.githubusercontent.com/KeithJLZ/UCI-Bike-Sharing-Dataset/main/day.csv",
+  "retrieved": "2026-10-18",
+  "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+  "normalization": "CRLF line endings converted to LF; one final newline. No row or value edits.",
+  "normalized_csv_sha256": "537e98e2c8b8f53e3094d953f847788b1dc224764a4a1e538b3e1ec4e30dac8a",
+  "scope": "731 daily records, 2011-01-01 to 2012-12-31; historical educational benchmark, not current ridership",
+  "mirror_limit": "Downloaded from a public mirror, not independently byte-compared with the original UCI ZIP. Field identities, row continuity and totals are verified."
+}

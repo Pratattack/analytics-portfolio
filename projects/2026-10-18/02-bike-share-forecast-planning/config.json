@@ -1,0 +1,10 @@
+{
+  "validation_start": "2012-01-01",
+  "test_start": "2012-07-01",
+  "models": ["seasonal_naive", "weekday_mean", "ridge_1", "ridge_10", "ridge_100"],
+  "interval_level": 0.90,
+  "shortfall_cost_per_trip_usd": 4,
+  "excess_capacity_cost_per_trip_usd": 0.75,
+  "bootstrap_draws": 400,
+  "bootstrap_block_days": 7
+}

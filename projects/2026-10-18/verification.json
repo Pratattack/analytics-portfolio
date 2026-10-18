@@ -1,0 +1,62 @@
+{
+  "01-outpatient-access-simulation": {
+    "review_limits": [
+      "Three automated verification stages, not three independent human reviewers.",
+      "HTML structure and SVG markup checked; no full browser visual review.",
+      "Source publication is not live application deployment."
+    ],
+    "stage_1": {
+      "checks": [
+        "10 hand-worked and boundary unit tests; see test_results.txt"
+      ],
+      "status": "PASS"
+    },
+    "stage_2": {
+      "checks": [
+        "One outcome per request; no negative appointment waits; sample occupancy within total capacity",
+        "All access-rate denominators retain unbooked cohort requests",
+        "SQL request/completion/no-show totals independently reconcile",
+        "Development and holdout seeds disjoint; paired economic arithmetic checked",
+        "Internal per-day calendars also audit capacity net of staff absence"
+      ],
+      "status": "PASS"
+    },
+    "stage_3": {
+      "checks": [
+        "Cleared outputs and regenerated: every output byte-identical",
+        "Report structure and SVG XML validate"
+      ],
+      "status": "PASS"
+    }
+  },
+  "02-bike-share-forecast-planning": {
+    "review_limits": [
+      "Three automated verification stages, not three independent human reviewers.",
+      "HTML structure and SVG markup checked; no full browser visual review.",
+      "Source publication is not live application deployment."
+    ],
+    "stage_1": {
+      "checks": [
+        "10 hand-worked and boundary unit tests; see test_results.txt"
+      ],
+      "status": "PASS"
+    },
+    "stage_2": {
+      "checks": [
+        "731 consecutive unique public days; target equals casual plus registered",
+        "Pinned normalized data SHA-256 matches provenance",
+        "Every model training target and lag precedes forecast date",
+        "182 validation / 184 test dates; selected model determined only from validation WAPE",
+        "SQL test WAPE/cost totals reconcile to independent raw forecast arithmetic"
+      ],
+      "status": "PASS"
+    },
+    "stage_3": {
+      "checks": [
+        "Cleared outputs and regenerated: every output byte-identical",
+        "Report structure and SVG XML validate"
+      ],
+      "status": "PASS"
+    }
+  }
+}

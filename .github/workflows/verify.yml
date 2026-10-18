@@ -23,3 +23,14 @@ jobs:
       - name: Verify resilience allocation
         working-directory: projects/2026-10-17/03-grid-resilience-capital-allocation
         run: python verify.py
+  october18-cases:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify healthcare and mobility cases
+        working-directory: projects/2026-10-18
+        run: python verify_all.py

@@ -1,0 +1,54 @@
+{
+  "config_sha256": "33b2bcb6c90fd157d5af19b9073eb5d13e81c5367d43492fda6535640191e54f",
+  "development_eligible": 1,
+  "diagnostic_candidate": "flex_plus_capacity",
+  "holdout": {
+    "completed": 2975.133333333333,
+    "incremental_capacity_cost": 53600,
+    "mean_booked_wait": 0.18066740890313487,
+    "phase": "holdout",
+    "policy": "flex_plus_capacity",
+    "replications": 30,
+    "routine_service": 1.0,
+    "unbooked": 0,
+    "urgent_service": 0.9998979070954569
+  },
+  "holdout_targets_met": true,
+  "paired_95_mc_intervals": {
+    "completed_delta": [
+      0,
+      0.0,
+      0.0
+    ],
+    "incremental_modeled_contribution": [
+      -53600,
+      -53600.0,
+      -53600.0
+    ],
+    "routine_service_delta": [
+      0.6917857555661253,
+      0.6341201320852402,
+      0.7494513790470104
+    ],
+    "urgent_service_delta": [
+      0.9930312226652233,
+      0.985310639516878,
+      1.0007518058135685
+    ]
+  },
+  "replication_count": 160,
+  "sample_metrics": {
+    "booked": 3481,
+    "completed": 3016,
+    "incremental_capacity_cost": 53600,
+    "mean_booked_wait": 0.18931341568514795,
+    "no_shows": 465,
+    "requests": 3481,
+    "routine_service": 1.0,
+    "scheduled_cohort_days": 160,
+    "unbooked": 0,
+    "urgent_service": 1.0
+  },
+  "selected_policy": "flex_plus_capacity",
+  "stress_replications": 30
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_sha256": {
+    "access_comparison.svg": "8696536b2f817830cf0e73ca66562e858c71c47c52c8034db164881311dccfc3",
+    "executive_memo.md": "8c9a9cce6ee7b6878c115a0b90e8e7f844fe18acb761438fb0b803441866a5ed",
+    "metrics.json": "ce7365717340e7b8337355a4b76c774e57f41b4b4cdd384df42085c6dfae1ac8",
+    "paired_holdout_comparison.csv": "e1f5deb3d425308aad4b6fd61cd2023e70d15551663eb871922eaa6448ccd20a",
+    "policy_summary.csv": "914f9f07fc74e5220387115f6512ec13315b5dcce53b0b0eea859f541cdbbaf4",
+    "replications.csv": "4727f992510dcd6196567b86ce278807b0ae72c03324212b290065a660909599",
+    "report.html": "551c81217748c5a434924e64a69109eb3bbfc051146ad193c326de5ae14897bc",
+    "sample_request_outcomes.csv": "fbcce3028102169139153e0cb2bd77d7fa8da57e116b293945f783ace7974d1b",
+    "sample_sql_audit.csv": "6fd47e4bda4bde6f59585bbc7b34bed57c849291448f667ad1838ff226dec88c",
+    "stress_tests.csv": "c278a7f952727db08176f53004b82f96283c6025f270c9ba99c9814a5b907675"
+  },
+  "review_limits": [
+    "Three automated verification stages, not three independent human reviewers.",
+    "HTML structure and SVG markup checked; no full browser visual review.",
+    "Source publication is not live application deployment."
+  ],
+  "stage_1": {
+    "checks": [
+      "10 hand-worked and boundary unit tests; see test_results.txt"
+    ],
+    "status": "PASS"
+  },
+  "stage_2": {
+    "checks": [
+      "One outcome per request; no negative appointment waits; sample occupancy within total capacity",
+      "All access-rate denominators retain unbooked cohort requests",
+      "SQL request/completion/no-show totals independently reconcile",
+      "Development and holdout seeds disjoint; paired economic arithmetic checked",
+      "Internal per-day calendars also audit capacity net of staff absence"
+    ],
+    "status": "PASS"
+  },
+  "stage_3": {
+    "checks": [
+      "Cleared outputs and regenerated: every output byte-identical",
+      "Report structure and SVG XML validate"
+    ],
+    "status": "PASS"
+  }
+}

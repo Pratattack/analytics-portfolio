@@ -1,0 +1,15 @@
+test_cost_hand_example (test_model.Tests.test_cost_hand_example) ... ok
+test_fit_excludes_future (test_model.Tests.test_fit_excludes_future) ... ok
+test_invalid_inputs (test_model.Tests.test_invalid_inputs) ... ok
+test_lags (test_model.Tests.test_lags) ... ok
+test_linear_solver (test_model.Tests.test_linear_solver) ... ok
+test_no_target_or_weather_leakage (test_model.Tests.test_no_target_or_weather_leakage) ... ok
+test_nonnegative_forecast (test_model.Tests.test_nonnegative_forecast) ... ok
+test_quantile (test_model.Tests.test_quantile) ... ok
+test_singular_system (test_model.Tests.test_singular_system) ... ok
+test_training_guard (test_model.Tests.test_training_guard) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.023s
+
+OK

@@ -22,5 +22,21 @@
     "path": "projects/2026-10-17/03-grid-resilience-capital-allocation",
     "data": "EIA public benchmarks plus hypothetical investments",
     "status": "published"
+  },
+  {
+    "date": "2026-10-18",
+    "industry": "healthcare operations",
+    "title": "Outpatient Access & Capacity Simulation",
+    "path": "projects/2026-10-18/01-outpatient-access-simulation",
+    "data": "synthetic paired booking simulation",
+    "status": "published"
+  },
+  {
+    "date": "2026-10-18",
+    "industry": "urban mobility",
+    "title": "Mobility Demand Forecasting & Capacity Economics",
+    "path": "projects/2026-10-18/02-bike-share-forecast-planning",
+    "data": "public UCI historical rentals plus hypothetical capacity costs",
+    "status": "published"
   }
 ]

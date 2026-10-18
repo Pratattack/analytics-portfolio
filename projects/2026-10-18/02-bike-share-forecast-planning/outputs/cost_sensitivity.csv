@@ -1,0 +1,7 @@
+model,shortfall_cost_usd,cost_fixed_capacity_policy
+ridge_1,2,165801.0105836022
+seasonal_naive,2,283065.5
+ridge_1,4,185292.0094691536
+seasonal_naive,4,330407.5
+ridge_1,8,224274.00724025632
+seasonal_naive,8,425091.5

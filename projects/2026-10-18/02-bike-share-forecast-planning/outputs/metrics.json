@@ -1,0 +1,57 @@
+{
+  "baseline_test": {
+    "days": 184,
+    "empirical_interval_coverage": 0.8695652173913043,
+    "excess_trip_equivalents": 314298.0,
+    "mean_underprediction": -184.4945652173913,
+    "model": "seasonal_naive",
+    "modeled_decision_cost_usd": 330407.5,
+    "shortfall_trip_equivalents": 23671.0,
+    "wape": 0.18695999014300735
+  },
+  "calibration": {
+    "ridge_1": {
+      "capacity_adjustment": 892.220669754457,
+      "interval_radius": 1637.1910087933725
+    },
+    "ridge_10": {
+      "capacity_adjustment": 890.5962145712133,
+      "interval_radius": 1656.049234080282
+    },
+    "ridge_100": {
+      "capacity_adjustment": 1025.2798425767269,
+      "interval_radius": 1634.0919594184588
+    },
+    "seasonal_naive": {
+      "capacity_adjustment": 1395.0,
+      "interval_radius": 2358.0
+    },
+    "weekday_mean": {
+      "capacity_adjustment": 1394.25,
+      "interval_radius": 2005
+    }
+  },
+  "capacity_critical_ratio": 0.8421052631578947,
+  "chosen_test": {
+    "days": 184,
+    "empirical_interval_coverage": 0.875,
+    "excess_trip_equivalents": 195080.01559740113,
+    "mean_underprediction": -115.0321354337247,
+    "model": "ridge_1",
+    "modeled_decision_cost_usd": 185292.0094691536,
+    "shortfall_trip_equivalents": 9745.499442775683,
+    "wape": 0.1335050928231238
+  },
+  "daily_saving_block_bootstrap_95": [
+    540.0900815257629,
+    1143.7255104812618
+  ],
+  "model_selection_metric": "validation WAPE only",
+  "modeled_cost_saving_usd": 145115.4905308464,
+  "nominal_interval_level": 0.9,
+  "selected_model": "ridge_1",
+  "source_rows": 731,
+  "source_sha256": "537e98e2c8b8f53e3094d953f847788b1dc224764a4a1e538b3e1ec4e30dac8a",
+  "test_days": 184,
+  "validation_days": 182
+}
