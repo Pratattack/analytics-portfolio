@@ -1,5 +1,12 @@
 # Analytics Portfolio
 
+## Featured research prototype
+
+**[Utility Reliability Due Diligence Lab](flagships/utility-reliability-due-diligence/)** upgrades the earlier resilience exercise with six official utility-level workbooks, source-cell lineage, report-year validation, utility-cluster uncertainty, release quarantine and an offline analyst workbench. It is a research prototype with explicit open evidence issues, not a production or employment-experience claim. Start with its README and CANDID_ASSESSMENT.md.
+
+[Portfolio quality standard](QUALITY_STANDARD.md)
+
+
 Industry-specific economics and business analytics cases by Prathamesh Singh, using Python and SQL with Excel-compatible outputs.
 
 ## Projects

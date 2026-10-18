@@ -38,5 +38,16 @@
     "path": "projects/2026-10-18/02-bike-share-forecast-planning",
     "data": "public UCI historical rentals plus hypothetical capacity costs",
     "status": "published"
+  },
+  {
+    "date": "2026-10-18",
+    "industry": "electric utilities",
+    "title": "Utility Reliability Due Diligence Lab",
+    "path": "flagships/utility-reliability-due-diligence",
+    "kind": "flagship_upgrade",
+    "upgrades": "projects/2026-10-17/03-grid-resilience-capital-allocation",
+    "data": "official EIA utility-level 2020–2025 workbooks; decision view restricted to reconciled 2024 release",
+    "status": "published_research_prototype",
+    "limitations": "2025 release quarantined; predictive promotion fails evidence gates; no full browser visual review"
   }
 ]

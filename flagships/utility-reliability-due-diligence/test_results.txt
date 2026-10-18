@@ -1,0 +1,21 @@
+test_api_rejects_unknown_utility (test_lab.CoreTests.test_api_rejects_unknown_utility) ... ok
+test_discounted_scenario (test_lab.CoreTests.test_discounted_scenario) ... ok
+test_filter (test_lab.CoreTests.test_filter) ... ok
+test_future_target_does_not_change_predictions (test_lab.CoreTests.test_future_target_does_not_change_predictions) ... ok
+test_invalid_numeric_source (test_lab.CoreTests.test_invalid_numeric_source) ... ok
+test_invalid_scenario (test_lab.CoreTests.test_invalid_scenario) ... ok
+test_missing_is_not_zero (test_lab.CoreTests.test_missing_is_not_zero) ... ok
+test_peer_excludes_whole_utility (test_lab.CoreTests.test_peer_excludes_whole_utility) ... ok
+test_peer_fallback (test_lab.CoreTests.test_peer_fallback) ... ok
+test_quantile (test_lab.CoreTests.test_quantile) ... ok
+test_scenario_hand_calculation (test_lab.CoreTests.test_scenario_hand_calculation) ... ok
+test_view_excludes_quarantine (test_lab.CoreTests.test_view_excludes_quarantine) ... ok
+test_index (test_lab.HttpTests.test_index) ... ok
+test_invalid_scenario_is_400 (test_lab.HttpTests.test_invalid_scenario_is_400) ... ok
+test_status_and_headers (test_lab.HttpTests.test_status_and_headers) ... ok
+test_unlisted_paths_not_served (test_lab.HttpTests.test_unlisted_paths_not_served) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.002s
+
+OK

@@ -34,3 +34,19 @@ jobs:
       - name: Verify healthcare and mobility cases
         working-directory: projects/2026-10-18
         run: python verify_all.py
+
+  flagship-utility-lab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: flagships/utility-reliability-due-diligence
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned analysis dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Verify pinned sources, data gates, methods, API and reproducibility
+        run: python verify.py

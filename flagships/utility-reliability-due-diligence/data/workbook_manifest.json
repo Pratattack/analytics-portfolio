@@ -1,0 +1,44 @@
+[
+  {
+    "file": "Reliability_2020.xlsx",
+    "year": 2020,
+    "header_row": 2,
+    "sha256": "c934b2cfb458921f8b8b6e11bbc867835317d41e126b896d17a8fc3423a6cb84",
+    "bytes": 182145
+  },
+  {
+    "file": "Reliability_2021.xlsx",
+    "year": 2021,
+    "header_row": 3,
+    "sha256": "0cb35d9140067e7ce90eca007b7a07c7737f8bbd572562a3620422c15d12c80d",
+    "bytes": 190841
+  },
+  {
+    "file": "Reliability_2022.xlsx",
+    "year": 2022,
+    "header_row": 3,
+    "sha256": "6976b0324bc30ba0b01931c52800e06f3f1a4c7bd39888e35fd3897aa9af6332",
+    "bytes": 191287
+  },
+  {
+    "file": "Reliability_2023.xlsx",
+    "year": 2023,
+    "header_row": 3,
+    "sha256": "d619d47aac50c46a70a282ed8a09625262b7bc9ac7499db1c5bbfb784c401233",
+    "bytes": 201842
+  },
+  {
+    "file": "Reliability_2024.xlsx",
+    "year": 2024,
+    "header_row": 3,
+    "sha256": "ac2805354a0a56663c95d7ea02e83e544c22e7ecddb2fab00e792abdeb856ad1",
+    "bytes": 203298
+  },
+  {
+    "file": "Reliability_2025.xlsx",
+    "year": 2025,
+    "header_row": 3,
+    "sha256": "44384751553f4d6b17723331a8e68b03c166ad2e7a81b97659ae08d79fe91e45",
+    "bytes": 204957
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "retrieved": "2026-10-18",
+  "landing_page": "https://www.eia.gov/electricity/data/eia861/",
+  "files": [
+    {
+      "year": 2020,
+      "url": "https://www.eia.gov/electricity/data/eia861/archive/zip/f8612020.zip",
+      "bytes": 4453359,
+      "sha256": "abed9f678bd7f7d97dced210205eb9c894d0536ee5ec0041a45e3c329d41e616",
+      "reliability_files": [
+        "Reliability_2020.xlsx"
+      ]
+    },
+    {
+      "year": 2021,
+      "url": "https://www.eia.gov/electricity/data/eia861/archive/zip/f8612021.zip",
+      "bytes": 4427163,
+      "sha256": "6008618e91bc0e70d841ebbc19283b96b66d7ac95e20b3ad553bd31a20cd7bd4",
+      "reliability_files": [
+        "Reliability_2021.xlsx"
+      ]
+    },
+    {
+      "year": 2022,
+      "url": "https://www.eia.gov/electricity/data/eia861/archive/zip/f8612022.zip",
+      "bytes": 4387531,
+      "sha256": "fe2530295d931c3bc2340918a389745c378e0e6dc960db7c6269b52a616247e0",
+      "reliability_files": [
+        "Reliability_2022.xlsx"
+      ]
+    },
+    {
+      "year": 2023,
+      "url": "https://www.eia.gov/electricity/data/eia861/archive/zip/f8612023.zip",
+      "bytes": 4604583,
+      "sha256": "0acd67ab84cdaef09fd47b4449f2c944f8731c2b3c695ec3a97bb6c0690a4d61",
+      "reliability_files": [
+        "Reliability_2023.xlsx"
+      ]
+    },
+    {
+      "year": 2024,
+      "url": "https://www.eia.gov/electricity/data/eia861/archive/zip/f8612024.zip",
+      "bytes": 4568208,
+      "sha256": "77ce49c60ac5a6bad50c442fc401aad5404a21da875dc5cbaba353af5ede54de",
+      "reliability_files": [
+        "Reliability_2024.xlsx"
+      ]
+    },
+    {
+      "year": 2025,
+      "url": "https://www.eia.gov/electricity/data/eia861/zip/f8612025.zip",
+      "bytes": 4756816,
+      "sha256": "f59f6c732bf685fe0a1591b32227f5ce572dc0dfd26bb5caaeed128ac4e3a396",
+      "reliability_files": [
+        "Reliability_2025.xlsx"
+      ]
+    }
+  ]
+}

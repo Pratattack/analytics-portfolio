@@ -1,0 +1,730 @@
+year,utility_id,state,utility_name,ownership,customers,saidi_normal,saidi_all,normal_customer_hours,peer_group,peer_n,peer_median,peer_percentile,prior_normal,data_flags,source_file,source_row
+2024,14328,CA,Pacific Gas & Electric Co.,Investor Owned,5795693.0,275.6,509.3,26621549.84666667,ownership_size,33,109.13,1.0,255.9,,Reliability_2024.xlsx,620
+2024,407,GA,Altamaha Electric Member Corp,Cooperative,21870.0,17059.0,17313.0,6218005.5,state_ownership,24,139.06,1.0,299.572,,Reliability_2024.xlsx,22
+2024,733,WV,Appalachian Power Co,Investor Owned,417949.0,576.4,1831.9,4015096.7266666666,ownership_size,71,106.38,1.0,468.9,,Reliability_2024.xlsx,32
+2024,19898,TN,Volunteer Electric Coop,Cooperative,128556.0,435.7,684.8,933530.82,ownership_size,34,107.37950000000001,1.0,429.5,,Reliability_2024.xlsx,870
+2024,9668,TX,"Jasper-Newton Elec Coop, Inc",Cooperative,23787.8,1511.75,2401.88,599353.4441666666,state_ownership,32,189.54500000000002,1.0,496.05,,Reliability_2024.xlsx,383
+2024,20521,WV,Wheeling Power Co,Investor Owned,41179.0,661.1,661.1,453723.94833333336,ownership_size,28,103.015,1.0,593.8,,Reliability_2024.xlsx,897
+2024,10944,WA,PUD No 1 of Lewis County,Political Subdivision,35583.0,604.745,721.634,358644.02225000004,ownership,22,67.655,1.0,423.305,,Reliability_2024.xlsx,437
+2024,8333,NC,Haywood Electric Member Corp,Cooperative,29052.0,565.695,9611.748,273909.51900000003,state_ownership,18,112.9985,1.0,485.711,,Reliability_2024.xlsx,334
+2024,1775,MO,Black River Electric Coop - (MO),Cooperative,25556.0,447.35,1161.95,190541.2766666667,state_ownership,15,113.586,1.0,509.26,,Reliability_2024.xlsx,61
+2024,10697,MN,Lake Country Power,Cooperative,51383.0,187.75,372.51,160785.97083333333,state_ownership,23,67.749,1.0,132.22,,Reliability_2024.xlsx,429
+2024,19667,IN,Utilities Dist-Western IN REMC,Cooperative,19911.0,430.74,1372.08,142941.06900000002,state_ownership,20,150.68599999999998,1.0,272.364,,Reliability_2024.xlsx,858
+2024,14455,TN,City of Paris - (TN),Municipal,22766.0,306.911,484.966,116452.26376666667,state_ownership,28,105.4495,1.0,373.0,,Reliability_2024.xlsx,633
+2024,1708,KY,Big Sandy Rural Elec Coop Corp,Cooperative,12595.0,527.264,814.826,110681.50133333333,state_ownership,20,162.8,1.0,882.83,,Reliability_2024.xlsx,57
+2024,2089,CT,Bozrah Light & Power Company,Municipal,2791.0,184.12,277.87,8564.648666666666,ownership_size,34,27.2145,1.0,276.0,,Reliability_2024.xlsx,74
+2024,12377,OH,Midwest Energy Cooperative - (MI),Cooperative,1081.0,278.8,278.8,5023.046666666666,ownership_size,35,76.702,1.0,109.1,,Reliability_2024.xlsx,498
+2024,17683,MS,Southwest Mississippi E P A,Cooperative,25416.0,1750.4,3672.1,741469.4400000001,ownership_size,296,153.3465,0.9966216216216216,1303.2,,Reliability_2024.xlsx,772
+2024,13831,CT,City of Norwich - (CT),Municipal,20898.0,287.98,287.98,100303.434,ownership_size,142,39.875,0.9929577464788732,153.15,,Reliability_2024.xlsx,590
+2024,19161,FL,"Tri-County Electric Coop, Inc (FL)",Cooperative,19948.3,1369.9,8347.26,455452.9361666667,ownership_size,296,153.3465,0.9898648648648649,348.498,,Reliability_2024.xlsx,829
+2024,1179,ME,Versant Power,Investor Owned,165401.0,478.0,1206.0,1317694.6333333333,ownership_size,72,106.975,0.9861111111111112,303.0,,Reliability_2024.xlsx,44
+2024,2502,OH,"Buckeye Rural Elec Coop, Inc",Cooperative,18863.0,1158.553,2912.663,364229.7539833334,ownership_size,296,153.3465,0.9763513513513513,1708.366,,Reliability_2024.xlsx,83
+2024,12796,WV,Monongahela Power Co,Investor Owned,390918.0,461.55,851.75,3007136.7150000003,ownership_size,72,106.975,0.9722222222222222,357.23,,Reliability_2024.xlsx,522
+2024,14164,SC,City of Orangeburg - (SC),Municipal,24461.0,252.0,733.2,102736.2,ownership_size,142,39.875,0.971830985915493,275.1,,Reliability_2024.xlsx,605
+2024,21075,CO,Y-W Electric Assn Inc,Cooperative,8856.0,270.183,270.183,39879.010800000004,ownership_size,35,76.702,0.9714285714285714,268.131,,Reliability_2024.xlsx,917
+2024,38084,MI,Great Lakes Energy Coop,Cooperative,131998.0,256.28,484.37,563807.4573333333,ownership_size,34,107.37950000000001,0.9705882352941176,202.48,,Reliability_2024.xlsx,948
+2024,2138,MN,Brainerd Public Utilities,Municipal,8344.0,95.76,95.76,13317.024000000001,ownership_size,34,27.2145,0.9705882352941176,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,75
+2024,9726,NJ,Jersey Central Power & Lt Co,Investor Owned,1147443.0,254.75,481.12,4871851.7375,ownership_size,33,109.13,0.9696969696969697,220.27,,Reliability_2024.xlsx,387
+2024,9699,NM,"Jemez Mountains Elec Coop, Inc",Cooperative,25345.9,1044.847,1876.735,441376.4596216667,ownership_size,296,153.3465,0.9695945945945946,641.332,,Reliability_2024.xlsx,386
+2024,19579,TX,Upshur Rural Elec Coop Corp,Cooperative,50178.0,1248.559,1382.123,1044169.8916999999,state_ownership,32,189.54500000000002,0.96875,880.662,,Reliability_2024.xlsx,857
+2024,4065,OH,City of Columbus - (OH),Municipal,19111.0,245.27,245.27,78122.58283333333,ownership_size,142,39.875,0.9647887323943662,325.94,,Reliability_2024.xlsx,159
+2024,57483,CA,Liberty Utilities,Investor Owned,50151.0,496.17,742.75,414723.69450000004,ownership_size,28,103.015,0.9642857142857143,264.63,,Reliability_2024.xlsx,965
+2024,5148,TN,City of Dickson,Municipal,39146.0,287.766,310.378,187748.1306,state_ownership,28,105.4495,0.9642857142857143,368.656,,Reliability_2024.xlsx,207
+2024,5609,ME,Eastern Maine Electric Coop,Cooperative,13213.0,737.192,1084.55,162341.96493333334,ownership_size,296,153.3465,0.9628378378378378,2475.09,,Reliability_2024.xlsx,228
+2024,22053,KY,Kentucky Power Co,Investor Owned,161599.0,405.8,1256.2,1092947.9033333333,ownership_size,72,106.975,0.9583333333333334,331.8,,Reliability_2024.xlsx,926
+2024,3843,GA,Coastal Electric Member Corp - (GA),Cooperative,23634.0,1235.09,3698.13,486501.951,state_ownership,24,139.06,0.9583333333333334,205.18,,Reliability_2024.xlsx,148
+2024,733,VA,Appalachian Power Co,Investor Owned,550129.0,342.3,1714.0,3138485.9450000003,ownership_size,71,106.38,0.9577464788732394,356.6,,Reliability_2024.xlsx,31
+2024,12546,MN,Mille Lacs Energy Cooperative,Cooperative,15976.0,157.24,237.32,41867.77066666667,state_ownership,23,67.749,0.9565217391304348,153.59,,Reliability_2024.xlsx,511
+2024,6957,UT,"Garkane Energy Coop, Inc",Cooperative,15911.0,592.5,718.8,157121.125,ownership_size,296,153.3465,0.956081081081081,766.0,,Reliability_2024.xlsx,289
+2024,28541,OR,Clatskanie Peoples Util Dist,Political Subdivision,4777.0,517.86,517.86,41230.287000000004,ownership,22,67.655,0.9545454545454546,115.136,,Reliability_2024.xlsx,942
+2024,18488,MA,City of Taunton,Municipal,39242.0,192.98,192.98,126215.35266666666,ownership_size,142,39.875,0.9507042253521126,87.463,,Reliability_2024.xlsx,812
+2024,4622,KY,"Cumberland Valley Electric, Inc.",Cooperative,24367.0,503.2,1178.6,204357.90666666668,state_ownership,20,162.8,0.95,339.7,,Reliability_2024.xlsx,186
+2024,27599,IN,Carroll-White REMC,Cooperative,15149.0,376.6,423.1,95085.22333333334,state_ownership,20,150.68599999999998,0.95,246.1,,Reliability_2024.xlsx,941
+2024,16496,NC,Rutherford Elec Member Corp,Cooperative,76515.0,350.163,5532.416,446545.36575,state_ownership,18,112.9985,0.9444444444444444,96.983,,Reliability_2024.xlsx,714
+2024,636,IN,City of Anderson - (IN),Municipal,34434.0,192.704,511.743,110592.82560000001,ownership_size,142,39.875,0.9436619718309859,161.452,,Reliability_2024.xlsx,26
+2024,65261,AZ,Gila River Indian Utility Authority (GRICUA),Cooperative,3582.0,267.47,267.47,15967.959000000003,ownership_size,35,76.702,0.9428571428571428,160.304,,Reliability_2024.xlsx,971
+2024,12692,MT,"Missoula Electric Coop, Inc",Cooperative,17133.0,505.9,1606.3,144459.745,ownership_size,296,153.3465,0.9425675675675675,165.2,,Reliability_2024.xlsx,517
+2024,5202,LA,Dixie Electric Membership Corp - (LA),Cooperative,117186.0,234.74,237.14,458470.694,ownership_size,34,107.37950000000001,0.9411764705882353,236.74,,Reliability_2024.xlsx,209
+2024,17896,CA,City of Shasta Lake - (CA),Municipal,4597.0,76.5,76.5,5861.175,ownership_size,34,27.2145,0.9411764705882353,137.5,,Reliability_2024.xlsx,788
+2024,66101,PA,FirstEnergy Pennsylvania Electric Co,Investor Owned,2076402.0,220.51,402.64,7631123.416999999,ownership_size,33,109.13,0.9393939393939394,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,974
+2024,4975,TX,Deep East Texas Elec Coop Inc,Cooperative,45255.0,1196.43,3296.59,902407.3275000001,state_ownership,32,189.54500000000002,0.9375,796.62,,Reliability_2024.xlsx,199
+2024,4524,MO,"Crawford Electric Coop, Inc",Cooperative,21693.0,270.8,356.3,97907.74,state_ownership,15,113.586,0.9333333333333333,303.9,,Reliability_2024.xlsx,183
+2024,7891,OH,Guernsey-Muskingum El Coop Inc,Cooperative,17356.0,485.1,494.44,140323.25999999998,ownership_size,296,153.3465,0.9324324324324325,380.09,,Reliability_2024.xlsx,320
+2024,12685,MS,Entergy Mississippi LLC,Investor Owned,465518.0,331.8,692.3,2574314.54,ownership_size,72,106.975,0.9305555555555556,291.4,,Reliability_2024.xlsx,515
+2024,9996,KS,City of Kansas City - (KS),Municipal,66122.0,181.366,362.138,199871.37753333335,ownership_size,142,39.875,0.9295774647887324,175.799,,Reliability_2024.xlsx,394
+2024,17592,CO,Southeast Colorado Power Assn,Cooperative,10994.0,472.1,674.8,86504.45666666668,ownership_size,296,153.3465,0.9290540540540541,717.5,,Reliability_2024.xlsx,763
+2024,12293,TN,City of Memphis - (TN),Municipal,427658.0,280.8,327.2,2001439.4400000002,state_ownership,28,105.4495,0.9285714285714286,408.6,,Reliability_2024.xlsx,489
+2024,9191,OR,Idaho Power Co,Investor Owned,20146.0,434.79,509.9,145987.989,ownership_size,28,103.015,0.9285714285714286,165.35,,Reliability_2024.xlsx,358
+2024,5578,MS,East Mississippi Elec Pwr Assn,Cooperative,12945.0,468.0,663.0,100971.0,ownership_size,296,153.3465,0.9256756756756757,438.34,,Reliability_2024.xlsx,223
+2024,7264,FL,"Glades Electric Coop, Inc",Cooperative,18558.0,448.6,2250.2,138751.98,ownership_size,296,153.3465,0.918918918918919,375.5,,Reliability_2024.xlsx,298
+2024,7450,GA,Grady Electric Membership Corp,Cooperative,20210.5,574.627,921.192,193558.31639166662,state_ownership,24,139.06,0.9166666666666666,502.958,,Reliability_2024.xlsx,302
+2024,4150,NC,City of Concord - (NC),Municipal,34243.0,172.352,172.352,98364.15893333334,ownership_size,142,39.875,0.9154929577464789,101.384,,Reliability_2024.xlsx,163
+2024,17698,LA,Southwestern Electric Power Co,Investor Owned,191329.0,320.1,983.8,1020740.2150000001,ownership_size,70,105.155,0.9142857142857143,369.7,,Reliability_2024.xlsx,777
+2024,40304,MN,Minnesota Valley Coop L&P Assn,Cooperative,5361.0,148.7,148.7,13286.345,state_ownership,23,67.749,0.9130434782608695,69.3,,Reliability_2024.xlsx,955
+2024,18085,OH,South Central Power Company,Cooperative,126148.0,201.33,319.821,423289.614,ownership_size,34,107.37950000000001,0.9117647058823529,259.131,,Reliability_2024.xlsx,793
+2024,3113,MO,City of Carthage - (MO),Municipal,8136.0,67.319,243.432,9128.456400000001,ownership_size,34,27.2145,0.9117647058823529,50.73,,Reliability_2024.xlsx,99
+2024,11241,LA,Entergy Louisiana LLC,Investor Owned,1124748.0,213.2,609.9,3996604.56,ownership_size,33,109.13,0.9090909090909091,179.3,,Reliability_2024.xlsx,450
+2024,59013,WA,PUD No 1 of Jefferson County,Political Subdivision,21166.0,424.0,522.3,149573.06666666668,ownership,22,67.655,0.9090909090909091,316.448,,Reliability_2024.xlsx,967
+2024,3762,OH,City of Cleveland - (OH),Municipal,73666.0,170.35,170.35,209150.05166666667,ownership_size,142,39.875,0.9084507042253521,161.974,,Reliability_2024.xlsx,144
+2024,20927,TX,"Wood County Electric Coop, Inc",Cooperative,41521.0,1051.87,1362.26,727911.5711666666,state_ownership,32,189.54500000000002,0.90625,303.1,,Reliability_2024.xlsx,910
+2024,55937,TX,Entergy Texas Inc.,Investor Owned,526491.0,304.8,1727.5,2674574.2800000003,ownership_size,72,106.975,0.9027777777777778,309.0,,Reliability_2024.xlsx,961
+2024,7785,FL,"Gulf Coast Electric Coop, Inc",Cooperative,21784.0,422.535,828.147,153408.374,ownership_size,296,153.3465,0.902027027027027,599.557,,Reliability_2024.xlsx,318
+2024,7558,KY,Grayson Rural Electric Coop Corp,Cooperative,14894.0,492.84,2369.86,122339.316,state_ownership,20,162.8,0.9,293.29,,Reliability_2024.xlsx,306
+2024,9999,IN,Kankakee Valley Rural E M C,Cooperative,21675.0,331.9,678.9,119898.87499999999,state_ownership,20,150.68599999999998,0.9,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,395
+2024,22815,MS,Delta Electric Power Assn,Cooperative,28999.0,419.49,722.1,202746.5085,ownership_size,296,153.3465,0.8986486486486487,1069.35,,Reliability_2024.xlsx,928
+2024,10019,KS,FreeState Electric Coop,Cooperative,18992.0,406.99,514.67,128825.90133333333,ownership_size,296,153.3465,0.8952702702702703,381.88,,Reliability_2024.xlsx,400
+2024,16655,CA,City of Santa Clara - (CA),Municipal,60620.0,161.73,208.74,163401.21,ownership_size,142,39.875,0.8943661971830986,65.56,,Reliability_2024.xlsx,730
+2024,60631,MI,Upper Michigan Energy Resources Corp.,Investor Owned,38754.0,218.0,1082.0,140806.2,ownership_size,28,103.015,0.8928571428571429,187.0,,Reliability_2024.xlsx,969
+2024,10579,TN,City of LaFollette,Municipal,22994.0,275.0,742.0,105389.16666666667,state_ownership,28,105.4495,0.8928571428571429,384.0,gap_in_ieee_history;reporting_method_change,Reliability_2024.xlsx,418
+2024,18339,NC,Surry-Yadkin Elec Member Corp,Cooperative,28552.0,212.988,1432.316,101353.88960000001,state_ownership,18,112.9985,0.8888888888888888,156.237,,Reliability_2024.xlsx,805
+2024,6608,TN,Fort Loudoun Electric Coop,Cooperative,35442.0,386.89,472.02,228535.92299999998,ownership_size,296,153.3465,0.8885135135135135,403.74,gap_in_ieee_history;reporting_method_change,Reliability_2024.xlsx,273
+2024,15263,WV,The Potomac Edison Company,Investor Owned,151701.0,253.35,275.03,640557.4725,ownership_size,71,106.38,0.8873239436619719,171.97,,Reliability_2024.xlsx,665
+2024,17698,TX,Southwestern Electric Power Co,Investor Owned,192067.0,234.8,1057.2,751622.1933333334,ownership_size,70,105.155,0.8857142857142857,340.6,,Reliability_2024.xlsx,778
+2024,17698,AR,Southwestern Electric Power Co,Investor Owned,127807.0,247.8,978.1,527842.91,ownership_size,70,105.155,0.8857142857142857,195.1,,Reliability_2024.xlsx,776
+2024,3828,MI,Cloverland Electric Co-op,Cooperative,44447.0,384.6,534.7,284905.26999999996,ownership_size,296,153.3465,0.8851351351351351,213.8,,Reliability_2024.xlsx,146
+2024,6342,AR,First Electric Coop Corp,Cooperative,102478.0,190.846,277.783,325958.6064666667,ownership_size,34,107.37950000000001,0.8823529411764706,192.531,,Reliability_2024.xlsx,259
+2024,15500,WA,Puget Sound Energy Inc,Investor Owned,1240043.0,203.0,1196.0,4195478.816666666,ownership_size,33,109.13,0.8787878787878788,167.0,,Reliability_2024.xlsx,682
+2024,562,GA,Amicalola Electric Member Corp,Cooperative,55838.4,449.52,1587.61,418341.2928,state_ownership,24,139.06,0.875,432.87,,Reliability_2024.xlsx,24
+2024,16146,TX,"Navasota Valley Elec Coop, Inc",Cooperative,21615.0,846.86,1743.11,305081.315,state_ownership,32,189.54500000000002,0.875,1079.73,,Reliability_2024.xlsx,697
+2024,18848,GA,City of Thomasville - (GA),Municipal,16411.0,151.25,1259.6,41369.395833333336,ownership_size,142,39.875,0.8732394366197183,184.69,,Reliability_2024.xlsx,815
+2024,4743,OR,"Consumers Power, Inc",Cooperative,23819.0,354.1,1052.8,140571.79833333334,ownership_size,296,153.3465,0.8716216216216216,296.257,,Reliability_2024.xlsx,192
+2024,9475,MN,Itasca-Mantrap Co-op Electrical Assn,Cooperative,12594.0,106.66,149.35,22387.934,state_ownership,23,67.749,0.8695652173913043,109.61,,Reliability_2024.xlsx,371
+2024,3291,VA,Central Virginia Electric Coop,Cooperative,39366.0,351.0,351.0,230291.1,ownership_size,296,153.3465,0.8682432432432432,334.0,,Reliability_2024.xlsx,116
+2024,27238,MO,"Southwest Electric Coop, Inc",Cooperative,44496.0,183.71,246.01,136239.336,state_ownership,15,113.586,0.8666666666666667,217.03,,Reliability_2024.xlsx,939
+2024,7548,WA,PUD No 1 of Grays Harbor County,Political Subdivision,45710.0,202.0,471.0,153890.33333333334,ownership,22,67.655,0.8636363636363636,256.0,,Reliability_2024.xlsx,305
+2024,10370,MO,City of Kirkwood - (MO),Municipal,10456.0,134.013,167.155,23353.9988,ownership_size,142,39.875,0.8591549295774648,1.629,,Reliability_2024.xlsx,410
+2024,10170,OK,"Kiamichi Electric Coop, Inc",Cooperative,23013.0,331.22,473.2,127039.43100000001,ownership_size,296,153.3465,0.8581081081081081,535.37,,Reliability_2024.xlsx,403
+2024,16949,TN,Sevier County Electric System,Municipal,62436.0,230.0,330.0,239338.0,state_ownership,28,105.4495,0.8571428571428571,215.0,,Reliability_2024.xlsx,739
+2024,4041,WA,"Columbia Rural Elec Assn, Inc",Cooperative,6507.0,213.9,258.5,23197.455,ownership_size,35,76.702,0.8571428571428571,95.4,,Reliability_2024.xlsx,156
+2024,17647,MS,Southern Pine Electric Cooperative,Cooperative,70097.0,321.2,1003.22,375252.60666666663,ownership_size,296,153.3465,0.8547297297297297,316.88,,Reliability_2024.xlsx,770
+2024,40228,VA,Rappahannock Electric Coop,Cooperative,180578.0,188.57,301.03,567526.5576666667,ownership_size,34,107.37950000000001,0.8529411764705882,173.17,,Reliability_2024.xlsx,952
+2024,11646,GA,City of Marietta - (GA),Municipal,42716.0,128.63,128.63,91575.98466666667,ownership_size,142,39.875,0.852112676056338,130.344,,Reliability_2024.xlsx,467
+2024,14354,CA,PacifiCorp,Investor Owned,47083.0,196.55,586.59,154236.06083333335,ownership_size,27,99.0,0.8518518518518519,177.23,,Reliability_2024.xlsx,621
+2024,19162,TN,Tri-County Elec Member Corp (TN),Cooperative,28886.0,311.61,390.47,150019.44100000002,ownership_size,295,152.893,0.8508474576271187,295.05,,Reliability_2024.xlsx,831
+2024,17564,KY,South Kentucky Rural E C C,Cooperative,72517.0,301.9,728.9,364881.37166666664,state_ownership,20,162.8,0.85,251.0,,Reliability_2024.xlsx,759
+2024,12929,IN,South Central Indiana REMC,Cooperative,35684.0,307.2,741.5,182702.08,state_ownership,20,150.68599999999998,0.85,258.5,,Reliability_2024.xlsx,529
+2024,5416,NC,"Duke Energy Carolinas, LLC",Investor Owned,2211457.0,167.991,1626.01,6191747.88145,ownership_size,33,109.13,0.8484848484848485,197.1,,Reliability_2024.xlsx,215
+2024,8566,WY,High Plains Power Inc,Cooperative,13979.0,311.52,311.52,72578.96800000001,ownership_size,296,153.3465,0.847972972972973,325.57,,Reliability_2024.xlsx,337
+2024,814,AR,Entergy Arkansas LLC,Investor Owned,742597.0,229.4,370.0,2839195.8633333337,ownership_size,72,106.975,0.8472222222222222,284.7,,Reliability_2024.xlsx,34
+2024,21244,VA,"Southside Electric Coop, Inc",Cooperative,59338.0,309.201,392.057,305789.48230000003,ownership_size,296,153.3465,0.8445945945945946,271.497,,Reliability_2024.xlsx,921
+2024,11208,CA,Los Angeles Department of Water & Power,Municipal,1563515.0,111.16,111.16,2896672.1233333335,ownership,192,39.875,0.84375,141.23,,Reliability_2024.xlsx,449
+2024,3470,TX,Cherokee County Elec Coop Assn - (TX),Cooperative,22405.0,631.17,2703.96,235689.3975,state_ownership,32,189.54500000000002,0.84375,664.95,,Reliability_2024.xlsx,124
+2024,16868,WA,City of Seattle - (WA),Municipal,537470.0,110.8,323.6,992527.9333333333,ownership,192,39.875,0.8385416666666666,95.7,,Reliability_2024.xlsx,736
+2024,230,GA,Albany Utility Board,Municipal,32244.0,125.291,290.941,67331.38339999999,ownership_size,142,39.875,0.8380281690140845,88.391,,Reliability_2024.xlsx,13
+2024,3266,ME,Central Maine Power Co,Investor Owned,679726.0,215.4,1893.5,2440216.3400000003,ownership_size,72,106.975,0.8333333333333334,190.3,,Reliability_2024.xlsx,110
+2024,20146,GA,Washington Elec Member Corp,Cooperative,16337.0,428.9,6929.9,116782.32166666667,state_ownership,24,139.06,0.8333333333333334,515.49,,Reliability_2024.xlsx,876
+2024,14717,NC,Pee Dee Electric Member Corp,Cooperative,21793.0,187.205,532.124,67995.97608333334,state_ownership,18,112.9985,0.8333333333333334,128.635,,Reliability_2024.xlsx,643
+2024,16565,ID,Salmon River Electric Coop Inc,Cooperative,3056.0,198.88,198.88,10129.621333333334,ownership_size,35,76.702,0.8285714285714286,533.067,,Reliability_2024.xlsx,718
+2024,19156,WY,Powder River Energy Corp,Cooperative,27532.0,295.19,496.45,135452.85133333332,ownership_size,296,153.3465,0.8277027027027027,205.49,,Reliability_2024.xlsx,824
+2024,10618,MN,Lake Region Electric Cooperative - (MN),Cooperative,29815.0,102.47,297.43,50919.05083333333,state_ownership,23,67.749,0.8260869565217391,103.53,,Reliability_2024.xlsx,421
+2024,727,TN,Appalachian Electric Coop,Cooperative,49902.0,295.02,927.02,245368.134,ownership_size,296,153.3465,0.8243243243243243,190.39,,Reliability_2024.xlsx,30
+2024,14268,KY,City of Owensboro - (KY),Municipal,27519.0,113.093,149.087,51870.10445,ownership_size,142,39.875,0.823943661971831,84.698,,Reliability_2024.xlsx,616
+2024,2812,GA,City of Calhoun - (GA),Municipal,6254.0,48.77,123.71,5083.459666666667,ownership_size,34,27.2145,0.8235294117647058,21.31,,Reliability_2024.xlsx,88
+2024,10421,TN,Knoxville Utilities Board,Municipal,220632.0,193.0,352.0,709699.6,state_ownership,28,105.4495,0.8214285714285714,123.6,,Reliability_2024.xlsx,414
+2024,19578,MI,Upper Peninsula Power Company,Investor Owned,58835.0,186.8,404.3,183172.96666666667,ownership_size,28,103.015,0.8214285714285714,140.6,,Reliability_2024.xlsx,856
+2024,5644,SC,"Edisto Electric Coop, Inc",Cooperative,21317.0,293.16,2354.57,104154.86200000001,ownership_size,296,153.3465,0.8209459459459459,336.591,,Reliability_2024.xlsx,230
+2024,5109,MI,DTE Electric Company,Investor Owned,2261010.0,159.171,482.98,5998120.3785,ownership_size,33,109.13,0.8181818181818182,156.843,,Reliability_2024.xlsx,206
+2024,13664,NE,Norris Public Power District,Political Subdivision,28825.0,200.4,203.7,96275.5,ownership,22,67.655,0.8181818181818182,238.92,,Reliability_2024.xlsx,566
+2024,18360,FL,Suwannee Valley Elec Coop Inc,Cooperative,28695.0,291.182,7274.8,139257.7915,ownership_size,296,153.3465,0.8175675675675675,340.0,,Reliability_2024.xlsx,806
+2024,9324,MI,Indiana Michigan Power Co,Investor Owned,132049.0,206.7,359.0,454908.80499999993,ownership_size,71,107.57,0.8169014084507042,218.5,,Reliability_2024.xlsx,366
+2024,16461,TX,"Rusk County Electric Coop, Inc",Cooperative,23513.0,431.7,3860.5,169176.035,state_ownership,32,189.54500000000002,0.8125,510.4,,Reliability_2024.xlsx,712
+2024,8699,WA,Inland Power & Light Company,Cooperative,48046.0,278.0,386.0,222613.13333333333,ownership_size,296,153.3465,0.8108108108108109,201.0,,Reliability_2024.xlsx,340
+2024,3647,OK,City of Claremore,Municipal,13327.0,103.901,178.817,23078.14378333333,ownership_size,142,39.875,0.8098591549295775,242.98,,Reliability_2024.xlsx,135
+2024,13478,LA,"Entergy New Orleans, LLC",Investor Owned,211631.0,179.7,586.4,633834.845,ownership_size,72,106.975,0.8055555555555556,141.5,,Reliability_2024.xlsx,554
+2024,12260,VA,Mecklenburg Electric Cooperative,Cooperative,31997.0,273.828,360.245,146027.9086,ownership_size,296,153.3465,0.8040540540540541,244.428,,Reliability_2024.xlsx,487
+2024,11701,MI,City of Marquette - (MI),Municipal,17174.0,102.68,222.85,29390.43866666667,ownership_size,142,39.875,0.8028169014084507,48.924,,Reliability_2024.xlsx,468
+2024,12524,KS,Midwest Energy Inc - (KS),Cooperative,50530.0,272.4,433.8,229406.19999999998,ownership_size,296,153.3465,0.8006756756756757,162.6,,Reliability_2024.xlsx,507
+2024,9575,KY,Jackson Energy Coop Corp - (KY),Cooperative,53698.0,276.0,856.0,247010.8,state_ownership,20,162.8,0.8,280.0,,Reliability_2024.xlsx,372
+2024,9331,MO,Intercounty Electric Coop Assn - (MO),Cooperative,31988.0,180.029,268.951,95979.46086666666,state_ownership,15,113.586,0.8,166.453,,Reliability_2024.xlsx,367
+2024,4848,IN,Daviess Martin County R E M C,Cooperative,8616.0,248.655,547.388,35706.858,state_ownership,20,150.68599999999998,0.8,164.418,,Reliability_2024.xlsx,193
+2024,1723,WA,"Big Bend Electric Coop, Inc",Cooperative,9477.0,191.771,248.41,30290.229449999995,ownership_size,35,76.702,0.8,226.168,,Reliability_2024.xlsx,58
+2024,15202,OK,City of Ponca City - (OK),Municipal,15876.0,99.47,144.243,26319.762,ownership_size,142,39.875,0.795774647887324,85.781,,Reliability_2024.xlsx,660
+2024,3757,FL,"Clay Electric Cooperative, Inc - (FL)",Cooperative,193326.0,174.0,2142.0,560645.4,ownership_size,34,107.37950000000001,0.7941176470588235,231.58,,Reliability_2024.xlsx,142
+2024,55787,CA,City of Moreno Valley - (CA),Municipal,8944.0,44.78,44.78,6675.205333333333,ownership_size,34,27.2145,0.7941176470588235,7.95,,Reliability_2024.xlsx,960
+2024,5416,SC,"Duke Energy Carolinas, LLC",Investor Owned,670391.0,179.619,7803.739,2006916.01715,ownership_size,72,106.975,0.7916666666666666,202.59,,Reliability_2024.xlsx,216
+2024,1891,GA,Blue Ridge Mountain EMC - (GA),Cooperative,58442.0,369.367,588.503,359775.77023333334,state_ownership,24,139.06,0.7916666666666666,322.094,,Reliability_2024.xlsx,66
+2024,12377,MI,Midwest Energy Cooperative - (MI),Cooperative,36114.0,268.1,586.6,161369.39,ownership_size,296,153.3465,0.7905405405405406,292.1,,Reliability_2024.xlsx,497
+2024,14006,OH,Ohio Power Co,Investor Owned,1535393.0,158.1,272.2,4045760.5549999997,ownership_size,33,109.13,0.7878787878787878,147.6,,Reliability_2024.xlsx,596
+2024,16223,TN,City of Rockwood - (TN),Municipal,15267.0,187.101,323.652,47607.84945,state_ownership,28,105.4495,0.7857142857142857,82.53,,Reliability_2024.xlsx,705
+2024,17697,IL,Southwestern Electric Coop Inc - (IL),Cooperative,25284.0,262.97,304.79,110815.558,ownership_size,296,153.3465,0.7837837837837838,258.57,,Reliability_2024.xlsx,775
+2024,12227,MN,Meeker Coop Light & Power Assn,Cooperative,9450.0,98.6,98.6,15529.5,state_ownership,23,67.749,0.782608695652174,77.08,,Reliability_2024.xlsx,485
+2024,7027,NC,City of Gastonia - (NC),Municipal,31366.0,97.2,1378.2,50812.920000000006,ownership_size,142,39.875,0.7816901408450704,77.64,,Reliability_2024.xlsx,291
+2024,4146,TX,Concho Valley Elec Coop Inc,Cooperative,16031.0,389.8,389.8,104148.06333333332,state_ownership,32,189.54500000000002,0.78125,392.7,,Reliability_2024.xlsx,162
+2024,13196,ND,Northern Plains Electric Coop,Cooperative,12225.0,262.4,262.4,53463.99999999999,ownership_size,296,153.3465,0.7804054054054054,372.4,,Reliability_2024.xlsx,540
+2024,13756,IN,Northern Indiana Pub Serv Co,Investor Owned,485189.0,169.0,534.0,1366615.6833333333,ownership_size,72,106.975,0.7777777777777778,149.0,,Reliability_2024.xlsx,574
+2024,15023,NC,Piedmont Electric Member Corp,Cooperative,34479.0,170.483,397.776,97968.05595,state_ownership,18,112.9985,0.7777777777777778,167.814,,Reliability_2024.xlsx,650
+2024,11824,AK,Matanuska Electric Assn Inc,Cooperative,70581.0,258.113,258.113,303631.22755,ownership_size,296,153.3465,0.777027027027027,385.877,,Reliability_2024.xlsx,475
+2024,15979,WA,City of Richland - (WA),Municipal,27563.0,93.996,93.996,43180.195799999994,ownership_size,142,39.875,0.7746478873239436,31.456,,Reliability_2024.xlsx,689
+2024,19558,AK,Homer Electric Assn Inc,Cooperative,33405.0,256.88,606.53,143017.94,ownership_size,296,153.3465,0.7736486486486487,334.165,,Reliability_2024.xlsx,855
+2024,17470,WA,PUD No 1 of Snohomish County,Political Subdivision,386741.0,181.4,620.9,1169246.9566666668,ownership,22,67.655,0.7727272727272727,111.9,,Reliability_2024.xlsx,754
+2024,4717,ND,Dakota Valley Elec Coop Inc,Cooperative,6963.0,186.7,223.0,21666.534999999996,ownership_size,35,76.702,0.7714285714285715,153.4,,Reliability_2024.xlsx,191
+2024,17603,OK,Southeastern Electric Coop Inc - (OK),Cooperative,17416.0,254.0,325.2,73727.73333333334,ownership_size,296,153.3465,0.7702702702702703,328.57,,Reliability_2024.xlsx,765
+2024,12199,MT,Montana-Dakota Utilities Co,Investor Owned,26559.0,177.16,360.35,78419.874,ownership_size,26,114.22,0.7692307692307693,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,480
+2024,6709,SC,Easley Combined Utility System,Municipal,17416.0,93.56,725.18,27157.34933333333,ownership_size,142,39.875,0.7676056338028169,104.89,,Reliability_2024.xlsx,279
+2024,16930,TN,Sequachee Valley Electric Coop,Cooperative,38000.0,253.26,300.73,160398.0,ownership_size,296,153.3465,0.7668918918918919,226.695,,Reliability_2024.xlsx,738
+2024,6424,WI,Florence Utility Comm,Municipal,1500.0,41.695,41.695,1042.375,ownership_size,34,27.2145,0.7647058823529411,21.396,,Reliability_2024.xlsx,263
+2024,3249,NY,Central Hudson Gas & Elec Corp,Investor Owned,321537.0,167.2,349.5,896016.44,ownership_size,72,106.975,0.7638888888888888,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,106
+2024,7977,OH,City of Hamilton - (OH),Municipal,29891.0,90.451,90.451,45061.18068333333,ownership_size,142,39.875,0.7605633802816901,62.616,,Reliability_2024.xlsx,321
+2024,18203,AL,Tallapoosa River Elec Coop Inc,Cooperative,30542.0,244.647,377.686,124533.4779,ownership_size,296,153.3465,0.7601351351351351,374.23,gap_in_ieee_history;reporting_method_change,Reliability_2024.xlsx,796
+2024,15466,CO,Public Service Co of Colorado,Investor Owned,1523795.0,158.01,351.67,4012914.1325,ownership_size,33,109.13,0.7575757575757576,104.2,,Reliability_2024.xlsx,676
+2024,13676,AR,"North Arkansas Elec Coop, Inc",Cooperative,38978.0,243.37,1183.52,158101.26433333333,ownership_size,296,153.3465,0.7567567567567568,166.26,,Reliability_2024.xlsx,567
+2024,18429,WA,City of Tacoma - (WA),Municipal,179969.0,80.45,170.78,241308.43416666667,ownership,192,39.875,0.7552083333333334,55.158,,Reliability_2024.xlsx,807
+2024,16195,SC,City of Rock Hill - (SC),Municipal,40379.0,89.572,604.972,60280.46313333334,ownership_size,142,39.875,0.7535211267605634,51.942,,Reliability_2024.xlsx,701
+2024,21567,LA,"Washington-St Tammany E C, Inc",Cooperative,55599.0,241.88,1507.55,224138.10199999998,ownership_size,296,153.3465,0.7533783783783784,386.6,,Reliability_2024.xlsx,924
+2024,16613,TX,Sam Houston Electric Coop Inc,Cooperative,93486.0,378.0,4584.0,588961.8,state_ownership,32,189.54500000000002,0.75,330.0,,Reliability_2024.xlsx,726
+2024,12341,IL,MidAmerican Energy Co,Investor Owned,85293.0,174.0,352.0,247349.7,ownership_size,28,103.015,0.75,128.0,,Reliability_2024.xlsx,494
+2024,16088,CA,City of Riverside - (CA),Municipal,113373.0,76.61,76.61,144758.42549999998,ownership,192,39.875,0.75,60.63,,Reliability_2024.xlsx,695
+2024,13735,MS,Northcentral Mississippi E P A,Cooperative,34435.0,241.0,241.0,138313.91666666666,ownership_size,296,153.3465,0.75,232.8,,Reliability_2024.xlsx,572
+2024,3687,KY,Clark Energy Coop Inc - (KY),Cooperative,27723.0,268.82,1300.7,124208.28099999999,state_ownership,20,162.8,0.75,193.79,,Reliability_2024.xlsx,137
+2024,17599,IN,Southeastern Indiana R E M C,Cooperative,28676.0,248.5,255.4,118766.43333333333,state_ownership,20,150.68599999999998,0.75,315.6,,Reliability_2024.xlsx,764
+2024,15700,GA,Rayle Electric Membership Corp,Cooperative,19919.0,298.913,3490.25,99234.13411666667,state_ownership,24,139.06,0.75,267.381,,Reliability_2024.xlsx,685
+2024,3812,TN,City of Clinton - (TN),Municipal,31000.0,180.0,264.0,93000.0,state_ownership,28,105.4495,0.75,83.4,,Reliability_2024.xlsx,145
+2024,14563,MS,Pearl River Valley El Pwr Assn,Cooperative,53555.0,238.174,371.807,212590.14283333335,ownership_size,296,153.3465,0.7466216216216216,191.074,,Reliability_2024.xlsx,636
+2024,20169,ID,Avista Corp,Investor Owned,145203.0,165.0,225.0,399308.25,ownership_size,71,106.38,0.7464788732394366,163.0,,Reliability_2024.xlsx,877
+2024,18449,FL,"Talquin Electric Coop, Inc",Cooperative,55496.0,236.437,2516.72,218688.46253333334,ownership_size,296,153.3465,0.7398648648648649,253.348,,Reliability_2024.xlsx,810
+2024,13519,DE,City of Newark - (DE),Municipal,13439.0,84.4,84.4,18904.193333333336,ownership_size,142,39.875,0.7394366197183099,30.856,,Reliability_2024.xlsx,559
+2024,1529,MN,"Beltrami Electric Coop, Inc",Cooperative,22150.0,95.814,117.69,35371.33499999999,state_ownership,23,67.749,0.7391304347826086,88.399,,Reliability_2024.xlsx,52
+2024,9191,ID,Idaho Power Co,Investor Owned,621746.0,164.01,206.47,1699542.6909999999,ownership_size,72,106.975,0.7361111111111112,119.71,,Reliability_2024.xlsx,357
+2024,3093,AR,Carroll Electric Coop Corp - (AR),Cooperative,107376.0,161.42,1795.68,288877.23199999996,ownership_size,34,107.37950000000001,0.7352941176470589,140.72,,Reliability_2024.xlsx,96
+2024,8840,AR,City of Hope - (AR),Municipal,6995.0,41.18,121.32,4800.901666666667,ownership_size,34,27.2145,0.7352941176470589,32.866,,Reliability_2024.xlsx,348
+2024,1015,TX,Austin Energy,Municipal,557039.0,76.03,92.13,705861.2528333333,ownership,192,39.875,0.734375,83.75,,Reliability_2024.xlsx,39
+2024,10603,MO,"Laclede Electric Coop, Inc",Cooperative,38978.0,157.16,363.35,102096.37466666666,state_ownership,15,113.586,0.7333333333333333,148.878,,Reliability_2024.xlsx,420
+2024,6395,MT,Flathead Electric Coop Inc,Cooperative,78834.0,235.18,586.42,309003.00200000004,ownership_size,296,153.3465,0.7331081081081081,160.49,,Reliability_2024.xlsx,261
+2024,15263,MD,The Potomac Edison Company,Investor Owned,284807.0,159.26,167.58,755972.7136666666,ownership_size,71,106.38,0.7323943661971831,123.1,,Reliability_2024.xlsx,664
+2024,7096,IL,City of Geneva- (IL),Municipal,10153.0,83.204,196.471,14079.503533333333,ownership_size,142,39.875,0.7323943661971831,39.213,,Reliability_2024.xlsx,293
+2024,31833,FL,Okefenoke Rural El Member Corp,Cooperative,11921.0,234.331,1406.485,46557.66418333333,ownership_size,295,152.893,0.7288135593220338,280.714,,Reliability_2024.xlsx,946
+2024,4254,MI,Consumers Energy Co - (MI),Investor Owned,1889301.0,154.97,502.55,4879749.5995,ownership_size,33,109.13,0.7272727272727273,176.38,,Reliability_2024.xlsx,167
+2024,4442,WA,PUD No 1 of Cowlitz County,Political Subdivision,54257.0,125.598,262.887,113576.17809999999,ownership,22,67.655,0.7272727272727273,110.9,,Reliability_2024.xlsx,180
+2024,21081,CO,Yampa Valley Electric Assn Inc,Cooperative,28698.0,234.135,294.005,111986.7705,ownership_size,296,153.3465,0.7263513513513513,142.728,,Reliability_2024.xlsx,918
+2024,5661,OK,City of Edmond - (OK),Municipal,44461.0,82.033,106.929,60787.82021666667,ownership_size,142,39.875,0.7253521126760564,63.645,,Reliability_2024.xlsx,232
+2024,19108,NC,Tideland Electric Member Corp,Cooperative,24062.0,154.359,268.061,61903.104300000006,state_ownership,18,112.9985,0.7222222222222222,293.401,,Reliability_2024.xlsx,822
+2024,4618,AL,"Cullman Electric Coop, Inc",Cooperative,48254.0,231.9,231.9,186501.71,ownership_size,296,153.3465,0.7195945945945946,563.815,,Reliability_2024.xlsx,185
+2024,55982,TX,Heart of Texas Electric Coop,Cooperative,24317.0,298.1,357.7,120814.96166666667,state_ownership,32,189.54500000000002,0.71875,352.7,,Reliability_2024.xlsx,962
+2024,2409,TX,Brownsville Public Utilities Board,Municipal,55884.0,76.307,160.78,71072.3398,ownership_size,142,39.875,0.7183098591549296,92.251,,Reliability_2024.xlsx,81
+2024,19791,VT,"Vermont Electric Cooperative, Inc",Cooperative,40741.0,231.8,895.8,157396.06333333335,ownership_size,296,153.3465,0.7162162162162162,204.33,,Reliability_2024.xlsx,862
+2024,10331,TN,Kingsport Power Co,Investor Owned,49555.0,164.7,1027.6,136028.47499999998,ownership_size,28,103.015,0.7142857142857143,191.5,,Reliability_2024.xlsx,408
+2024,3855,TN,Columbia Power System - (TN),Municipal,36577.0,164.808,174.289,100469.7036,state_ownership,28,105.4495,0.7142857142857143,176.991,,Reliability_2024.xlsx,149
+2024,18022,NC,City of Statesville - (NC),Municipal,14805.0,75.636,87.109,18663.183,ownership_size,142,39.875,0.7112676056338029,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,791
+2024,305,MI,Alger-Delta Coop Electric Assn,Cooperative,10440.0,226.3,950.6,39376.2,ownership_size,296,153.3465,0.7094594594594594,110.9,,Reliability_2024.xlsx,20
+2024,3755,OH,Cleveland Electric Illum Co,Investor Owned,744898.0,150.04,1918.07,1862741.5986666665,ownership_size,72,106.975,0.7083333333333334,117.688,,Reliability_2024.xlsx,141
+2024,10624,GA,Southern Rivers Energy,Cooperative,21594.0,236.92,598.35,85267.50799999999,state_ownership,24,139.06,0.7083333333333334,299.31,,Reliability_2024.xlsx,424
+2024,17066,VA,Shenandoah Valley Elec Coop,Cooperative,99837.0,225.9,480.8,375886.305,ownership_size,296,153.3465,0.706081081081081,182.8,,Reliability_2024.xlsx,745
+2024,20211,WI,Village of Waunakee - (WI),Municipal,7564.0,40.464,40.464,5101.1616,ownership_size,34,27.2145,0.7058823529411765,104.12,,Reliability_2024.xlsx,880
+2024,13485,FL,New Smyrna Beach City of,Municipal,30584.0,73.6,2858.0,37516.37333333333,ownership_size,142,39.875,0.704225352112676,66.34,,Reliability_2024.xlsx,557
+2024,4401,OK,"Cotton Electric Coop, Inc",Cooperative,23594.0,224.67,355.62,88347.733,ownership_size,296,153.3465,0.7027027027027027,230.73,,Reliability_2024.xlsx,177
+2024,6442,KY,Fleming-Mason Energy Coop Inc,Cooperative,26110.0,216.89,831.14,94383.29833333332,state_ownership,20,162.8,0.7,200.89,,Reliability_2024.xlsx,265
+2024,19445,IN,"Southern Indiana R E C, Inc",Cooperative,9722.0,219.7,219.7,35598.723333333335,state_ownership,20,150.68599999999998,0.7,163.0,,Reliability_2024.xlsx,844
+2024,7353,AK,Golden Valley Elec Assn Inc,Cooperative,48162.0,224.609,552.949,180293.64429999999,ownership_size,296,153.3465,0.6993243243243243,374.1,gap_in_ieee_history;reporting_method_change,Reliability_2024.xlsx,301
+2024,9187,ID,City of Idaho Falls - (ID),Municipal,32782.0,72.4,72.4,39556.94666666667,ownership_size,142,39.875,0.6971830985915493,22.14,,Reliability_2024.xlsx,356
+2024,8901,TX,CenterPoint Energy,Investor Owned,2847806.0,150.088,4315.811,7123691.782133332,ownership_size,33,109.13,0.696969696969697,144.292,,Reliability_2024.xlsx,350
+2024,5574,MN,East Central Energy,Cooperative,67713.0,84.0,178.4,94798.2,state_ownership,23,67.749,0.6956521739130435,63.0,,Reliability_2024.xlsx,222
+2024,3278,TX,AEP Texas Central Company,Investor Owned,913164.0,149.6,228.5,2276822.24,ownership_size,72,106.975,0.6944444444444444,169.7,,Reliability_2024.xlsx,113
+2024,17833,MO,City Utilities of Springfield - (MO),Municipal,121822.0,65.328,65.328,132639.7936,ownership,192,39.875,0.6927083333333334,61.259,,Reliability_2024.xlsx,783
+2024,10071,HI,Kauai Island Utility Cooperative,Cooperative,35232.0,219.33,382.59,128790.57600000002,ownership_size,296,153.3465,0.6925675675675675,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,402
+2024,12199,SD,Montana-Dakota Utilities Co,Investor Owned,9258.0,148.01,153.99,22837.942999999996,ownership,139,109.0,0.6906474820143885,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,482
+2024,6235,NC,Fayetteville Public Works Commission,Municipal,83310.0,70.929,129.263,98484.9165,ownership_size,142,39.875,0.6901408450704225,64.87,,Reliability_2024.xlsx,257
+2024,6022,OR,City of Eugene - (OR),Municipal,102048.0,65.26,65.26,110994.20800000001,ownership,192,39.875,0.6875,48.39,,Reliability_2024.xlsx,246
+2024,27369,TX,Taylor Electric Coop Inc - (TX),Cooperative,20932.0,284.632,371.032,99298.61706666667,state_ownership,32,189.54500000000002,0.6875,282.766,,Reliability_2024.xlsx,940
+2024,817,OK,Arkansas Valley Elec Coop Corp,Cooperative,4729.0,137.04,200.2,10801.035999999998,ownership_size,35,76.702,0.6857142857142857,323.57,,Reliability_2024.xlsx,36
+2024,16226,NC,City of Rocky Mount - (NC),Municipal,29489.0,70.03,86.79,34418.57783333333,ownership_size,142,39.875,0.6830985915492958,72.44,,Reliability_2024.xlsx,706
+2024,17692,NE,Southwest Public Power Dist,Political Subdivision,6294.0,120.52,208.36,12642.548,ownership,22,67.655,0.6818181818181818,96.65,,Reliability_2024.xlsx,774
+2024,5860,MO,Empire District Electric Co,Investor Owned,166833.0,141.48,230.54,393392.214,ownership_size,72,106.975,0.6805555555555556,120.62,,Reliability_2024.xlsx,239
+2024,14170,WA,Orcas Power & Light Coop,Cooperative,15251.0,212.5,252.3,54013.958333333336,ownership_size,296,153.3465,0.6790540540540541,1290.8,,Reliability_2024.xlsx,606
+2024,6234,TN,City of Fayetteville,Municipal,19575.0,153.82,217.269,50183.775,state_ownership,28,105.4495,0.6785714285714286,126.843,,Reliability_2024.xlsx,256
+2024,213,AK,Alaska Electric Light & Power Co.,Investor Owned,17719.0,156.37,156.37,46178.66716666667,ownership_size,28,103.015,0.6785714285714286,74.0,,Reliability_2024.xlsx,11
+2024,3522,AK,Chugach Electric Assn Inc,Cooperative,113704.0,124.615,209.045,236153.73266666665,ownership_size,34,107.37950000000001,0.6764705882352942,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,129
+2024,12782,MO,City of Monett - (MO),Municipal,4984.0,37.84,62.42,3143.242666666667,ownership_size,34,27.2145,0.6764705882352942,23.189,,Reliability_2024.xlsx,521
+2024,5860,AR,Empire District Electric Co,Investor Owned,5561.0,146.94,673.14,13618.889,ownership,139,109.0,0.6762589928057554,85.34,,Reliability_2024.xlsx,237
+2024,12087,ND,McKenzie Electric Coop Inc,Cooperative,13546.0,209.74,256.91,47352.30066666667,ownership_size,296,153.3465,0.6756756756756757,142.53,,Reliability_2024.xlsx,477
+2024,4265,NM,Continental Divide El Coop Inc,Cooperative,23612.0,209.0,299.5,82248.46666666666,ownership_size,296,153.3465,0.6722972972972973,221.165,,Reliability_2024.xlsx,169
+2024,8571,NC,Town of High Point,Municipal,47285.0,64.62,78.6,50925.945,ownership_size,142,39.875,0.6690140845070423,65.8,,Reliability_2024.xlsx,338
+2024,3046,NC,Duke Energy Progress - (NC),Investor Owned,1616285.0,141.35,1803.12,3807698.0791666666,ownership_size,33,109.13,0.6666666666666666,145.59,,Reliability_2024.xlsx,93
+2024,16604,TX,City of San Antonio - (TX),Municipal,938905.0,61.797,73.808,967025.2047499999,ownership,192,39.875,0.6666666666666666,61.19,,Reliability_2024.xlsx,722
+2024,7887,GA,Habersham Electric Membership Corp,Cooperative,37445.0,228.026,1144.828,142307.22616666666,state_ownership,24,139.06,0.6666666666666666,197.287,,Reliability_2024.xlsx,319
+2024,3250,NC,Central Electric Membership Corp. - (NC),Cooperative,24626.0,152.893,442.541,62752.38363333334,state_ownership,18,112.9985,0.6666666666666666,163.177,,Reliability_2024.xlsx,107
+2024,16751,MO,Three Rivers Electric Coop,Cooperative,24339.0,137.012,137.012,55578.9178,state_ownership,15,113.586,0.6666666666666666,139.727,,Reliability_2024.xlsx,732
+2024,14864,AR,Petit Jean Electric Coop Corp,Cooperative,20695.0,205.66,205.66,70935.56166666668,ownership_size,296,153.3465,0.6655405405405406,177.76,,Reliability_2024.xlsx,647
+2024,17718,NM,Southwestern Public Service Co,Investor Owned,118975.0,135.46,152.2,268605.8916666667,ownership_size,71,106.38,0.6619718309859155,116.41,,Reliability_2024.xlsx,779
+2024,6427,TX,City of Floresville,Municipal,18061.0,64.44,64.44,19397.514,ownership_size,142,39.875,0.6619718309859155,126.31,,Reliability_2024.xlsx,264
+2024,3222,AL,Central Alabama Electric Coop,Cooperative,47145.0,197.83,295.88,155444.92250000002,ownership_size,296,153.3465,0.6587837837837838,283.93,,Reliability_2024.xlsx,102
+2024,18976,TX,Trinity Valley Elec Coop Inc,Cooperative,85275.0,267.31,1042.0,379914.3375,state_ownership,32,189.54500000000002,0.65625,189.04,,Reliability_2024.xlsx,820
+2024,5204,AL,Dixie Electric Coop - (AL),Cooperative,26116.5,197.829,331.883,86110.017975,ownership_size,296,153.3465,0.6554054054054054,180.177,,Reliability_2024.xlsx,210
+2024,6491,AL,Foley Board of Utilities,Municipal,56324.0,64.359,69.62,60415.938599999994,ownership_size,142,39.875,0.6549295774647887,59.604,,Reliability_2024.xlsx,270
+2024,15248,OR,Portland General Electric Co,Investor Owned,942296.0,133.0,772.0,2088756.1333333333,ownership_size,72,106.975,0.6527777777777778,109.0,,Reliability_2024.xlsx,662
+2024,6258,MN,Federated Rural Electric Assn,Cooperative,6981.0,76.702,76.702,8924.2777,state_ownership,23,67.749,0.6521739130434783,107.93,,Reliability_2024.xlsx,258
+2024,8764,TN,"Holston Electric Coop, Inc",Cooperative,32442.0,197.719,891.509,106906.66329999999,ownership_size,296,153.3465,0.652027027027027,171.641,,Reliability_2024.xlsx,343
+2024,20377,KY,West Kentucky Rural E C C,Cooperative,40472.0,208.785,874.678,140832.44199999998,state_ownership,20,162.8,0.65,214.84,,Reliability_2024.xlsx,890
+2024,25295,IN,Western Indiana Energy REMC,Cooperative,16895.0,214.35,1048.9,60357.3875,state_ownership,20,150.68599999999998,0.65,230.365,,Reliability_2024.xlsx,936
+2024,817,AR,Arkansas Valley Elec Coop Corp,Cooperative,59167.0,197.34,585.75,194600.26299999998,ownership_size,296,153.3465,0.6486486486486487,270.55,,Reliability_2024.xlsx,35
+2024,18181,WI,City of Stoughton - (WI),Municipal,9317.0,37.141,56.255,5767.3782833333335,ownership_size,34,27.2145,0.6470588235294118,36.438,,Reliability_2024.xlsx,795
+2024,3287,NM,"Central Valley Elec Coop, Inc",Cooperative,15106.0,195.947,352.5,49332.92303333334,ownership_size,296,153.3465,0.6452702702702703,260.924,,Reliability_2024.xlsx,115
+2024,9777,TN,Johnson City - (TN),Municipal,83793.0,152.208,658.539,212566.0824,state_ownership,28,105.4495,0.6428571428571429,39.581,,Reliability_2024.xlsx,390
+2024,10171,VA,Kentucky Utilities Co,Investor Owned,29557.0,146.73,2044.27,72281.64349999999,ownership_size,28,103.015,0.6428571428571429,115.64,,Reliability_2024.xlsx,405
+2024,8774,MA,City of Holyoke - (MA),Municipal,17557.0,61.575,61.575,18017.871250000004,ownership_size,142,39.875,0.6408450704225352,105.432,,Reliability_2024.xlsx,345
+2024,3046,SC,Duke Energy Progress - (NC),Investor Owned,177876.0,125.7,262.63,372650.22,ownership_size,72,106.975,0.6388888888888888,143.49,,Reliability_2024.xlsx,94
+2024,5585,IL,Eastern Illinois Elec Coop,Cooperative,13503.0,194.4,268.0,43749.72,ownership_size,296,153.3465,0.6385135135135135,110.1,,Reliability_2024.xlsx,224
+2024,13573,NY,Niagara Mohawk Power Corp.,Investor Owned,1690739.0,140.65,510.14,3963374.005833334,ownership_size,33,109.13,0.6363636363636364,132.43,,Reliability_2024.xlsx,562
+2024,3413,WA,PUD No 1 of Chelan County,Political Subdivision,51143.0,95.23,174.05,81172.46483333335,ownership,22,67.655,0.6363636363636364,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,121
+2024,1890,SC,Blue Ridge Electric Coop Inc - (SC),Cooperative,72913.0,193.24,5291.42,234828.46866666668,ownership_size,296,153.3465,0.6351351351351351,168.84,,Reliability_2024.xlsx,65
+2024,5309,AL,City of Dothan - (AL),Municipal,32172.0,61.437,72.957,32942.5194,ownership_size,142,39.875,0.6338028169014085,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,211
+2024,17671,AR,Southwest Arkansas E C C,Cooperative,29417.0,190.425,408.624,93362.20375000002,ownership_size,296,153.3465,0.6317567567567568,251.695,,Reliability_2024.xlsx,771
+2024,6909,FL,Gainesville Regional Utilities,Municipal,101488.0,56.12,743.98,94925.10933333333,ownership,192,39.875,0.6302083333333334,68.92,,Reliability_2024.xlsx,286
+2024,18125,OK,Stillwater Utilities Authority,Municipal,22191.0,58.21,145.05,21528.968500000003,ownership_size,142,39.875,0.6267605633802817,42.54,,Reliability_2024.xlsx,794
+2024,15473,NM,Public Service Co of NM,Investor Owned,553313.0,124.45,278.72,1147663.3808333336,ownership_size,72,106.975,0.625,92.17,,Reliability_2024.xlsx,679
+2024,12268,TX,"Medina Electric Coop, Inc",Cooperative,36166.0,235.24,235.24,141794.83066666668,state_ownership,32,189.54500000000002,0.625,261.84,,Reliability_2024.xlsx,488
+2024,31833,GA,Okefenoke Rural El Member Corp,Cooperative,29259.0,189.494,2075.374,92406.74909999999,state_ownership,24,139.06,0.625,209.343,,Reliability_2024.xlsx,947
+2024,10345,NC,City of Kinston - (NC),Municipal,12002.0,56.73,56.73,11347.891,ownership_size,142,39.875,0.6197183098591549,179.57,,Reliability_2024.xlsx,409
+2024,8055,MO,City of Hannibal - (MO),Municipal,8692.0,34.62,58.92,5015.284,ownership_size,34,27.2145,0.6176470588235294,46.37,,Reliability_2024.xlsx,324
+2024,20371,FL,"West Florida El Coop Assn, Inc",Cooperative,29314.0,184.12,568.48,89954.89466666666,ownership_size,296,153.3465,0.6148648648648649,296.52,,Reliability_2024.xlsx,889
+2024,20785,NC,City of Wilson - (NC),Municipal,37861.0,55.733,123.06,35168.451883333335,ownership_size,142,39.875,0.6126760563380281,52.63,,Reliability_2024.xlsx,902
+2024,13780,WI,Northern States Power Co,Investor Owned,260234.0,122.37,208.55,530747.243,ownership_size,72,106.975,0.6111111111111112,82.67,,Reliability_2024.xlsx,581
+2024,11291,NC,Lumbee River Elec Member Corp,Cooperative,66700.0,127.62,282.634,141870.9,state_ownership,18,112.9985,0.6111111111111112,123.679,,Reliability_2024.xlsx,456
+2024,4577,MN,Crow Wing Cooperative Power & Light Comp,Cooperative,47712.0,73.787,122.75,58675.42240000001,state_ownership,23,67.749,0.6086956521739131,56.392,,Reliability_2024.xlsx,184
+2024,15507,TN,City of Pulaski - (TN),Municipal,15089.0,148.74,756.56,37405.63100000001,state_ownership,28,105.4495,0.6071428571428571,127.846,,Reliability_2024.xlsx,683
+2024,7140,GA,Georgia Power Co,Investor Owned,2717959.0,127.94,1516.16,5795594.574333333,ownership_size,33,109.13,0.6060606060606061,139.61,,Reliability_2024.xlsx,295
+2024,3295,WA,City of Centralia - (WA),Municipal,10745.0,55.664,179.941,9968.494666666667,ownership_size,142,39.875,0.6056338028169014,57.088,,Reliability_2024.xlsx,117
+2024,2911,OK,"Canadian Valley Elec Coop, Inc",Cooperative,27599.0,181.851,590.664,83648.42915,ownership_size,296,153.3465,0.6047297297297297,240.158,,Reliability_2024.xlsx,90
+2024,4317,OR,"Coos-Curry Electric Coop, Inc",Cooperative,18713.0,181.3,570.7,56544.44833333334,ownership_size,296,153.3465,0.6013513513513513,120.6,,Reliability_2024.xlsx,172
+2024,1886,KY,Blue Grass Energy Coop Corp,Cooperative,62550.0,182.17,596.51,189912.225,state_ownership,20,162.8,0.6,254.9,,Reliability_2024.xlsx,63
+2024,3093,MO,Carroll Electric Coop Corp - (AR),Cooperative,11793.0,133.41,402.58,26221.7355,state_ownership,15,113.586,0.6,96.89,,Reliability_2024.xlsx,97
+2024,4960,IN,Decatur County Rural E M C,Cooperative,8353.0,182.564,182.564,25415.951533333333,state_ownership,20,150.68599999999998,0.6,104.047,,Reliability_2024.xlsx,198
+2024,11788,IA,Consumers Energy Coop - (IA),Cooperative,7560.0,95.507,493.49,12033.882000000001,ownership_size,35,76.702,0.6,115.356,,Reliability_2024.xlsx,471
+2024,207,CA,Alameda Municipal Power,Municipal,37072.0,54.924,54.924,33935.7088,ownership_size,142,39.875,0.5985915492957746,6.69,,Reliability_2024.xlsx,10
+2024,12647,MN,"ALLETE, Inc.",Investor Owned,138546.0,119.9,119.9,276861.09,ownership_size,72,106.975,0.5972222222222222,103.6,,Reliability_2024.xlsx,513
+2024,16057,TX,"Rio Grande Electric Coop, Inc",Cooperative,15321.0,233.363,332.02,59589.24205,state_ownership,32,189.54500000000002,0.59375,696.094,,Reliability_2024.xlsx,691
+2024,19951,OH,City of Wadsworth - (OH),Municipal,13813.0,54.0,54.0,12431.7,ownership_size,142,39.875,0.5915492957746479,55.0,,Reliability_2024.xlsx,871
+2024,30518,AZ,Electrical Dist No3 Pinal County,Political Subdivision,34000.0,85.87,132.41,48659.666666666664,ownership,22,67.655,0.5909090909090909,72.99,,Reliability_2024.xlsx,945
+2024,13481,WI,City of New Richmond,Municipal,5479.0,32.05,51.04,2926.6991666666663,ownership_size,34,27.2145,0.5882352941176471,23.652,,Reliability_2024.xlsx,555
+2024,8761,OH,Holmes-Wayne Electric Coop Inc,Cooperative,18045.0,177.535,178.08,53393.651249999995,ownership_size,296,153.3465,0.5878378378378378,567.092,,Reliability_2024.xlsx,342
+2024,14381,OH,City of Painesville,Municipal,12614.0,51.903,348.151,10911.7407,ownership_size,142,39.875,0.5845070422535211,60.645,,Reliability_2024.xlsx,628
+2024,12698,MO,Evergy Missouri West,Investor Owned,346863.0,118.82,306.18,686904.3609999999,ownership_size,72,106.975,0.5833333333333334,119.1,,Reliability_2024.xlsx,518
+2024,13716,GA,North Georgia Elec Member Corp,Cooperative,104699.0,182.51,274.09,318476.90816666663,state_ownership,24,139.06,0.5833333333333334,164.76,,Reliability_2024.xlsx,570
+2024,14175,SC,"Tri-County Electric Coop, Inc (SC)",Cooperative,18466.0,174.79,1041.7,53794.53566666666,ownership_size,296,153.3465,0.581081081081081,196.87,,Reliability_2024.xlsx,607
+2024,590,CA,City of Anaheim - (CA),Municipal,117000.0,46.34,46.34,90363.0,ownership,192,39.875,0.578125,28.35,,Reliability_2024.xlsx,25
+2024,14232,MN,Otter Tail Power Co,Investor Owned,63290.0,141.67,154.96,149438.2383333333,ownership_size,26,103.015,0.5769230769230769,96.28,,Reliability_2024.xlsx,610
+2024,14232,ND,Otter Tail Power Co,Investor Owned,59761.0,129.6,170.73,129083.76,ownership_size,26,103.015,0.5769230769230769,125.71,,Reliability_2024.xlsx,611
+2024,56697,IL,Ameren Illinois Company,Investor Owned,1249900.0,120.6,223.9,2512299.0,ownership_size,33,109.13,0.5757575757575758,113.9,,Reliability_2024.xlsx,964
+2024,7625,TN,City of Greeneville - (TN),Municipal,40451.0,125.56,791.26,84650.45933333335,state_ownership,28,105.4495,0.5714285714285714,75.76,,Reliability_2024.xlsx,310
+2024,16286,SD,Rosebud Electric Coop Inc,Cooperative,5621.0,95.0,111.6,8899.916666666666,ownership_size,35,76.702,0.5714285714285714,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,708
+2024,5598,OK,East Central Oklahoma Elec Coop Inc,Cooperative,37090.0,169.509,286.045,104784.81349999999,ownership_size,296,153.3465,0.5709459459459459,157.064,,Reliability_2024.xlsx,226
+2024,1366,MI,City of Bay City - (MI),Municipal,20500.0,48.348,414.996,16518.9,ownership_size,142,39.875,0.5704225352112676,59.281,,Reliability_2024.xlsx,50
+2024,12825,MT,NorthWestern Energy LLC - (MT),Investor Owned,376392.0,117.949,233.438,739917.6668,ownership_size,72,106.975,0.5694444444444444,102.517,,Reliability_2024.xlsx,524
+2024,17252,MS,Singing River Elec Cooperative,Cooperative,79693.9,169.16,243.34,224683.6687333333,ownership_size,296,153.3465,0.5675675675675675,151.11,,Reliability_2024.xlsx,749
+2024,17550,MN,South Central Electric Assn,Cooperative,5944.0,70.285,71.696,6962.900666666666,state_ownership,23,67.749,0.5652173913043478,51.036,,Reliability_2024.xlsx,758
+2024,13762,VA,"Northern Neck Elec Coop, Inc",Cooperative,20696.0,168.92,,58266.138666666666,ownership_size,296,153.3465,0.5641891891891891,128.79,,Reliability_2024.xlsx,579
+2024,4939,TX,"Deaf Smith Electric Coop, Inc",Cooperative,15312.0,223.7,285.2,57088.24,state_ownership,32,189.54500000000002,0.5625,324.4,,Reliability_2024.xlsx,196
+2024,4509,AR,Craighead Electric Coop Corp,Cooperative,31555.0,168.434,182.937,88582.24783333334,ownership_size,296,153.3465,0.5608108108108109,420.77,,Reliability_2024.xlsx,182
+2024,17637,MD,Southern Maryland Elec Coop Inc,Cooperative,177329.0,113.87,145.98,336540.8871666667,ownership_size,34,107.37950000000001,0.5588235294117647,102.81,,Reliability_2024.xlsx,769
+2024,15159,WI,City of Plymouth - (WI),Municipal,8768.0,30.99,30.99,4528.6720000000005,ownership_size,34,27.2145,0.5588235294117647,0.0,,Reliability_2024.xlsx,658
+2024,3989,CO,City of Colorado Springs - (CO),Municipal,256580.0,44.76,62.74,191408.68,ownership,192,39.875,0.5572916666666666,45.85,,Reliability_2024.xlsx,154
+2024,20481,MA,City of Westfield - (MA),Municipal,18194.0,46.116,122.784,13983.908399999998,ownership_size,142,39.875,0.5563380281690141,71.28,,Reliability_2024.xlsx,895
+2024,15474,OK,Public Service Co of Oklahoma,Investor Owned,579031.0,116.7,188.5,1126215.2950000002,ownership_size,72,106.975,0.5555555555555556,106.8,,Reliability_2024.xlsx,680
+2024,21632,NC,EnergyUnited Elec Member Corp,Cooperative,132720.0,123.78,424.32,273801.36,state_ownership,18,112.9985,0.5555555555555556,129.36,,Reliability_2024.xlsx,925
+2024,14354,ID,PacifiCorp,Investor Owned,89035.0,129.44,264.6,192078.17333333334,ownership_size,27,99.0,0.5555555555555556,127.06,,Reliability_2024.xlsx,622
+2024,13027,TN,"Mountain Electric Coop, Inc",Cooperative,16262.0,166.3,166.3,45072.84333333334,ownership_size,296,153.3465,0.5540540540540541,326.4,,Reliability_2024.xlsx,533
+2024,11355,SC,"Lynches River Elec Coop, Inc",Cooperative,22362.0,164.6,518.1,61346.42,ownership_size,296,153.3465,0.5506756756756757,149.8,,Reliability_2024.xlsx,458
+2024,9576,IN,Jackson County Rural E M C - (IN),Cooperative,25198.0,178.71,249.03,75052.243,state_ownership,20,150.68599999999998,0.55,146.81,,Reliability_2024.xlsx,373
+2024,17044,KY,"Shelby Energy Coop, Inc - (KY)",Cooperative,18445.0,177.2,527.6,54474.23333333333,state_ownership,20,162.8,0.55,186.9,,Reliability_2024.xlsx,743
+2024,17718,TX,Southwestern Public Service Co,Investor Owned,268277.0,116.21,197.43,519607.83616666665,ownership_size,71,106.38,0.5492957746478874,109.59,,Reliability_2024.xlsx,780
+2024,4683,OH,City of Cuyahoga Falls - (OH),Municipal,26783.0,44.27,75.71,19761.390166666668,ownership_size,142,39.875,0.5492957746478874,41.88,,Reliability_2024.xlsx,190
+2024,13780,MI,Northern States Power Co,Investor Owned,8923.0,115.47,166.32,17172.3135,ownership,141,107.57,0.5460992907801419,163.48,,Reliability_2024.xlsx,580
+2024,13998,OH,Ohio Edison Co,Investor Owned,1067091.0,113.96,233.75,2026761.506,ownership_size,33,109.13,0.5454545454545454,107.23,,Reliability_2024.xlsx,595
+2024,14127,NE,Omaha Public Power District,Political Subdivision,403157.0,85.7,1186.2,575842.5816666667,ownership,22,67.655,0.5454545454545454,57.9,,Reliability_2024.xlsx,602
+2024,5399,TN,Duck River Elec Member Corp,Cooperative,84585.0,161.423,276.082,227566.07425,ownership_size,296,153.3465,0.543918918918919,175.156,,Reliability_2024.xlsx,214
+2024,13418,TX,City of New Braunfels - (TX),Municipal,57122.0,43.464,76.372,41379.1768,ownership_size,142,39.875,0.5422535211267606,42.18,,Reliability_2024.xlsx,551
+2024,20065,GA,Walton Electric Member Corp,Cooperative,140132.0,168.48,392.52,393490.656,state_ownership,24,139.06,0.5416666666666666,126.758,,Reliability_2024.xlsx,874
+2024,3245,FL,"Central Florida Elec Coop, Inc",Cooperative,36795.0,158.301,4439.851,97078.08825,ownership_size,296,153.3465,0.5371621621621622,244.861,,Reliability_2024.xlsx,104
+2024,9612,TN,City of Jackson - (TN),Municipal,38314.0,115.2,115.2,73562.87999999999,state_ownership,28,105.4495,0.5357142857142857,103.27,,Reliability_2024.xlsx,376
+2024,14534,CA,City of Pasadena - (CA),Municipal,66608.0,42.936,42.936,47664.6848,ownership_size,142,39.875,0.5352112676056338,18.147,,Reliability_2024.xlsx,635
+2024,5862,CO,"Empire Electric Assn, Inc",Cooperative,17211.0,158.2,158.2,45379.67,ownership_size,296,153.3465,0.5337837837837838,116.4,,Reliability_2024.xlsx,241
+2024,4675,MO,Cuivre River Electric Coop Inc,Cooperative,73195.0,132.88,132.88,162102.52666666667,state_ownership,15,113.586,0.5333333333333333,139.56,,Reliability_2024.xlsx,189
+2024,16627,TX,San Patricio Electric Coop Inc,Cooperative,12500.0,199.676,199.676,41599.166666666664,state_ownership,32,189.54500000000002,0.53125,177.53,,Reliability_2024.xlsx,728
+2024,11200,OH,"Lorain-Medina R E C, Inc",Cooperative,16831.0,157.529,158.569,44189.50998333333,ownership_size,296,153.3465,0.5304054054054054,129.093,,Reliability_2024.xlsx,447
+2024,11204,NM,Los Alamos County,Municipal,9045.0,30.419,30.419,4585.66425,ownership_size,34,27.2145,0.5294117647058824,27.224,,Reliability_2024.xlsx,448
+2024,16181,MN,Rochester Public Utilities,Municipal,60557.0,42.838,102.076,43235.67943333333,ownership_size,142,39.875,0.528169014084507,25.576,,Reliability_2024.xlsx,699
+2024,15470,IN,"Duke Energy Indiana, LLC",Investor Owned,910102.0,112.89,295.63,1712356.913,ownership_size,72,106.975,0.5277777777777778,97.99,,Reliability_2024.xlsx,677
+2024,19157,MN,MiEnergy Cooperative,Cooperative,16317.0,67.965,101.217,18483.08175,state_ownership,23,67.749,0.5217391304347826,62.23,,Reliability_2024.xlsx,826
+2024,20169,WA,Avista Corp,Investor Owned,270134.0,112.0,152.0,504250.13333333336,ownership_size,71,106.38,0.5211267605633803,87.0,,Reliability_2024.xlsx,878
+2024,10879,UT,Lehi City Corporation,Municipal,30172.0,42.035,42.035,21138.00033333333,ownership_size,142,39.875,0.5211267605633803,41.119,,Reliability_2024.xlsx,436
+2024,1625,WA,Benton Rural Electric Assn,Cooperative,16453.0,156.015,1887.0,42781.91325,ownership_size,296,153.3465,0.5168918918918919,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,56
+2024,13781,MN,Northern States Power Co - Minnesota,Investor Owned,1361168.0,110.39,308.73,2504322.2586666667,ownership_size,33,109.13,0.5151515151515151,83.46,,Reliability_2024.xlsx,582
+2024,12539,NE,Midwest Electric Member Corp - (NE),Cooperative,6805.0,81.24,81.24,9213.97,ownership_size,35,76.702,0.5142857142857142,59.556,,Reliability_2024.xlsx,509
+2024,13416,NC,City of New Bern - (NC),Municipal,24952.0,41.46,144.201,17241.832000000002,ownership_size,142,39.875,0.5140845070422535,61.454,,Reliability_2024.xlsx,550
+2024,4327,AL,Coosa Valley Electric Coop Inc,Cooperative,18340.0,154.71,263.9,47289.69000000001,ownership_size,296,153.3465,0.5101351351351351,178.7,,Reliability_2024.xlsx,173
+2024,1325,IL,City of Batavia - (IL),Municipal,10737.0,40.61,46.48,7267.1595,ownership_size,142,39.875,0.5070422535211268,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,49
+2024,13337,NE,Nebraska Public Power District,Political Subdivision,93975.0,74.35,74.35,116450.68749999999,ownership,22,73.33,0.5,69.74,,Reliability_2024.xlsx,548
+2024,19806,TX,"Victoria Electric Coop, Inc",Cooperative,24936.0,194.6,267.07,80875.76,state_ownership,32,192.083,0.5,197.31,,Reliability_2024.xlsx,864
+2024,19162,KY,Tri-County Elec Member Corp (TN),Cooperative,26135.0,166.73,374.59,72624.80916666666,state_ownership,20,168.035,0.5,383.42,,Reliability_2024.xlsx,830
+2024,15671,NC,Randolph Electric Member Corp,Cooperative,34054.0,114.247,224.155,64842.78896666667,state_ownership,18,117.765,0.5,123.274,,Reliability_2024.xlsx,684
+2024,8179,IN,Harrison County Rural E M C,Cooperative,24725.0,154.152,213.906,63523.469999999994,state_ownership,20,162.965,0.5,146.0,,Reliability_2024.xlsx,326
+2024,18305,GA,Sumter Electric Member Corp,Cooperative,21500.0,155.4,218.1,55685.0,state_ownership,24,145.6,0.5,148.45,,Reliability_2024.xlsx,802
+2024,12199,WY,Montana-Dakota Utilities Co,Investor Owned,18970.0,107.03,107.2,33839.318333333336,ownership_size,26,114.22,0.5,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,483
+2024,16382,OK,"Rural Electric Coop, Inc - (OK)",Cooperative,12700.0,153.8,638.7,32554.333333333336,ownership_size,296,153.52249999999998,0.5,203.7,,Reliability_2024.xlsx,711
+2024,1936,TN,Bolivar Energy Authority,Municipal,11449.0,111.449,335.278,21266.326683333333,state_ownership,28,107.325,0.5,111.744,,Reliability_2024.xlsx,68
+2024,3915,MI,Coldwater Board of Public Util,Municipal,7796.0,28.559,28.559,3710.7660666666666,ownership_size,34,28.1445,0.5,33.833,,Reliability_2024.xlsx,151
+2024,4362,IL,Corn Belt Energy Corporation,Cooperative,37191.0,152.0,311.6,94217.2,ownership_size,296,153.976,0.49324324324324326,158.5,,Reliability_2024.xlsx,174
+2024,8723,MI,City of Holland,Municipal,31482.0,39.8,339.4,20883.059999999998,ownership_size,142,40.28,0.49295774647887325,30.775,,Reliability_2024.xlsx,341
+2024,15073,KS,"Pioneer Electric Coop, Inc - (KS)",Cooperative,16212.0,150.01,197.68,40532.702,ownership_size,296,153.976,0.48986486486486486,130.42,,Reliability_2024.xlsx,654
+2024,4922,OH,Dayton Power & Light Co,Investor Owned,613948.0,106.38,502.58,1088529.804,ownership_size,72,109.785,0.4861111111111111,96.2,,Reliability_2024.xlsx,195
+2024,691,MN,City of Anoka,Municipal,13004.0,39.779,39.779,8621.435266666667,ownership_size,142,40.28,0.4859154929577465,18.123,,Reliability_2024.xlsx,28
+2024,14354,OR,PacifiCorp,Investor Owned,638000.0,107.57,368.37,1143827.6666666667,ownership_size,70,112.445,0.4857142857142857,103.06,,Reliability_2024.xlsx,623
+2024,14354,UT,PacifiCorp,Investor Owned,1030158.0,109.13,117.72,1873685.7089999998,ownership_size,33,110.39,0.48484848484848486,109.95,,Reliability_2024.xlsx,624
+2024,14146,AL,City of Opelika - (AL),Municipal,15663.0,37.5,,9789.375,ownership_size,142,40.28,0.4788732394366197,47.2,,Reliability_2024.xlsx,603
+2024,155,MN,Agralite Electric Coop,Cooperative,5397.0,67.749,68.126,6094.02255,state_ownership,23,67.965,0.4782608695652174,171.712,,Reliability_2024.xlsx,7
+2024,16606,SC,"Santee Electric Coop, Inc",Cooperative,44910.2,147.0,441.86,110029.98999999999,ownership_size,296,153.976,0.47635135135135137,146.17,,Reliability_2024.xlsx,723
+2024,20413,ND,Mountrail-Williams Elec Coop,Cooperative,19103.0,146.81,282.33,46741.85716666667,ownership_size,296,153.976,0.47297297297297297,129.21,,Reliability_2024.xlsx,893
+2024,719,NC,Town of Apex- (NC),Municipal,28371.0,36.273,116.396,17151.68805,ownership_size,142,40.28,0.47183098591549294,37.015,,Reliability_2024.xlsx,29
+2024,16259,MO,City of Rolla - (MO),Municipal,9719.0,25.87,146.05,4190.508833333333,ownership_size,34,29.489,0.47058823529411764,27.8,,Reliability_2024.xlsx,707
+2024,1251,WI,Barron Electric Coop,Cooperative,19756.0,145.223,275.383,47817.09313333334,ownership_size,296,153.976,0.46959459459459457,168.144,,Reliability_2024.xlsx,45
+2024,11364,TX,"Lyntegar Electric Coop, Inc",Cooperative,23862.0,184.49,184.49,73371.673,state_ownership,32,197.13799999999998,0.46875,257.26,,Reliability_2024.xlsx,459
+2024,20363,MO,West Central Electric Coop Inc - (MO),Cooperative,15446.0,113.586,167.89,29240.8226,state_ownership,15,132.88,0.4666666666666667,60.727,,Reliability_2024.xlsx,888
+2024,16060,WI,Riverland Energy Cooperative,Cooperative,20060.0,143.59,261.78,48006.92333333333,ownership_size,296,153.976,0.46621621621621623,82.098,,Reliability_2024.xlsx,692
+2024,10000,MO,Evergy Metro,Investor Owned,311001.0,103.93,401.69,538705.5655,ownership_size,71,112.0,0.4647887323943662,90.2,,Reliability_2024.xlsx,397
+2024,2248,VA,Bristol Virginia Utilities,Municipal,15954.0,36.082,530.395,9594.2038,ownership_size,142,40.28,0.4647887323943662,43.242,,Reliability_2024.xlsx,79
+2024,3704,TN,City of Clarksville - (TN),Municipal,85314.0,99.45,205.07,141407.95500000002,state_ownership,28,113.3245,0.4642857142857143,106.89,,Reliability_2024.xlsx,138
+2024,19390,PA,"UGI Utilities, Inc",Investor Owned,62634.0,99.0,182.0,103346.1,ownership_size,28,118.235,0.4642857142857143,85.0,,Reliability_2024.xlsx,840
+2024,7174,TN,Gibson Electric Members Corp,Cooperative,39835.0,140.15,312.0,93047.92083333334,ownership_size,296,153.976,0.46283783783783783,132.89,gap_in_ieee_history;reporting_method_change,Reliability_2024.xlsx,296
+2024,108,WI,Adams-Columbia Electric Coop,Cooperative,39641.0,140.019,140.019,92508.21965000001,ownership_size,296,153.976,0.4594594594594595,229.1,,Reliability_2024.xlsx,6
+2024,20404,TX,AEP Texas North Company,Investor Owned,199119.0,102.6,108.0,340493.49,ownership_size,72,109.785,0.4583333333333333,105.9,,Reliability_2024.xlsx,892
+2024,3081,GA,Carroll Electric Member Corp - (GA),Cooperative,56189.0,122.72,159.02,114925.23466666667,state_ownership,24,161.94,0.4583333333333333,132.55,,Reliability_2024.xlsx,95
+2024,4280,AR,Conway Corporation,Municipal,33419.0,35.91,35.91,20001.271499999995,ownership_size,142,40.28,0.45774647887323944,63.14,,Reliability_2024.xlsx,170
+2024,15293,TN,Powell Valley Electric Coop,Cooperative,26192.0,138.361,499.19,60399.188533333334,ownership_size,296,153.976,0.4560810810810811,316.68,,Reliability_2024.xlsx,669
+2024,20847,WI,Wisconsin Electric Power Co,Investor Owned,1212936.0,109.0,296.0,2203500.4,ownership_size,33,110.39,0.45454545454545453,85.0,,Reliability_2024.xlsx,905
+2024,9216,CA,Imperial Irrigation District,Political Subdivision,165674.0,60.96,60.96,168324.784,ownership,22,80.025,0.45454545454545453,70.7,,Reliability_2024.xlsx,359
+2024,17585,IL,"Southeastern IL Elec Coop, Inc",Cooperative,25005.0,137.682,602.712,57378.97349999999,ownership_size,296,153.976,0.4527027027027027,135.606,,Reliability_2024.xlsx,762
+2024,15444,UT,Provo City Corp,Municipal,41303.0,35.37,35.37,24348.118499999997,ownership_size,142,40.28,0.4507042253521127,33.223,,Reliability_2024.xlsx,675
+2024,9964,KY,Kenergy Corp,Cooperative,59433.0,158.87,369.35,157368.6785,state_ownership,20,171.96499999999997,0.45,134.99,,Reliability_2024.xlsx,393
+2024,10448,IN,Kosciusko County Rural E M C,Cooperative,18726.0,147.22,291.47,45947.362,state_ownership,20,166.43099999999998,0.45,101.36,,Reliability_2024.xlsx,415
+2024,4296,OK,"Cookson Hills Elec Coop, Inc",Cooperative,18978.0,136.277,399.113,43104.4151,ownership_size,296,153.976,0.44594594594594594,107.697,,Reliability_2024.xlsx,171
+2024,3542,OH,Duke Energy Ohio Inc,Investor Owned,760441.0,102.53,321.09,1299466.9288333333,ownership_size,72,109.785,0.4444444444444444,103.58,,Reliability_2024.xlsx,131
+2024,18957,NC,Tri-County Elec Member Corp (NC),Cooperative,26981.0,111.75,111.75,50252.1125,state_ownership,18,119.0135,0.4444444444444444,130.91,,Reliability_2024.xlsx,819
+2024,14275,MS,City of Oxford - (MS),Municipal,10497.0,35.28,46.89,6172.236000000001,ownership_size,142,40.28,0.44366197183098594,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,617
+2024,14668,WA,Peninsula Light Company,Cooperative,35518.0,136.07,651.56,80548.90433333332,ownership_size,296,153.976,0.44256756756756754,106.0,,Reliability_2024.xlsx,641
+2024,4262,TX,Cooke County Elec Coop Assn,Cooperative,18299.0,179.93,288.61,54875.65116666667,state_ownership,32,197.13799999999998,0.4375,0.0,,Reliability_2024.xlsx,168
+2024,4045,MO,City of Columbia - (MO),Municipal,53435.0,34.616,34.616,30828.432666666668,ownership_size,142,40.28,0.43661971830985913,39.21,,Reliability_2024.xlsx,157
+2024,18019,MN,Stearns Cooperative Elec Assn,Cooperative,28745.0,56.899,132.623,27259.362583333335,state_ownership,23,67.965,0.43478260869565216,89.872,,Reliability_2024.xlsx,790
+2024,17166,NV,Sierra Pacific Power Co,Investor Owned,396461.0,102.07,403.32,674446.2378333333,ownership_size,72,109.785,0.4305555555555556,162.27,,Reliability_2024.xlsx,747
+2024,14839,IN,City of Peru - (IN),Municipal,10689.0,34.36,58.88,6121.2339999999995,ownership_size,142,40.28,0.4295774647887324,22.1,,Reliability_2024.xlsx,646
+2024,10378,NM,"Kit Carson Electric Coop, Inc",Cooperative,30420.0,132.48,185.07,67167.36,ownership_size,296,153.976,0.42905405405405406,315.971,,Reliability_2024.xlsx,412
+2024,13216,TN,Nashville Electric Service,Municipal,452888.0,86.58,0.0,653517.384,state_ownership,28,113.3245,0.42857142857142855,143.71,normal_exceeds_all_review,Reliability_2024.xlsx,544
+2024,24590,NH,Unitil Energy Systems,Investor Owned,79654.0,97.66,593.36,129650.16066666666,ownership_size,28,118.235,0.42857142857142855,90.94,,Reliability_2024.xlsx,931
+2024,17609,CA,Southern California Edison Co,Investor Owned,5316264.0,100.246,158.299,8882236.6824,ownership_size,33,110.39,0.42424242424242425,95.856,,Reliability_2024.xlsx,766
+2024,15783,CA,City of Redding - (CA),Municipal,47176.0,34.07,34.07,26788.105333333333,ownership_size,142,40.28,0.4225352112676056,35.26,,Reliability_2024.xlsx,687
+2024,17534,AL,"South Alabama Elec Coop, Inc",Cooperative,17707.0,129.562,288.005,38235.90556666667,ownership_size,296,153.976,0.4189189189189189,322.527,,Reliability_2024.xlsx,755
+2024,4432,GA,Coweta-Fayette El Member Corp,Cooperative,89116.0,115.921,218.402,172173.59726666668,state_ownership,24,161.94,0.4166666666666667,202.856,,Reliability_2024.xlsx,179
+2024,4430,AL,"Covington Electric Coop, Inc",Cooperative,24683.0,129.089,178.805,53105.063116666664,ownership_size,296,153.976,0.4155405405405405,104.287,,Reliability_2024.xlsx,178
+2024,7646,SC,Greenwood CPW,Municipal,11940.0,33.58,65.78,6682.419999999999,ownership_size,142,40.28,0.4154929577464789,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,314
+2024,14354,WA,PacifiCorp,Investor Owned,138254.0,101.99,209.35,235008.75766666664,ownership_size,70,112.445,0.4142857142857143,66.98,,Reliability_2024.xlsx,625
+2024,1613,SC,Berkeley Electric Coop Inc,Cooperative,130042.0,88.9,293.3,192678.89666666667,ownership_size,34,111.305,0.4117647058823529,96.9,,Reliability_2024.xlsx,55
+2024,8319,IA,Heartland Power Coop,Cooperative,5249.0,70.082,78.019,6131.006966666666,ownership_size,34,85.574,0.4117647058823529,54.85,,Reliability_2024.xlsx,332
+2024,3660,WA,PUD No 1 of Clark County - (WA),Political Subdivision,233669.0,59.0,144.79,229774.51666666666,ownership,22,80.025,0.4090909090909091,45.0,,Reliability_2024.xlsx,136
+2024,18312,WI,Sun Prairie Utilities,Municipal,18497.0,33.54,33.54,10339.823,ownership_size,142,40.28,0.4084507042253521,16.85,,Reliability_2024.xlsx,803
+2024,13830,TX,Nueces Electric Cooperative,Cooperative,20733.0,170.894,437.147,59052.4217,state_ownership,32,197.13799999999998,0.40625,159.96,,Reliability_2024.xlsx,589
+2024,10454,ID,Kootenai Electric Cooperative,Cooperative,34499.0,125.038,186.773,71894.76603333333,ownership_size,296,153.976,0.40540540540540543,99.83,,Reliability_2024.xlsx,416
+2024,22500,KS,"Evergy Kansas Central, Inc",Investor Owned,392397.0,101.58,318.06,664328.1209999999,ownership_size,72,109.785,0.4027777777777778,96.72,,Reliability_2024.xlsx,927
+2024,18280,AZ,Sulphur Springs Valley E C Inc,Cooperative,54402.0,124.66,138.27,113029.222,ownership_size,296,153.976,0.40202702702702703,91.62,,Reliability_2024.xlsx,800
+2024,7639,NC,Greenville Utilities Comm,Municipal,74630.0,33.28,33.28,41394.77333333333,ownership_size,142,40.28,0.4014084507042254,35.43,,Reliability_2024.xlsx,313
+2024,6194,KY,Farmers Rural Electric Coop Corp - (KY),Cooperative,26880.0,156.99,396.41,70331.52,state_ownership,20,171.96499999999997,0.4,539.269,,Reliability_2024.xlsx,253
+2024,18940,IN,Tipmont Rural Elec Member Corp,Cooperative,30852.0,114.13,145.32,58685.64599999999,state_ownership,20,166.43099999999998,0.4,176.67,,Reliability_2024.xlsx,816
+2024,4237,MO,Consolidated Electric Coop,Cooperative,8312.0,103.56,183.99,14346.511999999999,state_ownership,15,132.88,0.4,109.459,,Reliability_2024.xlsx,166
+2024,15293,VA,Powell Valley Electric Coop,Cooperative,8330.0,68.53,508.861,9514.248333333333,ownership_size,35,81.24,0.4,106.876,,Reliability_2024.xlsx,670
+2024,20510,KS,"Wheatland Electric Coop, Inc",Cooperative,32350.0,124.32,219.55,67029.2,ownership_size,296,153.976,0.39864864864864863,102.93,,Reliability_2024.xlsx,896
+2024,9096,LA,City of Lafayette - (LA),Municipal,70264.0,32.95,166.601,38586.646666666675,ownership_size,142,40.28,0.39436619718309857,20.423,,Reliability_2024.xlsx,354
+2024,19436,MO,Union Electric Co - (MO),Investor Owned,1283126.0,94.0,148.0,2010230.7333333334,ownership_size,33,110.39,0.3939393939393939,93.0,,Reliability_2024.xlsx,843
+2024,26510,NH,Liberty Utilities (Granite State Electri,Investor Owned,45565.0,92.693,370.312,70392.60908333333,ownership_size,28,118.235,0.39285714285714285,153.78,,Reliability_2024.xlsx,937
+2024,2247,TN,City of Bristol - (TN),Municipal,34327.0,85.878,545.49,49132.235100000005,state_ownership,28,113.3245,0.39285714285714285,111.39,gap_in_ieee_history;reporting_method_change,Reliability_2024.xlsx,78
+2024,14468,MN,People's Cooperative Services,Cooperative,23916.0,56.64,131.6,22576.704,state_ownership,23,67.965,0.391304347826087,69.42,,Reliability_2024.xlsx,634
+2024,56146,CO,"Black Hills Colorado Electric, LLC",Investor Owned,100052.0,101.406,323.297,169097.8852,ownership_size,72,109.785,0.3888888888888889,87.445,,Reliability_2024.xlsx,963
+2024,19981,NC,Wake Electric Membership Corp,Cooperative,56238.0,108.0,165.5,101228.4,state_ownership,18,119.0135,0.3888888888888889,98.4,,Reliability_2024.xlsx,872
+2024,3503,MD,"Choptank Electric Cooperative, Inc",Cooperative,57047.0,120.2,143.8,114284.15666666668,ownership_size,296,153.976,0.3885135135135135,111.2,,Reliability_2024.xlsx,128
+2024,4068,MS,City of Columbus - (MS),Municipal,12752.0,29.85,52.89,6344.12,ownership_size,142,40.28,0.3873239436619718,67.458,,Reliability_2024.xlsx,160
+2024,21538,AZ,"Mohave Electric Cooperative, Inc.",Cooperative,45123.0,117.8,170.8,88591.48999999999,ownership_size,296,153.976,0.38513513513513514,109.7,,Reliability_2024.xlsx,923
+2024,20885,FL,Withlacoochee River Elec Coop,Cooperative,260730.0,78.7,1322.73,341990.85,ownership_size,34,111.305,0.38235294117647056,92.411,,Reliability_2024.xlsx,909
+2024,17184,AR,City of Siloam Springs - (AR),Municipal,9787.0,14.347,14.347,2340.2348166666666,ownership_size,34,29.489,0.38235294117647056,14.125,,Reliability_2024.xlsx,748
+2024,12462,SC,Mid-Carolina Electric Coop Inc,Cooperative,60406.0,117.477,3915.314,118271.92770000001,ownership_size,296,153.976,0.38175675675675674,121.399,,Reliability_2024.xlsx,503
+2024,7483,MI,City of Grand Haven - (MI),Municipal,15083.0,29.028,237.538,7297.1554,ownership_size,142,40.28,0.38028169014084506,28.92,,Reliability_2024.xlsx,303
+2024,16638,TX,"San Bernard Electric Coop, Inc",Cooperative,36644.0,162.5,1238.5,99244.16666666667,state_ownership,32,197.13799999999998,0.375,120.75,,Reliability_2024.xlsx,729
+2024,9689,GA,Jefferson Electric Member Corp,Cooperative,36791.0,109.21,10318.0,66965.75183333333,state_ownership,24,161.94,0.375,100.181,,Reliability_2024.xlsx,385
+2024,11053,IA,Linn County REC,Cooperative,33181.0,116.0,116.0,64149.933333333334,ownership_size,296,153.976,0.375,126.0,,Reliability_2024.xlsx,442
+2024,11560,VA,City of Manassas - (VA),Municipal,16625.0,27.619,55.707,7652.764583333334,ownership_size,142,40.28,0.3732394366197183,153.239,,Reliability_2024.xlsx,464
+2024,10599,OK,"Lake Region Electric Coop, Inc - (OK)",Cooperative,26481.0,115.623,340.28,51030.211050000005,ownership_size,296,153.976,0.36824324324324326,93.105,,Reliability_2024.xlsx,419
+2024,9324,IN,Indiana Michigan Power Co,Investor Owned,481996.0,97.5,156.7,783243.5,ownership_size,71,107.57,0.36619718309859156,94.6,,Reliability_2024.xlsx,365
+2024,5701,NM,El Paso Electric Co,Investor Owned,109154.0,99.639,99.639,181266.5901,ownership_size,71,112.0,0.36619718309859156,79.768,,Reliability_2024.xlsx,233
+2024,14246,MN,City of Owatonna - (MN),Municipal,12489.0,27.215,65.625,5664.80225,ownership_size,142,40.28,0.36619718309859156,13.744,,Reliability_2024.xlsx,614
+2024,11804,MA,Massachusetts Electric Co,Investor Owned,1345044.0,90.72,133.74,2033706.528,ownership_size,33,110.39,0.36363636363636365,94.92,,Reliability_2024.xlsx,473
+2024,40438,OR,Columbia River Peoples Ut Dist,Political Subdivision,20817.0,54.537,92.782,18921.61215,ownership,22,80.025,0.36363636363636365,71.415,,Reliability_2024.xlsx,956
+2024,16558,VA,City of Salem - (VA),Municipal,13519.0,26.785,26.785,6035.106916666667,ownership_size,142,40.28,0.3591549295774648,22.697,,Reliability_2024.xlsx,717
+2024,12988,TN,City of Morristown - (TN),Municipal,16509.0,68.94,238.92,18968.841,state_ownership,28,113.3245,0.35714285714285715,56.08,,Reliability_2024.xlsx,531
+2024,5860,KS,Empire District Electric Co,Investor Owned,10232.0,89.51,167.5,15264.438666666667,ownership_size,28,118.235,0.35714285714285715,78.79,,Reliability_2024.xlsx,238
+2024,10668,OH,Licking Rural Electric Inc,Cooperative,27729.0,113.4,242.5,52407.810000000005,ownership_size,296,153.976,0.3547297297297297,106.504,,Reliability_2024.xlsx,427
+2024,19499,CO,"United Power, Inc",Cooperative,114202.0,76.896,76.896,146361.2832,ownership_size,34,111.305,0.35294117647058826,65.18,,Reliability_2024.xlsx,848
+2024,18252,MI,City of Sturgis - (MI),Municipal,7310.0,13.907,13.907,1694.3361666666667,ownership_size,34,29.489,0.35294117647058826,15.39,,Reliability_2024.xlsx,799
+2024,232,NC,City of Albemarle - (NC),Municipal,12505.0,26.56,40.95,5535.546666666666,ownership_size,142,40.28,0.352112676056338,44.5,gap_in_ieee_history;reporting_method_change,Reliability_2024.xlsx,14
+2024,12395,IL,Menard Electric Coop,Cooperative,11141.0,113.152,168.73,21010.440533333334,ownership_size,296,153.976,0.35135135135135137,98.356,,Reliability_2024.xlsx,499
+2024,20130,KY,Warren Rural Elec Coop Corp,Cooperative,74727.0,149.16,457.72,185771.32200000001,state_ownership,20,171.96499999999997,0.35,161.9,,Reliability_2024.xlsx,875
+2024,9665,IN,Jasper County Rural E M C,Cooperative,9793.0,89.908,196.085,14674.484066666666,state_ownership,20,166.43099999999998,0.35,60.889,,Reliability_2024.xlsx,381
+2024,19820,KS,Victory Electric Coop Assn Inc,Cooperative,20466.0,112.6,431.2,38407.86,ownership_size,296,153.976,0.34797297297297297,150.6,,Reliability_2024.xlsx,865
+2024,16368,MN,Runestone Electric Assn,Cooperative,15225.0,51.96,68.34,13184.85,state_ownership,23,67.965,0.34782608695652173,56.1,,Reliability_2024.xlsx,710
+2024,18997,OH,The Toledo Edison Co,Investor Owned,312806.0,95.4,121.04,497361.54000000004,ownership_size,72,109.785,0.3472222222222222,79.9,,Reliability_2024.xlsx,821
+2024,12199,ND,Montana-Dakota Utilities Co,Investor Owned,98017.0,78.54,83.13,128304.25300000001,ownership_size,26,114.22,0.34615384615384615,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,481
+2024,15095,OH,City of Piqua - (OH),Municipal,10833.0,25.768,25.768,4652.4124,ownership_size,142,40.28,0.34507042253521125,21.335,,Reliability_2024.xlsx,655
+2024,1273,TX,"Bartlett Electric Coop, Inc",Cooperative,15253.0,135.887,190.921,34544.740183333335,state_ownership,32,197.13799999999998,0.34375,234.37,,Reliability_2024.xlsx,46
+2024,2652,IA,Butler County Rural Elec Coop - (IA),Cooperative,5110.0,65.582,85.668,5585.400333333333,ownership_size,35,81.24,0.34285714285714286,71.308,,Reliability_2024.xlsx,87
+2024,13839,MA,City of Norwood - (MA),Municipal,16301.0,24.8,64.06,6737.746666666667,ownership_size,142,40.28,0.3380281690140845,45.97,,Reliability_2024.xlsx,591
+2024,20841,AL,"Wiregrass Electric Coop, Inc",Cooperative,26570.0,110.865,194.91,49094.7175,ownership_size,296,153.976,0.33783783783783783,110.05,,Reliability_2024.xlsx,904
+2024,14715,PA,PPL Electric Utilities Corp,Investor Owned,1470255.0,90.3,455.1,2212733.775,ownership_size,33,110.39,0.3333333333333333,91.5,,Reliability_2024.xlsx,642
+2024,20860,WI,Wisconsin Public Service Corp,Investor Owned,469161.0,95.0,465.0,742838.25,ownership_size,72,109.785,0.3333333333333333,74.0,,Reliability_2024.xlsx,907
+2024,19219,GA,Diverse Power Incorporated,Cooperative,36727.0,108.62,233.864,66488.11233333334,state_ownership,24,161.94,0.3333333333333333,48.77,,Reliability_2024.xlsx,834
+2024,16101,NC,Roanoke Electric Member Corp,Cooperative,13706.0,107.994,126.558,24669.4294,state_ownership,18,119.0135,0.3333333333333333,130.091,,Reliability_2024.xlsx,696
+2024,6181,MO,"Farmers Electric Coop, Inc - (MO)",Cooperative,13561.0,92.58,276.79,20924.623,state_ownership,15,132.88,0.3333333333333333,72.06,,Reliability_2024.xlsx,251
+2024,12351,AZ,City of Mesa - (AZ),Municipal,17975.0,24.73,64.35,7408.695833333333,ownership_size,142,40.28,0.33098591549295775,10.562,,Reliability_2024.xlsx,496
+2024,5860,OK,Empire District Electric Co,Investor Owned,5928.0,88.35,1110.24,8728.98,ownership,139,109.0,0.33093525179856115,83.28,,Reliability_2024.xlsx,240
+2024,14354,WY,PacifiCorp,Investor Owned,147268.0,92.13,92.13,226130.014,ownership_size,70,112.445,0.32857142857142857,84.26,,Reliability_2024.xlsx,626
+2024,3226,OK,"Central Rural Electric Cooperative, Inc",Cooperative,24360.0,108.466,198.728,44037.195999999996,ownership_size,296,153.976,0.3277027027027027,159.55,,Reliability_2024.xlsx,103
+2024,12301,ND,Nodak Electric Coop Inc,Cooperative,21561.0,108.2,108.2,38881.670000000006,ownership_size,296,153.976,0.32432432432432434,165.8,,Reliability_2024.xlsx,491
+2024,15748,MA,Town of Reading - (MA),Municipal,32638.0,23.24,46.02,12641.785333333333,ownership_size,142,40.28,0.323943661971831,26.13,,Reliability_2024.xlsx,686
+2024,9336,CO,CORE Electric Cooperative,Cooperative,178763.0,74.185,212.358,221025.55258333337,ownership_size,34,111.305,0.3235294117647059,64.036,,Reliability_2024.xlsx,368
+2024,16082,WI,City of River Falls,Municipal,6612.0,13.08,13.08,1441.4160000000002,ownership_size,34,29.489,0.3235294117647059,38.697,,Reliability_2024.xlsx,694
+2024,11789,TN,Maryville Utilities,Municipal,22271.0,61.622,78.589,22873.059366666665,state_ownership,28,113.3245,0.32142857142857145,93.084,,Reliability_2024.xlsx,472
+2024,16572,AZ,Salt River Project,Political Subdivision,1161925.0,52.81,58.05,1022687.6541666667,ownership,22,80.025,0.3181818181818182,49.2,,Reliability_2024.xlsx,719
+2024,5063,TX,City of Denton - (TX),Municipal,69105.0,22.551,80.906,25973.11425,ownership_size,142,40.28,0.31690140845070425,35.844,,Reliability_2024.xlsx,202
+2024,13693,OH,"North Central Elec Coop, Inc - (OH)",Cooperative,9745.0,61.62,65.16,10008.115,ownership_size,35,81.24,0.3142857142857143,109.92,,Reliability_2024.xlsx,569
+2024,8786,SC,Horry Electric Coop Inc,Cooperative,95676.0,107.57,133.415,171531.12199999997,ownership_size,296,153.976,0.3141891891891892,99.399,,Reliability_2024.xlsx,346
+2024,7752,TX,Guadalupe Valley Elec Coop Inc,Cooperative,103579.0,131.94,200.22,227770.221,state_ownership,32,197.13799999999998,0.3125,64.58,,Reliability_2024.xlsx,317
+2024,7716,CT,Groton Dept of Utilities - (CT),Municipal,14149.0,22.48,116.62,5301.158666666667,ownership_size,142,40.28,0.30985915492957744,120.06,,Reliability_2024.xlsx,316
+2024,14232,SD,Otter Tail Power Co,Investor Owned,11930.0,70.78,134.71,14073.423333333334,ownership_size,26,103.015,0.3076923076923077,125.81,,Reliability_2024.xlsx,612
+2024,19396,MI,Tri-County Electric Coop (MI),Cooperative,27230.0,105.0,239.0,47652.5,ownership_size,296,153.976,0.30743243243243246,113.0,,Reliability_2024.xlsx,841
+2024,19446,KY,Duke Energy Kentucky,Investor Owned,152297.0,91.53,130.58,232329.0735,ownership_size,72,109.785,0.3055555555555556,72.1,,Reliability_2024.xlsx,845
+2024,8319,MN,Heartland Power Coop,Cooperative,38.0,51.92,51.92,32.882666666666665,state_ownership,23,67.965,0.30434782608695654,80.74,,Reliability_2024.xlsx,333
+2024,6455,FL,"Duke Energy Florida, LLC",Investor Owned,2016207.0,83.51,2499.54,2806224.1095000003,ownership_size,33,110.39,0.30303030303030304,83.62,,Reliability_2024.xlsx,268
+2024,2056,KY,City of Bowling Green - (KY),Municipal,31532.0,22.19,72.92,11661.584666666668,ownership_size,142,40.28,0.3028169014084507,48.342,,Reliability_2024.xlsx,73
+2024,3841,MS,Coast Electric Power Assn - (MS),Cooperative,90258.0,103.485,277.417,155672.4855,ownership_size,296,153.976,0.30067567567567566,100.6,,Reliability_2024.xlsx,147
+2024,18498,KY,Taylor County Rural E C C,Cooperative,28281.0,147.32,232.41,69439.28199999999,state_ownership,20,171.96499999999997,0.3,121.6,,Reliability_2024.xlsx,813
+2024,1283,IN,Bartholomew County Rural E M C,Cooperative,12123.0,84.16,177.84,17004.528,state_ownership,20,166.43099999999998,0.3,71.13,,Reliability_2024.xlsx,47
+2024,20477,OH,City of Westerville - (OH),Municipal,18012.0,21.49,57.41,6451.297999999999,ownership_size,142,40.28,0.29577464788732394,17.48,,Reliability_2024.xlsx,894
+2024,20213,WI,Waupun Utilities,Municipal,4510.0,12.781,12.781,960.7051666666667,ownership_size,34,29.489,0.29411764705882354,9.984,,Reliability_2024.xlsx,881
+2024,1769,SD,"Black Hills Electric Coop, Inc",Cooperative,11305.0,102.04,228.71,19226.03666666667,ownership_size,296,153.976,0.2939189189189189,87.8,,Reliability_2024.xlsx,60
+2024,12341,IA,MidAmerican Energy Co,Investor Owned,740347.0,88.0,219.0,1085842.2666666666,ownership_size,72,109.785,0.2916666666666667,59.0,,Reliability_2024.xlsx,493
+2024,6411,GA,Flint Electric Membership Corp,Cooperative,95179.0,104.2,157.62,165294.19666666668,state_ownership,24,161.94,0.2916666666666667,103.94,,Reliability_2024.xlsx,262
+2024,19325,OR,Umatilla Electric Coop Assn,Cooperative,19473.0,99.057,208.426,32148.949350000003,ownership_size,296,153.976,0.2905405405405405,47.267,,Reliability_2024.xlsx,839
+2024,11135,UT,City of Logan - (UT),Municipal,21774.0,21.318,39.338,7736.302200000001,ownership_size,142,40.28,0.2887323943661972,35.484,,Reliability_2024.xlsx,444
+2024,1763,SC,"Black River Electric Coop, Inc - (SC)",Cooperative,34494.0,99.0,228.0,56915.1,ownership_size,296,153.976,0.28716216216216217,115.0,,Reliability_2024.xlsx,59
+2024,5605,IA,Eastern Iowa Light & Power Coop,Cooperative,24124.0,99.0,220.0,39804.6,ownership_size,296,153.976,0.28716216216216217,103.1,,Reliability_2024.xlsx,227
+2024,19157,IA,MiEnergy Cooperative,Cooperative,7262.0,59.685,69.247,7223.874500000001,ownership_size,35,81.24,0.2857142857142857,41.3,,Reliability_2024.xlsx,825
+2024,10960,TN,City of Lewisburg - (TN),Municipal,6662.0,59.22,59.22,6575.394,state_ownership,28,113.3245,0.2857142857142857,10.29,,Reliability_2024.xlsx,438
+2024,11740,WI,City of Marshfield - (WI),Municipal,13908.0,20.411,35.7,4731.2698,ownership_size,142,40.28,0.28169014084507044,12.666,,Reliability_2024.xlsx,470
+2024,3282,TX,"Central Texas Elec Coop, Inc",Cooperative,48298.0,129.9,145.8,104565.17,state_ownership,32,197.13799999999998,0.28125,211.7,,Reliability_2024.xlsx,114
+2024,9273,IN,AES Indiana,Investor Owned,525000.0,87.299,246.899,763866.25,ownership_size,72,109.785,0.2777777777777778,86.686,,Reliability_2024.xlsx,363
+2024,1889,NC,Blue Ridge Elec Member Corp - (NC),Cooperative,79753.0,92.9,6038.46,123484.22833333333,state_ownership,18,119.0135,0.2777777777777778,69.46,,Reliability_2024.xlsx,64
+2024,10768,SC,"Laurens Electric Coop, Inc",Cooperative,63495.0,97.08,8309.98,102734.90999999999,ownership_size,296,153.976,0.27702702702702703,115.65,,Reliability_2024.xlsx,431
+2024,5930,NY,Village of Fairport - (NY),Municipal,17955.0,20.211,36.565,6048.141749999999,ownership_size,142,40.28,0.2746478873239437,14.799,,Reliability_2024.xlsx,244
+2024,16603,CO,"San Luis Valley R E C, Inc",Cooperative,13026.0,96.4,296.2,20928.440000000002,ownership_size,296,153.976,0.27364864864864863,101.7,,Reliability_2024.xlsx,721
+2024,803,AZ,Arizona Public Service Co,Investor Owned,1395614.0,80.86,87.2,1880822.4673333333,ownership_size,33,110.39,0.2727272727272727,82.07,,Reliability_2024.xlsx,33
+2024,19281,CA,Turlock Irrigation District,Political Subdivision,90557.0,49.0,74.0,73954.88333333333,ownership,22,80.025,0.2727272727272727,61.0,,Reliability_2024.xlsx,836
+2024,5086,CO,Delta Montrose Electric Assn,Cooperative,37555.0,96.003,157.826,60089.87775,ownership_size,296,153.976,0.2702702702702703,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,205
+2024,6708,KY,City of Frankfort - (KY),Municipal,22336.0,20.026,38.182,7455.012266666667,ownership_size,142,40.28,0.2676056338028169,17.157,,Reliability_2024.xlsx,278
+2024,3600,MO,Citizens Electric Corporation - (MO),Cooperative,27830.0,84.786,145.606,39326.573,state_ownership,15,132.88,0.26666666666666666,159.791,,Reliability_2024.xlsx,133
+2024,11018,NE,Lincoln Electric System,Municipal,151839.0,19.3,187.1,48841.545000000006,ownership,192,40.207,0.265625,19.1,,Reliability_2024.xlsx,441
+2024,13640,VA,Northern Virginia Elec Coop,Cooperative,177139.0,62.352,94.632,184082.84879999998,ownership_size,34,111.305,0.2647058823529412,40.29,,Reliability_2024.xlsx,563
+2024,12208,KS,City of McPherson - (KS),Municipal,8988.0,12.628,49.114,1891.6744,ownership_size,34,29.489,0.2647058823529412,46.595,,Reliability_2024.xlsx,484
+2024,10005,KS,"Evergy Kansas South, Inc",Investor Owned,344853.0,87.12,206.27,500726.55600000004,ownership_size,72,109.785,0.2638888888888889,84.41,,Reliability_2024.xlsx,398
+2024,7563,CO,Grand Valley Power,Cooperative,19649.0,94.3,94.3,30881.678333333333,ownership_size,296,153.976,0.2635135135135135,68.0,,Reliability_2024.xlsx,308
+2024,6782,MN,Freeborn Mower Electric Cooperative,Cooperative,21302.0,49.5,86.4,17574.15,state_ownership,23,67.965,0.2608695652173913,67.4,,Reliability_2024.xlsx,283
+2024,8449,KY,Henderson City Utility Comm,Municipal,11936.0,19.589,19.589,3896.9050666666662,ownership_size,142,40.28,0.2605633802816901,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,336
+2024,162,SC,Aiken Electric Coop Inc,Cooperative,52839.0,93.87,7941.05,82666.61550000001,ownership_size,296,153.976,0.26013513513513514,113.13,,Reliability_2024.xlsx,8
+2024,17543,SC,South Carolina Public Service Authority,State,211845.0,55.173,58.447,194802.06975,national,728,101.785,0.25961538461538464,46.93,,Reliability_2024.xlsx,757
+2024,40165,AZ,"Dixie Escalante R E A, Inc",Cooperative,3145.0,55.043,55.043,2885.170583333333,ownership_size,35,81.24,0.2571428571428571,56.57,,Reliability_2024.xlsx,950
+2024,15054,OH,"Pioneer Rural Elec Coop, Inc - (OH)",Cooperative,17751.0,93.7,126.9,27721.145,ownership_size,296,153.976,0.25675675675675674,94.8,,Reliability_2024.xlsx,653
+2024,19125,MI,City of Traverse City - (MI),Municipal,13781.0,19.356,19.356,4445.7506,ownership_size,142,40.28,0.2535211267605634,26.455,,Reliability_2024.xlsx,823
+2024,10171,KY,Kentucky Utilities Co,Investor Owned,555275.0,83.16,582.43,769611.15,ownership_size,72,109.785,0.25,74.59,,Reliability_2024.xlsx,404
+2024,17832,GA,Snapping Shoals El Member Corp,Cooperative,108665.0,103.959,219.055,188278.41225000002,state_ownership,24,161.94,0.25,94.547,,Reliability_2024.xlsx,782
+2024,16587,KY,Salt River Electric Coop Corp,Cooperative,57242.0,132.0,357.5,125932.4,state_ownership,20,171.96499999999997,0.25,156.0,,Reliability_2024.xlsx,720
+2024,8620,TX,"HILCO Electric Cooperative, Inc.",Cooperative,35196.0,122.9,124.1,72093.14,state_ownership,32,197.13799999999998,0.25,136.4,,Reliability_2024.xlsx,339
+2024,13809,SD,NorthWestern Energy - (SD),Investor Owned,64209.0,66.452,75.993,71113.60780000001,ownership_size,28,118.235,0.25,73.892,,Reliability_2024.xlsx,588
+2024,6923,TN,City of Gallatin - (TN),Municipal,26511.0,51.8,164.37,22887.829999999998,state_ownership,28,113.3245,0.25,27.53,,Reliability_2024.xlsx,287
+2024,13647,IN,Noble County R E M C,Cooperative,11685.0,75.9,135.9,14781.525000000001,state_ownership,20,166.43099999999998,0.25,103.6,,Reliability_2024.xlsx,564
+2024,15410,VA,Prince George Electric Coop,Cooperative,13201.0,90.6,279.99,19933.51,ownership_size,296,153.976,0.24662162162162163,113.47,,Reliability_2024.xlsx,673
+2024,11187,CO,City of Longmont,Municipal,48509.0,19.252,19.252,15564.921133333331,ownership_size,142,40.28,0.24647887323943662,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,446
+2024,66073,SC,MPD Electric Cooperative,Cooperative,38491.0,90.16,212.921,57839.14266666667,ownership_size,296,153.976,0.24324324324324326,127.186,,Reliability_2024.xlsx,973
+2024,4176,CT,Connecticut Light & Power Co,Investor Owned,1326461.0,76.9,158.8,1700080.8483333334,ownership_size,33,110.39,0.24242424242424243,75.6,,Reliability_2024.xlsx,164
+2024,14606,FL,"Peace River Electric Coop, Inc",Cooperative,68796.0,90.0,1460.4,103194.0,ownership_size,296,153.976,0.23986486486486486,132.5,,Reliability_2024.xlsx,637
+2024,17874,UT,City of St George,Municipal,33533.0,18.955,30.034,10593.633583333332,ownership_size,142,40.28,0.23943661971830985,22.78,,Reliability_2024.xlsx,787
+2024,21002,SC,York Electric Coop Inc,Cooperative,71302.0,89.14,980.87,105931.00466666667,ownership_size,296,153.976,0.23648648648648649,88.96,,Reliability_2024.xlsx,914
+2024,11249,KY,Louisville Gas & Electric Co,Investor Owned,444830.0,83.05,433.96,615718.8583333333,ownership_size,72,109.785,0.2361111111111111,68.882,,Reliability_2024.xlsx,451
+2024,5070,DE,Delaware Electric Cooperative,Cooperative,117394.0,61.33,95.669,119996.23366666665,ownership_size,34,111.305,0.23529411764705882,68.14,,Reliability_2024.xlsx,203
+2024,9230,IA,City of Independence - (IA),Municipal,3196.0,10.673,10.673,568.5151333333334,ownership_size,34,29.489,0.23529411764705882,3.022,,Reliability_2024.xlsx,360
+2024,12515,OH,"Midwest Electric, Inc - (OH)",Cooperative,11221.0,88.5,292.6,16550.975,ownership_size,296,153.976,0.23310810810810811,70.9,,Reliability_2024.xlsx,506
+2024,11256,CO,City of Loveland - (CO),Municipal,41790.0,18.95,80.68,13198.675,ownership_size,142,40.28,0.2323943661971831,21.45,,Reliability_2024.xlsx,453
+2024,12990,OH,Consolidated Cooperative,Cooperative,19176.0,87.0,354.0,27805.2,ownership_size,296,153.976,0.22972972972972974,102.0,,Reliability_2024.xlsx,532
+2024,19219,AL,Diverse Power Incorporated,Cooperative,685.0,54.981,184.681,627.69975,ownership_size,35,81.24,0.22857142857142856,353.416,,Reliability_2024.xlsx,833
+2024,18206,UT,Strawberry Electric Serv Dist,Political Subdivision,4109.0,47.042,167.042,3221.5929666666666,ownership,22,80.025,0.22727272727272727,42.08,,Reliability_2024.xlsx,797
+2024,13050,CO,"Mountain Parks Electric, Inc",Cooperative,22847.0,85.4,148.7,32518.896666666667,ownership_size,296,153.976,0.22635135135135134,73.5,,Reliability_2024.xlsx,535
+2024,554,IA,City of Ames - (IA),Municipal,27592.0,18.76,39.16,8627.098666666667,ownership_size,142,40.28,0.22535211267605634,15.09,,Reliability_2024.xlsx,23
+2024,12686,MS,Mississippi Power Co,Investor Owned,191210.0,82.19,124.2,261925.83166666667,ownership_size,72,109.785,0.2222222222222222,82.1,,Reliability_2024.xlsx,516
+2024,5656,NC,Edgecombe-Martin County E M C,Cooperative,11755.0,83.127,113.372,16285.964749999997,state_ownership,18,119.0135,0.2222222222222222,129.477,,Reliability_2024.xlsx,231
+2024,1892,TX,"Bluebonnet Electric Coop, Inc",Cooperative,132597.0,117.151,227.235,258897.85245,state_ownership,32,197.13799999999998,0.21875,101.496,,Reliability_2024.xlsx,67
+2024,28604,TX,Kerrville Public Utility Board,Municipal,24230.0,18.583,26.786,7504.434833333333,ownership_size,142,40.28,0.21830985915492956,36.184,,Reliability_2024.xlsx,943
+2024,12651,MN,Minnesota Valley Electric Coop,Cooperative,47453.0,41.9,61.0,33138.011666666665,state_ownership,23,67.965,0.21739130434782608,42.5,,Reliability_2024.xlsx,514
+2024,5417,WI,Dunn County Electric Coop,Cooperative,10601.0,84.06,109.64,14852.001,ownership_size,296,153.976,0.21621621621621623,78.51,,Reliability_2024.xlsx,217
+2024,6374,MA,Fitchburg Gas & Elec Light Co,Investor Owned,30873.0,64.6,64.6,33239.93,ownership_size,28,118.235,0.21428571428571427,90.365,,Reliability_2024.xlsx,260
+2024,27222,TN,City of Ripley - (TN),Municipal,6403.0,49.48,88.89,5280.340666666667,state_ownership,28,113.3245,0.21428571428571427,197.37,,Reliability_2024.xlsx,938
+2024,16609,CA,San Diego Gas & Electric Co,Investor Owned,1527274.0,71.13,157.23,1810583.3269999998,ownership_size,33,110.39,0.21212121212121213,70.59,,Reliability_2024.xlsx,724
+2024,12801,NC,City of Monroe - (NC),Municipal,13288.0,18.179,22.383,4026.042533333333,ownership_size,142,40.28,0.2112676056338028,23.331,,Reliability_2024.xlsx,523
+2024,15472,NH,Public Service Co of NH,Investor Owned,551456.0,81.5,786.2,749061.0666666667,ownership_size,72,109.785,0.20833333333333334,83.7,,Reliability_2024.xlsx,678
+2024,7090,GA,GreyStone Power Corporation,Cooperative,149514.0,94.99,113.97,236705.58099999998,state_ownership,24,161.94,0.20833333333333334,105.0,,Reliability_2024.xlsx,292
+2024,3892,KS,City of Coffeyville - (KS),Municipal,5739.0,10.258,11.746,981.1777,ownership_size,34,29.489,0.20588235294117646,4.193,,Reliability_2024.xlsx,150
+2024,3329,PA,Borough of Chambersburg,Municipal,11890.0,18.04,18.04,3574.9266666666663,ownership_size,142,40.28,0.20422535211267606,8.86,,Reliability_2024.xlsx,118
+2024,14289,AR,Ozarks Electric Coop Corp - (AR),Cooperative,78322.0,83.2,182.32,108606.50666666667,ownership_size,295,154.152,0.2033898305084746,43.93,,Reliability_2024.xlsx,618
+2024,19189,AZ,Trico Electric Cooperative Inc,Cooperative,54860.0,83.17,150.15,76045.10333333333,ownership_size,296,153.976,0.20270270270270271,81.9,,Reliability_2024.xlsx,832
+2024,14251,KY,Owen Electric Coop Inc,Cooperative,66763.0,126.29,199.53,140524.98783333332,state_ownership,20,171.96499999999997,0.2,97.99,,Reliability_2024.xlsx,615
+2024,24753,IN,Boone County Rural EMC,Cooperative,19043.0,59.89,59.89,19008.087833333335,state_ownership,20,166.43099999999998,0.2,139.8,,Reliability_2024.xlsx,932
+2024,3268,MO,Central Missouri Elec Coop Inc,Cooperative,11452.3,83.3,95.4,15899.60983333333,state_ownership,15,132.88,0.2,123.5,,Reliability_2024.xlsx,111
+2024,6638,CO,City of Fountain,Municipal,17628.0,17.97,17.97,5279.585999999999,ownership_size,142,40.28,0.19718309859154928,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,275
+2024,17539,SC,"Dominion Energy South Carolina, Inc",Investor Owned,816766.0,80.61,1908.47,1097325.121,ownership_size,72,109.785,0.19444444444444445,89.9,,Reliability_2024.xlsx,756
+2024,60839,KS,Southern Pioneer Electric Company,Cooperative,17023.0,79.1,160.91,22441.98833333333,ownership_size,296,153.976,0.19256756756756757,164.83,,Reliability_2024.xlsx,970
+2024,6779,NE,City of Fremont - (NE),Municipal,16688.0,17.78,17.78,4945.210666666667,ownership_size,142,40.28,0.19014084507042253,16.095,,Reliability_2024.xlsx,282
+2024,11501,TX,Magic Valley Electric Coop Inc,Cooperative,145755.0,116.03,122.04,281865.8775,state_ownership,32,197.13799999999998,0.1875,194.02,,Reliability_2024.xlsx,462
+2024,14371,KY,City of Paducah - (KY),Municipal,22344.0,17.76,17.76,6613.824000000001,ownership_size,142,40.28,0.18309859154929578,61.83,,Reliability_2024.xlsx,627
+2024,15257,CO,"Poudre Valley REA, Inc",Cooperative,55762.0,74.22,324.62,68977.594,ownership_size,296,153.976,0.18243243243243243,66.618,,Reliability_2024.xlsx,663
+2024,1167,MD,Baltimore Gas & Electric Co,Investor Owned,1341009.0,66.657,133.482,1489793.94855,ownership_size,33,110.39,0.18181818181818182,60.44,,Reliability_2024.xlsx,42
+2024,12745,CA,Modesto Irrigation District,Political Subdivision,120484.0,42.8,58.16,85945.25333333333,ownership,22,80.025,0.18181818181818182,38.61,,Reliability_2024.xlsx,520
+2024,18454,FL,Tampa Electric Co,Investor Owned,869995.0,70.14,4239.69,1017024.1549999999,ownership_size,72,109.785,0.18055555555555555,60.67,,Reliability_2024.xlsx,811
+2024,3758,TN,City of Cleveland - (TN),Municipal,34449.0,46.316,61.168,26592.331400000003,state_ownership,28,113.3245,0.17857142857142858,51.354,,Reliability_2024.xlsx,143
+2024,17612,CA,Bear Valley Electric Service,Investor Owned,24837.0,64.2,101.0,26575.590000000004,ownership_size,28,118.235,0.17857142857142858,114.504,,Reliability_2024.xlsx,767
+2024,2008,NV,City of Boulder City - (NV),Municipal,8201.0,8.03,10.53,1097.5671666666667,ownership_size,34,29.489,0.17647058823529413,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,70
+2024,11124,CA,City of Lodi - (CA),Municipal,25940.0,16.6,16.6,7176.7333333333345,ownership_size,142,40.28,0.176056338028169,20.297,,Reliability_2024.xlsx,443
+2024,18047,MN,Steele-Waseca Cooperative Electric,Cooperative,12001.0,41.0,41.0,8200.683333333332,state_ownership,23,67.965,0.17391304347826086,42.83,,Reliability_2024.xlsx,792
+2024,10539,CO,"La Plata Electric Assn, Inc",Cooperative,46842.0,72.2,184.11,56366.54,ownership_size,296,153.976,0.17229729729729729,83.68,,Reliability_2024.xlsx,417
+2024,13750,SD,"Northern Electric Coop, Inc",Cooperative,6888.0,49.761,49.761,5712.562800000001,ownership_size,35,81.24,0.17142857142857143,54.153,,Reliability_2024.xlsx,573
+2024,17267,SD,Sioux Valley SW Elec Coop,Cooperative,24475.0,71.433,71.433,29138.711250000004,ownership_size,296,153.976,0.16891891891891891,71.426,,Reliability_2024.xlsx,752
+2024,24211,AZ,Tucson Electric Power Co,Investor Owned,455579.0,68.355,113.246,519018.37575,ownership_size,72,109.785,0.16666666666666666,61.87,,Reliability_2024.xlsx,930
+2024,3248,GA,Central Georgia El Member Corp,Cooperative,65046.0,80.848,128.155,87647.3168,state_ownership,24,161.94,0.16666666666666666,102.934,,Reliability_2024.xlsx,105
+2024,3107,NC,Carteret-Craven El Member Corp,Cooperative,42647.2,69.79,104.452,49605.801466666664,state_ownership,18,119.0135,0.16666666666666666,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,98
+2024,12642,IA,Maquoketa Valley Rrl Elec Coop,Cooperative,17236.0,70.89,133.54,20364.334,ownership_size,296,153.976,0.16554054054054054,57.42,,Reliability_2024.xlsx,512
+2024,14062,OK,Oklahoma Electric Coop Inc,Cooperative,64790.0,70.7,89.1,76344.21666666666,ownership_size,296,153.976,0.16216216216216217,58.4,,Reliability_2024.xlsx,598
+2024,19490,TX,United Electric Coop Service Inc - (TX),Cooperative,105631.0,111.81,111.81,196843.36849999998,state_ownership,32,197.13799999999998,0.15625,86.263,,Reliability_2024.xlsx,846
+2024,3940,TX,City of College Station - (TX),Municipal,45821.0,16.3,22.8,12448.038333333334,ownership_size,142,40.28,0.15492957746478872,16.8,,Reliability_2024.xlsx,153
+2024,14289,OK,Ozarks Electric Coop Corp - (AR),Cooperative,12930.0,67.8,325.12,14610.9,ownership_size,295,154.152,0.15254237288135594,66.23,,Reliability_2024.xlsx,619
+2024,54913,MA,NSTAR Electric Company,Investor Owned,1462127.0,66.1,80.6,1610776.5783333331,ownership_size,33,110.39,0.15151515151515152,75.6,,Reliability_2024.xlsx,959
+2024,9292,KY,Inter County Energy Coop Corp - (KY),Cooperative,28393.0,116.93,276.66,55333.224833333334,state_ownership,20,171.96499999999997,0.15,120.91,,Reliability_2024.xlsx,364
+2024,20603,IN,Northeastern Rural E M C,Cooperative,32511.0,58.2,60.6,31535.670000000002,state_ownership,20,166.43099999999998,0.15,45.1,,Reliability_2024.xlsx,899
+2024,13936,WI,Oakdale Electric Coop,Cooperative,18055.0,67.2,148.5,20221.6,ownership_size,296,153.976,0.14864864864864866,95.6,,Reliability_2024.xlsx,592
+2024,7634,TX,City of Greenville - (TX),Municipal,17201.0,16.072,82.855,4607.574533333333,ownership_size,142,40.28,0.14788732394366197,24.28,,Reliability_2024.xlsx,312
+2024,12470,TN,Middle Tennessee E M C,Cooperative,346813.0,41.8,49.4,241613.05666666664,ownership_size,34,111.305,0.14705882352941177,51.1,,Reliability_2024.xlsx,504
+2024,5336,OH,City of Dover - (OH),Municipal,7156.0,7.69,109.46,917.1606666666667,ownership_size,34,29.489,0.14705882352941177,16.04,,Reliability_2024.xlsx,212
+2024,15141,TN,Plateau Electric Cooperative,Cooperative,18207.0,66.97,95.46,20322.0465,ownership_size,296,153.976,0.14527027027027026,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,657
+2024,19545,SD,"Black Hills Power, Inc.",Investor Owned,73846.0,57.359,57.359,70595.54523333332,ownership_size,28,118.235,0.14285714285714285,43.15,,Reliability_2024.xlsx,852
+2024,19266,TN,Tullahoma Board-Public Utils,Municipal,11215.0,39.95,55.951,7467.320833333334,state_ownership,28,113.3245,0.14285714285714285,26.535,,Reliability_2024.xlsx,835
+2024,19502,ID,"United Electric Co-op, Inc - (ID)",Cooperative,7513.0,40.33,49.67,5049.988166666666,ownership_size,35,81.24,0.14285714285714285,49.4,,Reliability_2024.xlsx,850
+2024,3502,FL,"Choctawhatche Elec Coop, Inc",Cooperative,65293.0,65.732,278.328,71530.65793333334,ownership_size,296,153.976,0.14189189189189189,83.56,,Reliability_2024.xlsx,127
+2024,5027,DE,Delmarva Power,Investor Owned,337507.0,68.0,127.0,382507.93333333335,ownership_size,71,112.0,0.14084507042253522,60.0,,Reliability_2024.xlsx,200
+2024,17839,OR,City of Springfield - (OR),Municipal,33147.0,11.615,28.209,6416.70675,ownership_size,142,40.28,0.14084507042253522,17.522,,Reliability_2024.xlsx,784
+2024,13781,SD,Northern States Power Co - Minnesota,Investor Owned,104471.0,63.63,100.14,110791.4955,ownership_size,72,109.785,0.1388888888888889,81.48,,Reliability_2024.xlsx,584
+2024,3436,MI,Cherryland Electric Coop Inc,Cooperative,39158.0,65.281,65.281,42604.55663333333,ownership_size,296,153.976,0.13851351351351351,47.466,,Reliability_2024.xlsx,122
+2024,1579,WA,PUD No 1 of Benton County,Political Subdivision,56863.0,39.5,52.9,37434.808333333334,ownership,22,80.025,0.13636363636363635,48.1,,Reliability_2024.xlsx,53
+2024,8245,NE,City of Hastings - (NE),Municipal,13960.0,11.589,29.713,2696.3740000000003,ownership_size,142,40.28,0.13380281690140844,17.607,,Reliability_2024.xlsx,330
+2024,4063,MO,Co-Mo Electric Coop Inc,Cooperative,33686.0,74.0,122.3,41546.066666666666,state_ownership,15,132.88,0.13333333333333333,75.5,,Reliability_2024.xlsx,158
+2024,9246,OK,"Indian Electric Coop, Inc",Cooperative,20643.0,64.107,83.636,22056.01335,ownership_size,296,153.976,0.13175675675675674,50.3,,Reliability_2024.xlsx,362
+2024,689,MN,Connexus Energy,Cooperative,146551.5,30.133,181.279,73600.60582499999,state_ownership,23,67.965,0.13043478260869565,26.26,,Reliability_2024.xlsx,27
+2024,18955,IL,"Tri-County Electric Coop, Inc (IL)",Cooperative,16708.0,63.7,372.0,17738.326666666668,ownership_size,296,153.976,0.12837837837837837,51.5,,Reliability_2024.xlsx,817
+2024,10000,KS,Evergy Metro,Investor Owned,285403.0,61.15,323.17,290873.2241666667,ownership_size,71,112.0,0.1267605633802817,78.08,,Reliability_2024.xlsx,396
+2024,1050,CA,City of Azusa,Municipal,17461.0,11.463,,3335.92405,ownership_size,142,40.28,0.1267605633802817,54.277,,Reliability_2024.xlsx,40
+2024,19159,TX,"Tri-County Electric Coop, Inc (TX)",Cooperative,151642.0,110.8,134.6,280032.2266666666,state_ownership,32,197.13799999999998,0.125,146.3,,Reliability_2024.xlsx,827
+2024,8210,GA,Hart Electric Member Corp,Cooperative,39869.0,77.962,1173.688,51804.44963333334,state_ownership,24,161.94,0.125,79.203,,Reliability_2024.xlsx,328
+2024,2651,OH,Butler Rural Electric Coop Inc - (OH),Cooperative,11780.0,61.08,226.91,11992.04,ownership_size,296,153.976,0.12162162162162163,104.39,,Reliability_2024.xlsx,86
+2024,14940,PA,PECO Energy Co,Investor Owned,1688261.0,60.0,212.0,1688261.0,ownership_size,33,110.39,0.12121212121212122,79.0,,Reliability_2024.xlsx,648
+2024,6604,CO,City of Fort Collins - (CO),Municipal,79990.0,11.09,11.09,14784.818333333333,ownership_size,142,40.28,0.11971830985915492,19.87,,Reliability_2024.xlsx,272
+2024,21158,MI,City of Zeeland - (MI),Municipal,7020.0,5.042,5.042,589.914,ownership_size,34,29.489,0.11764705882352941,13.487,,Reliability_2024.xlsx,920
+2024,19501,OH,"Union Rural Electric Coop, Inc",Cooperative,12320.0,59.2,259.5,12155.733333333334,ownership_size,296,153.976,0.11486486486486487,70.0,,Reliability_2024.xlsx,849
+2024,5588,IA,East-Central Iowa Rural Elec Coop,Cooperative,9114.0,37.85,37.85,5749.415,ownership_size,35,81.24,0.11428571428571428,51.58,,Reliability_2024.xlsx,225
+2024,19545,MT,"Black Hills Power, Inc.",Investor Owned,43.0,59.4,59.4,42.57,ownership,140,109.75999999999999,0.11428571428571428,142.933,customer_count_change_over_25pct,Reliability_2024.xlsx,851
+2024,2285,SD,City of Brookings - (SD),Municipal,12252.0,10.568,10.568,2157.9856,ownership_size,142,40.28,0.11267605633802817,9.022,,Reliability_2024.xlsx,80
+2024,13214,RI,The Narragansett Electric Co,Investor Owned,509231.0,60.79,104.25,515935.8748333333,ownership_size,72,109.785,0.1111111111111111,52.23,,Reliability_2024.xlsx,543
+2024,19435,NC,Union Electric Membership Corp - (NC),Cooperative,86280.0,53.18,357.11,76472.84000000001,state_ownership,18,119.0135,0.1111111111111111,59.28,,Reliability_2024.xlsx,842
+2024,13781,ND,Northern States Power Co - Minnesota,Investor Owned,95754.0,54.54,54.54,87040.386,ownership_size,28,118.235,0.10714285714285714,56.59,,Reliability_2024.xlsx,583
+2024,20793,TN,City of Winchester - (TN),Municipal,6835.0,25.43,237.76,2896.900833333333,state_ownership,28,113.3245,0.10714285714285714,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,903
+2024,5625,MD,Easton Utilities Comm,Municipal,10990.0,10.492,10.492,1921.784666666667,ownership_size,142,40.28,0.1056338028169014,18.302,,Reliability_2024.xlsx,229
+2024,9605,KY,Jackson Purchase Energy Corporation,Cooperative,30772.0,112.574,320.054,57735.45213333333,state_ownership,20,171.96499999999997,0.1,153.58,,Reliability_2024.xlsx,375
+2024,22822,IN,Clark County Rural E M C - (IN),Cooperative,28260.0,56.83,117.458,26766.93,state_ownership,20,166.43099999999998,0.1,71.964,,Reliability_2024.xlsx,929
+2024,11586,MA,Town of Mansfield - (MA),Municipal,10504.0,9.961,15.692,1743.8390666666667,ownership_size,142,40.28,0.09859154929577464,9.663,,Reliability_2024.xlsx,466
+2024,8773,CO,"Holy Cross Electric Assn, Inc",Cooperative,61786.0,56.481,56.481,58162.2511,ownership_size,296,153.976,0.09797297297297297,60.5,,Reliability_2024.xlsx,344
+2024,19728,AZ,"UNS Electric, Inc",Investor Owned,106739.0,60.126,72.436,106963.1519,ownership_size,72,109.785,0.09722222222222222,44.09,,Reliability_2024.xlsx,859
+2024,6182,TX,"Farmers Electric Coop, Inc - (TX)",Cooperative,90402.0,64.87,134.728,97739.629,state_ownership,32,197.13799999999998,0.09375,51.5,,Reliability_2024.xlsx,252
+2024,5773,MN,City of Elk River,Municipal,13466.0,9.801,42.083,2199.6711,ownership_size,142,40.28,0.09154929577464789,5.778,,Reliability_2024.xlsx,235
+2024,13407,NV,Nevada Power Co,Investor Owned,1093488.0,51.58,72.99,940035.184,ownership_size,33,110.39,0.09090909090909091,53.72,,Reliability_2024.xlsx,549
+2024,13788,OR,Northern Wasco County PUD,Political Subdivision,10490.8,34.841,34.841,6091.832713333333,ownership,22,80.025,0.09090909090909091,12.412,,Reliability_2024.xlsx,586
+2024,18249,WI,City of Sturgeon Bay - (WI),Municipal,9589.0,2.68,27.7,428.3086666666667,ownership_size,34,29.489,0.08823529411764706,2.9,,Reliability_2024.xlsx,798
+2024,20996,MN,Wright-Hennepin Coop Elec Assn,Cooperative,56021.0,23.65,45.35,22081.610833333332,state_ownership,23,67.965,0.08695652173913043,28.23,,Reliability_2024.xlsx,913
+2024,16196,WI,Rock Energy Cooperative,Cooperative,7640.0,37.51,87.78,4776.273333333333,ownership_size,35,81.24,0.08571428571428572,36.528,,Reliability_2024.xlsx,703
+2024,5701,TX,El Paso Electric Co,Investor Owned,357299.0,56.241,56.241,334914.21765,ownership_size,71,112.0,0.08450704225352113,64.11,,Reliability_2024.xlsx,234
+2024,7627,IN,City of Greenfield - (IN),Municipal,13000.0,9.78,9.78,2118.9999999999995,ownership_size,142,40.28,0.08450704225352113,28.32,,Reliability_2024.xlsx,311
+2024,9601,GA,Jackson Electric Member Corp - (GA),Cooperative,268760.0,73.94,129.37,331201.9066666666,state_ownership,24,161.94,0.08333333333333333,69.188,,Reliability_2024.xlsx,374
+2024,13143,IA,Board of Water Electric & Communications,Municipal,11665.0,8.547,40.79,1661.6792500000001,ownership_size,142,40.28,0.07746478873239436,13.662,,Reliability_2024.xlsx,538
+2024,15344,WI,Polk-Burnett Electric Coop,Cooperative,22144.0,49.84,95.23,18394.282666666666,ownership_size,296,153.976,0.07432432432432433,40.48,,Reliability_2024.xlsx,672
+2024,13206,MA,Nantucket Electric Co,Investor Owned,13995.0,50.4,138.16,11755.8,ownership_size,28,118.235,0.07142857142857142,44.48,,Reliability_2024.xlsx,541
+2024,17047,TN,City of Shelbyville - (TN),Municipal,11746.0,16.583,24.833,3246.398633333333,state_ownership,28,113.3245,0.07142857142857142,19.654,,Reliability_2024.xlsx,744
+2024,5027,MD,Delmarva Power,Investor Owned,214087.0,56.0,79.0,199814.53333333333,ownership_size,71,112.0,0.07042253521126761,56.0,,Reliability_2024.xlsx,201
+2024,16971,MN,Shakopee Public Utilities Comm,Municipal,20529.0,8.303,8.303,2840.87145,ownership_size,142,40.28,0.07042253521126761,4.89,,Reliability_2024.xlsx,740
+2024,9750,IL,"Jo-Carroll Energy, Inc",Cooperative,20356.0,48.868,66.55,16579.283466666668,ownership_size,296,153.976,0.06756756756756757,31.126,,Reliability_2024.xlsx,389
+2024,15138,MO,"Platte-Clay Electric Coop, Inc",Cooperative,25075.0,53.09,103.14,22187.195833333335,state_ownership,15,132.88,0.06666666666666667,64.18,,Reliability_2024.xlsx,656
+2024,13482,NC,New River Light & Power Co,State,9097.0,17.52,307.21,2656.324,national,728,101.785,0.06593406593406594,37.5,,Reliability_2024.xlsx,556
+2024,11571,WI,Manitowoc Public Utilities,Municipal,18306.0,8.16,29.11,2489.616,ownership_size,142,40.28,0.06338028169014084,7.28,,Reliability_2024.xlsx,465
+2024,1175,TX,"Bandera Electric Coop, Inc",Cooperative,41932.0,61.662,75.893,43093.5164,state_ownership,32,197.13799999999998,0.0625,48.654,,Reliability_2024.xlsx,43
+2024,9425,IA,Iowa Lakes Electric Coop,Cooperative,13237.0,44.7,44.9,9861.565,ownership_size,296,153.976,0.060810810810810814,51.6,,Reliability_2024.xlsx,370
+2024,6452,FL,Florida Power & Light Co,Investor Owned,5976022.0,45.69,702.08,4550740.7530000005,ownership_size,33,110.39,0.06060606060606061,49.67,,Reliability_2024.xlsx,267
+2024,11731,MN,City of Marshall - (MN),Municipal,6944.0,0.65,0.65,75.22666666666667,ownership_size,34,29.489,0.058823529411764705,0.2,,Reliability_2024.xlsx,469
+2024,19840,NV,"Valley Electric Assn, Inc",Cooperative,24146.0,43.77,84.98,17614.507,ownership_size,296,153.976,0.057432432432432436,41.368,,Reliability_2024.xlsx,866
+2024,2054,OH,City of Bowling Green - (OH),Municipal,14952.0,7.629,20.874,1901.1467999999998,ownership_size,142,40.28,0.056338028169014086,7.458,,Reliability_2024.xlsx,72
+2024,963,NJ,Atlantic City Electric Co,Investor Owned,570952.0,50.0,123.0,475793.3333333333,ownership_size,72,109.785,0.05555555555555555,53.0,,Reliability_2024.xlsx,37
+2024,9837,NC,Jones-Onslow Elec Member Corp,Cooperative,87495.0,45.468,124.706,66303.711,state_ownership,18,119.0135,0.05555555555555555,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,392
+2024,20401,SD,West River Electric Assn Inc,Cooperative,21594.0,43.5,43.5,15655.65,ownership_size,296,153.976,0.05405405405405406,38.09,,Reliability_2024.xlsx,891
+2024,13058,CO,"Mountain View Elec Assn, Inc",Cooperative,63853.0,41.972,55.602,44667.30193333333,ownership_size,296,153.976,0.05067567567567568,44.552,,Reliability_2024.xlsx,536
+2024,12243,KY,Meade County Rural E C C,Cooperative,31499.0,98.007,349.395,51452.04155,state_ownership,20,171.96499999999997,0.05,98.705,,Reliability_2024.xlsx,486
+2024,8447,IN,Hendricks County Rural E M C,Cooperative,38702.0,54.4,107.1,35089.81333333333,state_ownership,20,166.43099999999998,0.05,71.0,,Reliability_2024.xlsx,335
+2024,12341,SD,MidAmerican Energy Co,Investor Owned,5299.0,42.0,428.0,3709.3,ownership,140,109.065,0.05,47.0,,Reliability_2024.xlsx,495
+2024,40606,NE,City of Grand Island - (NE),Municipal,27115.0,7.584,12.222,3427.3360000000002,ownership_size,142,40.28,0.04929577464788732,9.372,,Reliability_2024.xlsx,957
+2024,15048,AZ,Electrical Dist No2 Pinal County,Political Subdivision,6943.0,30.89,53.21,3574.487833333333,ownership,22,80.025,0.045454545454545456,140.18,,Reliability_2024.xlsx,652
+2024,17267,MN,Sioux Valley SW Elec Coop,Cooperative,3900.0,20.15,20.15,1309.75,state_ownership,23,67.965,0.043478260869565216,47.794,,Reliability_2024.xlsx,751
+2024,1009,MN,City of Austin - (MN),Municipal,11853.0,7.22,8.25,1426.3110000000001,ownership_size,142,40.28,0.04225352112676056,7.31,,Reliability_2024.xlsx,38
+2024,19497,CT,United Illuminating Co,Investor Owned,345159.0,49.2,121.8,283030.38,ownership_size,72,109.785,0.041666666666666664,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,847
+2024,16865,GA,Sawnee Electric Membership Corporation,Cooperative,200598.0,45.7,61.8,152788.81000000003,state_ownership,24,161.94,0.041666666666666664,24.9,,Reliability_2024.xlsx,735
+2024,3478,OK,Cimarron Electric Coop,Cooperative,19779.0,39.1,79.6,12889.315,ownership_size,296,153.976,0.04054054054054054,32.127,,Reliability_2024.xlsx,126
+2024,20963,AR,Woodruff Electric Coop Corp,Cooperative,16990.0,37.9,37.9,10732.016666666666,ownership_size,296,153.976,0.037162162162162164,36.49,,Reliability_2024.xlsx,912
+2024,3461,WY,Cheyenne Light Fuel & Power,Investor Owned,44112.0,33.407,33.407,24560.826399999998,ownership_size,28,118.235,0.03571428571428571,35.434,,Reliability_2024.xlsx,123
+2024,5509,TN,City of Dyersburg,Municipal,11985.0,16.43,26.34,3281.8925,state_ownership,28,113.3245,0.03571428571428571,31.065,,Reliability_2024.xlsx,220
+2024,6775,NY,Village of Freeport - (NY),Municipal,14613.0,6.9,26.606,1680.4950000000001,ownership_size,142,40.28,0.035211267605633804,7.34,,Reliability_2024.xlsx,281
+2024,19790,ND,Verendrye Electric Coop Inc,Cooperative,20677.0,36.74,36.74,12661.216333333336,ownership_size,296,153.976,0.033783783783783786,47.2,,Reliability_2024.xlsx,861
+2024,14626,TX,"Pedernales Electric Coop, Inc",Cooperative,425109.0,57.443,57.443,406992.27145,state_ownership,32,197.13799999999998,0.03125,75.655,,Reliability_2024.xlsx,640
+2024,8034,OH,Hancock-Wood Electric Coop Inc,Cooperative,13523.0,34.99,80.38,7886.162833333334,ownership_size,296,153.976,0.030405405405405407,57.42,,Reliability_2024.xlsx,323
+2024,15477,NJ,Public Service Elec & Gas Co,Investor Owned,2534077.0,39.26,45.33,1658131.0503333332,ownership_size,33,110.39,0.030303030303030304,35.65,,Reliability_2024.xlsx,681
+2024,4390,CA,City of Corona - (CA),Municipal,1845.0,0.0,0.0,0.0,ownership_size,34,29.489,0.029411764705882353,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,176
+2024,19324,WI,Two Rivers Water & Light,Municipal,6198.0,0.0,89.2,0.0,ownership_size,34,29.489,0.029411764705882353,0.0,,Reliability_2024.xlsx,838
+2024,10056,WI,City of Kaukauna,Municipal,16534.0,6.634,229.469,1828.1092666666668,ownership_size,142,40.28,0.028169014084507043,4.0,,Reliability_2024.xlsx,401
+2024,14398,SC,Palmetto Electric Coop Inc,Cooperative,79619.0,31.7,630.7,42065.371666666666,ownership_size,296,153.976,0.02702702702702703,35.281,,Reliability_2024.xlsx,629
+2024,13679,MA,Town of North Attleborough - (MA),Municipal,13894.0,5.949,5.949,1377.5901000000001,ownership_size,142,40.28,0.02112676056338028,45.0,,Reliability_2024.xlsx,568
+2024,40165,UT,"Dixie Escalante R E A, Inc",Cooperative,29939.0,27.25,27.25,13597.295833333334,ownership_size,296,153.976,0.02027027027027027,34.9,,Reliability_2024.xlsx,951
+2024,24949,ND,Cass County Elec Coop Inc,Cooperative,58762.0,24.49,24.49,23984.689666666665,ownership_size,296,153.976,0.016891891891891893,23.32,,Reliability_2024.xlsx,934
+2024,15270,MD,Potomac Electric Power Co,Investor Owned,600103.0,46.445,65.478,464529.73058333335,ownership_size,71,112.0,0.014084507042253521,44.719,,Reliability_2024.xlsx,667
+2024,295,MN,City of Alexandria - (MN),Municipal,10692.0,3.962,3.962,706.0284,ownership_size,142,40.28,0.014084507042253521,,no_prior_valid_ieee_history;reporting_method_change,Reliability_2024.xlsx,17
+2024,11479,WI,Madison Gas & Electric Co,Investor Owned,166686.0,41.61,278.6,115596.741,ownership_size,72,109.785,0.013888888888888888,23.547,,Reliability_2024.xlsx,461
+2024,6443,FL,"Florida Keys El Coop Assn, Inc",Cooperative,34724.0,23.268,50.447,13465.967200000001,ownership_size,296,153.976,0.010135135135135136,28.995,,Reliability_2024.xlsx,266
+2024,20187,SD,Watertown Municipal Utilities,Municipal,14404.0,3.257,3.257,781.8971333333334,ownership_size,142,40.28,0.007042253521126761,7.418,,Reliability_2024.xlsx,879
+2024,1149,AL,Baldwin County El Member Corp,Cooperative,89946.0,20.076,127.573,30095.9316,ownership_size,296,153.976,0.006756756756756757,66.6,,Reliability_2024.xlsx,41
+2024,16196,IL,Rock Energy Cooperative,Cooperative,10558.0,15.78,17.56,2776.754,ownership_size,296,153.976,0.0033783783783783786,7.288,,Reliability_2024.xlsx,702
+2024,4110,IL,Commonwealth Edison Co,Investor Owned,4229904.0,35.62,131.9,2511153.008,ownership_size,33,110.39,0.0,35.04,,Reliability_2024.xlsx,161
+2024,15270,DC,Potomac Electric Power Co,Investor Owned,342495.0,26.363,32.582,150486.59475000002,ownership_size,71,112.0,0.0,33.251,,Reliability_2024.xlsx,666
+2024,5078,TX,"Denton County Elec Coop, Inc",Cooperative,319523.0,26.9,43.8,143252.81166666665,state_ownership,32,197.13799999999998,0.0,39.0,,Reliability_2024.xlsx,204
+2024,3916,GA,Cobb Electric Membership Corp,Cooperative,218807.0,35.12,60.41,128075.03066666666,state_ownership,24,161.94,0.0,32.98,,Reliability_2024.xlsx,152
+2024,24889,NC,Brunswick Electric Member Corp,Cooperative,112592.0,31.153,44.497,58459.64293333333,state_ownership,18,119.0135,0.0,25.505,,Reliability_2024.xlsx,933
+2024,13651,KY,Nolin Rural Electric Coop Corp,Cooperative,38164.0,56.08,199.626,35670.61866666667,state_ownership,20,171.96499999999997,0.0,60.44,,Reliability_2024.xlsx,565
+2024,25177,MN,Dakota Electric Association,Cooperative,116395.0,17.4,25.45,33754.549999999996,state_ownership,23,67.965,0.0,19.21,,Reliability_2024.xlsx,935
+2024,2001,MO,Boone Electric Coop,Cooperative,35400.0,50.27,125.34,29659.3,state_ownership,15,132.88,0.0,49.67,,Reliability_2024.xlsx,69
+2024,9778,IN,Johnson County Rural E M C,Cooperative,31310.0,27.617,123.205,14411.471166666666,state_ownership,20,166.43099999999998,0.0,27.263,,Reliability_2024.xlsx,391
+2024,14245,NV,Overton Power District No 5,Political Subdivision,18539.0,20.74,157.98,6408.314333333333,ownership,22,80.025,0.0,20.216,,Reliability_2024.xlsx,613
+2024,12186,TN,McMinnville Electric System,Municipal,8284.0,15.858,30.74,2189.4611999999997,state_ownership,28,113.3245,0.0,9.61,,Reliability_2024.xlsx,478
+2024,6169,ID,Fall River Rural Elec Coop Inc,Cooperative,18225.0,6.78,8.59,2059.425,ownership_size,296,153.976,0.0,8.232,,Reliability_2024.xlsx,247
+2024,18336,WI,Superior Water and Light Co,Investor Owned,14817.0,7.18,22.44,1773.1009999999999,ownership_size,28,118.235,0.0,17.0,,Reliability_2024.xlsx,804
+2024,2144,MA,Town of Braintree - (MA),Municipal,16598.0,2.53,2.53,699.8823333333332,ownership_size,142,40.28,0.0,5.82,,Reliability_2024.xlsx,76
+2024,6169,MT,Fall River Rural Elec Coop Inc,Cooperative,2080.0,7.66,16.53,265.5466666666667,ownership_size,34,85.574,0.0,10.786,,Reliability_2024.xlsx,248
+2024,6169,WY,Fall River Rural Elec Coop Inc,Cooperative,408.0,15.82,15.82,107.57600000000001,ownership_size,34,85.574,0.0,15.168,,Reliability_2024.xlsx,249
+2024,19545,WY,"Black Hills Power, Inc.",Investor Owned,2593.0,2.175,2.175,93.99624999999999,ownership,140,109.75999999999999,0.0,4.85,,Reliability_2024.xlsx,853

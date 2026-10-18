@@ -1,0 +1,54 @@
+{
+  "artifact_sha256": {
+    "executive_memo.md": "68efbcb1d25b697fc2451bc06d5611b47862afaec14975bde1b4f7e9a5825b74",
+    "heldout_2025_evaluation.csv": "114f4c9ced652170f6270b1d7b2ad3db870f60582934f8bb74b055804524c2a7",
+    "metrics.json": "79ed1b414d131ffebe461bce8e15bf81b14541b6a8d88abc06d19c60e1f283e1",
+    "model_selection_2023.csv": "6e61106f8064c3be96923fd70200b54c1664e313cb43aff1b24f0f9e44d7f0be",
+    "predictive_evidence.png": "53d2ce13d0577fe422e0a7833e86830ab0dfc27711d3514edbf902329d4a4c4d",
+    "predictive_evidence.svg": "36fe8f62669986eb3cf72be6a4821b540f9f0bd472e97c25e204bd42ea3c7823",
+    "published_state_reconciliation.csv": "18cd1f15fa13f78c24fcd263d55cec0ca01b82d02bcaba3efc0c5b2639a29ef0",
+    "release_reconciliation.svg": "9f207e71330232e2f121eacb5fa80430218d48b6ae9425871ed8c0cd9504ede4",
+    "reliability.sqlite": "66b62d5c8b8e1fc2b952dc6c21050f9780510b89e89423d85682c529d993d3cc",
+    "report.html": "c61a601b589c907ba1ac9138a323fd438948b719867f67cabebc22c30271c585",
+    "report_year_predictions.csv": "295a4867cc9ab6f2040393d54852f260b0831d37258dbd1fb4cb9310bbdee1a1",
+    "reporting_quality.csv": "41835c9755c2475ff7238369d3f1eea4f4c6b192a8246873039e9b96062e781d",
+    "state_weighted_reliability.csv": "e23a44e259237ff60c2c1d6b7bdef1b07d89b2696f17ee87ccd459b1d0c89637",
+    "texas_break_even_scenarios.csv": "41d80b5b584bb55a641e6f88a744ccfd79970923d7f17651f558a2ec550ecc7a",
+    "utility_due_diligence.csv": "add07a7e8ec1cf998706ea3db070548c7065b299cf9167a394ef15abaf4780c1",
+    "workbench.html": "cea29e0fc38006a140c51d3accc9cf14563357a26bbdb0c921c90ae68e58304f"
+  },
+  "decision_gates": {
+    "accepted_view": 2024,
+    "predictive_promotion": false,
+    "quarantined_release": 2025,
+    "unresolved_state_reconciliations": 26
+  },
+  "review_limits": [
+    "Browser visual testing of local HTML was blocked by the browser URL policy; it is not claimed.",
+    "2025 discrepancies remain unexplained, and that release is excluded from decision inputs.",
+    "Three automated stages are not independent external validation."
+  ],
+  "stage_1": {
+    "checks": [
+      "Six official workbooks hash-verified",
+      "11,552 normalized rows independently compared to original cells",
+      "Unique utility/state/year/standard key; missing is never zero"
+    ],
+    "status": "PASS"
+  },
+  "stage_2": {
+    "checks": [
+      "16 numerical, leakage, peer exclusion, quarantine, API and HTTP tests",
+      "All state SQL totals independently recomputed",
+      "Report-year cutoffs and held-out weighted error verified"
+    ],
+    "status": "PASS"
+  },
+  "stage_3": {
+    "checks": [
+      "All derived artifacts deleted and rebuilt byte-identically",
+      "SVG XML and offline workbench structure checked"
+    ],
+    "status": "PASS"
+  }
+}
