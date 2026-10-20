@@ -9,6 +9,6 @@ test_scenario_grid_reconciles_and_has_downside (test_pipeline.Accounting.test_sc
 test_ytd_flags_and_cohort_partition (test_pipeline.Accounting.test_ytd_flags_and_cohort_partition) ... ok
 
 ----------------------------------------------------------------------
-Ran 9 tests in 1.845s
+Ran 9 tests in 1.990s
 
 OK

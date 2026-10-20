@@ -20,7 +20,7 @@ python -m pip install -r ../requirements.txt
 python ../collect.py --project airline-delay-intervention-screen
 python pipeline.py
 python verify.py
-python -m http.server 8765 --directory outputs
+python ../serve.py --project airline-delay-intervention-screen
 ```
 
 Open **http://127.0.0.1:8765/app.html**. The workbench filters carrier/airport sites, changes the investigation cap and policy, exposes missing diagnostic coverage, and prices explicitly hypothetical pilot assumptions. It validates inputs, recovers from errors, handles empty searches and resets to the published policy. It also works as a downloaded `app.html` plus `app.js` without a server. No public live hosting is claimed.

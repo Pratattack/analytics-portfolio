@@ -40,6 +40,7 @@ def output_review(folder):
 def hashes(folder):return {p.name:digest(p) for p in sorted(folder.iterdir()) if p.is_file()}
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--project',choices=PROJECTS);args=parser.parse_args();results={}
+    subprocess.run([sys.executable,'-m','unittest','-v','test_server.py'],cwd=BASE,check=True)
     env=dict(os.environ,PYTHONHASHSEED='0',MPLCONFIGDIR=str(Path(tempfile.gettempdir())/'portfolio-mpl'))
     for name in [args.project] if args.project else PROJECTS:
         project=BASE/name;checks=sources(project)

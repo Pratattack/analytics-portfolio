@@ -20,7 +20,7 @@ python -m pip install -r ../requirements.txt
 python ../collect.py --project bank-deposit-cost-attribution
 python pipeline.py
 python verify.py
-python -m http.server 8765 --directory outputs
+python ../serve.py --project bank-deposit-cost-attribution
 ```
 
 Open **http://127.0.0.1:8765/app.html**. The workbench separates observed research from a generic hypothetical repricing calculator. Change target balance/share, rate cut, attrition, replacement funding cost and fixed cost; inspect downside and break-even attrition. An asset-bucket filter applies only to the 20-bank review queue, clearly labeled separately from the 4,018-bank cohort. Input errors, recovery, filters and reset are tested in browser CI. No public live hosting is claimed.

@@ -9,6 +9,6 @@
 | Size-only peers | Product and business-model differences remain | Add bank specialization and funding structure with verified definitions |
 | No historical release vintages | Cannot claim a decision-date backtest | Preserve actual historical releases before prospective research |
 | No empirical retention elasticity | Hypothetical savings cannot be booked | Product/treasury teams run approved account-level tests and monitor liquidity guardrails |
-| Full browser rendering unavailable | Static HTML appearance still needs local browser review | Reviewer opens report; source links, figure rasterization and content were checked |
+| Local browser runtime unavailable | Acceptance is controlled by the separate multi-engine CI job | Inspect actual CI results/screenshots; physical-device and assistive-technology certification remain out of scope |
 
 Suggested project handoff: research analyst assembles the fact base; finance/accounting validates expense definitions; treasury defines alternatives and liquidity limits; coordinator assigns owners, dates and evidence; sponsor decides whether to authorize a limited test. These are proposed workstream responsibilities, not actual experience claims.

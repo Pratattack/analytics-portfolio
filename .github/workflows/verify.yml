@@ -130,5 +130,5 @@ jobs:
           if gh release view "$snapshot_tag" >/dev/null 2>&1; then
             echo "Existing snapshot retained; no files overwritten."
           else
-            gh release create "$snapshot_tag" projects/2026-10-19/release_bundle.zip --target "$GITHUB_SHA" --title "Verified economics and airline research snapshot" --notes "Official public source observations, complete outputs, offline interactive workbenches and 24 passing browser cases. See SNAPSHOT_MANIFEST.json for member hashes and exact commit. No employer data, hosted service or causal effect is claimed."
+            gh release create "$snapshot_tag" projects/2026-10-19/release_bundle.zip projects/2026-10-19/browser_evidence/airline-delay-intervention-screen-chromium-desktop-app.png projects/2026-10-19/browser_evidence/bank-deposit-cost-attribution-chromium-desktop-app.png --target "$GITHUB_SHA" --title "Verified economics and airline research snapshot" --notes "Official public source observations, complete outputs, offline interactive workbenches and 24 passing browser cases. See SNAPSHOT_MANIFEST.json for member hashes and exact commit. Application screenshots are also attached separately. No employer data, hosted service or causal effect is claimed."
           fi

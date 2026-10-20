@@ -49,7 +49,7 @@ def build_application(project, output, kind):
 </style></head><body><main><header><p>Independent portfolio research · source cutoff October 19, 2026</p><h1>''' + title + '''</h1><p>''' + description + '''</p></header>
 <section><h2>Observed research result</h2><p id="observed"></p><p class="note">These empirical findings are separate from all scenario assumptions below.</p></section>
 <section><h2>Explore the decision</h2><form id="controls" novalidate><div class="controls">''' + controls + '''</div><button id="reset" type="reset">Reset assumptions</button></form><p id="error" role="alert" class="error"></p></section>
-<section><h2>Decision output</h2><div id="results" aria-live="polite"></div><p id="status" role="status"></p><div class="scroll"><table><thead id="head"></thead><tbody id="body"></tbody></table></div></section>
+<section><h2>Decision output</h2><div id="results" aria-live="polite"></div><p id="status" role="status"></p><p class="note">On a narrow screen, swipe or scroll the table horizontally to see all columns.</p><div class="scroll"><table><thead id="head"></thead><tbody id="body"></tbody></table></div></section>
 <footer><a href="report.html">Read the evidence report</a> · <a href="executive_memo.md">Executive memo</a><p class="note">Python/SQL source and complete exports are reproduced with the documented pipeline. No live business savings, deployment approval or employer experience is claimed.</p></footer></main>
 <script type="application/json" id="data">''' + payload + '''</script><script src="app.js"></script></body></html>'''
     (output / 'app.html').write_text(document)

@@ -7,6 +7,6 @@ test_single_carrier_and_sparse_peers_rejected (test_pipeline.Methods.test_single
 test_source_lineage_and_independent_peer_reconciliation (test_pipeline.Methods.test_source_lineage_and_independent_peer_reconciliation) ... ok
 
 ----------------------------------------------------------------------
-Ran 7 tests in 2.875s
+Ran 7 tests in 2.849s
 
 OK

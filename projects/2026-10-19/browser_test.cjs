@@ -21,7 +21,9 @@ async function main() {
       const requested = path.resolve(base, '.' + decodeURIComponent(new URL(req.url, 'http://localhost').pathname));
       if (!requested.startsWith(base + path.sep)) {res.writeHead(403).end(); return;}
       const bytes = await fs.readFile(requested);
-      res.writeHead(200, {'Content-Type':mime[path.extname(requested)] || 'application/octet-stream'});
+      const type=mime[path.extname(requested)] || 'application/octet-stream';
+      const text=type.startsWith('text/') || ['application/json','image/svg+xml'].includes(type);
+      res.writeHead(200, {'Content-Type':type+(text?'; charset=utf-8':'')});
       res.end(req.method === 'HEAD' ? undefined : bytes);
     } catch {res.writeHead(404).end();}
   });

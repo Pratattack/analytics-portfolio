@@ -9,6 +9,6 @@
 | Sparse sites and disappearing cohort members | Coverage/selection bias | Review coverage counts and full-year operating footprints |
 | No intervention estimates or real cost ledger | No defensible ROI approval | Operations owner validates pilot mechanism; finance supplies incremental costs |
 | Multiple carrier-airport investigation owners | No single operator can implement all changes | Diligence sponsor secures separate access and operational counterparts |
-| Browser download failed | Full HTML browser appearance unverified | Reviewer opens static report locally; figure/structure reviews are documented |
+| Local browser runtime unavailable | Acceptance is controlled by the separate multi-engine CI job | Inspect actual CI results/screenshots; physical-device and assistive-technology certification remain out of scope |
 
 Suggested handoff: research analyst validates source and shortlist; operations partner checks feasibility; finance reviews incremental costs; project coordinator assigns owners and records evidence; sponsor decides whether to commission a controlled pilot. These are proposed roles, not actual stakeholder participation.
