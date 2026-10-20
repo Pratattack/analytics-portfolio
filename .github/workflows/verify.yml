@@ -96,3 +96,39 @@ jobs:
           name: october19-browser-evidence
           path: projects/2026-10-19/browser_evidence/
           retention-days: 30
+
+  october19-public-snapshot:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    needs: [october19-empirical-research, october19-browser-acceptance]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install declared dependencies
+        run: python -m pip install -r projects/2026-10-19/requirements.txt
+      - name: Recreate fingerprint-verified source observations and outputs
+        run: |
+          python projects/2026-10-19/collect.py
+          python projects/2026-10-19/airline-delay-intervention-screen/pipeline.py
+          python projects/2026-10-19/bank-deposit-cost-attribution/pipeline.py
+      - uses: actions/download-artifact@v4
+        with:
+          name: october19-browser-evidence
+          path: projects/2026-10-19/browser_evidence
+      - name: Package only this commit's public data, applications and passing browser evidence
+        run: python projects/2026-10-19/package_release.py
+      - name: Publish an immutable commit-specific public snapshot
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          snapshot_tag="research-2026-10-19-${GITHUB_SHA:0:12}"
+          if gh release view "$snapshot_tag" >/dev/null 2>&1; then
+            echo "Existing snapshot retained; no files overwritten."
+          else
+            gh release create "$snapshot_tag" projects/2026-10-19/release_bundle.zip --target "$GITHUB_SHA" --title "Verified economics and airline research snapshot" --notes "Official public source observations, complete outputs, offline interactive workbenches and 24 passing browser cases. See SNAPSHOT_MANIFEST.json for member hashes and exact commit. No employer data, hosted service or causal effect is claimed."
+          fi

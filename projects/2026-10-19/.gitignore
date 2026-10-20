@@ -5,6 +5,7 @@ artifact_parts.json
 assemble.py
 PACKAGING.md
 browser_evidence/
+release_bundle.zip
 */data/raw/
 */data/observed_provenance.json
 */outputs/source_audited_*.csv*
