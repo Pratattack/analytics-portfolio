@@ -50,3 +50,49 @@ jobs:
         run: python -m pip install -r requirements.txt
       - name: Verify pinned sources, data gates, methods, API and reproducibility
         run: python verify.py
+
+  october19-empirical-research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: projects/2026-10-19/requirements.txt
+      - name: Install declared static-figure dependencies
+        run: python -m pip install -r projects/2026-10-19/requirements.txt
+      - name: Verify pinned sources, independent methods, clean rebuilds and static outputs
+        run: python projects/2026-10-19/verify_all.py
+
+  october19-browser-acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install declared analysis dependencies
+        run: python -m pip install -r projects/2026-10-19/requirements.txt
+      - name: Collect fingerprint-pinned official observations and build applications
+        run: |
+          python projects/2026-10-19/collect.py
+          python projects/2026-10-19/airline-delay-intervention-screen/pipeline.py
+          python projects/2026-10-19/bank-deposit-cost-attribution/pipeline.py
+      - name: Install pinned browser test runtime
+        run: npm install --prefix .browser-runner playwright@1.56.1
+      - name: Install Chromium, Firefox and WebKit
+        run: ./.browser-runner/node_modules/.bin/playwright install --with-deps chromium firefox webkit
+      - name: Test both reports on desktop and mobile in all three engines
+        run: NODE_PATH="$PWD/.browser-runner/node_modules" node projects/2026-10-19/browser_test.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: october19-browser-evidence
+          path: projects/2026-10-19/browser_evidence/
+          retention-days: 30

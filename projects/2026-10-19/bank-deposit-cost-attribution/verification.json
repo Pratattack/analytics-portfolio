@@ -1,0 +1,87 @@
+{
+  "browser_acceptance": "Separate october19-browser-acceptance CI job; consult its actual result at this commit.",
+  "human_visual_review": "See VISUAL_REVIEW.md for actual chart inspection and browser limitation.",
+  "metrics": {
+    "baseline_date": "20250630",
+    "baseline_expense_thousand_usd": 83914846.0,
+    "baseline_gap_thousand_usd": -10562883.247175943,
+    "change_thousand_usd": -5011754.0,
+    "comparison_date": "20260630",
+    "comparison_expense_thousand_usd": 78903092.0,
+    "constant_mix_rate_baseline_expense_thousand_usd": 89465975.24717595,
+    "latest_banks_excluded": 220,
+    "latest_total_deposits_trillion_usd": 20.722282664,
+    "latest_universe_institutions": 4238,
+    "matched_before_growth_screen": 4180,
+    "matched_screened_banks": 4018,
+    "median_proxy_rate": 0.022570988510977594,
+    "method": "exact six-order Shapley accounting decomposition; endpoint-average proxy rate; not causal",
+    "mix_contribution_thousand_usd": 56550.841145229504,
+    "proxy_rate_contribution_thousand_usd": -10309985.622973423,
+    "quarterly_YTD_or_contract_flags": 89,
+    "quarterly_proxies": 43875,
+    "residual_thousand_usd": 5.89031178867272e-10,
+    "scope": "DIF insured institutions excluding foreign branches; domestic deposit expense; nominal USD",
+    "screened_latest_domestic_deposit_coverage_pct": 90.96365243974938,
+    "source_rows": 48814,
+    "unscreened_change_thousand_usd": -3809613.0,
+    "volume_contribution_thousand_usd": 5241680.781828194
+  },
+  "publication_gate": "ANALYTICAL_PASS_BROWSER_CI_REQUIRED",
+  "regenerated_hashes": {
+    "app.html": "a63c9bbfbb9368e5406e9766e1519af540de5ecc4cd76891f1708cd85419aab2",
+    "app.js": "d96a38a38dc811e3e6495af3b213037c52659e24365cb427b89ad4a53d332abe",
+    "bank_cost_bridge.csv": "c2c52a1faf3e74a2eee604d5480f26e4fa1df5b73c3fc2c9ffc1c29b573e67ba",
+    "cohort_exclusions.csv": "4acd36b2d5f321a35bc3095a8afefbd17c2287bbc40ca953311e245171f74456",
+    "cost_bridge.png": "f0ab283a732e8c6f93301a122513801ac8501f4b2b954f054cf77e85cea8a664",
+    "cost_bridge.svg": "4246596da6e75fef36e3ed928f37446164b94aecf4c64d67ec5598375361cab0",
+    "executive_memo.md": "f0516f1d085648387ce0b21f5e3b1e126753652d63f9539ebc7500ce3403e0a9",
+    "industry_totals.csv": "0d63ef1c7d858d483eed49219d9588985136c2d3717558f93307f19b9ac5d13a",
+    "metrics.json": "f230b102e0b932021d976c134a11e07e9e2fbb27213ef479a5b0c6bad4fcf6b6",
+    "quarterly_flags.csv": "37a600e74524c58c2c2307fc25597e7f3338d665f169e8d9dafe2fd3781f33ea",
+    "quarterly_history.csv": "7408ce86d0d2f405b1c23db3574172c45bd8648fea554162ffcca5b5b9a0080d",
+    "report.html": "25131bce3d1901b61245dce3a4e40076fc9285da2ec5fa59169384fd2914fa6f",
+    "retention_scenarios.csv": "ccbab06c4f557c9718eac7b78630513f57b60f08f0f167ada960718874db13dc",
+    "review_queue.csv": "f8d9e8d37bc79b4960a4d7cbe0370455eb09a8b55ba322ff330538b1840b2845",
+    "source_audited_quarterly_panel.csv.gz": "121112135df58db334e2d45f323f98889aafc1479fcb4c9e2d325a27808347a7",
+    "structural_break_sensitivity.csv": "39c5b479376f506824f103cd244a57c5639b12b5c5355f32e74cacc4be114c50",
+    "unscreened_bridge.csv": "9fc359ba090493dd90d31b995deea5b23d7328d1cc8ad3def1f68e8793bfe75f"
+  },
+  "source_cutoff": "2026-10-19",
+  "stage_1": {
+    "checks": [
+      "source archive and decompressed hashes",
+      "complete API counts / BTS monthly coverage",
+      "unique natural keys",
+      "numeric and accounting contracts",
+      "explicit quarantines, no missing-to-zero imputation"
+    ],
+    "source_hash_checks": 12,
+    "status": "PASS"
+  },
+  "stage_2": {
+    "checks": [
+      "hand-worked numerical cases",
+      "independent source-lineage audits of every analytical row",
+      "independent SQL/aggregation reconciliation",
+      "independent closed-form or exhaustive oracle",
+      "scenario downside and boundary cases"
+    ],
+    "status": "PASS",
+    "test_log": "test_results.txt"
+  },
+  "stage_3": {
+    "checks": [
+      "two isolated output directories, fresh Python processes, no network",
+      "all regenerated artifacts byte-identical across clean builds",
+      "published numerical/text outputs match regenerated values",
+      "HTML local-link/alt-text checks; SVG XML and PNG decoding"
+    ],
+    "review": {
+      "figures_checked": 1,
+      "local_links_checked": 6,
+      "report_type": "static offline HTML; no interactive controls or browser-dependent code"
+    },
+    "status": "PASS"
+  }
+}

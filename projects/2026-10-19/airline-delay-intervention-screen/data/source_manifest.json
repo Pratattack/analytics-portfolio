@@ -1,0 +1,15 @@
+{
+  "retrieved_utc": "2026-10-19",
+  "url": "https://www.transtats.bts.gov/ot_delay/ot_delaycause1_DL.aspx?8n4=9ur4r+Brn4z106u+or69rr0+FHFLM+NaQ+FHGFD",
+  "publisher": "US DOT Bureau of Transportation Statistics",
+  "requested_months": [
+    "2024-01",
+    "2026-08"
+  ],
+  "files": {
+    "bts_export.zip": "3e48979c52fcd3eb31c46b741d35e4da089363e79c6040cc42450de91d3207a3"
+  },
+  "rights": "US federal government statistical data; attribute BTS. Original code MIT.",
+  "vintage": "Snapshot retrieved 2026-10-19; prior release vintages not reconstructed.",
+  "uncompressed_csv_sha256": "0b864185b9dc040d785124241b18c890d11ede4492a97a0ad4fb0c3854e33cba"
+}

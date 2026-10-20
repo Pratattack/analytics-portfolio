@@ -1,0 +1,17 @@
+{
+  "discovery_year": 2024,
+  "validation_year": 2025,
+  "diagnostic_year": 2026,
+  "months": [1,2,3,4,5,6,7,8],
+  "minimum_peer_carriers": 3,
+  "minimum_peer_flights": 1000,
+  "minimum_site_months": 6,
+  "minimum_site_flights": 1000,
+  "investigation_slots": 10,
+  "maximum_per_airport": 2,
+  "delay_minutes_reconciliation_tolerance": 1.0,
+  "cause_count_reconciliation_tolerance": 0.031,
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 1901,
+  "scenario": {"cost_per_minute_usd": 60, "recoverable_fraction": 0.1, "investigation_cost_per_site_usd": 100000}
+}

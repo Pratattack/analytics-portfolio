@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+data/raw/*.json
+data/raw/*.yaml
+data/raw/Airline_Delay_Cause.csv
+outputs/source_audited_peer_rows.csv
+outputs/source_audited_quarterly_panel.csv

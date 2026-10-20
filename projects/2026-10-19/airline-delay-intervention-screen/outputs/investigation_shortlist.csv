@@ -1,0 +1,11 @@
+rank,carrier,airport,discovery_excess_minutes,diagnostic_months,diagnostic_flights,diagnostic_excess_minutes,status
+1,AA,CLT,289534.68948398426,8,75411.0,126228.85291514063,needs_operational_review
+2,AA,DFW,283570.672616569,8,111046.0,309821.3126357265,needs_operational_review
+3,AA,PHX,167133.53462576843,8,38393.0,128433.56600597779,needs_operational_review
+4,OO,DTW,145939.0740539284,8,19145.0,218906.09891126788,needs_operational_review
+5,AA,MIA,140300.39728434058,8,44292.0,98917.06585489087,needs_operational_review
+6,OO,ORD,127923.0908386699,8,53972.0,336396.22422921914,needs_operational_review
+7,OO,DEN,124528.71275968208,8,50223.0,170089.13427100502,needs_operational_review
+8,AA,PHL,99760.60383591607,8,31650.0,62274.028073779395,needs_operational_review
+9,OO,MSP,97375.71235746291,8,19822.0,130012.77292964583,needs_operational_review
+10,B6,JFK,79235.39003617143,8,23933.0,35348.24447037356,needs_operational_review

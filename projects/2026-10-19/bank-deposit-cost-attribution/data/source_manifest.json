@@ -1,0 +1,135 @@
+{
+  "retrieved_utc": "2026-10-19",
+  "publisher": "Federal Deposit Insurance Corporation",
+  "rights": "US government public statistical data; attribute FDIC. Original code MIT.",
+  "vintage": "2026-10-19 API snapshot; not original historical release vintages.",
+  "files": [
+    {
+      "file": "20231231.json.gz",
+      "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20231231+AND+INSAGNT1%3ADIF+AND+NOT+BKCLASS%3AOI&fields=CERT%2CNAME%2CSTALP%2CREPDTE%2CASSET%2CDEPDOM%2CDEPNIDOM%2CEDEPDOM%2CEDEPDOMQ%2CNETINCQ%2CDEPUNINS%2CDEP%2CDEPNI%2CEDEP%2CBKCLASS%2CINSAGNT1&sort_by=CERT&sort_order=ASC&limit=10000&format=json",
+      "sha256": "52654c588cc5b10c7a7ce1d93f7125f3b012407a0a3b9ec1b11235b408486625",
+      "rows": 4587,
+      "index": {
+        "name": "risview_20260819185831",
+        "createTimestamp": "2026-08-19T18:58:33Z"
+      },
+      "uncompressed_sha256": "eabd8974c8180938544758ea9f6c34843e9c622e26ba6ada9c916c1686518858"
+    },
+    {
+      "file": "20240331.json.gz",
+      "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20240331+AND+INSAGNT1%3ADIF+AND+NOT+BKCLASS%3AOI&fields=CERT%2CNAME%2CSTALP%2CREPDTE%2CASSET%2CDEPDOM%2CDEPNIDOM%2CEDEPDOM%2CEDEPDOMQ%2CNETINCQ%2CDEPUNINS%2CDEP%2CDEPNI%2CEDEP%2CBKCLASS%2CINSAGNT1&sort_by=CERT&sort_order=ASC&limit=10000&format=json",
+      "sha256": "c68c55cdb065e2ad9fc369e845d17fdeace8c5eb5e74feb26b74a3c6bf354590",
+      "rows": 4568,
+      "index": {
+        "name": "risview_20260819185831",
+        "createTimestamp": "2026-08-19T18:58:33Z"
+      },
+      "uncompressed_sha256": "10e45bd115f34ad83ed41cd324131c93391bf462092202f686be9d7bbac0836e"
+    },
+    {
+      "file": "20240630.json.gz",
+      "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20240630+AND+INSAGNT1%3ADIF+AND+NOT+BKCLASS%3AOI&fields=CERT%2CNAME%2CSTALP%2CREPDTE%2CASSET%2CDEPDOM%2CDEPNIDOM%2CEDEPDOM%2CEDEPDOMQ%2CNETINCQ%2CDEPUNINS%2CDEP%2CDEPNI%2CEDEP%2CBKCLASS%2CINSAGNT1&sort_by=CERT&sort_order=ASC&limit=10000&format=json",
+      "sha256": "2eb30c28ab5880127002f3214b13e547aec1178397a1079c8c265d381b909e9f",
+      "rows": 4538,
+      "index": {
+        "name": "risview_20260819185831",
+        "createTimestamp": "2026-08-19T18:58:33Z"
+      },
+      "uncompressed_sha256": "08351606aae6734dabcc4822d5490db48185e4eee1413998350f024c615b7511"
+    },
+    {
+      "file": "20240930.json.gz",
+      "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20240930+AND+INSAGNT1%3ADIF+AND+NOT+BKCLASS%3AOI&fields=CERT%2CNAME%2CSTALP%2CREPDTE%2CASSET%2CDEPDOM%2CDEPNIDOM%2CEDEPDOM%2CEDEPDOMQ%2CNETINCQ%2CDEPUNINS%2CDEP%2CDEPNI%2CEDEP%2CBKCLASS%2CINSAGNT1&sort_by=CERT&sort_order=ASC&limit=10000&format=json",
+      "sha256": "3f0a41507525d97bc1927b95058d277ace26237dfb6673fc50938f987ccafc5d",
+      "rows": 4517,
+      "index": {
+        "name": "risview_20260819185831",
+        "createTimestamp": "2026-08-19T18:58:33Z"
+      },
+      "uncompressed_sha256": "0428cda9d8ccfa928789961105eb92a003239137205c5a21c5755b1ea516c858"
+    },
+    {
+      "file": "20241231.json.gz",
+      "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20241231+AND+INSAGNT1%3ADIF+AND+NOT+BKCLASS%3AOI&fields=CERT%2CNAME%2CSTALP%2CREPDTE%2CASSET%2CDEPDOM%2CDEPNIDOM%2CEDEPDOM%2CEDEPDOMQ%2CNETINCQ%2CDEPUNINS%2CDEP%2CDEPNI%2CEDEP%2CBKCLASS%2CINSAGNT1&sort_by=CERT&sort_order=ASC&limit=10000&format=json",
+      "sha256": "e300b0b5e823dd71565b9c9651791434b466ca27be0cf6a24d9e1a1392d3676a",
+      "rows": 4487,
+      "index": {
+        "name": "risview_20260819185831",
+        "createTimestamp": "2026-08-19T18:58:33Z"
+      },
+      "uncompressed_sha256": "3196850a8318a35dfed8fa4f4f493f26f6f8d8d9acba681aa588dce2050d374d"
+    },
+    {
+      "file": "20250331.json.gz",
+      "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20250331+AND+INSAGNT1%3ADIF+AND+NOT+BKCLASS%3AOI&fields=CERT%2CNAME%2CSTALP%2CREPDTE%2CASSET%2CDEPDOM%2CDEPNIDOM%2CEDEPDOM%2CEDEPDOMQ%2CNETINCQ%2CDEPUNINS%2CDEP%2CDEPNI%2CEDEP%2CBKCLASS%2CINSAGNT1&sort_by=CERT&sort_order=ASC&limit=10000&format=json",
+      "sha256": "be3d96777ab2ba5efa359266fc7372fc63a5127274f44d5a2b24c010aa1db7b0",
+      "rows": 4462,
+      "index": {
+        "name": "risview_20260819185831",
+        "createTimestamp": "2026-08-19T18:58:33Z"
+      },
+      "uncompressed_sha256": "60ff46186b671f868e8fd821d93588bd688e73b84cebe28cf874ccbaad71d357"
+    },
+    {
+      "file": "20250630.json.gz",
+      "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20250630+AND+INSAGNT1%3ADIF+AND+NOT+BKCLASS%3AOI&fields=CERT%2CNAME%2CSTALP%2CREPDTE%2CASSET%2CDEPDOM%2CDEPNIDOM%2CEDEPDOM%2CEDEPDOMQ%2CNETINCQ%2CDEPUNINS%2CDEP%2CDEPNI%2CEDEP%2CBKCLASS%2CINSAGNT1&sort_by=CERT&sort_order=ASC&limit=10000&format=json",
+      "sha256": "9464b94535d2e82b27a4c9308eb429e4afbe6ec24b33b9e72e9c6d9d2bcf31cf",
+      "rows": 4421,
+      "index": {
+        "name": "risview_20260819185831",
+        "createTimestamp": "2026-08-19T18:58:33Z"
+      },
+      "uncompressed_sha256": "6048756eebfff74fd8f2cfb6bf9ec4e4a866fa0d25b16627c11196835e06fb50"
+    },
+    {
+      "file": "20250930.json.gz",
+      "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20250930+AND+INSAGNT1%3ADIF+AND+NOT+BKCLASS%3AOI&fields=CERT%2CNAME%2CSTALP%2CREPDTE%2CASSET%2CDEPDOM%2CDEPNIDOM%2CEDEPDOM%2CEDEPDOMQ%2CNETINCQ%2CDEPUNINS%2CDEP%2CDEPNI%2CEDEP%2CBKCLASS%2CINSAGNT1&sort_by=CERT&sort_order=ASC&limit=10000&format=json",
+      "sha256": "15c8b4abb83c2dddfeb601a4ae587b864c8c421c1d6189380781e4b730f87c81",
+      "rows": 4379,
+      "index": {
+        "name": "risview_20260819185831",
+        "createTimestamp": "2026-08-19T18:58:33Z"
+      },
+      "uncompressed_sha256": "bd77109a92919b38469b7d397f9504a76cbc01f79b401e193df93c2108f6cbc2"
+    },
+    {
+      "file": "20251231.json.gz",
+      "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20251231+AND+INSAGNT1%3ADIF+AND+NOT+BKCLASS%3AOI&fields=CERT%2CNAME%2CSTALP%2CREPDTE%2CASSET%2CDEPDOM%2CDEPNIDOM%2CEDEPDOM%2CEDEPDOMQ%2CNETINCQ%2CDEPUNINS%2CDEP%2CDEPNI%2CEDEP%2CBKCLASS%2CINSAGNT1&sort_by=CERT&sort_order=ASC&limit=10000&format=json",
+      "sha256": "b71a63ede15bbfeb6a7092dde399e7e698edd7b82e944e0d61700b80e7a54ad9",
+      "rows": 4338,
+      "index": {
+        "name": "risview_20260819185831",
+        "createTimestamp": "2026-08-19T18:58:33Z"
+      },
+      "uncompressed_sha256": "84b42a200e9318a05e0afc97a5f75051c7d8e7e2eb0d3454ef8e49b1a0e1be24"
+    },
+    {
+      "file": "20260331.json.gz",
+      "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20260331+AND+INSAGNT1%3ADIF+AND+NOT+BKCLASS%3AOI&fields=CERT%2CNAME%2CSTALP%2CREPDTE%2CASSET%2CDEPDOM%2CDEPNIDOM%2CEDEPDOM%2CEDEPDOMQ%2CNETINCQ%2CDEPUNINS%2CDEP%2CDEPNI%2CEDEP%2CBKCLASS%2CINSAGNT1&sort_by=CERT&sort_order=ASC&limit=10000&format=json",
+      "sha256": "2c6faea0bfd7eb76f58e5e01b1498ed2c0cb2a459d37b04a3316d3e3ee4649a3",
+      "rows": 4279,
+      "index": {
+        "name": "risview_20260819185831",
+        "createTimestamp": "2026-08-19T18:58:33Z"
+      },
+      "uncompressed_sha256": "ed583473a37ab33994c724f1f7574f42e1865607396edb49f0bf6032edf91a20"
+    },
+    {
+      "file": "20260630.json.gz",
+      "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20260630+AND+INSAGNT1%3ADIF+AND+NOT+BKCLASS%3AOI&fields=CERT%2CNAME%2CSTALP%2CREPDTE%2CASSET%2CDEPDOM%2CDEPNIDOM%2CEDEPDOM%2CEDEPDOMQ%2CNETINCQ%2CDEPUNINS%2CDEP%2CDEPNI%2CEDEP%2CBKCLASS%2CINSAGNT1&sort_by=CERT&sort_order=ASC&limit=10000&format=json",
+      "sha256": "61fa8b6aad7882139201b7cd3d59705564079c62941a8d96035ffa7565579b36",
+      "rows": 4238,
+      "index": {
+        "name": "risview_20260819185831",
+        "createTimestamp": "2026-08-19T18:58:33Z"
+      },
+      "uncompressed_sha256": "12f68fbc324ae29267795128566c78bb16d7762639a4cc65ab6d0357772321a4"
+    },
+    {
+      "file": "risview_properties.yaml.gz",
+      "url": "https://api.fdic.gov/banks/docs/risview_properties.yaml",
+      "sha256": "d5a4a37c9a9fb97aa0dbaa5993fbf13a38503266a1eccd56e9bbbc380de469ff",
+      "uncompressed_sha256": "b257457e4e821d6a0d9f88ffc4e6e0da80e4ccf67fa394cadb21587b50b23d59"
+    }
+  ]
+}

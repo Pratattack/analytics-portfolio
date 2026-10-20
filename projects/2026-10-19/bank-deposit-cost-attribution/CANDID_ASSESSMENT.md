@@ -1,0 +1,7 @@
+# Candid assessment
+
+The original research contribution is an audited bank-quarter accounting workflow: consistent insured-universe definition, complete source snapshots and field definitions, expense/YTD reconciliation, same-certificate pairing, structural-break exclusions, exact three-factor interaction allocation, an independent closed-form oracle and explicit repricing/retention decision economics. The depth lies in handling accounting definitions and decision limits, not in labeling a decomposition as AI.
+
+It is a substantive portfolio research prototype, not treasury advice or a bank production system. Endpoint-average balances are proxies; the residual effective-rate component is not causal pricing power. Certificate matching and a 30% growth screen leave acquisition effects unresolved. Size peers omit business-model differences. Administrative data completeness and exact arithmetic do not validate customer behavior or make blanket repricing safe.
+
+The interview defense is to explain why expense and deposit balances can move in opposite directions, show how Shapley allocation handles interactions, trace source inputs, explain exclusions and solve an attrition break-even case. Real adoption needs daily/account-level balances, repricing and maturity schedules, observed retention experiments, liquidity constraints and domain review. This work establishes neither employment tenure nor guaranteed recruiter outcomes. Static figure review and the actual browser CI scope are documented separately.

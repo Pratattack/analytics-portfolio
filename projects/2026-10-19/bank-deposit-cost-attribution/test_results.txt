@@ -1,0 +1,14 @@
+test_all_bridges_independent_closed_form (test_pipeline.Accounting.test_all_bridges_independent_closed_form) ... ok
+test_constant_factors_and_single_rate_change (test_pipeline.Accounting.test_constant_factors_and_single_rate_change) ... ok
+test_constant_mix_rate_baseline_reconciliation (test_pipeline.Accounting.test_constant_mix_rate_baseline_reconciliation) ... ok
+test_full_source_pointer_and_proxy_reconciliation (test_pipeline.Accounting.test_full_source_pointer_and_proxy_reconciliation) ... ok
+test_interactions_hand_symmetry (test_pipeline.Accounting.test_interactions_hand_symmetry) ... ok
+test_quarter_boundaries (test_pipeline.Accounting.test_quarter_boundaries) ... ok
+test_retention_hand_case_and_break_even (test_pipeline.Accounting.test_retention_hand_case_and_break_even) ... ok
+test_scenario_grid_reconciles_and_has_downside (test_pipeline.Accounting.test_scenario_grid_reconciles_and_has_downside) ... ok
+test_ytd_flags_and_cohort_partition (test_pipeline.Accounting.test_ytd_flags_and_cohort_partition) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.845s
+
+OK

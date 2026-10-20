@@ -1,0 +1,9 @@
+{
+ "baseline_date": "20250630",
+ "comparison_date": "20260630",
+ "maximum_absolute_deposit_growth": 0.30,
+ "quarterly_ytd_tolerance_thousand_usd": 1.0,
+ "minimum_average_interest_bearing_deposits_thousand_usd": 1000,
+ "latest_release_bank_count": 4238,
+ "information_cutoff": "2026-10-19"
+}

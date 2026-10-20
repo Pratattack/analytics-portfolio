@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+artifact_parts/
+artifact_parts.json
+assemble.py
+PACKAGING.md
+browser_evidence/
+*/data/raw/
+*/data/observed_provenance.json
+*/outputs/source_audited_*.csv*
+*/outputs/site_history.csv
+*/outputs/sql_airport_totals.csv
+*/outputs/bank_cost_bridge.csv
+*/outputs/unscreened_bridge.csv

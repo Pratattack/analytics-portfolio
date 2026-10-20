@@ -1,0 +1,12 @@
+test_bootstrap_optimized_equals_independent_expanded_samples (test_pipeline.Methods.test_bootstrap_optimized_equals_independent_expanded_samples) ... ok
+test_discovery_only_selection_and_policy_reconciliation (test_pipeline.Methods.test_discovery_only_selection_and_policy_reconciliation) ... ok
+test_economics_hand_case_and_input_bounds (test_pipeline.Methods.test_economics_hand_case_and_input_bounds) ... ok
+test_excluded_self_peer_hand_case (test_pipeline.Methods.test_excluded_self_peer_hand_case) ... ok
+test_partition_cap_matches_exhaustive_oracle (test_pipeline.Methods.test_partition_cap_matches_exhaustive_oracle) ... ok
+test_single_carrier_and_sparse_peers_rejected (test_pipeline.Methods.test_single_carrier_and_sparse_peers_rejected) ... ok
+test_source_lineage_and_independent_peer_reconciliation (test_pipeline.Methods.test_source_lineage_and_independent_peer_reconciliation) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 2.875s
+
+OK

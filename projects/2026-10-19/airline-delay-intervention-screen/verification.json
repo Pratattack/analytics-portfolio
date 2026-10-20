@@ -1,0 +1,94 @@
+{
+  "browser_acceptance": "Separate october19-browser-acceptance CI job; consult its actual result at this commit.",
+  "human_visual_review": "See VISUAL_REVIEW.md for actual chart inspection and browser limitation.",
+  "metrics": {
+    "baseline_overlap": 6,
+    "classification": "retrospective research screen; no causal or prospective validation",
+    "diagnostic_capture_difference_percentage_points": 10.040861617774581,
+    "diagnostic_with_reconciliation_flags_retained": {
+      "eligible_pool_observed": 533,
+      "excess_minutes_per_flight": 3.492294644861106,
+      "flights": 467887.0,
+      "positive_excess_capture_pct": 42.562574091281974,
+      "signed_excess_minutes": 1633999.2645001283,
+      "slots_observed": 10,
+      "year": 2026
+    },
+    "discovery_sites": 550,
+    "exploratory_95pct_month_block_interval_pp": [
+      5.943655173303363,
+      13.068101466555616
+    ],
+    "investigation_slots_filled": 10,
+    "peer_eligible_rows": 35270,
+    "prospective_deployment_gate": false,
+    "quarantined_rows": 148,
+    "retrospective_stability_gate": true,
+    "source_rows": 60093,
+    "strict_diagnostic": {
+      "eligible_pool_observed": 533,
+      "excess_minutes_per_flight": 3.454738644794633,
+      "flights": 467887.0,
+      "policy": "peer_adjusted",
+      "positive_excess_capture_pct": 43.37931196832095,
+      "signed_excess_minutes": 1616427.3002970265,
+      "slots_observed": 10,
+      "year": 2026
+    },
+    "valid_rows": 59945
+  },
+  "publication_gate": "ANALYTICAL_PASS_BROWSER_CI_REQUIRED",
+  "regenerated_hashes": {
+    "app.html": "e840612255f44d66b87ded4cc989c846b961ee69c0ed4d4dd4ab0da94e78450d",
+    "app.js": "d96a38a38dc811e3e6495af3b213037c52659e24365cb427b89ad4a53d332abe",
+    "executive_memo.md": "a55af37963ebdc813c2e9ba8f2f5c93016bab82b276449bf7843b039c15eb809",
+    "investigation_shortlist.csv": "81a6c6c95b238afbd132b054935133ba4c9aed7f3fb757329a69fe5bed50c67b",
+    "metrics.json": "55908a91a027418aa0f5c2c83306f683b45f085e2ef869934d34b0966f730032",
+    "policy_capture.png": "be2e11c4f589540d54dc65c83c762df9a850ff13972f81615fa67b5d1c9829ab",
+    "policy_capture.svg": "20a1f00d0b3ba3d1de8aed8518426c7e9c8eca5761aa0eb671df0192c40703e2",
+    "policy_evaluation.csv": "e394969b63f8c85bef8c12464a1bf6c037088db2ce2d06a93ca26b5b43c1bf6b",
+    "quarantine.csv": "241c2296d21cffc62682cc773868a99011c23e9d99c193f6062c700cc3748672",
+    "report.html": "864f7e07595dbc0582a2f6b919941ee6ab9eb7bf2fa335a8069351fce78e0c78",
+    "scenario_sensitivity.csv": "7d3c13244c5b8990e67afba54170a99fa5e7810d85293a97f598378ebf1b9b20",
+    "site_history.csv": "32fe274cf5ad04c056e60f06f34888c05435f380835f4679c3bd800eba6e4cf5",
+    "source_audited_peer_rows.csv.gz": "dd1ccfac66c98732f895f1cad7776164e7fa971ae8d73dd65f2384e0b6e59ae8",
+    "sql_airport_totals.csv": "5be6bdcedff7b007a7c04d9fc092187f87ec2a20e9686675b6bc25d9668df305"
+  },
+  "source_cutoff": "2026-10-19",
+  "stage_1": {
+    "checks": [
+      "source archive and decompressed hashes",
+      "complete API counts / BTS monthly coverage",
+      "unique natural keys",
+      "numeric and accounting contracts",
+      "explicit quarantines, no missing-to-zero imputation"
+    ],
+    "source_hash_checks": 1,
+    "status": "PASS"
+  },
+  "stage_2": {
+    "checks": [
+      "hand-worked numerical cases",
+      "independent source-lineage audits of every analytical row",
+      "independent SQL/aggregation reconciliation",
+      "independent closed-form or exhaustive oracle",
+      "scenario downside and boundary cases"
+    ],
+    "status": "PASS",
+    "test_log": "test_results.txt"
+  },
+  "stage_3": {
+    "checks": [
+      "two isolated output directories, fresh Python processes, no network",
+      "all regenerated artifacts byte-identical across clean builds",
+      "published numerical/text outputs match regenerated values",
+      "HTML local-link/alt-text checks; SVG XML and PNG decoding"
+    ],
+    "review": {
+      "figures_checked": 1,
+      "local_links_checked": 6,
+      "report_type": "static offline HTML; no interactive controls or browser-dependent code"
+    },
+    "status": "PASS"
+  }
+}

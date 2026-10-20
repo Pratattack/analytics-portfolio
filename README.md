@@ -18,15 +18,23 @@ Industry-specific economics and business analytics cases by Prathamesh Singh, us
 | 2026-10-17 | Electric utilities | [Grid Resilience Capital Allocation](projects/2026-10-17/03-grid-resilience-capital-allocation/) |
 | 2026-10-18 | Healthcare operations | [Outpatient Access & Capacity Simulation](projects/2026-10-18/01-outpatient-access-simulation/) |
 | 2026-10-18 | Urban mobility | [Demand Forecasting & Capacity Economics](projects/2026-10-18/02-bike-share-forecast-planning/) |
+| 2026-10-19 | US passenger airlines | [Airline Delay Intervention Screen](projects/2026-10-19/airline-delay-intervention-screen/) |
+| 2026-10-19 | Insured domestic banking | [Bank Deposit Cost Attribution](projects/2026-10-19/bank-deposit-cost-attribution/) |
 
-Read the [October 18 explanation](projects/2026-10-18/DAILY_BRIEF.md), [October 18 verification](projects/2026-10-18/verification.json), or [October 17 explanation](projects/2026-10-17/DAILY_BRIEF.md).
+Read the [October 19 research brief](projects/2026-10-19/DAILY_BRIEF.md), [October 19 role/source research](projects/2026-10-19/RESEARCH.md), [October 18 explanation](projects/2026-10-18/DAILY_BRIEF.md), [October 18 verification](projects/2026-10-18/verification.json), or [October 17 explanation](projects/2026-10-17/DAILY_BRIEF.md).
 
 Each case includes documented assumptions, Python pipeline, SQL analysis, clearly labeled inputs, CSV results, HTML report and tests. Chemicals, credit cards and outpatient operations use synthetic operational data. Grid resilience uses EIA benchmarks with hypothetical investments. Mobility forecasting uses public historical UCI rental observations with hypothetical capacity costs. Observed inputs, assumptions and modeled outcomes are explicitly separated. These are independent portfolio cases, not employer work or claims of professional tenure. Source publication is complete; reports are not hosted applications.
 
 ## Reproduce
 
-Python 3.10+, standard library only. From `projects/2026-10-17`, run `python verify.py` for hand-worked tests, independent reconciliation and byte-identical clean regeneration. Each project's README includes individual run instructions.
+For the October 17 cases: Python 3.10+, standard library only. From `projects/2026-10-17`, run `python verify.py` for hand-worked tests, independent reconciliation and byte-identical clean regeneration. Each project's README includes individual run instructions.
 
 For the grid-resilience case, run `python verify.py` from `projects/2026-10-17/03-grid-resilience-capital-allocation`. Its independent checks and explanations are in that project's directory.
 
 For both October 18 cases, run `python verify_all.py` from `projects/2026-10-18`.
+
+## October 19 empirical research
+
+The airline case audits 60,093 official carrier-airport-month rows and tests a fixed, constrained investigation queue across later periods. The bank case audits 48,814 FDIC bank-quarters and decomposes a fixed cohort’s deposit-expense change into volume, mix and proxy-rate effects. Both preserve source provenance and observation fingerprints, exclusions, independent reconciliations, interactive workbenches and static reports. They are research prototypes; the airline screen is not a causal intervention estimate, and the banking rate is an endpoint-average proxy. Static figures were visually inspected; a separate CI job records three-engine desktop/mobile report and application acceptance.
+
+For these cases, Python 3.12 is recommended. Install `projects/2026-10-19/requirements.txt` and run `python projects/2026-10-19/verify_all.py`. Each project’s README documents shared parent files and exact run instructions.

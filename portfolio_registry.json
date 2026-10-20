@@ -49,5 +49,25 @@
     "data": "official EIA utility-level 2020–2025 workbooks; decision view restricted to reconciled 2024 release",
     "status": "published_research_prototype",
     "limitations": "2025 release quarantined; predictive promotion fails evidence gates; no full browser visual review"
+  },
+  {
+    "date": "2026-10-19",
+    "industry": "US passenger airlines",
+    "title": "Airline Delay Intervention Screen",
+    "path": "projects/2026-10-19/airline-delay-intervention-screen",
+    "data": "Official BTS monthly operating-carrier/airport 2024-01 to 2026-08; hypothetical pilot economics kept separate",
+    "status": "published_research_prototype",
+    "method": "Leave-one-out airport/month benchmarking; frozen constrained priorities; retrospective block-resampled stability",
+    "limitations": "No causal intervention evidence, flight-level comparability or original release vintages; browser acceptance tracked by a separate CI job"
+  },
+  {
+    "date": "2026-10-19",
+    "industry": "insured domestic banking",
+    "title": "Bank Deposit Cost Attribution",
+    "path": "projects/2026-10-19/bank-deposit-cost-attribution",
+    "data": "Official FDIC bank-quarter 2023Q4–2026Q2 snapshots; generic retention scenarios kept separate",
+    "status": "published_research_prototype",
+    "method": "Exact three-factor Shapley expense attribution; source/YTD reconciliation and cohort sensitivity",
+    "limitations": "Endpoint-average proxy rates; incomplete acquisition adjustment; no observed retention elasticity; browser acceptance tracked by a separate CI job"
   }
 ]

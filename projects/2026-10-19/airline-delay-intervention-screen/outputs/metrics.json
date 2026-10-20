@@ -1,0 +1,36 @@
+{
+  "baseline_overlap": 6,
+  "classification": "retrospective research screen; no causal or prospective validation",
+  "diagnostic_capture_difference_percentage_points": 10.040861617774581,
+  "diagnostic_with_reconciliation_flags_retained": {
+    "eligible_pool_observed": 533,
+    "excess_minutes_per_flight": 3.492294644861106,
+    "flights": 467887.0,
+    "positive_excess_capture_pct": 42.562574091281974,
+    "signed_excess_minutes": 1633999.2645001283,
+    "slots_observed": 10,
+    "year": 2026
+  },
+  "discovery_sites": 550,
+  "exploratory_95pct_month_block_interval_pp": [
+    5.943655173303363,
+    13.068101466555616
+  ],
+  "investigation_slots_filled": 10,
+  "peer_eligible_rows": 35270,
+  "prospective_deployment_gate": false,
+  "quarantined_rows": 148,
+  "retrospective_stability_gate": true,
+  "source_rows": 60093,
+  "strict_diagnostic": {
+    "eligible_pool_observed": 533,
+    "excess_minutes_per_flight": 3.454738644794633,
+    "flights": 467887.0,
+    "policy": "peer_adjusted",
+    "positive_excess_capture_pct": 43.37931196832095,
+    "signed_excess_minutes": 1616427.3002970265,
+    "slots_observed": 10,
+    "year": 2026
+  },
+  "valid_rows": 59945
+}
