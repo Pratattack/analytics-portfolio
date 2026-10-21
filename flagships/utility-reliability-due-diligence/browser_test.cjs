@@ -109,6 +109,7 @@ async function main() {
               await page.unroute('**/api/utilities?*');
             }
             const layout=await page.evaluate(()=>({root:document.documentElement.scrollWidth,width:innerWidth,tables:[...document.querySelectorAll('table')].every(t=>['auto','scroll'].includes(getComputedStyle(t.parentElement).overflowX))}));
+            if(layout.root>layout.width+1){await page.screenshot({path:path.join(evidence,`overflow-${mode}-${engine}-${size}.png`),fullPage:true});console.error(await page.evaluate(()=>[...document.querySelectorAll('body *')].filter(e=>e.getBoundingClientRect().right>innerWidth+1).map(e=>({tag:e.tagName,id:e.id,class:e.className,right:e.getBoundingClientRect().right})).slice(0,20)));}
             assert(layout.root<=layout.width+1,'Root page overflows viewport');assert(layout.tables,'Table lacks scrolling container');
             assert.deepEqual(errors,[]);assert.deepEqual(unexpected,[],'Offline workbench requested external data');
             const screenshot=`${mode}-${engine}-${size}.png`;await page.screenshot({path:path.join(evidence,screenshot),fullPage:true});
