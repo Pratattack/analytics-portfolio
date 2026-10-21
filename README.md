@@ -8,6 +8,8 @@
 
 October 20 update: the featured utility workbench now has keyboard utility selection, consistent API/offline scenario boundaries, stale-response protection and visible recoverable API errors. A dedicated browser acceptance job checks both deliveries across three engines and desktop/mobile viewports; its actual CI result and commit-specific evidence release are the verification record. This is an upgrade to the featured research prototype, not a new research project.
 
+The October 19 projects' CI restores their immutable original official-data snapshot and rechecks archive, member and observation fingerprints. This keeps the published research reproducible when an official source URL is unavailable; it does not claim a fresh data vintage. See [data restoration instructions](projects/2026-10-19/DATA_REPRODUCTION.md).
+
 
 Industry-specific economics and business analytics cases by Prathamesh Singh, using Python and SQL with Excel-compatible outputs.
 

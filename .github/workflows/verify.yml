@@ -63,6 +63,12 @@ jobs:
           cache-dependency-path: projects/2026-10-19/requirements.txt
       - name: Install declared static-figure dependencies
         run: python -m pip install -r projects/2026-10-19/requirements.txt
+      - name: Restore immutable official-data snapshot
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download research-2026-10-19-6d3bd3a997d8 --pattern release_bundle.zip --dir "$RUNNER_TEMP/pinned-oct19"
+          python projects/2026-10-19/restore_snapshot.py "$RUNNER_TEMP/pinned-oct19/release_bundle.zip"
       - name: Verify pinned sources, independent methods, clean rebuilds and static outputs
         run: python projects/2026-10-19/verify_all.py
 
@@ -107,6 +113,12 @@ jobs:
           node-version: '22'
       - name: Install declared analysis dependencies
         run: python -m pip install -r projects/2026-10-19/requirements.txt
+      - name: Restore immutable official-data snapshot
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download research-2026-10-19-6d3bd3a997d8 --pattern release_bundle.zip --dir "$RUNNER_TEMP/pinned-oct19"
+          python projects/2026-10-19/restore_snapshot.py "$RUNNER_TEMP/pinned-oct19/release_bundle.zip"
       - name: Collect fingerprint-pinned official observations and build applications
         run: |
           python projects/2026-10-19/collect.py
@@ -171,6 +183,12 @@ jobs:
           python-version: '3.12'
       - name: Install declared dependencies
         run: python -m pip install -r projects/2026-10-19/requirements.txt
+      - name: Restore immutable official-data snapshot
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download research-2026-10-19-6d3bd3a997d8 --pattern release_bundle.zip --dir "$RUNNER_TEMP/pinned-oct19"
+          python projects/2026-10-19/restore_snapshot.py "$RUNNER_TEMP/pinned-oct19/release_bundle.zip"
       - name: Recreate fingerprint-verified source observations and outputs
         run: |
           python projects/2026-10-19/collect.py
