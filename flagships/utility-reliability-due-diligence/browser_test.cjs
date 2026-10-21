@@ -65,7 +65,7 @@ async function main() {
               await page.getByLabel('Discount rate (%)',{exact:true}).fill(String(rate));
               await page.getByRole('button',{name:'Calculate conditional threshold'}).click();
               const factor=rate===0?10:(1-(1+rate/100)**-10)/(rate/100);
-              await page.waitForFunction(text=>document.querySelector('#scenarioResult').textContent.includes(text),money(annual*factor));
+              await page.waitForFunction(text=>document.querySelector('#scenarioResult').textContent.includes(text),money(annual*factor)).catch(async error=>{await page.screenshot({path:path.join(evidence,`failure-${mode}-${engine}-${size}.png`),fullPage:true});console.error({expected:money(annual*factor),actual:await page.locator('#scenarioResult').innerText(),inputs:await page.locator('input:invalid').evaluateAll(es=>es.map(e=>({id:e.id,value:e.value,validation:e.validationMessage})))});throw error;});
               assert((await page.locator('#scenarioResult').innerText()).includes(money(annual*factor-1000000)));
             }
             await page.getByLabel('Assumed reduction (%)',{exact:true}).fill('0');
@@ -97,6 +97,7 @@ async function main() {
               await page.route('**/api/utilities?*',route=>route.fulfill({status:503,contentType:'application/json',body:'{"error":"Test-only temporary outage"}'}),{times:1});
               await page.getByLabel('State',{exact:true}).selectOption('CA');
               await page.getByRole('alert').filter({hasText:'Test-only temporary outage'}).waitFor();
+              assert.equal(await page.evaluate(()=>selected),null,'Failed filter must clear stale selection');
               await page.getByLabel('State',{exact:true}).selectOption('TX');
               await page.waitForFunction(()=>document.querySelector('#appError').hidden);
               // Delay old responses to prove rapid filter changes cannot restore stale rows.

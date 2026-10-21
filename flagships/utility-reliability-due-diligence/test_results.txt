@@ -17,6 +17,6 @@ test_status_and_headers (test_lab.HttpTests.test_status_and_headers) ... ok
 test_unlisted_paths_not_served (test_lab.HttpTests.test_unlisted_paths_not_served) ... ok
 
 ----------------------------------------------------------------------
-Ran 17 tests in 1.173s
+Ran 17 tests in 1.215s
 
 OK
