@@ -1,4 +1,5 @@
 test_api_rejects_unknown_utility (test_lab.CoreTests.test_api_rejects_unknown_utility) ... ok
+test_api_scenario_input_boundaries (test_lab.CoreTests.test_api_scenario_input_boundaries) ... ok
 test_discounted_scenario (test_lab.CoreTests.test_discounted_scenario) ... ok
 test_filter (test_lab.CoreTests.test_filter) ... ok
 test_future_target_does_not_change_predictions (test_lab.CoreTests.test_future_target_does_not_change_predictions) ... ok
@@ -16,6 +17,6 @@ test_status_and_headers (test_lab.HttpTests.test_status_and_headers) ... ok
 test_unlisted_paths_not_served (test_lab.HttpTests.test_unlisted_paths_not_served) ... ok
 
 ----------------------------------------------------------------------
-Ran 16 tests in 1.002s
+Ran 17 tests in 1.173s
 
 OK

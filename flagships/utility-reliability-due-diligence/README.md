@@ -11,7 +11,7 @@ Electric utilities · Economic research · Business analysis · Consulting due d
 3. Change the clearly labeled reduction, outage-value, cost and discount assumptions to calculate a conditional social-value threshold.
 4. Read the [executive memo](outputs/executive_memo.md), [methodology](METHODOLOGY.md), [open-issue register](ISSUES.md) and [verification evidence](verification.json).
 
-The application is delivered as an offline/local tool. It is not hosted as a live public website. Browser visual review was unavailable in this environment; API behavior, HTTP routes, source data, calculations, HTML structure and SVG output are checked. Do not interpret that as full browser acceptance testing.
+The application is delivered as an offline/local tool. It is not hosted as a live public website. The separate `flagship-browser-acceptance` CI job exercises both API and offline deliveries in Chromium, Firefox and WebKit on desktop and mobile viewports. Consult its actual result at the commit being reviewed; [browser acceptance documentation](BROWSER_ACCEPTANCE.md) describes the checks and remaining limits.
 
 ## Actual scope
 
@@ -42,7 +42,7 @@ python -m pip install -r requirements.txt
 python verify.py
 ```
 
-`verify.py` reads the bundled official XLSX files, rebuilds the panel and every derived artifact, executes 16 tests, independently checks all original source cells, reconciles SQL totals, and checks a clean byte-identical regeneration. It does not download fresh data or silently change source versions.
+`verify.py` reads the bundled official XLSX files, rebuilds the panel and every derived artifact, executes 17 tests, independently checks all original source cells, reconciles SQL totals, and checks a clean byte-identical regeneration. It does not download fresh data or silently change source versions.
 
 For the optional local API/server:
 

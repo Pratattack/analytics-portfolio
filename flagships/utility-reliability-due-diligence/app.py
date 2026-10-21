@@ -33,6 +33,8 @@ class Handler(BaseHTTPRequestHandler):
         try:
             if url.path.startswith('/api/'):
                 payload=json.dumps(api(url.path,parse_qs(url.query)),allow_nan=False).encode();status=200;kind='application/json'
+            elif url.path=='/favicon.ico':
+                self.send_response(204);self.end_headers();return
             elif url.path in ['/','/index.html']:
                 payload=(ROOT/'index.html').read_bytes();status=200;kind='text/html; charset=utf-8'
             else:self.send_error(404);return

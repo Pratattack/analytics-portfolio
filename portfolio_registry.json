@@ -48,7 +48,9 @@
     "upgrades": "projects/2026-10-17/03-grid-resilience-capital-allocation",
     "data": "official EIA utility-level 2020–2025 workbooks; decision view restricted to reconciled 2024 release",
     "status": "published_research_prototype",
-    "limitations": "2025 release quarantined; predictive promotion fails evidence gates; no full browser visual review"
+    "limitations": "2025 release quarantined; predictive promotion fails evidence gates; browser acceptance tracked in dedicated CI; physical-device and stakeholder validation unavailable",
+    "last_updated": "2026-10-20",
+    "delivery_update": "API/offline boundary parity; keyboard utility selection; asynchronous response ordering; error recovery; 12-case real browser acceptance job"
   },
   {
     "date": "2026-10-19",

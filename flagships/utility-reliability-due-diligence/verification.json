@@ -15,7 +15,7 @@
     "state_weighted_reliability.csv": "e23a44e259237ff60c2c1d6b7bdef1b07d89b2696f17ee87ccd459b1d0c89637",
     "texas_break_even_scenarios.csv": "41d80b5b584bb55a641e6f88a744ccfd79970923d7f17651f558a2ec550ecc7a",
     "utility_due_diligence.csv": "add07a7e8ec1cf998706ea3db070548c7065b299cf9167a394ef15abaf4780c1",
-    "workbench.html": "cea29e0fc38006a140c51d3accc9cf14563357a26bbdb0c921c90ae68e58304f"
+    "workbench.html": "7357b3daffd18546f133cb8909d03c020d07d4e9400030015b40ebd172b4d116"
   },
   "decision_gates": {
     "accepted_view": 2024,
@@ -24,7 +24,7 @@
     "unresolved_state_reconciliations": 26
   },
   "review_limits": [
-    "Browser visual testing of local HTML was blocked by the browser URL policy; it is not claimed.",
+    "Real browser execution is tracked separately by the flagship-browser-acceptance CI job; consult its actual result and evidence for this commit.",
     "2025 discrepancies remain unexplained, and that release is excluded from decision inputs.",
     "Three automated stages are not independent external validation."
   ],
@@ -38,7 +38,7 @@
   },
   "stage_2": {
     "checks": [
-      "16 numerical, leakage, peer exclusion, quarantine, API and HTTP tests",
+      "17 numerical, leakage, peer exclusion, quarantine, API and HTTP tests",
       "All state SQL totals independently recomputed",
       "Report-year cutoffs and held-out weighted error verified"
     ],

@@ -46,6 +46,11 @@ class CoreTests(unittest.TestCase):
         self.assertTrue(r);self.assertTrue(all(x['state']=='TX' and x['ownership']=='Cooperative' for x in r))
     def test_api_rejects_unknown_utility(self):
         with self.assertRaises(ValueError):api('/api/scenario',{'utility_id':['-1'],'state':['TX']})
+    def test_api_scenario_input_boundaries(self):
+        row=api('/api/utilities',{})['rows'][0]
+        params={k:[v] for k,v in dict(utility_id=row['utility_id'],state=row['state'],reduction='.1',hour_value='15',opex='25000',rate='.07',years='10',capex='1000000').items()}
+        for field,value in [('capex','1000000000000'),('capex','NaN'),('years','1.5'),('hour_value','')]:
+            with self.subTest(field=field,value=value),self.assertRaises(ValueError):api('/api/scenario',{**params,field:[value]})
 class HttpTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):

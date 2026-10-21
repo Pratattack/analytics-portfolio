@@ -6,6 +6,8 @@
 
 [Portfolio quality standard](QUALITY_STANDARD.md)
 
+October 20 update: the featured utility workbench now has keyboard utility selection, consistent API/offline scenario boundaries, stale-response protection and visible recoverable API errors. A dedicated browser acceptance job checks both deliveries across three engines and desktop/mobile viewports; its actual CI result and commit-specific evidence release are the verification record. This is an upgrade to the featured research prototype, not a new research project.
+
 
 Industry-specific economics and business analytics cases by Prathamesh Singh, using Python and SQL with Excel-compatible outputs.
 
