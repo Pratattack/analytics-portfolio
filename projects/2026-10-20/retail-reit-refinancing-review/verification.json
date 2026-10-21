@@ -1,7 +1,7 @@
 {
   "browser_acceptance": "Separate finance-browser-acceptance job; only its actual result and results.json establish browser PASS",
   "generated_artifact_sha256": {
-    "app.html": "6c3485f99ce59e8bd29a4b1c7ccae47afacd57d2eebf89f8f0c9a3d6ca437022",
+    "app.html": "f5b3c7982ce1c6104259d13e215ed4811824df909fdf51f48eeafe277638b565",
     "application_data.json": "a53901c521dd98c8c2e333740f76dc24fe9324b648d19979f200531ef7fc46f3",
     "cash_waterfalls.csv": "ffd93c68257ae25202186a30064d83ba0efd83e9c795b09d214609e41c3fd40a",
     "comparative_cfo.csv": "9fdb9be35cd33ce5780273956dd7a4c8a74197bf81206c236c6a8aada7a68fe8",
@@ -13,7 +13,7 @@
     "historical_cfo_changes.csv": "1b48e960d2cbff2adef2d175e13000421dee7b777fd843e392dbd04d8cd49665",
     "metrics.json": "bc08f1c5e4d5c24aa128dfd9efcfed17a0de30296daf3b38a20044ea811668f6",
     "recovery_sensitivity.csv": "4ee504c3ace923a8d7af985040873699be9c386fa01ce529368f3e47cbea014e",
-    "report.html": "7fc11f313ae8af2a50a0a96c3fba2de616f972fa809a7bf98c425c651474504d",
+    "report.html": "48692bb9946c20a0998411e04cfcc51058a83e71d047bd4a165f5c6ba9a86107",
     "rollover_frontier.csv": "02328f988791adc10fcadef4e6ade4a645a002b07514201f47353a8a4f01c41b",
     "scenario_solutions.csv": "0e3ebc6cd0a4beff968a89830d3f6f6458f43e40c5627efab7dd22a7f74e3a31",
     "source_lineage.csv": "6bd581e437abb7f609b26ea9a9f1a72cf2f9273b5808718ad9b53f710fdc6ba4",
