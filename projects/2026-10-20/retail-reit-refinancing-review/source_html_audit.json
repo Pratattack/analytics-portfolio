@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "parser": "Python HTMLParser independent of production lxml parser",
+  "filings": [
+    {
+      "ticker": "KIM",
+      "filing_year": 2025,
+      "source_html_sha256": "a2cb22618e01345aa4b2617c0f85b98828e78fbdc55bb346f017ca75a1992d82",
+      "independently_reconciled_numeric_values": 7788,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/879101/000119312526060760/kim-20251231.htm",
+      "status": "PASS"
+    },
+    {
+      "ticker": "REG",
+      "filing_year": 2025,
+      "source_html_sha256": "a26eaa0b06240d60b317584001bd7361e016c19e5586725480e7601adc4faaba",
+      "independently_reconciled_numeric_values": 4950,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/910606/000119312526051668/reg-20251231.htm",
+      "status": "PASS"
+    },
+    {
+      "ticker": "FRT",
+      "filing_year": 2025,
+      "source_html_sha256": "0049edbdb79cc42455f2f28bfcdcc240b78bf90dba314985e2bd49826ddc9399",
+      "independently_reconciled_numeric_values": 2532,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/34903/000003490326000017/frt-20251231.htm",
+      "status": "PASS"
+    },
+    {
+      "ticker": "BRX",
+      "filing_year": 2025,
+      "source_html_sha256": "6f175f8379015cd86fc48c7ef0cc7ceb95c75a3d804a956272b427f124a922a1",
+      "independently_reconciled_numeric_values": 3746,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1581068/000158106826000007/brx-20251231.htm",
+      "status": "PASS"
+    },
+    {
+      "ticker": "SKT",
+      "filing_year": 2025,
+      "source_html_sha256": "8dd6aadd471f874f06dc0aa21ea450a52836ec0b1c0c534bb2cbd1247536d60d",
+      "independently_reconciled_numeric_values": 2346,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/899715/000162828026012252/skt-20251231.htm",
+      "status": "PASS"
+    },
+    {
+      "ticker": "SKT",
+      "filing_year": 2021,
+      "source_html_sha256": "e2a1245f36c741df7cd1b97507b0cdd898bd6175da6588b04775b0e93674c6b7",
+      "independently_reconciled_numeric_values": 2289,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/899715/000089971522000036/skt-20211231.htm",
+      "status": "PASS"
+    },
+    {
+      "ticker": "SKT",
+      "filing_year": 2024,
+      "source_html_sha256": "bd1739b9f409d411f00da7757829ca63bc5547da68cc16dd004c1ec24363f5aa",
+      "independently_reconciled_numeric_values": 2266,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/899715/000089971525000036/skt-20241231.htm",
+      "status": "PASS"
+    },
+    {
+      "ticker": "SPG",
+      "filing_year": 2025,
+      "source_html_sha256": "bdccd48838551007dc1fa714f4bd319b6d5c383621504a8c58372ad10a5c5698",
+      "independently_reconciled_numeric_values": 3389,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465926019419/spg-20251231x10k.htm",
+      "status": "PASS"
+    }
+  ]
+}

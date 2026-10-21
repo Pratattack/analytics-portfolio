@@ -1,0 +1,37 @@
+ticker,maturity_bucket,ordinal,principal,scope
+KIM,2026,1,823000000.0,"{""us-gaap:LongtermDebtTypeAxis"": ""us-gaap:UnsecuredDebtMember""}"
+KIM,2027,2,583700000.0,"{""us-gaap:LongtermDebtTypeAxis"": ""us-gaap:UnsecuredDebtMember""}"
+KIM,2028,3,519600000.0,"{""us-gaap:LongtermDebtTypeAxis"": ""us-gaap:UnsecuredDebtMember""}"
+KIM,2029,4,550000000.0,"{""us-gaap:LongtermDebtTypeAxis"": ""us-gaap:UnsecuredDebtMember""}"
+KIM,2030,5,500000000.0,"{""us-gaap:LongtermDebtTypeAxis"": ""us-gaap:UnsecuredDebtMember""}"
+KIM,After 2030,6,4800000000.0,"{""us-gaap:LongtermDebtTypeAxis"": ""us-gaap:UnsecuredDebtMember""}"
+REG,2026,1,360684000.0,{}
+REG,2027,2,757609000.0,{}
+REG,2028,3,480304000.0,{}
+REG,2029,4,527739000.0,{}
+REG,2030,5,607608000.0,{}
+REG,After 2030,6,2064887000.0,{}
+FRT,2026,1,655595000.0,{}
+FRT,2027,2,1003319000.0,{}
+FRT,2028,3,1157511000.0,{}
+FRT,2029,4,945434000.0,{}
+FRT,2030,5,400684000.0,{}
+FRT,After 2030,6,801059000.0,{}
+BRX,2026,1,607542000.0,{}
+BRX,2027,2,400000000.0,{}
+BRX,2028,3,357708000.0,{}
+BRX,2029,4,753203000.0,{}
+BRX,2030,5,1300000000.0,{}
+BRX,After 2030,6,2100000000.0,{}
+SKT,2026,1,355705000.0,"{""dei:LegalEntityAxis"": ""skt:TangerPropertiesLimitedPartnershipMember""}"
+SKT,2027,2,740000000.0,"{""dei:LegalEntityAxis"": ""skt:TangerPropertiesLimitedPartnershipMember""}"
+SKT,2028,3,44000000.0,"{""dei:LegalEntityAxis"": ""skt:TangerPropertiesLimitedPartnershipMember""}"
+SKT,2029,4,0.0,"{""dei:LegalEntityAxis"": ""skt:TangerPropertiesLimitedPartnershipMember""}"
+SKT,2030,5,61700000.0,"{""dei:LegalEntityAxis"": ""skt:TangerPropertiesLimitedPartnershipMember""}"
+SKT,After 2030,6,400000000.0,"{""dei:LegalEntityAxis"": ""skt:TangerPropertiesLimitedPartnershipMember""}"
+SPG,2026,1,5905606000.0,{}
+SPG,2027,2,3936773000.0,{}
+SPG,2028,3,2296651000.0,{}
+SPG,2029,4,2940031000.0,{}
+SPG,2030,5,1657864000.0,{}
+SPG,After 2030,6,11858614000.0,{}

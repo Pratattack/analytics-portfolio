@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*/data/raw/*.htm.gz
+*/outputs/*.sqlite
+browser_evidence/
+finance_browser_evidence.zip

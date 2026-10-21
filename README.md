@@ -24,6 +24,8 @@ Industry-specific economics and business analytics cases by Prathamesh Singh, us
 | 2026-10-18 | Urban mobility | [Demand Forecasting & Capacity Economics](projects/2026-10-18/02-bike-share-forecast-planning/) |
 | 2026-10-19 | US passenger airlines | [Airline Delay Intervention Screen](projects/2026-10-19/airline-delay-intervention-screen/) |
 | 2026-10-19 | Insured domestic banking | [Bank Deposit Cost Attribution](projects/2026-10-19/bank-deposit-cost-attribution/) |
+| 2026-10-20 | Property/casualty insurance | [Insurance Reserve Challenge Lab](projects/2026-10-20/insurance-reserve-capital-review/) |
+| 2026-10-20 | Listed retail-property REITs | [Retail REIT Refinancing Resilience](projects/2026-10-20/retail-reit-refinancing-review/) |
 
 Read the [October 19 research brief](projects/2026-10-19/DAILY_BRIEF.md), [October 19 role/source research](projects/2026-10-19/RESEARCH.md), [October 18 explanation](projects/2026-10-18/DAILY_BRIEF.md), [October 18 verification](projects/2026-10-18/verification.json), or [October 17 explanation](projects/2026-10-17/DAILY_BRIEF.md).
 
@@ -42,3 +44,9 @@ For both October 18 cases, run `python verify_all.py` from `projects/2026-10-18`
 The airline case audits 60,093 official carrier-airport-month rows and tests a fixed, constrained investigation queue across later periods. The bank case audits 48,814 FDIC bank-quarters and decomposes a fixed cohort’s deposit-expense change into volume, mix and proxy-rate effects. Both preserve source provenance and observation fingerprints, exclusions, independent reconciliations, interactive workbenches and static reports. They are research prototypes; the airline screen is not a causal intervention estimate, and the banking rate is an endpoint-average proxy. Static figures were visually inspected; a separate CI job records three-engine desktop/mobile report and application acceptance.
 
 For these cases, Python 3.12 is recommended. Install `projects/2026-10-19/requirements.txt` and run `python projects/2026-10-19/verify_all.py`. Each project’s README documents shared parent files and exact run instructions.
+
+## October 20 finance diligence research
+
+The [insurance reserve case](projects/2026-10-20/insurance-reserve-capital-review/) extracts 4,046 paid/incurred accident-year cells from original SEC inline-XBRL and retains 31 of 48 triangles for transparent development diagnostics. Masked-diagonal WAPE is 14.54% versus 44.50% for a simple baseline, but the historical cells are from current disclosures and tail sensitivity prevents reserve-release authorization. The [retail REIT case](projects/2026-10-20/retail-reit-refinancing-review/) reconciles $53.25B of disclosed face principal, solves five-year cash-floor / rollover constraints, and retains 37 infeasible cases in a 90-scenario persistent-shock grid. Those are conditional modeled gaps, not current financing needs.
+
+Both use original-source numerical snapshots with pinned provenance, source-pointer audits, SQL reconciliations, independent analytical checks, deterministic rebuilds, executive briefs and offline interactive workbenches. Read the [shared reproduction and verification guide](projects/2026-10-20/), [primary-source / role research](projects/2026-10-20/RESEARCH.md), and each project's candid assessment. Actual browser evidence comes from the separate 24-case CI job and commit-specific release. These are independent research prototypes, not actuarial opinions, lender approvals or claims of professional tenure.

@@ -71,5 +71,25 @@
     "status": "published_research_prototype",
     "method": "Exact three-factor Shapley expense attribution; source/YTD reconciliation and cohort sensitivity",
     "limitations": "Endpoint-average proxy rates; incomplete acquisition adjustment; no observed retention elasticity; browser acceptance tracked by a separate CI job"
+  },
+  {
+    "date": "2026-10-20",
+    "industry": "property/casualty insurance",
+    "title": "Insurance Reserve Challenge Lab",
+    "path": "projects/2026-10-20/insurance-reserve-capital-review",
+    "data": "Original SEC numerical inline-XBRL paid/incurred accident-year triangles; 2025 annual filings, pinned source lineage",
+    "status": "published_research_prototype",
+    "method": "Gated paid development; volume/median chain ladder; masked-diagonal benchmark and explicit tail sensitivity",
+    "limitations": "Current-disclosure historical cells, sparse old-age factors and omitted older claims; no reserve-release or predictive promotion; separate browser CI evidence"
+  },
+  {
+    "date": "2026-10-20",
+    "industry": "listed retail-property REITs",
+    "title": "Retail REIT Refinancing Resilience",
+    "path": "projects/2026-10-20/retail-reit-refinancing-review",
+    "data": "Original SEC 2025 maturity ladders and cash facts; 2019–2025 CFO history; dated annual base with entity-scope reconciliation",
+    "status": "published_research_prototype",
+    "method": "Exact five-year cash-floor / rollover affine constraints, independently reconciled with linear programming; severity and recovery sensitivity",
+    "limitations": "Assumed capex, distributions, cash floors and refinancing terms; no current facility/covenant approval or actual funding-deficit estimate; separate browser CI evidence"
   }
 ]
