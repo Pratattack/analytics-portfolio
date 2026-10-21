@@ -1,0 +1,50 @@
+{
+  "browser_acceptance": "Separate finance-browser-acceptance job; only its actual result and results.json establish browser PASS",
+  "generated_artifact_sha256": {
+    "app.html": "7404ece1d7d0d996b2dda867bfb5613648703cb87f0721e8021a92ff2dd0d30c",
+    "application_data.json": "a53901c521dd98c8c2e333740f76dc24fe9324b648d19979f200531ef7fc46f3",
+    "cash_waterfalls.csv": "ffd93c68257ae25202186a30064d83ba0efd83e9c795b09d214609e41c3fd40a",
+    "comparative_cfo.csv": "9fdb9be35cd33ce5780273956dd7a4c8a74197bf81206c236c6a8aada7a68fe8",
+    "debt_basis_bridge.csv": "0afd59295fbfcb5172485e5143dc1f16dd1888af803c620da42ccb7d77bfcc3e",
+    "debt_maturities.csv": "dbc6b71f961b39da0a7190d8192a0e147c0b5a524a291a749a3d177fc76fce9b",
+    "decision_evidence.svg": "ae91011f52cacb9ea8bdf89e574140340b53ae98c5af6e344c6d69f67d74aa56",
+    "executive_brief.md": "06f644fb602ba55716f2efc81b31c0da4846638e915f3ad5237cb09f4f506ac0",
+    "financing_review.csv": "200fca5a2fc4988e05a9d6248bf203a4135ec6cda8a0752b48b7ea397c8d9db3",
+    "historical_cfo_changes.csv": "1b48e960d2cbff2adef2d175e13000421dee7b777fd843e392dbd04d8cd49665",
+    "metrics.json": "bc08f1c5e4d5c24aa128dfd9efcfed17a0de30296daf3b38a20044ea811668f6",
+    "recovery_sensitivity.csv": "4ee504c3ace923a8d7af985040873699be9c386fa01ce529368f3e47cbea014e",
+    "report.html": "3e490a19b0317189078de9919c9be98f51ce2f41d46ad3f31f31981a97bee79a",
+    "rollover_frontier.csv": "02328f988791adc10fcadef4e6ade4a645a002b07514201f47353a8a4f01c41b",
+    "scenario_solutions.csv": "0e3ebc6cd0a4beff968a89830d3f6f6458f43e40c5627efab7dd22a7f74e3a31",
+    "source_lineage.csv": "6bd581e437abb7f609b26ea9a9f1a72cf2f9273b5808718ad9b53f710fdc6ba4",
+    "sql_maturity_exposure.csv": "5238a7df58beed5ea6990f3035a5c9979887e86370a1084a4ef96eeaad7e68ab",
+    "workbench.js": "d4193ee08257a4618bce5ff3d87684b8e6e11ad404c6acb631c121c034534caa"
+  },
+  "limitations": [
+    "No physical-device, client, actuary or lender validation",
+    "Economic and financial promotion gates are separate from software checks"
+  ],
+  "stage_1": {
+    "original_html_audit": "source_html_audit.json; independently executed against pinned original documents; rerun audit_html.py after acquire --rebuild-inline --download-missing",
+    "pinned_archives": 38,
+    "source_lineage_values": 65,
+    "status": "PASS"
+  },
+  "stage_2": {
+    "checks": [
+      "14 hand-worked/source/method tests",
+      "All accepted factors independently reconciled with NumPy",
+      "180 refinancing constraints independently solved with SciPy/HiGHS",
+      "All SQL monetary aggregates independently reconciled"
+    ],
+    "status": "PASS"
+  },
+  "stage_3": {
+    "checks": [
+      "Two fresh Python-process output directories",
+      "All non-SQLite artifacts byte-identical across clean runs",
+      "Local HTML links, image alt text and SVG XML checked"
+    ],
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "parser": "Python HTMLParser independent of production lxml parser",
+  "filings": [
+    {
+      "ticker": "TRV",
+      "filing_year": 2025,
+      "source_html_sha256": "186dca336a5dc62407a47ffc5162346df759ef32d08959aa9887d45dcf891720",
+      "independently_reconciled_numeric_values": 4212,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/trv-20251231.htm",
+      "status": "PASS"
+    },
+    {
+      "ticker": "WRB",
+      "filing_year": 2025,
+      "source_html_sha256": "e38b9e1e55e611e8d2483463f9ef62ece56f8f3ad475133a2d30d627492a4e1e",
+      "independently_reconciled_numeric_values": 3675,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000005/wrb-20251231.htm",
+      "status": "PASS"
+    },
+    {
+      "ticker": "RLI",
+      "filing_year": 2025,
+      "source_html_sha256": "47f1113867e7d8f631e4c3c731725d02aea259fc3cddca6cb272345407d65333",
+      "independently_reconciled_numeric_values": 2853,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/84246/000110465926018013/rli-20251231x10k.htm",
+      "status": "PASS"
+    },
+    {
+      "ticker": "THG",
+      "filing_year": 2025,
+      "source_html_sha256": "fbe0ab198bf98f02f8c9ca6db180702b95d63a1946572a6ae2402318d917fc21",
+      "independently_reconciled_numeric_values": 3345,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/944695/000119312526060983/thg-20251231.htm",
+      "status": "PASS"
+    },
+    {
+      "ticker": "SIGI",
+      "filing_year": 2025,
+      "source_html_sha256": "2b94054719d67a460e40c421406c35df956f5da9bc0b09b6b4f8b1129c5b64dd",
+      "independently_reconciled_numeric_values": 4868,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/230557/000023055726000006/sigi-20251231.htm",
+      "status": "PASS"
+    },
+    {
+      "ticker": "CINF",
+      "filing_year": 2025,
+      "source_html_sha256": "1e0db908775a8315e1ba25897389649cadf399b36aa826e44e8605cfe41dd41c",
+      "independently_reconciled_numeric_values": 3868,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/20286/000002028626000008/cinf-20251231.htm",
+      "status": "PASS"
+    }
+  ]
+}

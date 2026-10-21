@@ -1,0 +1,27 @@
+{
+  "absolute_error_difference_usd": 7089597875.274464,
+  "assumption": "Tail factors and method envelopes are sensitivities, not confidence intervals",
+  "baseline_wape": 0.4449917173821984,
+  "candidate_triangles": 48,
+  "diagnostic_cells": 468,
+  "diagnostic_target_years": [
+    2023,
+    2024,
+    2025
+  ],
+  "eligible_triangles": 31,
+  "equal_duplicate_facts": 0,
+  "excluded_triangles": 17,
+  "financial_decision": "Prioritize actuarial diligence; no reserve release or capital-return authorization",
+  "industry": "Property and casualty insurance",
+  "issuer_count": 6,
+  "model_unpaid": 38667503065.92882,
+  "model_wape": 0.14542061533389625,
+  "numeric_triangle_cells": 4046,
+  "one_tenth_tail_increment": 17118726006.5929,
+  "predictive_promotion": false,
+  "reported_comparable_unpaid": 59756234000.0,
+  "source_cutoff": "2026-10-20",
+  "source_lineage_rows": 4046,
+  "timing": "2025 filing triangles; historical diagonals masked in a revised current-disclosure cohort, not an as-released backtest"
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "ticker": "TRV",
+    "cik": 86312,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000086312.json",
+    "file": "TRV.json.gz",
+    "archive_sha256": "7e47ffccb32b59db1ddd233479f464d3d86ab36ae2797d2fb998a3a12f2a5a87",
+    "content_sha256": "590033535bac24bbe16b0f90a3e3fb051e6c8d800643ee9cb654acb6a4a69b61",
+    "entity_name": "Travelers Companies,\u00a0Inc.",
+    "annual_filing_2025": {
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/trv-20251231.htm",
+      "accn": "0000086312-26-000065",
+      "filed": "2026-02-12",
+      "document": "trv-20251231.htm",
+      "file": "TRV-2025.htm.gz",
+      "html_sha256": "186dca336a5dc62407a47ffc5162346df759ef32d08959aa9887d45dcf891720"
+    }
+  },
+  {
+    "ticker": "WRB",
+    "cik": 11544,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000011544.json",
+    "file": "WRB.json.gz",
+    "archive_sha256": "af9486f5f4239eea096027591c3cf0be9d14107717ea14f0f29cdcdb52100b59",
+    "content_sha256": "25fb6de152757d1c85eb8af0d032482b025e7e0342ce966384779865ed1456b5",
+    "entity_name": "W. R. BERKLEY CORP",
+    "annual_filing_2025": {
+      "url": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000005/wrb-20251231.htm",
+      "accn": "0000011544-26-000005",
+      "filed": "2026-02-27",
+      "document": "wrb-20251231.htm",
+      "file": "WRB-2025.htm.gz",
+      "html_sha256": "e38b9e1e55e611e8d2483463f9ef62ece56f8f3ad475133a2d30d627492a4e1e"
+    }
+  },
+  {
+    "ticker": "RLI",
+    "cik": 84246,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000084246.json",
+    "file": "RLI.json.gz",
+    "archive_sha256": "ae3ec3b6da3b3cc50cc08b92e046db375958b87260f93765879fc5fac5646e9e",
+    "content_sha256": "37ec8d0ec356527444ea1a171a08d0e257c80d746cdb28a6aad290db95e221f6",
+    "entity_name": "RLI Corp",
+    "annual_filing_2025": {
+      "url": "https://www.sec.gov/Archives/edgar/data/84246/000110465926018013/rli-20251231x10k.htm",
+      "accn": "0001104659-26-018013",
+      "filed": "2026-02-20",
+      "document": "rli-20251231x10k.htm",
+      "file": "RLI-2025.htm.gz",
+      "html_sha256": "47f1113867e7d8f631e4c3c731725d02aea259fc3cddca6cb272345407d65333"
+    }
+  },
+  {
+    "ticker": "THG",
+    "cik": 944695,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000944695.json",
+    "file": "THG.json.gz",
+    "archive_sha256": "b16121e7612db1f201bbc1e954df138403ea2160cc4a95305112fc305a92bf3f",
+    "content_sha256": "4aaa1087bd61fc0942316ddb059275020dc6eda8a7a946f3d044ee796d64b297",
+    "entity_name": "HANOVER INSURANCE GROUP, INC.",
+    "annual_filing_2025": {
+      "url": "https://www.sec.gov/Archives/edgar/data/944695/000119312526060983/thg-20251231.htm",
+      "accn": "0001193125-26-060983",
+      "filed": "2026-02-20",
+      "document": "thg-20251231.htm",
+      "file": "THG-2025.htm.gz",
+      "html_sha256": "fbe0ab198bf98f02f8c9ca6db180702b95d63a1946572a6ae2402318d917fc21"
+    }
+  },
+  {
+    "ticker": "SIGI",
+    "cik": 230557,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000230557.json",
+    "file": "SIGI.json.gz",
+    "archive_sha256": "2c3715f3d29384254e26043d2182c23b13ef371d8acd23ce3a837c1876be5c77",
+    "content_sha256": "c6f85cab26a8eb4c6f9e236a49747a10096a301a31a5324ad7d05bc414559081",
+    "entity_name": "SELECTIVE INSURANCE GROUP, INC",
+    "annual_filing_2025": {
+      "url": "https://www.sec.gov/Archives/edgar/data/230557/000023055726000006/sigi-20251231.htm",
+      "accn": "0000230557-26-000006",
+      "filed": "2026-02-09",
+      "document": "sigi-20251231.htm",
+      "file": "SIGI-2025.htm.gz",
+      "html_sha256": "2b94054719d67a460e40c421406c35df956f5da9bc0b09b6b4f8b1129c5b64dd"
+    }
+  },
+  {
+    "ticker": "CINF",
+    "cik": 20286,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000020286.json",
+    "file": "CINF.json.gz",
+    "archive_sha256": "2f402a4a36a68728fde01b686e686eeb2e7090a9de24ad4d3283022b8f0292d3",
+    "content_sha256": "9ff1ea6e63c2113938817e6f8c7f9840717f453a1653f5550271580cda58d648",
+    "entity_name": "CINCINNATI FINANCIAL CORPORATION",
+    "annual_filing_2025": {
+      "url": "https://www.sec.gov/Archives/edgar/data/20286/000002028626000008/cinf-20251231.htm",
+      "accn": "0000020286-26-000008",
+      "filed": "2026-02-23",
+      "document": "cinf-20251231.htm",
+      "file": "CINF-2025.htm.gz",
+      "html_sha256": "1e0db908775a8315e1ba25897389649cadf399b36aa826e44e8605cfe41dd41c"
+    }
+  }
+]

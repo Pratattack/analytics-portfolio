@@ -1,0 +1,122 @@
+[
+  {
+    "ticker": "KIM",
+    "cik": 879101,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000879101.json",
+    "file": "KIM.json.gz",
+    "archive_sha256": "4c0f74d9715d3732fa77eb41af82ee3ff554abfa96c67626769cc96d5225b930",
+    "content_sha256": "c234dae549259cdff969a4756cab25bdcdd4400d2623f2dc6871a73a82b87f46",
+    "entity_name": "KIMCO REALTY CORPORATION",
+    "annual_filing_2025": {
+      "url": "https://www.sec.gov/Archives/edgar/data/879101/000119312526060760/kim-20251231.htm",
+      "accn": "0001193125-26-060760",
+      "filed": "2026-02-20",
+      "document": "kim-20251231.htm",
+      "file": "KIM-2025.htm.gz",
+      "html_sha256": "a2cb22618e01345aa4b2617c0f85b98828e78fbdc55bb346f017ca75a1992d82"
+    }
+  },
+  {
+    "ticker": "REG",
+    "cik": 910606,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000910606.json",
+    "file": "REG.json.gz",
+    "archive_sha256": "5fad7231c5ac9cf19507f031b6ea9b16f98ef46df527ff6c2738fed6458be130",
+    "content_sha256": "57af8e052d58b1775e4996fad2bf8c0a08547371c325c7602f98b7e690d08042",
+    "entity_name": "REGENCY CENTERS CORPORATION",
+    "annual_filing_2025": {
+      "url": "https://www.sec.gov/Archives/edgar/data/910606/000119312526051668/reg-20251231.htm",
+      "accn": "0001193125-26-051668",
+      "filed": "2026-02-13",
+      "document": "reg-20251231.htm",
+      "file": "REG-2025.htm.gz",
+      "html_sha256": "a26eaa0b06240d60b317584001bd7361e016c19e5586725480e7601adc4faaba"
+    }
+  },
+  {
+    "ticker": "FRT",
+    "cik": 34903,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000034903.json",
+    "file": "FRT.json.gz",
+    "archive_sha256": "6e90907aed70e41093e1b48ed55158cdfd208c2a7fe755cde9f6f1482f2cf552",
+    "content_sha256": "223c38e1a66dd5d276ac2fd34034110f229c574c19f5594dcec665dce9d1ecd7",
+    "entity_name": "FEDERAL REALTY INVESTMENT TRUST",
+    "annual_filing_2025": {
+      "url": "https://www.sec.gov/Archives/edgar/data/34903/000003490326000017/frt-20251231.htm",
+      "accn": "0000034903-26-000017",
+      "filed": "2026-02-12",
+      "document": "frt-20251231.htm",
+      "file": "FRT-2025.htm.gz",
+      "html_sha256": "0049edbdb79cc42455f2f28bfcdcc240b78bf90dba314985e2bd49826ddc9399"
+    }
+  },
+  {
+    "ticker": "BRX",
+    "cik": 1581068,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001581068.json",
+    "file": "BRX.json.gz",
+    "archive_sha256": "5b2fd2f588ff362427de60301266d4ebc5095cad6e78f01778495569d0f40bb8",
+    "content_sha256": "b06f82d1347c4a5f2c322cd11e623d686a28c9cfb23d2593422ef947858c5dfb",
+    "entity_name": "Brixmor Property Group Inc.",
+    "annual_filing_2025": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1581068/000158106826000007/brx-20251231.htm",
+      "accn": "0001581068-26-000007",
+      "filed": "2026-02-09",
+      "document": "brx-20251231.htm",
+      "file": "BRX-2025.htm.gz",
+      "html_sha256": "6f175f8379015cd86fc48c7ef0cc7ceb95c75a3d804a956272b427f124a922a1"
+    }
+  },
+  {
+    "ticker": "SKT",
+    "cik": 899715,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000899715.json",
+    "file": "SKT.json.gz",
+    "archive_sha256": "1e3952b55a76c0acce0c61b8669811aab0be6724850044fca0a32b9e36b4aead",
+    "content_sha256": "07d1b37c4ef7072f7602898f27fbdb23b7807841989c9dc5606a6e3bb77d0c2a",
+    "entity_name": "TANGER INC",
+    "annual_filing_2025": {
+      "url": "https://www.sec.gov/Archives/edgar/data/899715/000162828026012252/skt-20251231.htm",
+      "accn": "0001628280-26-012252",
+      "filed": "2026-02-26",
+      "document": "skt-20251231.htm",
+      "file": "SKT-2025.htm.gz",
+      "html_sha256": "8dd6aadd471f874f06dc0aa21ea450a52836ec0b1c0c534bb2cbd1247536d60d"
+    },
+    "history_filings": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/899715/000089971522000036/skt-20211231.htm",
+        "accn": "0000899715-22-000036",
+        "filed": "2022-02-22",
+        "file": "SKT-2021.htm.gz",
+        "html_sha256": "e2a1245f36c741df7cd1b97507b0cdd898bd6175da6588b04775b0e93674c6b7",
+        "year": 2021
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/899715/000089971525000036/skt-20241231.htm",
+        "accn": "0000899715-25-000036",
+        "filed": "2025-02-21",
+        "file": "SKT-2024.htm.gz",
+        "html_sha256": "bd1739b9f409d411f00da7757829ca63bc5547da68cc16dd004c1ec24363f5aa",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "ticker": "SPG",
+    "cik": 1063761,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001063761.json",
+    "file": "SPG.json.gz",
+    "archive_sha256": "bdb3793c5723c3e920401327f7d26000195450461b1e1283b4b6ef760d30ecdb",
+    "content_sha256": "37cdd1240de5e7962809168b0360723dc199cbbb299a4939e78296862cedb4a2",
+    "entity_name": "SIMON PROPERTY GROUP, INC.",
+    "annual_filing_2025": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465926019419/spg-20251231x10k.htm",
+      "accn": "0001104659-26-019419",
+      "filed": "2026-02-25",
+      "document": "spg-20251231x10k.htm",
+      "file": "SPG-2025.htm.gz",
+      "html_sha256": "bdccd48838551007dc1fa714f4bd319b6d5c383621504a8c58372ad10a5c5698"
+    }
+  }
+]

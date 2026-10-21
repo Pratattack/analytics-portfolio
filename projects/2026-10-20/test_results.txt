@@ -1,0 +1,19 @@
+test_all_accepted_factors_independent_numpy (test_finance.LossDevelopment.test_all_accepted_factors_independent_numpy) ... ok
+test_future_cells_do_not_change_masked_fit (test_finance.LossDevelopment.test_future_cells_do_not_change_masked_fit) ... ok
+test_hand_factors_and_ultimate (test_finance.LossDevelopment.test_hand_factors_and_ultimate) ... ok
+test_incomplete_triangle_fails_gate (test_finance.LossDevelopment.test_incomplete_triangle_fails_gate) ... ok
+test_invalid_assumptions_and_decreasing_paid (test_finance.LossDevelopment.test_invalid_assumptions_and_decreasing_paid) ... ok
+test_tail_applies_to_ultimate_not_reserve (test_finance.LossDevelopment.test_tail_applies_to_ultimate_not_reserve) ... ok
+test_analytic_solution_against_independent_linear_program (test_finance.Refinancing.test_analytic_solution_against_independent_linear_program) ... ok
+test_half_year_new_interest (test_finance.Refinancing.test_half_year_new_interest) ... ok
+test_hand_cash_no_interest (test_finance.Refinancing.test_hand_cash_no_interest) ... ok
+test_infeasible_is_not_clamped_to_success (test_finance.Refinancing.test_infeasible_is_not_clamped_to_success) ... ok
+test_invalid_inputs (test_finance.Refinancing.test_invalid_inputs) ... ok
+test_recovery_changes_levels_not_compounding (test_finance.Refinancing.test_recovery_changes_levels_not_compounding) ... ok
+test_context_dimensions_and_nil (test_finance.SourceContracts.test_context_dimensions_and_nil) ... ok
+test_sign_scale_and_zero (test_finance.SourceContracts.test_sign_scale_and_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.765s
+
+OK
