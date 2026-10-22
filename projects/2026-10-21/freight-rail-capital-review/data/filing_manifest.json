@@ -1,0 +1,38 @@
+[
+  {
+    "ticker": "UNP",
+    "cik": 100885,
+    "file": "UNP-latest-inline.json.gz",
+    "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000037/unp-20251231.htm",
+    "filed": "2026-02-06",
+    "end": "2025-12-31",
+    "accn": "0000100885-26-000037",
+    "submissions_sha256": "494865883e16065624518292f5bf5dcf9a96083c7529fd21b7fac14522b757f1",
+    "original_html_sha256": "194a9b467ce5c5f9a74360c926375df1a76b7ae6825343581088efba5dd3cd1e",
+    "snapshot_sha256": "f58819865708a2766bafb68e4508039fa446ab7ac61d8ddb6858d004202d9f5a"
+  },
+  {
+    "ticker": "CSX",
+    "cik": 277948,
+    "file": "CSX-latest-inline.json.gz",
+    "url": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000006/csx-20251231.htm",
+    "filed": "2026-02-12",
+    "end": "2025-12-31",
+    "accn": "0000277948-26-000006",
+    "submissions_sha256": "90be53ad1c0254dd3c44cfed66b6d4af76e5d1d63b6f9f39a23aba3e71b5d12b",
+    "original_html_sha256": "b669129838640cb18e2fdfe5ddd9f4d2824b134111d1481dd198685ec05b3b35",
+    "snapshot_sha256": "e10d536d80d7d5873d35a30a3af366cd7a3f0da89c6415f814a71512956f8bab"
+  },
+  {
+    "ticker": "NSC",
+    "cik": 702165,
+    "file": "NSC-latest-inline.json.gz",
+    "url": "https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm",
+    "filed": "2026-02-09",
+    "end": "2025-12-31",
+    "accn": "0001628280-26-006268",
+    "submissions_sha256": "8ba0ba9ac6179a16a44178e03ad599101db12543ac7babf9fad30ec261565c33",
+    "original_html_sha256": "14f534f7dcdb835dbbd1001261ef0c0fc73bf781b5e4362d3fa912591e85010c",
+    "snapshot_sha256": "0ec874a491cec86fbd03fc8e3cd2525de177d1414f5b03c9ca8338e3ec2fd9ee"
+  }
+]

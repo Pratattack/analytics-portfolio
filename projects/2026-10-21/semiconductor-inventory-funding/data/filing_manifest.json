@@ -1,0 +1,74 @@
+[
+  {
+    "ticker": "AMAT",
+    "cik": 6951,
+    "file": "AMAT-latest-inline.json.gz",
+    "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
+    "filed": "2026-08-20",
+    "end": "2026-07-26",
+    "accn": "0001628280-26-058235",
+    "submissions_sha256": "ed5b9d52c5c29ddb0129461fa79283054574cfd690a298070e93b40ed077d074",
+    "original_html_sha256": "60ee5b374d692e21c8bfcd67e04be8a1302e0168eb0e7a3c3112c6b8e9a7937d",
+    "snapshot_sha256": "736feb1971af31365c877f850349b360d07c6892d06d2ce9a45b28d9d1a7fb5a"
+  },
+  {
+    "ticker": "LRCX",
+    "cik": 707549,
+    "file": "LRCX-latest-inline.json.gz",
+    "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm",
+    "filed": "2026-08-07",
+    "end": "2026-06-28",
+    "accn": "0000707549-26-000037",
+    "submissions_sha256": "6fceded57bafb04f3a75bd0f9f49a3820281ed0681744a8163b29b75851ab9a2",
+    "original_html_sha256": "5f3be2594a154f5a4b6ca6bb0953a1cfe0df2a4fd6f36014173e163b6f8c85df",
+    "snapshot_sha256": "75c12436bc2c013f46afdb4c1509a3dd00ed9ef511e880908be94740d824a78d"
+  },
+  {
+    "ticker": "KLAC",
+    "cik": 319201,
+    "file": "KLAC-latest-inline.json.gz",
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/klac-20260630.htm",
+    "filed": "2026-08-06",
+    "end": "2026-06-30",
+    "accn": "0000319201-26-000027",
+    "submissions_sha256": "8c04a72fc29c2ed1177f333d34682f200faec4d7add34d38692d0b0362f2a652",
+    "original_html_sha256": "1501a01139a07d13b79790daa989e37db49fee96c227e152b71252aa7167c3a9",
+    "snapshot_sha256": "18aba187ad914920a0c983bab02c8af083e7af2174161f58302f3e4e5238bd1a"
+  },
+  {
+    "ticker": "TER",
+    "cik": 97210,
+    "file": "TER-latest-inline.json.gz",
+    "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526327715/ter-20260628.htm",
+    "filed": "2026-07-31",
+    "end": "2026-06-28",
+    "accn": "0001193125-26-327715",
+    "submissions_sha256": "11e7f11521a14b038be089c25ed42c139e12ae9f4713036bb41b838bc2afb964",
+    "original_html_sha256": "e99446439bfab015eeac634cb8ac3f0751cdd6ba99e1c2c3fa7fdc27522e63b7",
+    "snapshot_sha256": "96960c4d921f3f58ae675d6ba9e0c416d9de2c821e63089c6a0672916d7a2f4a"
+  },
+  {
+    "ticker": "ONTO",
+    "cik": 704532,
+    "file": "ONTO-latest-inline.json.gz",
+    "url": "https://www.sec.gov/Archives/edgar/data/704532/000119312526338401/onto-20260630.htm",
+    "filed": "2026-08-06",
+    "end": "2026-06-30",
+    "accn": "0001193125-26-338401",
+    "submissions_sha256": "b9b8c06164800dacaea0bc7751ceae751a9d1dcfe5aaf240b8c9208a60b4052f",
+    "original_html_sha256": "a2cfcb9fb6893b7776c967e0b54731ff3082077e2f8df2012b25e80272323c38",
+    "snapshot_sha256": "497641117a31cd99a916a15a79e45323db61211f27afab88403274e8309bc188"
+  },
+  {
+    "ticker": "COHU",
+    "cik": 21535,
+    "file": "COHU-latest-inline.json.gz",
+    "url": "https://www.sec.gov/Archives/edgar/data/21535/000143774926025144/cohu20260627_10q.htm",
+    "filed": "2026-07-31",
+    "end": "2026-06-27",
+    "accn": "0001437749-26-025144",
+    "submissions_sha256": "470f81783b652c2385348fafe567479b29b6393079b1dbc50c7b2ed692fa5b58",
+    "original_html_sha256": "d0624d6ceea6fa18c9b9774247d23c5d3ac16f505ef6d7a068860af6fa151214",
+    "snapshot_sha256": "2c9ee3b30a5e05c2d0375bf4c25dd8b2dbbcffcef931438bcfa77046c25b18b7"
+  }
+]

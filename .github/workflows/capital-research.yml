@@ -1,0 +1,82 @@
+name: Capital research acceptance
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  capital-source-method-reproduction:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: projects/2026-10-21/requirements.txt
+      - name: Install pinned research dependencies
+        run: python -m pip install -r projects/2026-10-21/requirements.txt
+      - name: Audit sources, independently reconcile methods, and reproduce without outputs
+        run: python projects/2026-10-21/verify.py
+  capital-browser-acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pinned analysis dependencies and rebuild current application
+        run: |
+          python -m pip install -r projects/2026-10-21/requirements.txt
+          python projects/2026-10-21/analyze.py
+          python projects/2026-10-21/presentation.py
+      - name: Install pinned browser runtime and three actual browser engines
+        run: |
+          npm install --prefix .capital-browser playwright@1.56.1
+          .capital-browser/node_modules/.bin/playwright install --with-deps chromium firefox webkit
+      - name: Execute reports and main analyst flows on desktop and mobile
+        run: NODE_PATH="$PWD/.capital-browser/node_modules" node projects/2026-10-21/browser_test.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: capital-research-browser-evidence
+          path: projects/2026-10-21/browser_evidence/
+          retention-days: 30
+  capital-evidence-release:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    needs: [capital-source-method-reproduction, capital-browser-acceptance]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: capital-research-browser-evidence
+          path: capital-browser-evidence
+      - name: Verify actual matrix and package evidence
+        run: |
+          python - <<'PY'
+          import json, shutil
+          from pathlib import Path
+          root=Path('capital-browser-evidence')
+          a=json.loads((root/'results.json').read_text())
+          assert a['status']=='PASS' and len(a['results'])==24
+          assert all(r['status']=='PASS' and (root/r['screenshot']).is_file() for r in a['results'])
+          shutil.make_archive('capital-browser-evidence','zip',root)
+          PY
+      - name: Publish commit-specific public passing evidence
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          snapshot_tag="capital-research-2026-10-21-${GITHUB_SHA:0:12}"
+          if ! gh release view "$snapshot_tag" >/dev/null 2>&1; then
+            gh release create "$snapshot_tag" capital-browser-evidence.zip --target "$GITHUB_SHA" --title "Inventory forecast governance and freight rail capital review" --notes "Actual 24-case Chromium, Firefox and WebKit report/app acceptance on desktop and mobile, with screenshots. Source numerical snapshots, methods and analyst workbenches are in the tagged source tree. Local/offline delivery, not hosted applications. Candidate inventory model fails promotion; rail budget adoption remains unapproved."
+          fi

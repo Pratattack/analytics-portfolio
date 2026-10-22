@@ -1,0 +1,74 @@
+[
+  {
+    "ticker": "AMAT",
+    "cik": 6951,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000006951.json",
+    "retrieved_utc": "2026-10-21T19:11:32Z",
+    "sha256_uncompressed": "335967231eccd1c295823c99ca7472bf5f8046f74563b0a87f14f65da1247975",
+    "sha256_archive": "ff1a47180f7d9f2f32ed3c0f967d87d36d91e898aceb1a0ca3726cbad0658d18",
+    "bytes_uncompressed": 296301,
+    "original_response_sha256": "65ecfedd5bfd3768d30286b52badee080c655cc8d1077524bdb6ca8928380fa7",
+    "original_response_bytes": 4552943,
+    "snapshot_scope": "Lossless projection of specified US-GAAP tags; all original entries and array indices for retained tags preserved"
+  },
+  {
+    "ticker": "LRCX",
+    "cik": 707549,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000707549.json",
+    "retrieved_utc": "2026-10-21T19:11:38Z",
+    "sha256_uncompressed": "deb3d260a93c1f7d01ae7a4ee77e44967d3a44c5ba4b182b16e6d388cea13ffa",
+    "sha256_archive": "c9e8cb22f1bb25f13fcc143ca7110e2d6c8fdf252980dcc5249ce457257cff65",
+    "bytes_uncompressed": 226976,
+    "original_response_sha256": "7ba34e55ee4bb0512afd14805895a554951f4d948ee28e2db41b44f44ad0b1dc",
+    "original_response_bytes": 4079758,
+    "snapshot_scope": "Lossless projection of specified US-GAAP tags; all original entries and array indices for retained tags preserved"
+  },
+  {
+    "ticker": "KLAC",
+    "cik": 319201,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000319201.json",
+    "retrieved_utc": "2026-10-21T19:11:46Z",
+    "sha256_uncompressed": "c06472ba7329e788b18ac279120f2249fd2cc34cb6068c17edd24b66ad403404",
+    "sha256_archive": "9872a806bf50bcabdf6bc17235f041219f204e9ea50173bc90b31933138ca34a",
+    "bytes_uncompressed": 278250,
+    "original_response_sha256": "2198d006cb99f6983557cb6747cbcc7802b6c72eef9eacd482840607d97995df",
+    "original_response_bytes": 4908679,
+    "snapshot_scope": "Lossless projection of specified US-GAAP tags; all original entries and array indices for retained tags preserved"
+  },
+  {
+    "ticker": "TER",
+    "cik": 97210,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000097210.json",
+    "retrieved_utc": "2026-10-21T19:11:51Z",
+    "sha256_uncompressed": "b51047f6a82b1a462479753a8007a554b925355f918afdefcfaff8bda8357285",
+    "sha256_archive": "efff2fd0b92c63e4e4f51700eb16a96e5dd2994c65da6e2c526914d2fef7fc52",
+    "bytes_uncompressed": 319121,
+    "original_response_sha256": "e63938f59166b737c6c5aec9f42095752ee968c24e9c7f8c2fd4053f51572e41",
+    "original_response_bytes": 5116469,
+    "snapshot_scope": "Lossless projection of specified US-GAAP tags; all original entries and array indices for retained tags preserved"
+  },
+  {
+    "ticker": "ONTO",
+    "cik": 704532,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000704532.json",
+    "retrieved_utc": "2026-10-21T19:11:56Z",
+    "sha256_uncompressed": "c39c3e7a259fb8d35b01574346fa61b5703b427f9f51abea5b2398de72961a1f",
+    "sha256_archive": "fa11a94fb8ca687124e3b5a1e97f8f740a03129a50829da52bb24d8875e8ddba",
+    "bytes_uncompressed": 247351,
+    "original_response_sha256": "179011789e2789effc4665568bbff21dd7c7af9d497081745d0aaf7894e4708f",
+    "original_response_bytes": 3180268,
+    "snapshot_scope": "Lossless projection of specified US-GAAP tags; all original entries and array indices for retained tags preserved"
+  },
+  {
+    "ticker": "COHU",
+    "cik": 21535,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000021535.json",
+    "retrieved_utc": "2026-10-21T19:12:01Z",
+    "sha256_uncompressed": "f2001656456e85d466696b590fdf76577e1f070f8e96e4b6579a56757c822242",
+    "sha256_archive": "858646b2d110ce3eb6d57b517f1837a1d17d55653911c569b94afbcda9590632",
+    "bytes_uncompressed": 208585,
+    "original_response_sha256": "4e32308702cfd7998ed593e3f0e275669e2d01c2b748d1dc86e011d09a5ad360",
+    "original_response_bytes": 3778244,
+    "snapshot_scope": "Lossless projection of specified US-GAAP tags; all original entries and array indices for retained tags preserved"
+  }
+]

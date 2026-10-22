@@ -1,0 +1,18 @@
+# Personal understanding and interview defense
+
+I studied whether semiconductor-equipment companies' inventory could be forecast well enough to improve a treasury funding conversation. I reconstructed 332 quarterly observations from SEC facts, kept each figure tied to its accession and filing date, and compared a pooled ridge model with simply carrying the last inventory balance forward. The candidate lost: 3.03% held-out WAPE versus 2.62%. I would explain that rejecting an unnecessary model is a useful business outcome, rather than claiming that I delivered savings.
+
+The hard part was accounting consistency and timing. Q4 cost needs annual-minus-nine-month reconstruction, training can only use outcomes already filed, and Lam's restructuring-excluded cost cannot be silently joined to an older total-cost series. Cohu also fails the selected revenue definition, so two issuers are blocked from current scenarios. The workbench defaults to the baseline and keeps assumptions separate. Before a company used it, I would need procurement commitments, SKU aging, terms and service constraints; an inventory balance is not the same as cash required.
+
+## Two measured resume bullets
+
+- Built a Python/SQL semiconductor-equipment research panel of 332 issuer-quarters and 1,160 source operands, preserving original-current filing lineage, Q4 arithmetic and explicit source exclusions.
+- Backtested 47 later inventory outcomes using filing-date-gated training; rejected a ridge model with 3.03% WAPE versus 2.62% for the last-balance baseline and exposed incomplete current coverage in 2 of 6 issuers.
+
+## Five interview questions and answers
+
+1. **What decision does the project support?** Whether a candidate inventory forecast earns promotion into a funding discussion. The tested model fails the point-error improvement gate, and current source coverage is incomplete. The application retains the last-balance baseline, not a claimed optimal procurement plan.
+2. **How did you prevent look-ahead?** Each current-period balance comes from the earliest qualifying filing; training labels must be filed strictly before the forecast origin. Lambda is selected using 2022 targets only; calibration starts after those labels are available; 2024–2026 target outcomes evaluate the fixed model specification. Coefficients refit using only available labels. Today's API aggregation still is not an immutable original release vintage.
+3. **Why use ridge and these baselines?** The fixed slope penalty stabilizes a small pooled log-growth specification using observed inventory/cost changes, annual inventory growth and month seasonality. Last balance tests whether any extra work beats persistence; prior-year-quarter inventory tests seasonal repetition. I independently reproduced every backtest prediction using augmented SVD rather than the model's normal-equation solve.
+4. **What do the intervals mean?** Prequential residual scores produce nominal 90% bands, evaluated on 36 eligible test outcomes with 86.11% coverage. Eleven early point forecasts lack enough prior scores. The approximate MAE-improvement interval uses five issuer histories, not independent quarter resampling; sector dependence and so few clusters limit inference. No guaranteed future coverage is claimed.
+5. **Why exclude recent Lam and Cohu periods?** Lam's custom quarter cost excludes restructuring while the specified series is total cost; Cohu's available revenue includes assessed taxes. Changing definitions to recover rows would change the study. Those stale/gapped rows remain inspectable but cannot produce a current scenario. A revised, consistently reconciled cohort would need new evaluation.

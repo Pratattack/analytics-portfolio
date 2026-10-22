@@ -1,0 +1,14 @@
+ticker,end,metric,original,later,later_filed,original_pointer,later_pointer
+CSX,2016-12-30,op_income,3389000000,3413000000,2019-02-06,/facts/us-gaap/OperatingIncomeLoss/units/USD/171,/facts/us-gaap/OperatingIncomeLoss/units/USD/173
+CSX,2017-12-31,op_income,3667000000,3720000000,2020-02-12,/facts/us-gaap/OperatingIncomeLoss/units/USD/192,/facts/us-gaap/OperatingIncomeLoss/units/USD/194
+CSX,2022-12-31,ppe_net,34242000000,34070000000,2025-02-27,/facts/us-gaap/PropertyPlantAndEquipmentNet/units/USD/111,/facts/us-gaap/PropertyPlantAndEquipmentNet/units/USD/118
+CSX,2022-12-31,ppe_gross,48105000000,48463000000,2025-02-27,/facts/us-gaap/PropertyPlantAndEquipmentGross/units/USD/111,/facts/us-gaap/PropertyPlantAndEquipmentGross/units/USD/118
+CSX,2022-12-31,op_income,6023000000,5954000000,2025-02-27,/facts/us-gaap/OperatingIncomeLoss/units/USD/279,/facts/us-gaap/OperatingIncomeLoss/units/USD/283
+CSX,2022-12-31,cfo,5619000000,5526000000,2025-02-27,/facts/us-gaap/NetCashProvidedByUsedInOperatingActivities/units/USD/129,/facts/us-gaap/NetCashProvidedByUsedInOperatingActivities/units/USD/132
+CSX,2022-12-31,capex,2133000000,2113000000,2025-02-27,/facts/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/units/USD/129,/facts/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/units/USD/133
+CSX,2023-12-31,ppe_net,34935000000,34721000000,2025-02-27,/facts/us-gaap/PropertyPlantAndEquipmentNet/units/USD/131,/facts/us-gaap/PropertyPlantAndEquipmentNet/units/USD/135
+CSX,2023-12-31,ppe_gross,50320000000,50281000000,2025-02-27,/facts/us-gaap/PropertyPlantAndEquipmentGross/units/USD/131,/facts/us-gaap/PropertyPlantAndEquipmentGross/units/USD/135
+CSX,2023-12-31,op_income,5561000000,5499000000,2026-02-12,/facts/us-gaap/OperatingIncomeLoss/units/USD/305,/facts/us-gaap/OperatingIncomeLoss/units/USD/309
+CSX,2023-12-31,cfo,5549000000,5514000000,2026-02-12,/facts/us-gaap/NetCashProvidedByUsedInOperatingActivities/units/USD/146,/facts/us-gaap/NetCashProvidedByUsedInOperatingActivities/units/USD/150
+CSX,2023-12-31,capex,2281000000,2257000000,2026-02-12,/facts/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/units/USD/147,/facts/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/units/USD/151
+NSC,2023-12-31,capex,2349000000,2327000000,2026-02-09,/facts/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/units/USD/134,/facts/us-gaap/PaymentsToAcquirePropertyPlantAndEquipment/units/USD/136

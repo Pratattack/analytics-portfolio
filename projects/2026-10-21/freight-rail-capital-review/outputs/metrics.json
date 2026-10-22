@@ -1,0 +1,15 @@
+{
+  "cutoff": "2026-10-20",
+  "records": 32,
+  "issuers": 3,
+  "latest_end": "2025-12-31",
+  "latest_cfo_usd": 18264000000,
+  "latest_capex_usd": 8897000000,
+  "latest_cash_returns_usd": 10032000000,
+  "latest_gap_usd": -665000000.0,
+  "latest_uncovered_issuers": 2,
+  "scenario_cases": 72,
+  "negative_gap_scenarios": 62,
+  "asset_sensitivity_cases": 72,
+  "adoption_gate": "NOT_AUTHORIZED: maintenance/growth split, current budgets, merger terms and safety constraints absent"
+}

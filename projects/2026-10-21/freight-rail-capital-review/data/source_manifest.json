@@ -1,0 +1,38 @@
+[
+  {
+    "ticker": "UNP",
+    "cik": 100885,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000100885.json",
+    "retrieved_utc": "2026-10-21T19:12:07Z",
+    "sha256_uncompressed": "b8b8489919c9163b71e7708562b5cdace1916ab5ca90ee0314f0d6e304b03a39",
+    "sha256_archive": "f49f3f16a8f1890667ba6a016f7cf2d12a00c87de59a567afbeab3e566393160",
+    "bytes_uncompressed": 252067,
+    "original_response_sha256": "99d22f8aa6dd31f102b2691ce5c53ef872908bb7b50860d153e6efbc6eef2b61",
+    "original_response_bytes": 3598043,
+    "snapshot_scope": "Lossless projection of specified US-GAAP tags; all original entries and array indices for retained tags preserved"
+  },
+  {
+    "ticker": "CSX",
+    "cik": 277948,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000277948.json",
+    "retrieved_utc": "2026-10-21T19:12:11Z",
+    "sha256_uncompressed": "c20e77c4be43ccb0f469dc8ecc911c656dc6f7493b8ff06cf28b1af099147043",
+    "sha256_archive": "1ce6c1aca3d4ad3a6561ed5b04bd8db23b5b3606d46379913cbfbf7c97cf9e48",
+    "bytes_uncompressed": 265915,
+    "original_response_sha256": "85aa75ecd9ce76a5596f7973f2b41e953e022e056f9883bf9aec2190b7f43d0e",
+    "original_response_bytes": 2967098,
+    "snapshot_scope": "Lossless projection of specified US-GAAP tags; all original entries and array indices for retained tags preserved"
+  },
+  {
+    "ticker": "NSC",
+    "cik": 702165,
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000702165.json",
+    "retrieved_utc": "2026-10-21T19:12:16Z",
+    "sha256_uncompressed": "45a9e2dc4c7a99fe638ac0455ebca3d69b378c6babe2cf9b4cdcf5d726a0d6dd",
+    "sha256_archive": "fdf7c43fcfd96f0180e5855fc95c305fe3fd0c8f5f722346266e53280ab9d080",
+    "bytes_uncompressed": 231100,
+    "original_response_sha256": "19e2b893fa81e7209a06aa2c2c327b0ca912a9a6bcb5c535439c80475eed4759",
+    "original_response_bytes": 3077075,
+    "snapshot_scope": "Lossless projection of specified US-GAAP tags; all original entries and array indices for retained tags preserved"
+  }
+]

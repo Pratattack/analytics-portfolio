@@ -91,5 +91,25 @@
     "status": "published_research_prototype",
     "method": "Exact five-year cash-floor / rollover affine constraints, independently reconciled with linear programming; severity and recovery sensitivity",
     "limitations": "Assumed capex, distributions, cash floors and refinancing terms; no current facility/covenant approval or actual funding-deficit estimate; separate browser CI evidence"
+  },
+  {
+    "date": "2026-10-21",
+    "industry": "semiconductor manufacturing equipment",
+    "title": "Inventory Funding & Forecast Governance",
+    "path": "projects/2026-10-21/semiconductor-inventory-funding",
+    "data": "Pinned SEC entity-wide original-current quarterly facts and latest original-filing numerical cells; cutoff 2026-10-20",
+    "status": "published_research_prototype",
+    "method": "Filing-label-gated rolling ridge; 2022-only model selection, later calibration/test; issuer-cluster uncertainty and explicit source-definition exclusions",
+    "limitations": "Candidate fails promotion; 47 test outcomes across five issuers; two of six current inputs stale/gapped; no procurement commitments or guaranteed coverage"
+  },
+  {
+    "date": "2026-10-21",
+    "industry": "US listed freight railroads",
+    "title": "Reinvestment & Cash Return Review",
+    "path": "projects/2026-10-21/freight-rail-capital-review",
+    "data": "Pinned SEC original-current annual facts and original-filing numerical cells; coherent FY2025 latest base",
+    "status": "published_research_prototype",
+    "method": "Audited cash-return capacity and reverse CFO stress; three-year coverage; net/gross productive-asset and tax/hurdle sensitivity",
+    "limitations": "32 unbalanced issuer-years; dated annual base, finance-lease scope transition, no maintenance split/current treasury validation; not ROIC or causal funding attribution"
   }
 ]

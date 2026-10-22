@@ -1,0 +1,9 @@
+{
+  "records": 332,
+  "forecast_test_cases": 47,
+  "forecast_wape_pct": 3.025093636902241,
+  "last_value_wape_pct": 2.6236304927642276,
+  "coverage90_pct": 86.11111111111111,
+  "interval_cases": 36,
+  "current_usable_issuers": 4
+}

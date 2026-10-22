@@ -1,0 +1,40 @@
+ticker,end,reason,accn
+LRCX,2025-09-28,missing coherent cost,0000707549-25-000085
+LRCX,2025-12-28,missing coherent cost,0000707549-26-000009
+LRCX,2026-03-29,missing coherent cost,0000707549-26-000022
+LRCX,2026-06-28,missing nine-month operand cost,0000707549-26-000037
+ONTO,2019-12-31,missing nine-month operand cost,0001564590-20-006357
+COHU,2018-03-31,missing coherent revenue,0001437749-18-009419
+COHU,2018-06-30,missing coherent revenue,0001437749-18-014742
+COHU,2018-09-29,missing coherent revenue,0001437749-18-019867
+COHU,2018-12-29,missing coherent revenue,0001437749-19-004933
+COHU,2019-03-30,missing coherent revenue,0001437749-19-009301
+COHU,2019-06-29,missing coherent revenue,0001437749-19-015660
+COHU,2019-09-28,missing coherent revenue,0001437749-19-021739
+COHU,2019-12-28,missing coherent revenue,0001437749-20-004691
+COHU,2020-03-28,missing coherent cost,0001437749-20-009816
+COHU,2020-06-27,missing coherent cost,0001437749-20-016487
+COHU,2020-09-26,missing coherent cost,0001437749-20-022546
+COHU,2020-12-26,missing nine-month operand cost,0001437749-21-004277
+COHU,2021-03-27,missing coherent cost,0001437749-21-010747
+COHU,2021-06-26,missing coherent cost,0001437749-21-018157
+COHU,2021-09-25,missing coherent cost,0001437749-21-024650
+COHU,2021-12-25,missing coherent cost,0001437749-22-003768
+COHU,2022-03-26,missing coherent cost,0001437749-22-010147
+COHU,2022-06-25,missing coherent cost,0001437749-22-018062
+COHU,2022-09-24,missing coherent cost,0001437749-22-024995
+COHU,2022-12-31,missing coherent cost,0001437749-23-003782
+COHU,2023-04-01,missing coherent cost,0001437749-23-012665
+COHU,2023-07-01,missing coherent cost,0001437749-23-022033
+COHU,2023-09-30,missing coherent cost,0001437749-23-030098
+COHU,2023-12-30,missing coherent cost,0001437749-24-004596
+COHU,2024-03-30,missing coherent cost,0001437749-24-014436
+COHU,2024-06-29,missing coherent cost,0001437749-24-024178
+COHU,2024-09-28,missing coherent cost,0001437749-24-032864
+COHU,2024-12-28,missing coherent cost,0001437749-25-004612
+COHU,2025-03-29,missing coherent cost,0001437749-25-014183
+COHU,2025-06-28,missing coherent cost,0001437749-25-024281
+COHU,2025-09-27,missing coherent cost,0001437749-25-032269
+COHU,2025-12-27,missing coherent cost,0001437749-26-004339
+COHU,2026-03-28,missing coherent cost,0001437749-26-014308
+COHU,2026-06-27,missing coherent cost,0001437749-26-025144

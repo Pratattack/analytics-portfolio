@@ -1,0 +1,6 @@
+{
+  "analytical_stages": "PASS",
+  "derived_files_reproduced": 31,
+  "browser_acceptance": "SEPARATE: see browser_evidence/results.json or CI artifact; not implied by analytical PASS",
+  "python": "3.12.14"
+}

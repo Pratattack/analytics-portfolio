@@ -1,0 +1,9 @@
+{
+  "records": 32,
+  "latest_cfo_usd": 18264000000,
+  "latest_capex_usd": 8897000000,
+  "latest_cash_returns_usd": 10032000000,
+  "latest_gap_usd": -665000000.0,
+  "negative_gap_scenarios": 62,
+  "asset_sensitivity_cases": 72
+}

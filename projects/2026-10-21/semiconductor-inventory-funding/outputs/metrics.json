@@ -1,0 +1,41 @@
+{
+  "cutoff": "2026-10-20",
+  "records": 332,
+  "forecast_test_cases": 47,
+  "selected_penalty": 1.0,
+  "selection": [
+    {
+      "penalty": 1.0,
+      "selection_year": 2022,
+      "cases": 21,
+      "mae_usd": 146967164.5368978
+    },
+    {
+      "penalty": 10.0,
+      "selection_year": 2022,
+      "cases": 21,
+      "mae_usd": 151913623.9958593
+    },
+    {
+      "penalty": 100.0,
+      "selection_year": 2022,
+      "cases": 21,
+      "mae_usd": 151895539.5931411
+    }
+  ],
+  "issuers": 6,
+  "future_filing_labels_used": 0,
+  "forecast_wape_pct": 3.025093636902241,
+  "last_value_wape_pct": 2.6236304927642276,
+  "seasonal_wape_pct": 6.908482558280041,
+  "coverage90_pct": 86.11111111111111,
+  "interval_cases": 36,
+  "mae_improvement_usd_interval95": [
+    -28605410.454189923,
+    -1249227.8012950516
+  ],
+  "test_issuer_clusters": 5,
+  "model_promotion_pass": false,
+  "current_usable_issuers": 4,
+  "current_usable_inventory_usd": 10995078000
+}

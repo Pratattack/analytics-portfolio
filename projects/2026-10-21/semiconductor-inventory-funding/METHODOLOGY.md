@@ -1,0 +1,25 @@
+# Inventory funding research design
+
+## Decision, objective and prereported gate
+
+A semiconductor-equipment treasury/FP&A analyst must decide whether a quarterly inventory forecast is credible enough to change a baseline funding discussion. Objective: reduce out-of-time absolute inventory error versus carrying the last disclosed balance forward, while exposing source gaps and uncertainty. The gate is fixed in code: lower 95% approximate issuer-cluster MAE improvement bound > 0; prequential nominal 90% bands cover at least 85% of eligible test cases; all six issuers have coherent current inputs no more than 180 days old. The 85% criterion is a minimum diagnostic tolerance, not proof of calibrated 90% coverage. Failure retains the baseline. An actual deployment also needs procurement validation, absent here.
+
+## Cohort and information timing
+
+Six deliberately chosen US-listed equipment, test and metrology companies: AMAT, LRCX, KLAC, TER, ONTO and COHU. The universe is fixed but not a representative random industry sample. End dates start in 2011. For each inventory end, select the earliest 10-K/10-Q filed within 120 days containing that current-period balance. Required inventory, total cost and revenue must belong to that accession; no later substitute is used to fill a required field. Fiscal-quarter durations must fit 75–105 days, annual 350–380, and YTD9 255–290. Q4 subtracts an as-of-annual-filing nine-month operand with the exact same fiscal start. Quarter gaps quarantine model sequences. This is conservative and loses usable inventory observations when required cost/revenue is missing.
+
+This is an original-current-period reconstruction from today's SEC aggregation, **not an immutable historical API vintage**. Original inline cells independently check the latest overlapping facts; source API omissions, amendments and missing custom/dimensional data may remain. Later changed values are audited. No later revised value replaces the original outcome. A 2025 current-period disclosure may still differ from what investors first saw in an earlier earnings release.
+
+## Models, selection and evaluation
+
+Predict next quarter's log inventory change from an intercept, the current quarterly log changes in inventory and cost, inventory's four-quarter log change, and month-of-year sine/cosine. Pooled ridge coefficients have no issuer fixed effects. No revenue of the forecasted quarter is used. Ridge penalizes the five slopes and leaves the intercept unpenalized; raw log-growth and trigonometric features are unstandardized, so penalty interpretation is tied to this fixed feature scaling.
+
+At each historical origin, training labels must have been filed strictly before that origin's filing date **and** target period end before the origin period. At least 60 training examples are required. Choose lambda from {1,10,100} by rolling 2022 target-period MAE only. Do not tune on 2023 or 2024–2026. Calibration begins with 2023 target periods but only after all selection-period labels are available. Starting in 2024, evaluate the frozen specification with as-of refitting; this is a rolling estimation rule, not one frozen set of coefficients. Compare last balance and same-quarter-prior-year inventory. WAPE divides total absolute USD error by total actual inventory; it weights large balances heavily. The issuer-cluster bootstrap resamples five issuer histories 4,000 times with seed 20261021; with so few clusters and correlated industry cycles it is exploratory, not reliable population inference.
+
+Prequential bounds use absolute forecast error divided by origin inventory, accumulated only once the corresponding label is filed before the current origin. Require 20 prior scores; the sorted finite-sample rank is ceil((n+1)*0.9), capped at n. Bounds are forecast ± score × origin inventory, floored at zero. Dependence, expanding refits and model selection mean these are conformal-style diagnostics with **no exchangeability guarantee**. Early uncalibrated test cases remain in point-error metrics and are excluded only from interval-coverage metrics.
+
+## Source-boundary challenge and action
+
+LRCX's recent quarterly custom cost excludes restructuring; mapping it directly to historical total cost would change scope. Its latest current input is withheld. COHU's recent standardized revenue is tax-inclusive rather than the specified excluding-tax definition; do not silently substitute it. Both are visible stale/gapped issuers; they cannot be used in the scenario calculator. ONTO's acquisition-era discontinuities and all excluded sequences remain visible.
+
+The default UI carries current admitted inventory forward. Its buffer and annual carrying rate are explicit assumptions. The rejected-model option explores the modeled upper balance, never an approved funding requirement. Inventory balances are not cash outlays: supplier terms, payables, backlog, customer deposits, write-downs, SKU aging and service levels are absent. There is no causal estimate of cash release or inventory reduction.
