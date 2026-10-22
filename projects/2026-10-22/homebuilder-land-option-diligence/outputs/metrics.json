@@ -1,0 +1,16 @@
+{
+  "records": 74,
+  "issuers": 3,
+  "current_disclosed_cost": 1613026000.0,
+  "current_remaining_purchase_price": 13711157000.0,
+  "scope_reconciliations": 48,
+  "scenarios": 243,
+  "actions": {
+    "wait": 123,
+    "exercise": 39,
+    "abandon": 81
+  },
+  "refund_sensitivities": 27,
+  "adoption_gate": false,
+  "reason": "Aggregate portfolios, no deal-level land values, refund terms or extension rights; do not authorize exercise or treat conditional prices as debt."
+}

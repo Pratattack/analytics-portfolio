@@ -111,5 +111,25 @@
     "status": "published_research_prototype",
     "method": "Audited cash-return capacity and reverse CFO stress; three-year coverage; net/gross productive-asset and tax/hurdle sensitivity",
     "limitations": "32 unbalanced issuer-years; dated annual base, finance-lease scope transition, no maintenance split/current treasury validation; not ROIC or causal funding attribution"
+  },
+  {
+    "date": "2026-10-22",
+    "industry": "residential homebuilding",
+    "title": "Homebuilder Land Option Diligence",
+    "path": "projects/2026-10-22/homebuilder-land-option-diligence",
+    "data": "24 original SEC numerical filing snapshots; 74 contract-scope/date records; heterogeneous deposit/preacquisition boundaries",
+    "status": "published_research_prototype",
+    "method": "Context-exact contract census, off-balance-sheet scope reconciliation and conditional contingent exercise/wait/abandonment analysis",
+    "limitations": "No estimated land values, probabilities or enforceable extension/refund rights; aggregate payoffs are illustrative, not option appraisals or issuer-specific actions."
+  },
+  {
+    "date": "2026-10-22",
+    "industry": "hotel management and franchising",
+    "title": "Hotel Reimbursement Economics",
+    "path": "projects/2026-10-22/hotel-reimbursement-economics",
+    "data": "12 original SEC numerical filing snapshots; 34 issuer-periods including 22 annual observations and same-filing 2025/2026 Q2/H1 comparatives",
+    "status": "published_research_prototype",
+    "method": "Exact reimbursement income/denominator normalization; matched-period income bridges and conditional program-budget feasibility frontier",
+    "limitations": "Selected sample; historical current-disclosure vintages; not pure fee profit, cash collection, probability estimates or investment rankings; forward budgets/contracts absent."
   }
 ]

@@ -1,0 +1,7 @@
+ticker,period,op_income_change,ex_recovery_profit_change,recovery_balance_change,identity_error
+CHH,quarter,-20459000.0,4873000.0,-25332000.0,0.0
+CHH,half,-40357000.0,2471000.0,-42828000.0,0.0
+HLT,quarter,80000000.0,22000000.0,58000000.0,0.0
+HLT,half,222000000.0,129000000.0,93000000.0,0.0
+MAR,quarter,-7000000.0,93000000.0,-100000000.0,0.0
+MAR,half,109000000.0,234000000.0,-125000000.0,0.0

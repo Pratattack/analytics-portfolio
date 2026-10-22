@@ -1,0 +1,77 @@
+name: Industry finance research acceptance
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  industry-source-method-reproduction:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: projects/2026-10-22/requirements.txt
+      - name: Install pinned dependency in clean runner
+        run: python -m pip install -r projects/2026-10-22/requirements.txt
+      - name: Input, independent methodology, SQL, clean deterministic rebuild
+        run: python projects/2026-10-22/verify.py
+  industry-browser-acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rebuild applications from pinned inputs
+        run: |
+          python -m pip install -r projects/2026-10-22/requirements.txt
+          python projects/2026-10-22/analyze.py
+          python projects/2026-10-22/presentation.py
+      - name: Install actual Chromium, Firefox and WebKit
+        run: |
+          npm install --prefix .industry-browser playwright@1.56.1
+          .industry-browser/node_modules/.bin/playwright install --with-deps chromium firefox webkit
+      - name: Execute application/report acceptance on desktop/mobile
+        run: NODE_PATH="$PWD/.industry-browser/node_modules" node projects/2026-10-22/browser_test.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: industry-finance-browser-evidence
+          path: projects/2026-10-22/browser_evidence/
+          retention-days: 30
+  industry-evidence-release:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    needs: [industry-source-method-reproduction, industry-browser-acceptance]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: industry-finance-browser-evidence
+          path: industry-browser-evidence
+      - name: Verify and package actual passing evidence
+        run: |
+          python - <<'PY'
+          import json, shutil
+          from pathlib import Path
+          p=Path('industry-browser-evidence');a=json.loads((p/'results.json').read_text())
+          assert a['status']=='PASS' and len(a['results'])==24
+          assert all(r['status']=='PASS' and (p/r['screenshot']).is_file() for r in a['results'])
+          shutil.make_archive('industry-finance-browser-evidence','zip',p)
+          PY
+      - name: Publish permanent evidence for this exact commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          evidence_tag="industry-finance-2026-10-22-${GITHUB_SHA:0:12}"
+          if ! gh release view "$evidence_tag" >/dev/null 2>&1; then
+            gh release create "$evidence_tag" industry-finance-browser-evidence.zip --target "$GITHUB_SHA" --title "Homebuilder land options and hotel reimbursement research" --notes "Actual 24-case three-engine desktop/mobile application and report acceptance, with screenshots. Original-source numerical snapshots, executive briefs and offline applications are included in the tagged source. Scenario assumptions are not observed prices, probabilities, forecasts or investment approvals. Source publication is not live hosting."
+          fi

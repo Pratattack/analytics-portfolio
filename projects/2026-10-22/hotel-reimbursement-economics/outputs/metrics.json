@@ -1,0 +1,13 @@
+{
+  "records": 34,
+  "annual_records": 22,
+  "issuers": 3,
+  "h1_2026_revenue": 20784337000.0,
+  "h1_2026_reimbursement_revenue": 13926228000.0,
+  "h1_2026_recovery_balance": -326224000.0,
+  "h1_2026_op_income": 3993172000.0,
+  "scenarios": 216,
+  "below_assumed_floor": 26,
+  "adoption_gate": false,
+  "reason": "Accounting bridges and hypothetical income floors; recovery lags, contract billability and forward core budgets unobserved. Not free cash, pure fee margin or issuer adjusted EBITDA."
+}

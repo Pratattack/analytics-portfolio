@@ -1,0 +1,27 @@
+ticker,source,start,end,reason
+CHH,CHH-2019-12-31.json.gz,2018-01-01,2018-03-31,missing comparable revenue
+CHH,CHH-2019-12-31.json.gz,2018-01-01,2018-12-31,missing comparable reimb_revenue
+CHH,CHH-2019-12-31.json.gz,2018-04-01,2018-06-30,missing comparable revenue
+CHH,CHH-2019-12-31.json.gz,2018-07-01,2018-09-30,missing comparable revenue
+CHH,CHH-2019-12-31.json.gz,2018-10-01,2018-12-31,missing comparable revenue
+CHH,CHH-2019-12-31.json.gz,2019-01-01,2019-03-31,missing comparable revenue
+CHH,CHH-2019-12-31.json.gz,2019-01-01,2019-12-31,missing comparable reimb_revenue
+CHH,CHH-2019-12-31.json.gz,2019-04-01,2019-06-30,missing comparable revenue
+CHH,CHH-2019-12-31.json.gz,2019-07-01,2019-09-30,missing comparable revenue
+CHH,CHH-2019-12-31.json.gz,2019-10-01,2019-12-31,missing comparable revenue
+HLT,HLT-2019-12-31.json.gz,2018-01-01,2018-03-31,missing comparable reimb_revenue
+HLT,HLT-2019-12-31.json.gz,2018-04-01,2018-06-30,missing comparable reimb_revenue
+HLT,HLT-2019-12-31.json.gz,2018-07-01,2018-09-30,missing comparable reimb_revenue
+HLT,HLT-2019-12-31.json.gz,2018-10-01,2018-12-31,missing comparable reimb_revenue
+HLT,HLT-2019-12-31.json.gz,2019-01-01,2019-03-31,missing comparable reimb_revenue
+HLT,HLT-2019-12-31.json.gz,2019-04-01,2019-06-30,missing comparable reimb_revenue
+HLT,HLT-2019-12-31.json.gz,2019-07-01,2019-09-30,missing comparable reimb_revenue
+HLT,HLT-2019-12-31.json.gz,2019-10-01,2019-12-31,missing comparable reimb_revenue
+MAR,MAR-2019-12-31.json.gz,2018-01-01,2018-03-31,missing comparable reimb_revenue
+MAR,MAR-2019-12-31.json.gz,2018-04-01,2018-06-30,missing comparable reimb_revenue
+MAR,MAR-2019-12-31.json.gz,2018-07-01,2018-09-30,missing comparable reimb_revenue
+MAR,MAR-2019-12-31.json.gz,2018-10-01,2018-12-31,missing comparable reimb_revenue
+MAR,MAR-2019-12-31.json.gz,2019-01-01,2019-03-31,missing comparable reimb_revenue
+MAR,MAR-2019-12-31.json.gz,2019-04-01,2019-06-30,missing comparable reimb_revenue
+MAR,MAR-2019-12-31.json.gz,2019-07-01,2019-09-30,missing comparable reimb_revenue
+MAR,MAR-2019-12-31.json.gz,2019-10-01,2019-12-31,missing comparable reimb_revenue

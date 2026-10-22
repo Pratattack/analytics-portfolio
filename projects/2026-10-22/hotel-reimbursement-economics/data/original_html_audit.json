@@ -1,0 +1,1599 @@
+{
+  "status": "PASS",
+  "method": "Separate Decimal numeric/sign/scale calculation on original HTML nodes, not projected source values",
+  "operands": 199,
+  "checks": [
+    {
+      "record": "CHH|2020-01-01|2020-12-31",
+      "metric": "revenue",
+      "accession": "0001046311-23-000008",
+      "element_index": 13475,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2020-01-01|2020-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001046311-23-000008",
+      "element_index": 13457,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2020-01-01|2020-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001046311-23-000008",
+      "element_index": 13555,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2020-01-01|2020-12-31",
+      "metric": "op_income",
+      "accession": "0001046311-23-000008",
+      "element_index": 13634,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2020-01-01|2020-12-31",
+      "metric": "operating_costs",
+      "accession": "0001046311-23-000008",
+      "element_index": 13573,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2020-01-01|2020-12-31",
+      "metric": "gain_disposition",
+      "accession": "0001046311-23-000008",
+      "element_index": 13616,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2020-01-01|2020-12-31",
+      "metric": "impairment",
+      "accession": "0001046311-23-000008",
+      "element_index": 13598,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2021-01-01|2021-12-31",
+      "metric": "revenue",
+      "accession": "0001046311-23-000008",
+      "element_index": 13470,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2021-01-01|2021-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001046311-23-000008",
+      "element_index": 13452,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2021-01-01|2021-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001046311-23-000008",
+      "element_index": 13550,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2021-01-01|2021-12-31",
+      "metric": "op_income",
+      "accession": "0001046311-23-000008",
+      "element_index": 13629,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2021-01-01|2021-12-31",
+      "metric": "operating_costs",
+      "accession": "0001046311-23-000008",
+      "element_index": 13568,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2021-01-01|2021-12-31",
+      "metric": "gain_disposition",
+      "accession": "0001046311-23-000008",
+      "element_index": 13611,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2021-01-01|2021-12-31",
+      "metric": "impairment",
+      "accession": "0001046311-23-000008",
+      "element_index": 13593,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2022-01-01|2022-12-31",
+      "metric": "revenue",
+      "accession": "0001046311-23-000008",
+      "element_index": 13464,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2022-01-01|2022-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001046311-23-000008",
+      "element_index": 13446,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2022-01-01|2022-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001046311-23-000008",
+      "element_index": 13544,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2022-01-01|2022-12-31",
+      "metric": "op_income",
+      "accession": "0001046311-23-000008",
+      "element_index": 13623,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2022-01-01|2022-12-31",
+      "metric": "operating_costs",
+      "accession": "0001046311-23-000008",
+      "element_index": 13562,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2022-01-01|2022-12-31",
+      "metric": "gain_disposition",
+      "accession": "0001046311-23-000008",
+      "element_index": 13605,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2022-01-01|2022-12-31",
+      "metric": "impairment",
+      "accession": "0001046311-23-000008",
+      "element_index": 13587,
+      "original_html_sha256": "b52dc71814f080119f4f47a08e284c62ae108b278ce2975684c6ed132336081b",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2023-01-01|2023-12-31",
+      "metric": "revenue",
+      "accession": "0001046311-26-000008",
+      "element_index": 11142,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2023-01-01|2023-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001046311-26-000008",
+      "element_index": 11124,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2023-01-01|2023-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001046311-26-000008",
+      "element_index": 11240,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2023-01-01|2023-12-31",
+      "metric": "op_income",
+      "accession": "0001046311-26-000008",
+      "element_index": 11294,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2023-01-01|2023-12-31",
+      "metric": "fee_revenue",
+      "accession": "0001046311-26-000008",
+      "element_index": 11052,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2023-01-01|2023-12-31",
+      "metric": "operating_costs",
+      "accession": "0001046311-26-000008",
+      "element_index": 11258,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2023-01-01|2023-12-31",
+      "metric": "impairment",
+      "accession": "0001046311-26-000008",
+      "element_index": 11276,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2024-01-01|2024-12-31",
+      "metric": "revenue",
+      "accession": "0001046311-26-000008",
+      "element_index": 11137,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2024-01-01|2024-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001046311-26-000008",
+      "element_index": 11119,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2024-01-01|2024-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001046311-26-000008",
+      "element_index": 11235,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2024-01-01|2024-12-31",
+      "metric": "op_income",
+      "accession": "0001046311-26-000008",
+      "element_index": 11289,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2024-01-01|2024-12-31",
+      "metric": "fee_revenue",
+      "accession": "0001046311-26-000008",
+      "element_index": 11045,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2024-01-01|2024-12-31",
+      "metric": "operating_costs",
+      "accession": "0001046311-26-000008",
+      "element_index": 11253,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-01-01|2025-12-31",
+      "metric": "revenue",
+      "accession": "0001046311-26-000008",
+      "element_index": 11131,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-01-01|2025-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001046311-26-000008",
+      "element_index": 11113,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-01-01|2025-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001046311-26-000008",
+      "element_index": 11229,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-01-01|2025-12-31",
+      "metric": "op_income",
+      "accession": "0001046311-26-000008",
+      "element_index": 11283,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-01-01|2025-12-31",
+      "metric": "fee_revenue",
+      "accession": "0001046311-26-000008",
+      "element_index": 11037,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-01-01|2025-12-31",
+      "metric": "operating_costs",
+      "accession": "0001046311-26-000008",
+      "element_index": 11247,
+      "original_html_sha256": "b060b4640cf473b274e8d27c2da28016cdac3314c41c93efc0e4b3210059bfb1",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-01-01|2025-06-30",
+      "metric": "revenue",
+      "accession": "0001046311-26-000025",
+      "element_index": 2835,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-01-01|2025-06-30",
+      "metric": "reimb_revenue",
+      "accession": "0001046311-26-000025",
+      "element_index": 2811,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-01-01|2025-06-30",
+      "metric": "reimb_expense",
+      "accession": "0001046311-26-000025",
+      "element_index": 2965,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-01-01|2025-06-30",
+      "metric": "op_income",
+      "accession": "0001046311-26-000025",
+      "element_index": 3040,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-01-01|2025-06-30",
+      "metric": "fee_revenue",
+      "accession": "0001046311-26-000025",
+      "element_index": 2715,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-01-01|2025-06-30",
+      "metric": "operating_costs",
+      "accession": "0001046311-26-000025",
+      "element_index": 2989,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-04-01|2025-06-30",
+      "metric": "revenue",
+      "accession": "0001046311-26-000025",
+      "element_index": 2824,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-04-01|2025-06-30",
+      "metric": "reimb_revenue",
+      "accession": "0001046311-26-000025",
+      "element_index": 2800,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-04-01|2025-06-30",
+      "metric": "reimb_expense",
+      "accession": "0001046311-26-000025",
+      "element_index": 2954,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-04-01|2025-06-30",
+      "metric": "op_income",
+      "accession": "0001046311-26-000025",
+      "element_index": 3029,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-04-01|2025-06-30",
+      "metric": "fee_revenue",
+      "accession": "0001046311-26-000025",
+      "element_index": 2700,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2025-04-01|2025-06-30",
+      "metric": "operating_costs",
+      "accession": "0001046311-26-000025",
+      "element_index": 2978,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2026-01-01|2026-06-30",
+      "metric": "revenue",
+      "accession": "0001046311-26-000025",
+      "element_index": 2829,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2026-01-01|2026-06-30",
+      "metric": "reimb_revenue",
+      "accession": "0001046311-26-000025",
+      "element_index": 2805,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2026-01-01|2026-06-30",
+      "metric": "reimb_expense",
+      "accession": "0001046311-26-000025",
+      "element_index": 2959,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2026-01-01|2026-06-30",
+      "metric": "op_income",
+      "accession": "0001046311-26-000025",
+      "element_index": 3034,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2026-01-01|2026-06-30",
+      "metric": "fee_revenue",
+      "accession": "0001046311-26-000025",
+      "element_index": 2707,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2026-01-01|2026-06-30",
+      "metric": "operating_costs",
+      "accession": "0001046311-26-000025",
+      "element_index": 2983,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2026-04-01|2026-06-30",
+      "metric": "revenue",
+      "accession": "0001046311-26-000025",
+      "element_index": 2818,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2026-04-01|2026-06-30",
+      "metric": "reimb_revenue",
+      "accession": "0001046311-26-000025",
+      "element_index": 2794,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2026-04-01|2026-06-30",
+      "metric": "reimb_expense",
+      "accession": "0001046311-26-000025",
+      "element_index": 2948,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2026-04-01|2026-06-30",
+      "metric": "op_income",
+      "accession": "0001046311-26-000025",
+      "element_index": 3023,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2026-04-01|2026-06-30",
+      "metric": "fee_revenue",
+      "accession": "0001046311-26-000025",
+      "element_index": 2692,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "CHH|2026-04-01|2026-06-30",
+      "metric": "operating_costs",
+      "accession": "0001046311-26-000025",
+      "element_index": 2972,
+      "original_html_sha256": "74a5a8c77fbb5b7b5b6e5bedca5e0ce1ef930298fe7eef03fea72e1144722ac0",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2018-01-01|2018-12-31",
+      "metric": "revenue",
+      "accession": "0001585689-20-000013",
+      "element_index": 34939,
+      "original_html_sha256": "640f0e9d81935dc48f9a44b5361f80d7055f8952b9be52161215f76f706641a0",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2018-01-01|2018-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001585689-20-000013",
+      "element_index": 18194,
+      "original_html_sha256": "640f0e9d81935dc48f9a44b5361f80d7055f8952b9be52161215f76f706641a0",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2018-01-01|2018-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001585689-20-000013",
+      "element_index": 18351,
+      "original_html_sha256": "640f0e9d81935dc48f9a44b5361f80d7055f8952b9be52161215f76f706641a0",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2018-01-01|2018-12-31",
+      "metric": "op_income",
+      "accession": "0001585689-20-000013",
+      "element_index": 18425,
+      "original_html_sha256": "640f0e9d81935dc48f9a44b5361f80d7055f8952b9be52161215f76f706641a0",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2018-01-01|2018-12-31",
+      "metric": "operating_costs",
+      "accession": "0001585689-20-000013",
+      "element_index": 18371,
+      "original_html_sha256": "640f0e9d81935dc48f9a44b5361f80d7055f8952b9be52161215f76f706641a0",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2019-01-01|2019-12-31",
+      "metric": "revenue",
+      "accession": "0001585689-20-000013",
+      "element_index": 34931,
+      "original_html_sha256": "640f0e9d81935dc48f9a44b5361f80d7055f8952b9be52161215f76f706641a0",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2019-01-01|2019-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001585689-20-000013",
+      "element_index": 18188,
+      "original_html_sha256": "640f0e9d81935dc48f9a44b5361f80d7055f8952b9be52161215f76f706641a0",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2019-01-01|2019-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001585689-20-000013",
+      "element_index": 18345,
+      "original_html_sha256": "640f0e9d81935dc48f9a44b5361f80d7055f8952b9be52161215f76f706641a0",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2019-01-01|2019-12-31",
+      "metric": "op_income",
+      "accession": "0001585689-20-000013",
+      "element_index": 18419,
+      "original_html_sha256": "640f0e9d81935dc48f9a44b5361f80d7055f8952b9be52161215f76f706641a0",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2019-01-01|2019-12-31",
+      "metric": "operating_costs",
+      "accession": "0001585689-20-000013",
+      "element_index": 18365,
+      "original_html_sha256": "640f0e9d81935dc48f9a44b5361f80d7055f8952b9be52161215f76f706641a0",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2019-01-01|2019-12-31",
+      "metric": "gain_disposition",
+      "accession": "0001585689-20-000013",
+      "element_index": 18392,
+      "original_html_sha256": "640f0e9d81935dc48f9a44b5361f80d7055f8952b9be52161215f76f706641a0",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2020-01-01|2020-12-31",
+      "metric": "revenue",
+      "accession": "0001585689-23-000036",
+      "element_index": 27955,
+      "original_html_sha256": "639cd6ef1a83fb402f06a78be6f1c6056b1bb661d6f4f8159af1839c1fd5058e",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2020-01-01|2020-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001585689-23-000036",
+      "element_index": 14725,
+      "original_html_sha256": "639cd6ef1a83fb402f06a78be6f1c6056b1bb661d6f4f8159af1839c1fd5058e",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2020-01-01|2020-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001585689-23-000036",
+      "element_index": 14893,
+      "original_html_sha256": "639cd6ef1a83fb402f06a78be6f1c6056b1bb661d6f4f8159af1839c1fd5058e",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2020-01-01|2020-12-31",
+      "metric": "op_income",
+      "accession": "0001585689-23-000036",
+      "element_index": 14958,
+      "original_html_sha256": "639cd6ef1a83fb402f06a78be6f1c6056b1bb661d6f4f8159af1839c1fd5058e",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2020-01-01|2020-12-31",
+      "metric": "operating_costs",
+      "accession": "0001585689-23-000036",
+      "element_index": 14910,
+      "original_html_sha256": "639cd6ef1a83fb402f06a78be6f1c6056b1bb661d6f4f8159af1839c1fd5058e",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2021-01-01|2021-12-31",
+      "metric": "revenue",
+      "accession": "0001585689-23-000036",
+      "element_index": 27948,
+      "original_html_sha256": "639cd6ef1a83fb402f06a78be6f1c6056b1bb661d6f4f8159af1839c1fd5058e",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2021-01-01|2021-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001585689-23-000036",
+      "element_index": 14720,
+      "original_html_sha256": "639cd6ef1a83fb402f06a78be6f1c6056b1bb661d6f4f8159af1839c1fd5058e",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2021-01-01|2021-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001585689-23-000036",
+      "element_index": 14888,
+      "original_html_sha256": "639cd6ef1a83fb402f06a78be6f1c6056b1bb661d6f4f8159af1839c1fd5058e",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2021-01-01|2021-12-31",
+      "metric": "op_income",
+      "accession": "0001585689-23-000036",
+      "element_index": 14953,
+      "original_html_sha256": "639cd6ef1a83fb402f06a78be6f1c6056b1bb661d6f4f8159af1839c1fd5058e",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2021-01-01|2021-12-31",
+      "metric": "operating_costs",
+      "accession": "0001585689-23-000036",
+      "element_index": 14905,
+      "original_html_sha256": "639cd6ef1a83fb402f06a78be6f1c6056b1bb661d6f4f8159af1839c1fd5058e",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2021-01-01|2021-12-31",
+      "metric": "gain_disposition",
+      "accession": "0001585689-23-000036",
+      "element_index": 14929,
+      "original_html_sha256": "639cd6ef1a83fb402f06a78be6f1c6056b1bb661d6f4f8159af1839c1fd5058e",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2022-01-01|2022-12-31",
+      "metric": "revenue",
+      "accession": "0001585689-23-000036",
+      "element_index": 27941,
+      "original_html_sha256": "639cd6ef1a83fb402f06a78be6f1c6056b1bb661d6f4f8159af1839c1fd5058e",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2022-01-01|2022-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001585689-23-000036",
+      "element_index": 14715,
+      "original_html_sha256": "639cd6ef1a83fb402f06a78be6f1c6056b1bb661d6f4f8159af1839c1fd5058e",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2022-01-01|2022-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001585689-23-000036",
+      "element_index": 14883,
+      "original_html_sha256": "639cd6ef1a83fb402f06a78be6f1c6056b1bb661d6f4f8159af1839c1fd5058e",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2022-01-01|2022-12-31",
+      "metric": "op_income",
+      "accession": "0001585689-23-000036",
+      "element_index": 14948,
+      "original_html_sha256": "639cd6ef1a83fb402f06a78be6f1c6056b1bb661d6f4f8159af1839c1fd5058e",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2022-01-01|2022-12-31",
+      "metric": "operating_costs",
+      "accession": "0001585689-23-000036",
+      "element_index": 14900,
+      "original_html_sha256": "639cd6ef1a83fb402f06a78be6f1c6056b1bb661d6f4f8159af1839c1fd5058e",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2023-01-01|2023-12-31",
+      "metric": "revenue",
+      "accession": "0001585689-26-000007",
+      "element_index": 24604,
+      "original_html_sha256": "df3d7350d956111d0a61b30deb10009efcc57800be8f683de6813eb88f8f1510",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2023-01-01|2023-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001585689-26-000007",
+      "element_index": 12054,
+      "original_html_sha256": "df3d7350d956111d0a61b30deb10009efcc57800be8f683de6813eb88f8f1510",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2023-01-01|2023-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001585689-26-000007",
+      "element_index": 12205,
+      "original_html_sha256": "df3d7350d956111d0a61b30deb10009efcc57800be8f683de6813eb88f8f1510",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2023-01-01|2023-12-31",
+      "metric": "op_income",
+      "accession": "0001585689-26-000007",
+      "element_index": 12272,
+      "original_html_sha256": "df3d7350d956111d0a61b30deb10009efcc57800be8f683de6813eb88f8f1510",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2023-01-01|2023-12-31",
+      "metric": "operating_costs",
+      "accession": "0001585689-26-000007",
+      "element_index": 12222,
+      "original_html_sha256": "df3d7350d956111d0a61b30deb10009efcc57800be8f683de6813eb88f8f1510",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2024-01-01|2024-12-31",
+      "metric": "revenue",
+      "accession": "0001585689-26-000007",
+      "element_index": 24597,
+      "original_html_sha256": "df3d7350d956111d0a61b30deb10009efcc57800be8f683de6813eb88f8f1510",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2024-01-01|2024-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001585689-26-000007",
+      "element_index": 12049,
+      "original_html_sha256": "df3d7350d956111d0a61b30deb10009efcc57800be8f683de6813eb88f8f1510",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2024-01-01|2024-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001585689-26-000007",
+      "element_index": 12200,
+      "original_html_sha256": "df3d7350d956111d0a61b30deb10009efcc57800be8f683de6813eb88f8f1510",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2024-01-01|2024-12-31",
+      "metric": "op_income",
+      "accession": "0001585689-26-000007",
+      "element_index": 12267,
+      "original_html_sha256": "df3d7350d956111d0a61b30deb10009efcc57800be8f683de6813eb88f8f1510",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2024-01-01|2024-12-31",
+      "metric": "operating_costs",
+      "accession": "0001585689-26-000007",
+      "element_index": 12217,
+      "original_html_sha256": "df3d7350d956111d0a61b30deb10009efcc57800be8f683de6813eb88f8f1510",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2024-01-01|2024-12-31",
+      "metric": "gain_disposition",
+      "accession": "0001585689-26-000007",
+      "element_index": 12242,
+      "original_html_sha256": "df3d7350d956111d0a61b30deb10009efcc57800be8f683de6813eb88f8f1510",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2025-01-01|2025-12-31",
+      "metric": "revenue",
+      "accession": "0001585689-26-000007",
+      "element_index": 24590,
+      "original_html_sha256": "df3d7350d956111d0a61b30deb10009efcc57800be8f683de6813eb88f8f1510",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2025-01-01|2025-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001585689-26-000007",
+      "element_index": 12044,
+      "original_html_sha256": "df3d7350d956111d0a61b30deb10009efcc57800be8f683de6813eb88f8f1510",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2025-01-01|2025-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001585689-26-000007",
+      "element_index": 12195,
+      "original_html_sha256": "df3d7350d956111d0a61b30deb10009efcc57800be8f683de6813eb88f8f1510",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2025-01-01|2025-12-31",
+      "metric": "op_income",
+      "accession": "0001585689-26-000007",
+      "element_index": 12262,
+      "original_html_sha256": "df3d7350d956111d0a61b30deb10009efcc57800be8f683de6813eb88f8f1510",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2025-01-01|2025-12-31",
+      "metric": "operating_costs",
+      "accession": "0001585689-26-000007",
+      "element_index": 12212,
+      "original_html_sha256": "df3d7350d956111d0a61b30deb10009efcc57800be8f683de6813eb88f8f1510",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2025-01-01|2025-06-30",
+      "metric": "revenue",
+      "accession": "0001585689-26-000043",
+      "element_index": 3160,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2025-01-01|2025-06-30",
+      "metric": "reimb_revenue",
+      "accession": "0001585689-26-000043",
+      "element_index": 3138,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2025-01-01|2025-06-30",
+      "metric": "reimb_expense",
+      "accession": "0001585689-26-000043",
+      "element_index": 3312,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2025-01-01|2025-06-30",
+      "metric": "op_income",
+      "accession": "0001585689-26-000043",
+      "element_index": 3365,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2025-01-01|2025-06-30",
+      "metric": "operating_costs",
+      "accession": "0001585689-26-000043",
+      "element_index": 3334,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2025-04-01|2025-06-30",
+      "metric": "revenue",
+      "accession": "0001585689-26-000043",
+      "element_index": 3150,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2025-04-01|2025-06-30",
+      "metric": "reimb_revenue",
+      "accession": "0001585689-26-000043",
+      "element_index": 3128,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2025-04-01|2025-06-30",
+      "metric": "reimb_expense",
+      "accession": "0001585689-26-000043",
+      "element_index": 3302,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2025-04-01|2025-06-30",
+      "metric": "op_income",
+      "accession": "0001585689-26-000043",
+      "element_index": 3355,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2025-04-01|2025-06-30",
+      "metric": "operating_costs",
+      "accession": "0001585689-26-000043",
+      "element_index": 3324,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2026-01-01|2026-06-30",
+      "metric": "revenue",
+      "accession": "0001585689-26-000043",
+      "element_index": 3155,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2026-01-01|2026-06-30",
+      "metric": "reimb_revenue",
+      "accession": "0001585689-26-000043",
+      "element_index": 3133,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2026-01-01|2026-06-30",
+      "metric": "reimb_expense",
+      "accession": "0001585689-26-000043",
+      "element_index": 3307,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2026-01-01|2026-06-30",
+      "metric": "op_income",
+      "accession": "0001585689-26-000043",
+      "element_index": 3360,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2026-01-01|2026-06-30",
+      "metric": "operating_costs",
+      "accession": "0001585689-26-000043",
+      "element_index": 3329,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2026-04-01|2026-06-30",
+      "metric": "revenue",
+      "accession": "0001585689-26-000043",
+      "element_index": 3145,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2026-04-01|2026-06-30",
+      "metric": "reimb_revenue",
+      "accession": "0001585689-26-000043",
+      "element_index": 3123,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2026-04-01|2026-06-30",
+      "metric": "reimb_expense",
+      "accession": "0001585689-26-000043",
+      "element_index": 3297,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2026-04-01|2026-06-30",
+      "metric": "op_income",
+      "accession": "0001585689-26-000043",
+      "element_index": 3350,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "HLT|2026-04-01|2026-06-30",
+      "metric": "operating_costs",
+      "accession": "0001585689-26-000043",
+      "element_index": 3319,
+      "original_html_sha256": "38d5002fd3bd14db75c0e1a2064bc4507e680d5dd89fd6e4f3fe73242fc91584",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2018-01-01|2018-12-31",
+      "metric": "revenue",
+      "accession": "0001628280-20-002376",
+      "element_index": 21422,
+      "original_html_sha256": "0a9521e25abfd69702893db0d12417bc229304d83cece973cf95c26b0652ffd1",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2018-01-01|2018-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001628280-20-002376",
+      "element_index": 21385,
+      "original_html_sha256": "0a9521e25abfd69702893db0d12417bc229304d83cece973cf95c26b0652ffd1",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2018-01-01|2018-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001628280-20-002376",
+      "element_index": 21632,
+      "original_html_sha256": "0a9521e25abfd69702893db0d12417bc229304d83cece973cf95c26b0652ffd1",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2018-01-01|2018-12-31",
+      "metric": "op_income",
+      "accession": "0001628280-20-002376",
+      "element_index": 21706,
+      "original_html_sha256": "0a9521e25abfd69702893db0d12417bc229304d83cece973cf95c26b0652ffd1",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2018-01-01|2018-12-31",
+      "metric": "fee_revenue",
+      "accession": "0001628280-20-002376",
+      "element_index": 21307,
+      "original_html_sha256": "0a9521e25abfd69702893db0d12417bc229304d83cece973cf95c26b0652ffd1",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2018-01-01|2018-12-31",
+      "metric": "operating_costs",
+      "accession": "0001628280-20-002376",
+      "element_index": 21669,
+      "original_html_sha256": "0a9521e25abfd69702893db0d12417bc229304d83cece973cf95c26b0652ffd1",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2019-01-01|2019-12-31",
+      "metric": "revenue",
+      "accession": "0001628280-20-002376",
+      "element_index": 21410,
+      "original_html_sha256": "0a9521e25abfd69702893db0d12417bc229304d83cece973cf95c26b0652ffd1",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2019-01-01|2019-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001628280-20-002376",
+      "element_index": 21373,
+      "original_html_sha256": "0a9521e25abfd69702893db0d12417bc229304d83cece973cf95c26b0652ffd1",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2019-01-01|2019-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001628280-20-002376",
+      "element_index": 21620,
+      "original_html_sha256": "0a9521e25abfd69702893db0d12417bc229304d83cece973cf95c26b0652ffd1",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2019-01-01|2019-12-31",
+      "metric": "op_income",
+      "accession": "0001628280-20-002376",
+      "element_index": 21694,
+      "original_html_sha256": "0a9521e25abfd69702893db0d12417bc229304d83cece973cf95c26b0652ffd1",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2019-01-01|2019-12-31",
+      "metric": "fee_revenue",
+      "accession": "0001628280-20-002376",
+      "element_index": 21295,
+      "original_html_sha256": "0a9521e25abfd69702893db0d12417bc229304d83cece973cf95c26b0652ffd1",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2019-01-01|2019-12-31",
+      "metric": "operating_costs",
+      "accession": "0001628280-20-002376",
+      "element_index": 21657,
+      "original_html_sha256": "0a9521e25abfd69702893db0d12417bc229304d83cece973cf95c26b0652ffd1",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2020-01-01|2020-12-31",
+      "metric": "revenue",
+      "accession": "0001628280-23-003485",
+      "element_index": 8987,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2020-01-01|2020-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001628280-23-003485",
+      "element_index": 8971,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2020-01-01|2020-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001628280-23-003485",
+      "element_index": 9082,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2020-01-01|2020-12-31",
+      "metric": "op_income",
+      "accession": "0001628280-23-003485",
+      "element_index": 9115,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2020-01-01|2020-12-31",
+      "metric": "fee_revenue",
+      "accession": "0001628280-23-003485",
+      "element_index": 8935,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2020-01-01|2020-12-31",
+      "metric": "operating_costs",
+      "accession": "0001628280-23-003485",
+      "element_index": 9098,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2021-01-01|2021-12-31",
+      "metric": "revenue",
+      "accession": "0001628280-23-003485",
+      "element_index": 8982,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2021-01-01|2021-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001628280-23-003485",
+      "element_index": 8966,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2021-01-01|2021-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001628280-23-003485",
+      "element_index": 9077,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2021-01-01|2021-12-31",
+      "metric": "op_income",
+      "accession": "0001628280-23-003485",
+      "element_index": 9110,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2021-01-01|2021-12-31",
+      "metric": "fee_revenue",
+      "accession": "0001628280-23-003485",
+      "element_index": 8930,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2021-01-01|2021-12-31",
+      "metric": "operating_costs",
+      "accession": "0001628280-23-003485",
+      "element_index": 9093,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2022-01-01|2022-12-31",
+      "metric": "revenue",
+      "accession": "0001628280-23-003485",
+      "element_index": 8977,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2022-01-01|2022-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001628280-23-003485",
+      "element_index": 8961,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2022-01-01|2022-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001628280-23-003485",
+      "element_index": 9072,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2022-01-01|2022-12-31",
+      "metric": "op_income",
+      "accession": "0001628280-23-003485",
+      "element_index": 9105,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2022-01-01|2022-12-31",
+      "metric": "fee_revenue",
+      "accession": "0001628280-23-003485",
+      "element_index": 8925,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2022-01-01|2022-12-31",
+      "metric": "operating_costs",
+      "accession": "0001628280-23-003485",
+      "element_index": 9088,
+      "original_html_sha256": "aa2fe2bec7fc434e297cbf5512bfce104442ddaa466fb06c6269a13162144610",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2023-01-01|2023-12-31",
+      "metric": "revenue",
+      "accession": "0001048286-26-000007",
+      "element_index": 9334,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2023-01-01|2023-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001048286-26-000007",
+      "element_index": 9318,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2023-01-01|2023-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001048286-26-000007",
+      "element_index": 9434,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2023-01-01|2023-12-31",
+      "metric": "op_income",
+      "accession": "0001048286-26-000007",
+      "element_index": 9467,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2023-01-01|2023-12-31",
+      "metric": "fee_revenue",
+      "accession": "0001048286-26-000007",
+      "element_index": 9282,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2023-01-01|2023-12-31",
+      "metric": "operating_costs",
+      "accession": "0001048286-26-000007",
+      "element_index": 9450,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2024-01-01|2024-12-31",
+      "metric": "revenue",
+      "accession": "0001048286-26-000007",
+      "element_index": 9329,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2024-01-01|2024-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001048286-26-000007",
+      "element_index": 9313,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2024-01-01|2024-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001048286-26-000007",
+      "element_index": 9429,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2024-01-01|2024-12-31",
+      "metric": "op_income",
+      "accession": "0001048286-26-000007",
+      "element_index": 9462,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2024-01-01|2024-12-31",
+      "metric": "fee_revenue",
+      "accession": "0001048286-26-000007",
+      "element_index": 9277,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2024-01-01|2024-12-31",
+      "metric": "operating_costs",
+      "accession": "0001048286-26-000007",
+      "element_index": 9445,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-01-01|2025-12-31",
+      "metric": "revenue",
+      "accession": "0001048286-26-000007",
+      "element_index": 9324,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-01-01|2025-12-31",
+      "metric": "reimb_revenue",
+      "accession": "0001048286-26-000007",
+      "element_index": 9308,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-01-01|2025-12-31",
+      "metric": "reimb_expense",
+      "accession": "0001048286-26-000007",
+      "element_index": 9424,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-01-01|2025-12-31",
+      "metric": "op_income",
+      "accession": "0001048286-26-000007",
+      "element_index": 9457,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-01-01|2025-12-31",
+      "metric": "fee_revenue",
+      "accession": "0001048286-26-000007",
+      "element_index": 9272,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-01-01|2025-12-31",
+      "metric": "operating_costs",
+      "accession": "0001048286-26-000007",
+      "element_index": 9440,
+      "original_html_sha256": "79f02fb6516b3bb330da41d2d69a6e8ad8dcc780ba966421dab51e1ff4205e5e",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-01-01|2025-06-30",
+      "metric": "revenue",
+      "accession": "0001048286-26-000035",
+      "element_index": 2894,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-01-01|2025-06-30",
+      "metric": "reimb_revenue",
+      "accession": "0001048286-26-000035",
+      "element_index": 2873,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-01-01|2025-06-30",
+      "metric": "reimb_expense",
+      "accession": "0001048286-26-000035",
+      "element_index": 3019,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-01-01|2025-06-30",
+      "metric": "op_income",
+      "accession": "0001048286-26-000035",
+      "element_index": 3062,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-01-01|2025-06-30",
+      "metric": "fee_revenue",
+      "accession": "0001048286-26-000035",
+      "element_index": 2829,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-01-01|2025-06-30",
+      "metric": "operating_costs",
+      "accession": "0001048286-26-000035",
+      "element_index": 3040,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-04-01|2025-06-30",
+      "metric": "revenue",
+      "accession": "0001048286-26-000035",
+      "element_index": 2884,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-04-01|2025-06-30",
+      "metric": "reimb_revenue",
+      "accession": "0001048286-26-000035",
+      "element_index": 2863,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-04-01|2025-06-30",
+      "metric": "reimb_expense",
+      "accession": "0001048286-26-000035",
+      "element_index": 3009,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-04-01|2025-06-30",
+      "metric": "op_income",
+      "accession": "0001048286-26-000035",
+      "element_index": 3052,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-04-01|2025-06-30",
+      "metric": "fee_revenue",
+      "accession": "0001048286-26-000035",
+      "element_index": 2819,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2025-04-01|2025-06-30",
+      "metric": "operating_costs",
+      "accession": "0001048286-26-000035",
+      "element_index": 3030,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2026-01-01|2026-06-30",
+      "metric": "revenue",
+      "accession": "0001048286-26-000035",
+      "element_index": 2889,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2026-01-01|2026-06-30",
+      "metric": "reimb_revenue",
+      "accession": "0001048286-26-000035",
+      "element_index": 2868,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2026-01-01|2026-06-30",
+      "metric": "reimb_expense",
+      "accession": "0001048286-26-000035",
+      "element_index": 3014,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2026-01-01|2026-06-30",
+      "metric": "op_income",
+      "accession": "0001048286-26-000035",
+      "element_index": 3057,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2026-01-01|2026-06-30",
+      "metric": "fee_revenue",
+      "accession": "0001048286-26-000035",
+      "element_index": 2824,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2026-01-01|2026-06-30",
+      "metric": "operating_costs",
+      "accession": "0001048286-26-000035",
+      "element_index": 3035,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2026-04-01|2026-06-30",
+      "metric": "revenue",
+      "accession": "0001048286-26-000035",
+      "element_index": 2879,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2026-04-01|2026-06-30",
+      "metric": "reimb_revenue",
+      "accession": "0001048286-26-000035",
+      "element_index": 2858,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2026-04-01|2026-06-30",
+      "metric": "reimb_expense",
+      "accession": "0001048286-26-000035",
+      "element_index": 3004,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2026-04-01|2026-06-30",
+      "metric": "op_income",
+      "accession": "0001048286-26-000035",
+      "element_index": 3047,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2026-04-01|2026-06-30",
+      "metric": "fee_revenue",
+      "accession": "0001048286-26-000035",
+      "element_index": 2814,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    },
+    {
+      "record": "MAR|2026-04-01|2026-06-30",
+      "metric": "operating_costs",
+      "accession": "0001048286-26-000035",
+      "element_index": 3025,
+      "original_html_sha256": "a6ec0454f34b5c9682b002726c2c8f7e90f6fc3b5a799a3c7aa5cc58e4f58b12",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,1487 @@
+{
+  "status": "PASS",
+  "method": "Separate Decimal numeric/sign/scale calculation on original HTML nodes, not projected source values",
+  "operands": 185,
+  "checks": [
+    {
+      "record": "KBH|total|2018-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-20-000007",
+      "element_index": 34575,
+      "original_html_sha256": "276ef63112456c1bba98539b26f1026c92d51a38651500c8de800d8084ec0544",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2018-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-20-000007",
+      "element_index": 34590,
+      "original_html_sha256": "276ef63112456c1bba98539b26f1026c92d51a38651500c8de800d8084ec0544",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2018-11-30",
+      "metric": "additional_preacquisition",
+      "accession": "0000795266-20-000007",
+      "element_index": 34606,
+      "original_html_sha256": "276ef63112456c1bba98539b26f1026c92d51a38651500c8de800d8084ec0544",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|VIE|2019-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-21-000012",
+      "element_index": 18898,
+      "original_html_sha256": "16bf0520438d7b2631400eb17c1c7719f0c70f70c6f66700be97d7984e0560b1",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|VIE|2019-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-21-000012",
+      "element_index": 18905,
+      "original_html_sha256": "16bf0520438d7b2631400eb17c1c7719f0c70f70c6f66700be97d7984e0560b1",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|other|2019-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-21-000012",
+      "element_index": 18922,
+      "original_html_sha256": "16bf0520438d7b2631400eb17c1c7719f0c70f70c6f66700be97d7984e0560b1",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|other|2019-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-21-000012",
+      "element_index": 18927,
+      "original_html_sha256": "16bf0520438d7b2631400eb17c1c7719f0c70f70c6f66700be97d7984e0560b1",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2019-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-21-000012",
+      "element_index": 18950,
+      "original_html_sha256": "16bf0520438d7b2631400eb17c1c7719f0c70f70c6f66700be97d7984e0560b1",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2019-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-21-000012",
+      "element_index": 18957,
+      "original_html_sha256": "16bf0520438d7b2631400eb17c1c7719f0c70f70c6f66700be97d7984e0560b1",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2019-11-30",
+      "metric": "additional_preacquisition",
+      "accession": "0000795266-21-000012",
+      "element_index": 18962,
+      "original_html_sha256": "16bf0520438d7b2631400eb17c1c7719f0c70f70c6f66700be97d7984e0560b1",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|VIE|2020-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-22-000010",
+      "element_index": 17324,
+      "original_html_sha256": "3289b62b21f04accd8f4cdf1528f1936cdde6c5640bb50d3cf4a6e805209c486",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|VIE|2020-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-22-000010",
+      "element_index": 17331,
+      "original_html_sha256": "3289b62b21f04accd8f4cdf1528f1936cdde6c5640bb50d3cf4a6e805209c486",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|other|2020-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-22-000010",
+      "element_index": 17348,
+      "original_html_sha256": "3289b62b21f04accd8f4cdf1528f1936cdde6c5640bb50d3cf4a6e805209c486",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|other|2020-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-22-000010",
+      "element_index": 17353,
+      "original_html_sha256": "3289b62b21f04accd8f4cdf1528f1936cdde6c5640bb50d3cf4a6e805209c486",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2020-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-22-000010",
+      "element_index": 17376,
+      "original_html_sha256": "3289b62b21f04accd8f4cdf1528f1936cdde6c5640bb50d3cf4a6e805209c486",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2020-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-22-000010",
+      "element_index": 17383,
+      "original_html_sha256": "3289b62b21f04accd8f4cdf1528f1936cdde6c5640bb50d3cf4a6e805209c486",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2020-11-30",
+      "metric": "additional_preacquisition",
+      "accession": "0000795266-22-000010",
+      "element_index": 17388,
+      "original_html_sha256": "3289b62b21f04accd8f4cdf1528f1936cdde6c5640bb50d3cf4a6e805209c486",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|VIE|2021-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-23-000009",
+      "element_index": 17374,
+      "original_html_sha256": "dfa42fe65f0c0db16ffdfcd98b93cd4b007c5c7dd251f00d3efe4be5054857d5",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|VIE|2021-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-23-000009",
+      "element_index": 17381,
+      "original_html_sha256": "dfa42fe65f0c0db16ffdfcd98b93cd4b007c5c7dd251f00d3efe4be5054857d5",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|other|2021-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-23-000009",
+      "element_index": 17398,
+      "original_html_sha256": "dfa42fe65f0c0db16ffdfcd98b93cd4b007c5c7dd251f00d3efe4be5054857d5",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|other|2021-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-23-000009",
+      "element_index": 17403,
+      "original_html_sha256": "dfa42fe65f0c0db16ffdfcd98b93cd4b007c5c7dd251f00d3efe4be5054857d5",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2021-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-23-000009",
+      "element_index": 17426,
+      "original_html_sha256": "dfa42fe65f0c0db16ffdfcd98b93cd4b007c5c7dd251f00d3efe4be5054857d5",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2021-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-23-000009",
+      "element_index": 17433,
+      "original_html_sha256": "dfa42fe65f0c0db16ffdfcd98b93cd4b007c5c7dd251f00d3efe4be5054857d5",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2021-11-30",
+      "metric": "additional_preacquisition",
+      "accession": "0000795266-23-000009",
+      "element_index": 17438,
+      "original_html_sha256": "dfa42fe65f0c0db16ffdfcd98b93cd4b007c5c7dd251f00d3efe4be5054857d5",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|VIE|2022-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-24-000008",
+      "element_index": 17470,
+      "original_html_sha256": "e1f2d922d2b1fd5c56f882337ca548cef999fb439593362412dd957aa4aeb882",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|VIE|2022-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-24-000008",
+      "element_index": 17477,
+      "original_html_sha256": "e1f2d922d2b1fd5c56f882337ca548cef999fb439593362412dd957aa4aeb882",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|other|2022-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-24-000008",
+      "element_index": 17494,
+      "original_html_sha256": "e1f2d922d2b1fd5c56f882337ca548cef999fb439593362412dd957aa4aeb882",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|other|2022-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-24-000008",
+      "element_index": 17499,
+      "original_html_sha256": "e1f2d922d2b1fd5c56f882337ca548cef999fb439593362412dd957aa4aeb882",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2022-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-24-000008",
+      "element_index": 17522,
+      "original_html_sha256": "e1f2d922d2b1fd5c56f882337ca548cef999fb439593362412dd957aa4aeb882",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2022-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-24-000008",
+      "element_index": 17529,
+      "original_html_sha256": "e1f2d922d2b1fd5c56f882337ca548cef999fb439593362412dd957aa4aeb882",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2022-11-30",
+      "metric": "additional_preacquisition",
+      "accession": "0000795266-24-000008",
+      "element_index": 17534,
+      "original_html_sha256": "e1f2d922d2b1fd5c56f882337ca548cef999fb439593362412dd957aa4aeb882",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|VIE|2023-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-25-000014",
+      "element_index": 45366,
+      "original_html_sha256": "2e33e5ae0d9523a4eb08a7a09395fcdde93a79565ab6f03d954a8161b22bc1d0",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|VIE|2023-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-25-000014",
+      "element_index": 45377,
+      "original_html_sha256": "2e33e5ae0d9523a4eb08a7a09395fcdde93a79565ab6f03d954a8161b22bc1d0",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|other|2023-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-25-000014",
+      "element_index": 45416,
+      "original_html_sha256": "2e33e5ae0d9523a4eb08a7a09395fcdde93a79565ab6f03d954a8161b22bc1d0",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|other|2023-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-25-000014",
+      "element_index": 45427,
+      "original_html_sha256": "2e33e5ae0d9523a4eb08a7a09395fcdde93a79565ab6f03d954a8161b22bc1d0",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2023-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-25-000014",
+      "element_index": 45466,
+      "original_html_sha256": "2e33e5ae0d9523a4eb08a7a09395fcdde93a79565ab6f03d954a8161b22bc1d0",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2023-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-25-000014",
+      "element_index": 45477,
+      "original_html_sha256": "2e33e5ae0d9523a4eb08a7a09395fcdde93a79565ab6f03d954a8161b22bc1d0",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2023-11-30",
+      "metric": "additional_preacquisition",
+      "accession": "0000795266-25-000014",
+      "element_index": 45500,
+      "original_html_sha256": "2e33e5ae0d9523a4eb08a7a09395fcdde93a79565ab6f03d954a8161b22bc1d0",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|VIE|2024-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-26-000017",
+      "element_index": 49402,
+      "original_html_sha256": "c3e91a97b6280d0f66b4421e26ef82616c8852ce5e914bf2fab64fefe26e68a1",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|VIE|2024-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-26-000017",
+      "element_index": 49413,
+      "original_html_sha256": "c3e91a97b6280d0f66b4421e26ef82616c8852ce5e914bf2fab64fefe26e68a1",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|other|2024-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-26-000017",
+      "element_index": 49452,
+      "original_html_sha256": "c3e91a97b6280d0f66b4421e26ef82616c8852ce5e914bf2fab64fefe26e68a1",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|other|2024-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-26-000017",
+      "element_index": 49463,
+      "original_html_sha256": "c3e91a97b6280d0f66b4421e26ef82616c8852ce5e914bf2fab64fefe26e68a1",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2024-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-26-000017",
+      "element_index": 49502,
+      "original_html_sha256": "c3e91a97b6280d0f66b4421e26ef82616c8852ce5e914bf2fab64fefe26e68a1",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2024-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-26-000017",
+      "element_index": 49513,
+      "original_html_sha256": "c3e91a97b6280d0f66b4421e26ef82616c8852ce5e914bf2fab64fefe26e68a1",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2024-11-30",
+      "metric": "additional_preacquisition",
+      "accession": "0000795266-26-000017",
+      "element_index": 49549,
+      "original_html_sha256": "c3e91a97b6280d0f66b4421e26ef82616c8852ce5e914bf2fab64fefe26e68a1",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|VIE|2025-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-26-000071",
+      "element_index": 11095,
+      "original_html_sha256": "d2e99e5b8e48a002df7f1a3d0dd9def88b5a8a513921d9eb4d204579b9eebf78",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|VIE|2025-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-26-000071",
+      "element_index": 11102,
+      "original_html_sha256": "d2e99e5b8e48a002df7f1a3d0dd9def88b5a8a513921d9eb4d204579b9eebf78",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|VIE|2026-08-31",
+      "metric": "deposits",
+      "accession": "0000795266-26-000071",
+      "element_index": 11081,
+      "original_html_sha256": "d2e99e5b8e48a002df7f1a3d0dd9def88b5a8a513921d9eb4d204579b9eebf78",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|VIE|2026-08-31",
+      "metric": "disclosed_price",
+      "accession": "0000795266-26-000071",
+      "element_index": 11088,
+      "original_html_sha256": "d2e99e5b8e48a002df7f1a3d0dd9def88b5a8a513921d9eb4d204579b9eebf78",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|other|2025-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-26-000071",
+      "element_index": 11120,
+      "original_html_sha256": "d2e99e5b8e48a002df7f1a3d0dd9def88b5a8a513921d9eb4d204579b9eebf78",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|other|2025-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-26-000071",
+      "element_index": 11125,
+      "original_html_sha256": "d2e99e5b8e48a002df7f1a3d0dd9def88b5a8a513921d9eb4d204579b9eebf78",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|other|2026-08-31",
+      "metric": "deposits",
+      "accession": "0000795266-26-000071",
+      "element_index": 11110,
+      "original_html_sha256": "d2e99e5b8e48a002df7f1a3d0dd9def88b5a8a513921d9eb4d204579b9eebf78",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|other|2026-08-31",
+      "metric": "disclosed_price",
+      "accession": "0000795266-26-000071",
+      "element_index": 11115,
+      "original_html_sha256": "d2e99e5b8e48a002df7f1a3d0dd9def88b5a8a513921d9eb4d204579b9eebf78",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2025-11-30",
+      "metric": "deposits",
+      "accession": "0000795266-26-000071",
+      "element_index": 11149,
+      "original_html_sha256": "d2e99e5b8e48a002df7f1a3d0dd9def88b5a8a513921d9eb4d204579b9eebf78",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2025-11-30",
+      "metric": "disclosed_price",
+      "accession": "0000795266-26-000071",
+      "element_index": 11156,
+      "original_html_sha256": "d2e99e5b8e48a002df7f1a3d0dd9def88b5a8a513921d9eb4d204579b9eebf78",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2025-11-30",
+      "metric": "additional_preacquisition",
+      "accession": "0000795266-26-000071",
+      "element_index": 11161,
+      "original_html_sha256": "d2e99e5b8e48a002df7f1a3d0dd9def88b5a8a513921d9eb4d204579b9eebf78",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2026-08-31",
+      "metric": "deposits",
+      "accession": "0000795266-26-000071",
+      "element_index": 11135,
+      "original_html_sha256": "d2e99e5b8e48a002df7f1a3d0dd9def88b5a8a513921d9eb4d204579b9eebf78",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2026-08-31",
+      "metric": "disclosed_price",
+      "accession": "0000795266-26-000071",
+      "element_index": 11142,
+      "original_html_sha256": "d2e99e5b8e48a002df7f1a3d0dd9def88b5a8a513921d9eb4d204579b9eebf78",
+      "status": "PASS"
+    },
+    {
+      "record": "KBH|total|2026-08-31",
+      "metric": "additional_preacquisition",
+      "accession": "0000795266-26-000071",
+      "element_index": 11160,
+      "original_html_sha256": "d2e99e5b8e48a002df7f1a3d0dd9def88b5a8a513921d9eb4d204579b9eebf78",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2019-12-31",
+      "metric": "deposits_component_0",
+      "accession": "0000833079-20-000026",
+      "element_index": 17704,
+      "original_html_sha256": "0ffc799e7653ed4799d9c72752fabe357998f801ab1152517b78886a0bb081bd",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2019-12-31",
+      "metric": "deposits_component_1",
+      "accession": "0000833079-20-000026",
+      "element_index": 17725,
+      "original_html_sha256": "0ffc799e7653ed4799d9c72752fabe357998f801ab1152517b78886a0bb081bd",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2019-12-31",
+      "metric": "deposits_component_2",
+      "accession": "0000833079-20-000026",
+      "element_index": 17746,
+      "original_html_sha256": "0ffc799e7653ed4799d9c72752fabe357998f801ab1152517b78886a0bb081bd",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2019-12-31",
+      "metric": "disclosed_price_component_0",
+      "accession": "0000833079-20-000026",
+      "element_index": 17698,
+      "original_html_sha256": "0ffc799e7653ed4799d9c72752fabe357998f801ab1152517b78886a0bb081bd",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2019-12-31",
+      "metric": "disclosed_price_component_1",
+      "accession": "0000833079-20-000026",
+      "element_index": 17719,
+      "original_html_sha256": "0ffc799e7653ed4799d9c72752fabe357998f801ab1152517b78886a0bb081bd",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2019-12-31",
+      "metric": "disclosed_price_component_2",
+      "accession": "0000833079-20-000026",
+      "element_index": 17740,
+      "original_html_sha256": "0ffc799e7653ed4799d9c72752fabe357998f801ab1152517b78886a0bb081bd",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|total|2019-12-31",
+      "metric": "deposits",
+      "accession": "0000833079-20-000026",
+      "element_index": 17838,
+      "original_html_sha256": "0ffc799e7653ed4799d9c72752fabe357998f801ab1152517b78886a0bb081bd",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|total|2019-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000833079-20-000026",
+      "element_index": 17830,
+      "original_html_sha256": "0ffc799e7653ed4799d9c72752fabe357998f801ab1152517b78886a0bb081bd",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|uncommitted|2019-12-31",
+      "metric": "deposits",
+      "accession": "0000833079-20-000026",
+      "element_index": 17788,
+      "original_html_sha256": "0ffc799e7653ed4799d9c72752fabe357998f801ab1152517b78886a0bb081bd",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|uncommitted|2019-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000833079-20-000026",
+      "element_index": 17782,
+      "original_html_sha256": "0ffc799e7653ed4799d9c72752fabe357998f801ab1152517b78886a0bb081bd",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2020-12-31",
+      "metric": "deposits_component_0",
+      "accession": "0000833079-21-000019",
+      "element_index": 16404,
+      "original_html_sha256": "47f0d4c6436a1adf6dadf7a613be8c59c214b8365b325a0bed25436e39551423",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2020-12-31",
+      "metric": "deposits_component_1",
+      "accession": "0000833079-21-000019",
+      "element_index": 16423,
+      "original_html_sha256": "47f0d4c6436a1adf6dadf7a613be8c59c214b8365b325a0bed25436e39551423",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2020-12-31",
+      "metric": "deposits_component_2",
+      "accession": "0000833079-21-000019",
+      "element_index": 16442,
+      "original_html_sha256": "47f0d4c6436a1adf6dadf7a613be8c59c214b8365b325a0bed25436e39551423",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2020-12-31",
+      "metric": "disclosed_price_component_0",
+      "accession": "0000833079-21-000019",
+      "element_index": 16399,
+      "original_html_sha256": "47f0d4c6436a1adf6dadf7a613be8c59c214b8365b325a0bed25436e39551423",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2020-12-31",
+      "metric": "disclosed_price_component_1",
+      "accession": "0000833079-21-000019",
+      "element_index": 16418,
+      "original_html_sha256": "47f0d4c6436a1adf6dadf7a613be8c59c214b8365b325a0bed25436e39551423",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2020-12-31",
+      "metric": "disclosed_price_component_2",
+      "accession": "0000833079-21-000019",
+      "element_index": 16437,
+      "original_html_sha256": "47f0d4c6436a1adf6dadf7a613be8c59c214b8365b325a0bed25436e39551423",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|total|2020-12-31",
+      "metric": "deposits",
+      "accession": "0000833079-21-000019",
+      "element_index": 16526,
+      "original_html_sha256": "47f0d4c6436a1adf6dadf7a613be8c59c214b8365b325a0bed25436e39551423",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|total|2020-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000833079-21-000019",
+      "element_index": 16519,
+      "original_html_sha256": "47f0d4c6436a1adf6dadf7a613be8c59c214b8365b325a0bed25436e39551423",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|uncommitted|2020-12-31",
+      "metric": "deposits",
+      "accession": "0000833079-21-000019",
+      "element_index": 16480,
+      "original_html_sha256": "47f0d4c6436a1adf6dadf7a613be8c59c214b8365b325a0bed25436e39551423",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|uncommitted|2020-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000833079-21-000019",
+      "element_index": 16475,
+      "original_html_sha256": "47f0d4c6436a1adf6dadf7a613be8c59c214b8365b325a0bed25436e39551423",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2021-12-31",
+      "metric": "deposits_component_0",
+      "accession": "0000833079-22-000011",
+      "element_index": 15095,
+      "original_html_sha256": "dd5f95f315492743a713e4e699c0bfc0dd3872a6cebba61060d4923cd614e2c3",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2021-12-31",
+      "metric": "deposits_component_1",
+      "accession": "0000833079-22-000011",
+      "element_index": 15114,
+      "original_html_sha256": "dd5f95f315492743a713e4e699c0bfc0dd3872a6cebba61060d4923cd614e2c3",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2021-12-31",
+      "metric": "deposits_component_2",
+      "accession": "0000833079-22-000011",
+      "element_index": 15133,
+      "original_html_sha256": "dd5f95f315492743a713e4e699c0bfc0dd3872a6cebba61060d4923cd614e2c3",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2021-12-31",
+      "metric": "disclosed_price_component_0",
+      "accession": "0000833079-22-000011",
+      "element_index": 15090,
+      "original_html_sha256": "dd5f95f315492743a713e4e699c0bfc0dd3872a6cebba61060d4923cd614e2c3",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2021-12-31",
+      "metric": "disclosed_price_component_1",
+      "accession": "0000833079-22-000011",
+      "element_index": 15109,
+      "original_html_sha256": "dd5f95f315492743a713e4e699c0bfc0dd3872a6cebba61060d4923cd614e2c3",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2021-12-31",
+      "metric": "disclosed_price_component_2",
+      "accession": "0000833079-22-000011",
+      "element_index": 15128,
+      "original_html_sha256": "dd5f95f315492743a713e4e699c0bfc0dd3872a6cebba61060d4923cd614e2c3",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|total|2021-12-31",
+      "metric": "deposits",
+      "accession": "0000833079-22-000011",
+      "element_index": 15217,
+      "original_html_sha256": "dd5f95f315492743a713e4e699c0bfc0dd3872a6cebba61060d4923cd614e2c3",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|total|2021-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000833079-22-000011",
+      "element_index": 15210,
+      "original_html_sha256": "dd5f95f315492743a713e4e699c0bfc0dd3872a6cebba61060d4923cd614e2c3",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|uncommitted|2021-12-31",
+      "metric": "deposits",
+      "accession": "0000833079-22-000011",
+      "element_index": 15171,
+      "original_html_sha256": "dd5f95f315492743a713e4e699c0bfc0dd3872a6cebba61060d4923cd614e2c3",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|uncommitted|2021-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000833079-22-000011",
+      "element_index": 15166,
+      "original_html_sha256": "dd5f95f315492743a713e4e699c0bfc0dd3872a6cebba61060d4923cd614e2c3",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2022-12-31",
+      "metric": "deposits_component_0",
+      "accession": "0000833079-23-000022",
+      "element_index": 14897,
+      "original_html_sha256": "dd41675a47e8ad07c7aeda59a5e505cf3e4aca955b6a117aee79fad97c6e8b5b",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2022-12-31",
+      "metric": "deposits_component_1",
+      "accession": "0000833079-23-000022",
+      "element_index": 14916,
+      "original_html_sha256": "dd41675a47e8ad07c7aeda59a5e505cf3e4aca955b6a117aee79fad97c6e8b5b",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2022-12-31",
+      "metric": "deposits_component_2",
+      "accession": "0000833079-23-000022",
+      "element_index": 14935,
+      "original_html_sha256": "dd41675a47e8ad07c7aeda59a5e505cf3e4aca955b6a117aee79fad97c6e8b5b",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2022-12-31",
+      "metric": "disclosed_price_component_0",
+      "accession": "0000833079-23-000022",
+      "element_index": 14892,
+      "original_html_sha256": "dd41675a47e8ad07c7aeda59a5e505cf3e4aca955b6a117aee79fad97c6e8b5b",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2022-12-31",
+      "metric": "disclosed_price_component_1",
+      "accession": "0000833079-23-000022",
+      "element_index": 14911,
+      "original_html_sha256": "dd41675a47e8ad07c7aeda59a5e505cf3e4aca955b6a117aee79fad97c6e8b5b",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2022-12-31",
+      "metric": "disclosed_price_component_2",
+      "accession": "0000833079-23-000022",
+      "element_index": 14930,
+      "original_html_sha256": "dd41675a47e8ad07c7aeda59a5e505cf3e4aca955b6a117aee79fad97c6e8b5b",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|total|2022-12-31",
+      "metric": "deposits",
+      "accession": "0000833079-23-000022",
+      "element_index": 15019,
+      "original_html_sha256": "dd41675a47e8ad07c7aeda59a5e505cf3e4aca955b6a117aee79fad97c6e8b5b",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|total|2022-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000833079-23-000022",
+      "element_index": 15012,
+      "original_html_sha256": "dd41675a47e8ad07c7aeda59a5e505cf3e4aca955b6a117aee79fad97c6e8b5b",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|uncommitted|2022-12-31",
+      "metric": "deposits",
+      "accession": "0000833079-23-000022",
+      "element_index": 14973,
+      "original_html_sha256": "dd41675a47e8ad07c7aeda59a5e505cf3e4aca955b6a117aee79fad97c6e8b5b",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|uncommitted|2022-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000833079-23-000022",
+      "element_index": 14968,
+      "original_html_sha256": "dd41675a47e8ad07c7aeda59a5e505cf3e4aca955b6a117aee79fad97c6e8b5b",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2023-12-31",
+      "metric": "deposits_component_0",
+      "accession": "0000833079-24-000015",
+      "element_index": 12994,
+      "original_html_sha256": "d773e97f97cac08b7983123a75dd9643ea75d920fcd3a0a27601ea55083cf594",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2023-12-31",
+      "metric": "deposits_component_1",
+      "accession": "0000833079-24-000015",
+      "element_index": 13013,
+      "original_html_sha256": "d773e97f97cac08b7983123a75dd9643ea75d920fcd3a0a27601ea55083cf594",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2023-12-31",
+      "metric": "deposits_component_2",
+      "accession": "0000833079-24-000015",
+      "element_index": 13032,
+      "original_html_sha256": "d773e97f97cac08b7983123a75dd9643ea75d920fcd3a0a27601ea55083cf594",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2023-12-31",
+      "metric": "disclosed_price_component_0",
+      "accession": "0000833079-24-000015",
+      "element_index": 12989,
+      "original_html_sha256": "d773e97f97cac08b7983123a75dd9643ea75d920fcd3a0a27601ea55083cf594",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2023-12-31",
+      "metric": "disclosed_price_component_1",
+      "accession": "0000833079-24-000015",
+      "element_index": 13008,
+      "original_html_sha256": "d773e97f97cac08b7983123a75dd9643ea75d920fcd3a0a27601ea55083cf594",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2023-12-31",
+      "metric": "disclosed_price_component_2",
+      "accession": "0000833079-24-000015",
+      "element_index": 13027,
+      "original_html_sha256": "d773e97f97cac08b7983123a75dd9643ea75d920fcd3a0a27601ea55083cf594",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|total|2023-12-31",
+      "metric": "deposits",
+      "accession": "0000833079-24-000015",
+      "element_index": 13116,
+      "original_html_sha256": "d773e97f97cac08b7983123a75dd9643ea75d920fcd3a0a27601ea55083cf594",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|total|2023-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000833079-24-000015",
+      "element_index": 13109,
+      "original_html_sha256": "d773e97f97cac08b7983123a75dd9643ea75d920fcd3a0a27601ea55083cf594",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|uncommitted|2023-12-31",
+      "metric": "deposits",
+      "accession": "0000833079-24-000015",
+      "element_index": 13070,
+      "original_html_sha256": "d773e97f97cac08b7983123a75dd9643ea75d920fcd3a0a27601ea55083cf594",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|uncommitted|2023-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000833079-24-000015",
+      "element_index": 13065,
+      "original_html_sha256": "d773e97f97cac08b7983123a75dd9643ea75d920fcd3a0a27601ea55083cf594",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2024-12-31",
+      "metric": "deposits_component_0",
+      "accession": "0000833079-25-000021",
+      "element_index": 13405,
+      "original_html_sha256": "b78883224ef2e8df15049dfe38e4dd66de8053a26d8c743ff0293be205aabe55",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2024-12-31",
+      "metric": "deposits_component_1",
+      "accession": "0000833079-25-000021",
+      "element_index": 13424,
+      "original_html_sha256": "b78883224ef2e8df15049dfe38e4dd66de8053a26d8c743ff0293be205aabe55",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2024-12-31",
+      "metric": "deposits_component_2",
+      "accession": "0000833079-25-000021",
+      "element_index": 13443,
+      "original_html_sha256": "b78883224ef2e8df15049dfe38e4dd66de8053a26d8c743ff0293be205aabe55",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2024-12-31",
+      "metric": "disclosed_price_component_0",
+      "accession": "0000833079-25-000021",
+      "element_index": 13400,
+      "original_html_sha256": "b78883224ef2e8df15049dfe38e4dd66de8053a26d8c743ff0293be205aabe55",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2024-12-31",
+      "metric": "disclosed_price_component_1",
+      "accession": "0000833079-25-000021",
+      "element_index": 13419,
+      "original_html_sha256": "b78883224ef2e8df15049dfe38e4dd66de8053a26d8c743ff0293be205aabe55",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2024-12-31",
+      "metric": "disclosed_price_component_2",
+      "accession": "0000833079-25-000021",
+      "element_index": 13438,
+      "original_html_sha256": "b78883224ef2e8df15049dfe38e4dd66de8053a26d8c743ff0293be205aabe55",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|total|2024-12-31",
+      "metric": "deposits",
+      "accession": "0000833079-25-000021",
+      "element_index": 13527,
+      "original_html_sha256": "b78883224ef2e8df15049dfe38e4dd66de8053a26d8c743ff0293be205aabe55",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|total|2024-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000833079-25-000021",
+      "element_index": 13520,
+      "original_html_sha256": "b78883224ef2e8df15049dfe38e4dd66de8053a26d8c743ff0293be205aabe55",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|uncommitted|2024-12-31",
+      "metric": "deposits",
+      "accession": "0000833079-25-000021",
+      "element_index": 13481,
+      "original_html_sha256": "b78883224ef2e8df15049dfe38e4dd66de8053a26d8c743ff0293be205aabe55",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|uncommitted|2024-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000833079-25-000021",
+      "element_index": 13476,
+      "original_html_sha256": "b78883224ef2e8df15049dfe38e4dd66de8053a26d8c743ff0293be205aabe55",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2025-12-31",
+      "metric": "deposits_component_0",
+      "accession": "0000833079-26-000010",
+      "element_index": 14853,
+      "original_html_sha256": "fa33965ddb1150a8a3d498c7b93bb9e124dfc6d7933b7293f81e78d6a51d311a",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2025-12-31",
+      "metric": "deposits_component_1",
+      "accession": "0000833079-26-000010",
+      "element_index": 14872,
+      "original_html_sha256": "fa33965ddb1150a8a3d498c7b93bb9e124dfc6d7933b7293f81e78d6a51d311a",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2025-12-31",
+      "metric": "deposits_component_2",
+      "accession": "0000833079-26-000010",
+      "element_index": 14891,
+      "original_html_sha256": "fa33965ddb1150a8a3d498c7b93bb9e124dfc6d7933b7293f81e78d6a51d311a",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2025-12-31",
+      "metric": "disclosed_price_component_0",
+      "accession": "0000833079-26-000010",
+      "element_index": 14848,
+      "original_html_sha256": "fa33965ddb1150a8a3d498c7b93bb9e124dfc6d7933b7293f81e78d6a51d311a",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2025-12-31",
+      "metric": "disclosed_price_component_1",
+      "accession": "0000833079-26-000010",
+      "element_index": 14867,
+      "original_html_sha256": "fa33965ddb1150a8a3d498c7b93bb9e124dfc6d7933b7293f81e78d6a51d311a",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2025-12-31",
+      "metric": "disclosed_price_component_2",
+      "accession": "0000833079-26-000010",
+      "element_index": 14886,
+      "original_html_sha256": "fa33965ddb1150a8a3d498c7b93bb9e124dfc6d7933b7293f81e78d6a51d311a",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|total|2025-12-31",
+      "metric": "deposits",
+      "accession": "0000833079-26-000010",
+      "element_index": 14975,
+      "original_html_sha256": "fa33965ddb1150a8a3d498c7b93bb9e124dfc6d7933b7293f81e78d6a51d311a",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|total|2025-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000833079-26-000010",
+      "element_index": 14968,
+      "original_html_sha256": "fa33965ddb1150a8a3d498c7b93bb9e124dfc6d7933b7293f81e78d6a51d311a",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|uncommitted|2025-12-31",
+      "metric": "deposits",
+      "accession": "0000833079-26-000010",
+      "element_index": 14929,
+      "original_html_sha256": "fa33965ddb1150a8a3d498c7b93bb9e124dfc6d7933b7293f81e78d6a51d311a",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|uncommitted|2025-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000833079-26-000010",
+      "element_index": 14924,
+      "original_html_sha256": "fa33965ddb1150a8a3d498c7b93bb9e124dfc6d7933b7293f81e78d6a51d311a",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2026-06-30",
+      "metric": "deposits",
+      "accession": "0000833079-26-000128",
+      "element_index": 6575,
+      "original_html_sha256": "3dbeee3a46a11c2c1958ee49464231ffd97f1e41ae930c6889092f89ceb0bb20",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|committed|2026-06-30",
+      "metric": "disclosed_price",
+      "accession": "0000833079-26-000128",
+      "element_index": 6568,
+      "original_html_sha256": "3dbeee3a46a11c2c1958ee49464231ffd97f1e41ae930c6889092f89ceb0bb20",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|total|2026-06-30",
+      "metric": "deposits",
+      "accession": "0000833079-26-000128",
+      "element_index": 6617,
+      "original_html_sha256": "3dbeee3a46a11c2c1958ee49464231ffd97f1e41ae930c6889092f89ceb0bb20",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|total|2026-06-30",
+      "metric": "disclosed_price",
+      "accession": "0000833079-26-000128",
+      "element_index": 6612,
+      "original_html_sha256": "3dbeee3a46a11c2c1958ee49464231ffd97f1e41ae930c6889092f89ceb0bb20",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|uncommitted|2026-06-30",
+      "metric": "deposits",
+      "accession": "0000833079-26-000128",
+      "element_index": 6596,
+      "original_html_sha256": "3dbeee3a46a11c2c1958ee49464231ffd97f1e41ae930c6889092f89ceb0bb20",
+      "status": "PASS"
+    },
+    {
+      "record": "MTH|uncommitted|2026-06-30",
+      "metric": "disclosed_price",
+      "accession": "0000833079-26-000128",
+      "element_index": 6591,
+      "original_html_sha256": "3dbeee3a46a11c2c1958ee49464231ffd97f1e41ae930c6889092f89ceb0bb20",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2018-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-20-000007",
+      "element_index": 24846,
+      "original_html_sha256": "844c2a4fc906985d5e466d838d2377b8640cdfcbb992c23ea6ecb858ae10f81a",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2018-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-20-000007",
+      "element_index": 24861,
+      "original_html_sha256": "844c2a4fc906985d5e466d838d2377b8640cdfcbb992c23ea6ecb858ae10f81a",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|VIE|2019-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-21-000007",
+      "element_index": 14222,
+      "original_html_sha256": "8bd32b107505ef6f3ce71481f12ab00cb2a452afafd24b38404483c9c9005214",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|VIE|2019-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-21-000007",
+      "element_index": 14229,
+      "original_html_sha256": "8bd32b107505ef6f3ce71481f12ab00cb2a452afafd24b38404483c9c9005214",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|other|2019-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-21-000007",
+      "element_index": 14246,
+      "original_html_sha256": "8bd32b107505ef6f3ce71481f12ab00cb2a452afafd24b38404483c9c9005214",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|other|2019-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-21-000007",
+      "element_index": 14251,
+      "original_html_sha256": "8bd32b107505ef6f3ce71481f12ab00cb2a452afafd24b38404483c9c9005214",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2019-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-21-000007",
+      "element_index": 14273,
+      "original_html_sha256": "8bd32b107505ef6f3ce71481f12ab00cb2a452afafd24b38404483c9c9005214",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2019-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-21-000007",
+      "element_index": 14280,
+      "original_html_sha256": "8bd32b107505ef6f3ce71481f12ab00cb2a452afafd24b38404483c9c9005214",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|VIE|2020-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-22-000007",
+      "element_index": 12271,
+      "original_html_sha256": "da32c9d85e5ac5a005d747f586d5cf6a882e6882cba5d4942e5465e9e7837ff9",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|VIE|2020-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-22-000007",
+      "element_index": 12278,
+      "original_html_sha256": "da32c9d85e5ac5a005d747f586d5cf6a882e6882cba5d4942e5465e9e7837ff9",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|other|2020-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-22-000007",
+      "element_index": 12295,
+      "original_html_sha256": "da32c9d85e5ac5a005d747f586d5cf6a882e6882cba5d4942e5465e9e7837ff9",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|other|2020-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-22-000007",
+      "element_index": 12300,
+      "original_html_sha256": "da32c9d85e5ac5a005d747f586d5cf6a882e6882cba5d4942e5465e9e7837ff9",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2020-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-22-000007",
+      "element_index": 12322,
+      "original_html_sha256": "da32c9d85e5ac5a005d747f586d5cf6a882e6882cba5d4942e5465e9e7837ff9",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2020-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-22-000007",
+      "element_index": 12329,
+      "original_html_sha256": "da32c9d85e5ac5a005d747f586d5cf6a882e6882cba5d4942e5465e9e7837ff9",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|VIE|2021-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-23-000007",
+      "element_index": 12119,
+      "original_html_sha256": "e770a1a397ac090349bb2b8fd45f0f3dd8cea4065c0bf9ba0379d9803d3283d3",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|VIE|2021-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-23-000007",
+      "element_index": 12126,
+      "original_html_sha256": "e770a1a397ac090349bb2b8fd45f0f3dd8cea4065c0bf9ba0379d9803d3283d3",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|other|2021-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-23-000007",
+      "element_index": 12143,
+      "original_html_sha256": "e770a1a397ac090349bb2b8fd45f0f3dd8cea4065c0bf9ba0379d9803d3283d3",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|other|2021-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-23-000007",
+      "element_index": 12148,
+      "original_html_sha256": "e770a1a397ac090349bb2b8fd45f0f3dd8cea4065c0bf9ba0379d9803d3283d3",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2021-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-23-000007",
+      "element_index": 12170,
+      "original_html_sha256": "e770a1a397ac090349bb2b8fd45f0f3dd8cea4065c0bf9ba0379d9803d3283d3",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2021-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-23-000007",
+      "element_index": 12177,
+      "original_html_sha256": "e770a1a397ac090349bb2b8fd45f0f3dd8cea4065c0bf9ba0379d9803d3283d3",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|VIE|2022-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-24-000010",
+      "element_index": 12856,
+      "original_html_sha256": "aeebee660cc849698de09fbae653087b6aced333ac97e6299fc19f06b9ebe18b",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|VIE|2022-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-24-000010",
+      "element_index": 12863,
+      "original_html_sha256": "aeebee660cc849698de09fbae653087b6aced333ac97e6299fc19f06b9ebe18b",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|other|2022-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-24-000010",
+      "element_index": 12880,
+      "original_html_sha256": "aeebee660cc849698de09fbae653087b6aced333ac97e6299fc19f06b9ebe18b",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|other|2022-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-24-000010",
+      "element_index": 12885,
+      "original_html_sha256": "aeebee660cc849698de09fbae653087b6aced333ac97e6299fc19f06b9ebe18b",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2022-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-24-000010",
+      "element_index": 12907,
+      "original_html_sha256": "aeebee660cc849698de09fbae653087b6aced333ac97e6299fc19f06b9ebe18b",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2022-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-24-000010",
+      "element_index": 12914,
+      "original_html_sha256": "aeebee660cc849698de09fbae653087b6aced333ac97e6299fc19f06b9ebe18b",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|VIE|2023-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-25-000007",
+      "element_index": 12635,
+      "original_html_sha256": "d7f754144bbad9467b7d23eecf643106e39e5d6c6b011a1be0dfecbad45d0763",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|VIE|2023-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-25-000007",
+      "element_index": 12642,
+      "original_html_sha256": "d7f754144bbad9467b7d23eecf643106e39e5d6c6b011a1be0dfecbad45d0763",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|other|2023-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-25-000007",
+      "element_index": 12659,
+      "original_html_sha256": "d7f754144bbad9467b7d23eecf643106e39e5d6c6b011a1be0dfecbad45d0763",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|other|2023-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-25-000007",
+      "element_index": 12664,
+      "original_html_sha256": "d7f754144bbad9467b7d23eecf643106e39e5d6c6b011a1be0dfecbad45d0763",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2023-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-25-000007",
+      "element_index": 12686,
+      "original_html_sha256": "d7f754144bbad9467b7d23eecf643106e39e5d6c6b011a1be0dfecbad45d0763",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2023-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-25-000007",
+      "element_index": 12693,
+      "original_html_sha256": "d7f754144bbad9467b7d23eecf643106e39e5d6c6b011a1be0dfecbad45d0763",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|VIE|2024-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-26-000007",
+      "element_index": 12348,
+      "original_html_sha256": "a98f748f932551cd2d17dacd8480e8e6948a97905eef3bfe120afeb894c49a69",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|VIE|2024-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-26-000007",
+      "element_index": 12355,
+      "original_html_sha256": "a98f748f932551cd2d17dacd8480e8e6948a97905eef3bfe120afeb894c49a69",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|other|2024-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-26-000007",
+      "element_index": 12372,
+      "original_html_sha256": "a98f748f932551cd2d17dacd8480e8e6948a97905eef3bfe120afeb894c49a69",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|other|2024-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-26-000007",
+      "element_index": 12377,
+      "original_html_sha256": "a98f748f932551cd2d17dacd8480e8e6948a97905eef3bfe120afeb894c49a69",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2024-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-26-000007",
+      "element_index": 12399,
+      "original_html_sha256": "a98f748f932551cd2d17dacd8480e8e6948a97905eef3bfe120afeb894c49a69",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2024-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-26-000007",
+      "element_index": 12406,
+      "original_html_sha256": "a98f748f932551cd2d17dacd8480e8e6948a97905eef3bfe120afeb894c49a69",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|VIE|2025-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-26-000036",
+      "element_index": 6558,
+      "original_html_sha256": "538897c7a028288b88c161e82dc0086bd5f7b89c59770a8aec318d2863517b01",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|VIE|2025-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-26-000036",
+      "element_index": 6565,
+      "original_html_sha256": "538897c7a028288b88c161e82dc0086bd5f7b89c59770a8aec318d2863517b01",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|VIE|2026-06-30",
+      "metric": "deposits",
+      "accession": "0000822416-26-000036",
+      "element_index": 6542,
+      "original_html_sha256": "538897c7a028288b88c161e82dc0086bd5f7b89c59770a8aec318d2863517b01",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|VIE|2026-06-30",
+      "metric": "disclosed_price",
+      "accession": "0000822416-26-000036",
+      "element_index": 6549,
+      "original_html_sha256": "538897c7a028288b88c161e82dc0086bd5f7b89c59770a8aec318d2863517b01",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|other|2025-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-26-000036",
+      "element_index": 6586,
+      "original_html_sha256": "538897c7a028288b88c161e82dc0086bd5f7b89c59770a8aec318d2863517b01",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|other|2025-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-26-000036",
+      "element_index": 6591,
+      "original_html_sha256": "538897c7a028288b88c161e82dc0086bd5f7b89c59770a8aec318d2863517b01",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|other|2026-06-30",
+      "metric": "deposits",
+      "accession": "0000822416-26-000036",
+      "element_index": 6574,
+      "original_html_sha256": "538897c7a028288b88c161e82dc0086bd5f7b89c59770a8aec318d2863517b01",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|other|2026-06-30",
+      "metric": "disclosed_price",
+      "accession": "0000822416-26-000036",
+      "element_index": 6579,
+      "original_html_sha256": "538897c7a028288b88c161e82dc0086bd5f7b89c59770a8aec318d2863517b01",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2025-12-31",
+      "metric": "deposits",
+      "accession": "0000822416-26-000036",
+      "element_index": 6617,
+      "original_html_sha256": "538897c7a028288b88c161e82dc0086bd5f7b89c59770a8aec318d2863517b01",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2025-12-31",
+      "metric": "disclosed_price",
+      "accession": "0000822416-26-000036",
+      "element_index": 6624,
+      "original_html_sha256": "538897c7a028288b88c161e82dc0086bd5f7b89c59770a8aec318d2863517b01",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2026-06-30",
+      "metric": "deposits",
+      "accession": "0000822416-26-000036",
+      "element_index": 6601,
+      "original_html_sha256": "538897c7a028288b88c161e82dc0086bd5f7b89c59770a8aec318d2863517b01",
+      "status": "PASS"
+    },
+    {
+      "record": "PHM|total|2026-06-30",
+      "metric": "disclosed_price",
+      "accession": "0000822416-26-000036",
+      "element_index": 6608,
+      "original_html_sha256": "538897c7a028288b88c161e82dc0086bd5f7b89c59770a8aec318d2863517b01",
+      "status": "PASS"
+    }
+  ]
+}
