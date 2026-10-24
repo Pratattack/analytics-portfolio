@@ -4,7 +4,7 @@
 
 Can a finance team use reported asset retirement obligations (ARO) to size a retirement cash budget or diligence reserve? Our answer is **not without additional timing and settlement evidence**. The workbench identifies which constraints make a hypothetical conversion possible and how wide the resulting range remains.
 
-Six upstream exploration-and-production issuers: APA, ConocoPhillips (COP), Devon (DVN), EOG, Diamondback (FANG), Murphy (MUR). Original 10-Ks for report years 2019, 2022 and 2025 yield 17 source documents; APA's current parent has no 2019 filing in this selection. Comparable ledger years shown in those filings produce 35 retained issuer-years, not a complete continuous panel. Filed dates precede the explicit October 21, 2026 cutoff. Latest empirical book liabilities are December 31,2025 values filed February 2026. Subsequent 2026 quarterly transactions and spending are not incorporated; these are not current live debt balances.
+Six upstream exploration-and-production issuers: APA, ConocoPhillips (COP), Devon (DVN), EOG, Diamondback (FANG), Murphy (MUR). Original 10-Ks for report years 2019, 2022 and 2025 yield 17 source documents; APA's current parent has no 2019 filing in this selection. Comparable ledger years shown in those filings produce 35 retained issuer-years, not a complete continuous panel. Filed dates precede the explicit October 21, 2026 cutoff. Latest empirical book liabilities are December 31, 2025 values filed February 2026. Subsequent 2026 quarterly transactions and spending are not incorporated; these are not current live debt balances.
 
 The cohort is purposive. Consolidated international portfolios, legal regimes, asset ages and disposal activity differ. No size-adjusted performance ranking or representative industry liability total is inferred. Historical totals in `sql_history.csv` aggregate only observed panel years; never interpret them as a continuous-period cash total.
 
@@ -24,7 +24,7 @@ Do not call a generic `AssetRetirementObligationLiabilitiesSettled` amount cash 
 
 ## Tight conditional timing bounds
 
-Let B be a disclosed book stock. For this **hypothetical conversion only**, impose a single nominal discount rate r and a retirement horizon of years1..30. Let w(t) be the share of total present value assigned to year t. Require:
+Let B be a disclosed book stock. For this **hypothetical conversion only**, impose a single nominal discount rate r and a retirement horizon of years 1–30. Let w(t) be the share of total present value assigned to year t. Require:
 
 - w(t)≥0 and sum w(t)=1.
 - sum t×w(t)=μ, a user-assumed **PV-weighted** mean retirement year.

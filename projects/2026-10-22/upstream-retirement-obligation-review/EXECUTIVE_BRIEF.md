@@ -8,12 +8,12 @@
 |---|---:|---|
 | Original annual filings | 17 across six issuers | Source accession and actual filing date pinned |
 | Reconciled issuer-year ledgers | 35, reconstructed from 257 operands | Every retained opening-plus-movements ledger closes |
-| Latest observed book ARO | $15.274867b, December 31,2025 | Consolidated historical accounting stock, not 2026 cash requirement |
+| Latest observed book ARO | $15.274867b, December 31, 2025 | Consolidated historical accounting stock, not 2026 cash requirement |
 | Explicit cash-paid observations | Six, all COP | Other removals are not silently relabeled cash |
-| COP2025 cash spending / property dispositions | $259m / $186m | Generic settled-liability tags do not identify cash payments |
+| COP 2025 cash spending / property dispositions | $259m / $186m | Generic settled-liability tags do not identify cash payments |
 | Conditional timing cases | 216, including 18 infeasible | Infeasibility concerns assumptions, not issuer solvency |
 
-With a hypothetical common nominal rate6%, PV-weighted mean year 15 and maximum first-five-year PV share 25%, the six-issuer sum has a conditional cash-equivalent range of **$36.607108b–$48.513173b**. This is a sharp interval under those assumptions, not a forecast. COP's illustrative range is $20.044813b–$26.564171b versus $8.364b book. A single book stock cannot tell treasury when or how much cash will be needed.
+With a hypothetical common nominal rate 6%, PV-weighted mean year 15 and maximum first-five-year PV share 25%, the six-issuer sum has a conditional cash-equivalent range of **$36.607108b–$48.513173b**. This is a sharp interval under those assumptions, not a forecast. COP's illustrative range is $20.044813b–$26.564171b versus $8.364b book. A single book stock cannot tell treasury when or how much cash will be needed.
 
 ## Diligence action list
 
