@@ -30,6 +30,8 @@ Industry-specific economics and business analytics cases by Prathamesh Singh, us
 | 2026-10-21 | US listed freight railroads | [Reinvestment & Cash Return Review](projects/2026-10-21/freight-rail-capital-review/) |
 | 2026-10-22 | Residential homebuilding | [Homebuilder Land Option Diligence](projects/2026-10-22/homebuilder-land-option-diligence/) |
 | 2026-10-22 | Hotel management and franchising | [Hotel Reimbursement Economics](projects/2026-10-22/hotel-reimbursement-economics/) |
+| 2026-10-22 | Residential mortgage origination | [Houston Mortgage Price Comparability](projects/2026-10-22/houston-mortgage-price-comparability/) |
+| 2026-10-22 | Upstream oil and gas | [Retirement Obligation Review](projects/2026-10-22/upstream-retirement-obligation-review/) |
 
 Read the [October 19 research brief](projects/2026-10-19/DAILY_BRIEF.md), [October 19 role/source research](projects/2026-10-19/RESEARCH.md), [October 18 explanation](projects/2026-10-18/DAILY_BRIEF.md), [October 18 verification](projects/2026-10-18/verification.json), or [October 17 explanation](projects/2026-10-17/DAILY_BRIEF.md).
 
@@ -68,3 +70,11 @@ The [homebuilder land-contract case](projects/2026-10-22/homebuilder-land-option
 The [hotel reimbursement case](projects/2026-10-22/hotel-reimbursement-economics/) reconciles 34 periods from 12 original filings, with exact reported-income and year-over-year bridges. H1 2026 includes $13.926B reimbursement revenue and a −$326.224M accrual reimbursement balance. Its program-budget frontier is conditional, not a cash forecast or pure-fee profitability estimate.
 
 Both include original numerical source snapshots, exact lineage, source precision/scope audits, meaningful SQL, independent analytical reconciliation, clean deterministic reproduction, executive briefs, self-contained offline applications, measured resume bullets and five answered interview questions. The dedicated industry-finance workflow runs actual three-engine desktop/mobile acceptance and publishes exact-commit screenshot evidence. Read the [setup and verification guide](projects/2026-10-22/), [primary-source/role research](projects/2026-10-22/RESEARCH.md) and each candid assessment. Their mathematical decision layers are deliberately transparent; source volume and test counts do not claim equivalence to a professional engagement.
+
+## Mortgage pricing and upstream liability research
+
+The [Houston mortgage case](projects/2026-10-22/houston-mortgage-price-comparability/) audits123,445 official 2025 originations and defines a fixed five-lender common-support population. Its3,867 matched loans expose limited overlap; APR-spread comparisons are descriptive and do not identify causal lender effects. The separate offline offer calculator includes fees, amortization and exit balances.
+
+The [upstream retirement case](projects/2026-10-22/upstream-retirement-obligation-review/) reconstructs35 liability ledgers from17 original SEC filings and separates cash spending from liability removals. Constrained timing bounds show what additional assumptions are needed to translate book values into hypothetical cash equivalents; reserve approval remains withheld. Both cases include original-source audits, independent reconciliations, pinned dependencies, clean reproduction, executive briefs, measured resume bullets and interview defenses. These research prototypes do not imply employer work, guaranteed outcomes or years of tenure.
+
+Install `projects/2026-10-22/energy-mortgage-toolkit/requirements.txt` under Python3.12 and run that directory's `verify.py`. [Setup, actual browser testing and source recollection](projects/2026-10-22/energy-mortgage-toolkit/) explain the three gates and commit-specific CI screenshot evidence. Reports/workbenches run locally/offline; source publication does not host a live application.

@@ -1,0 +1,11 @@
+lei,variable,eligible_mean,standardized_within_bin_mean,caution
+549300HW662MN1WU8550,amount,349755.669862,270733.001389,"Coarsening aligns bin weights, not exact within-bin means."
+549300HW662MN1WU8550,ltv,85.6108940846,76.6208662718,"Coarsening aligns bin weights, not exact within-bin means."
+549300FGXN1K3HLB1R50,amount,332140.703518,270220.654853,"Coarsening aligns bin weights, not exact within-bin means."
+549300FGXN1K3HLB1R50,ltv,85.6105221106,76.7539978136,"Coarsening aligns bin weights, not exact within-bin means."
+7H6GLXDRUGQFU57RNE97,amount,334640.062598,271996.496127,"Coarsening aligns bin weights, not exact within-bin means."
+7H6GLXDRUGQFU57RNE97,ltv,82.5863841941,76.8620733713,"Coarsening aligns bin weights, not exact within-bin means."
+549300H3IZO24NSOO931,amount,266882.229232,262924.963699,"Coarsening aligns bin weights, not exact within-bin means."
+549300H3IZO24NSOO931,ltv,83.6815184017,79.7339017387,"Coarsening aligns bin weights, not exact within-bin means."
+549300GKFNPRWNS0GF29,amount,379351.415094,274307.006719,"Coarsening aligns bin weights, not exact within-bin means."
+549300GKFNPRWNS0GF29,ltv,83.8313443396,77.742011072,"Coarsening aligns bin weights, not exact within-bin means."

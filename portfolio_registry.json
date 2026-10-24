@@ -131,5 +131,27 @@
     "status": "published_research_prototype",
     "method": "Exact reimbursement income/denominator normalization; matched-period income bridges and conditional program-budget feasibility frontier",
     "limitations": "Selected sample; historical current-disclosure vintages; not pure fee profit, cash collection, probability estimates or investment rankings; forward budgets/contracts absent."
+  },
+  {
+    "date": "2026-10-22",
+    "industry": "residential mortgage origination",
+    "title": "Houston Mortgage Price Comparability",
+    "path": "projects/2026-10-22/houston-mortgage-price-comparability",
+    "data": "123,445 official public HMDA originated loan records; pinned as-served 2025 vintage; hypothetical offer assumptions separate",
+    "method": "Coarsened exact overlap standardization, tract perturbation and discounted holding-period offer comparison",
+    "status": "published_research_prototype",
+    "delivery": "Locally runnable/offline workbench and executive report; source publication is not live hosting",
+    "quality_gate": "Original-source audit, independent reconciliation, clean deterministic reproduction and actual cross-engine browser acceptance; production decision adoption withheld"
+  },
+  {
+    "date": "2026-10-22",
+    "industry": "upstream oil and gas exploration and production",
+    "title": "Upstream Retirement Obligation Review",
+    "path": "projects/2026-10-22/upstream-retirement-obligation-review",
+    "data": "17 original SEC filings, 35 sampled issuer-year ARO ledgers; hypothetical timing constraints separate",
+    "method": "Original disclosure ledger reconciliation and sharp constrained moment bounds",
+    "status": "published_research_prototype",
+    "delivery": "Locally runnable/offline workbench and executive report; source publication is not live hosting",
+    "quality_gate": "Original-source audit, independent reconciliation, clean deterministic reproduction and actual cross-engine browser acceptance; production decision adoption withheld"
   }
 ]

@@ -1,0 +1,135 @@
+{
+  "url": "https://ffiec.cfpb.gov/v2/data-browser-api/view/csv?msamds=26420&years=2025&actions_taken=1",
+  "retrieved_date": "2026-10-22",
+  "vintage": "2025 snapshot as served by official Data Browser; no loan-level lock/closing dates public",
+  "original_sha256": "9f60638e92d36be2e425e5c89c3eb7b37dd10b27ffab939a37ddf111ff388425",
+  "original_bytes": 47302783,
+  "rows": 123445,
+  "projected_fields": [
+    "source_row",
+    "activity_year",
+    "lei",
+    "derived_msa-md",
+    "county_code",
+    "census_tract",
+    "action_taken",
+    "loan_type",
+    "loan_purpose",
+    "lien_status",
+    "reverse_mortgage",
+    "open-end_line_of_credit",
+    "business_or_commercial_purpose",
+    "loan_amount",
+    "loan_to_value_ratio",
+    "interest_rate",
+    "rate_spread",
+    "total_loan_costs",
+    "lender_credits",
+    "discount_points",
+    "loan_term",
+    "intro_rate_period",
+    "negative_amortization",
+    "interest_only_payment",
+    "balloon_payment",
+    "other_nonamortizing_features",
+    "construction_method",
+    "occupancy_type",
+    "total_units",
+    "income",
+    "debt_to_income_ratio",
+    "conforming_loan_limit"
+  ],
+  "projection_sha256": "52f1b2448194a41bf2689f35f55f1bf01dca1436844aafb915c77c0beea00886",
+  "archive_sha256": "1eefa6e3f3e1fe5da19020e544060e7d768ed501a16f2e791c8e03dc4e36c5cb",
+  "parts": [
+    {
+      "file": "hmda.csv.gz.part000",
+      "sha256": "ac988e6c8239e73b60ed486bce6e1479e0231721a30c71da4a060a5e158f3bb2",
+      "bytes": 200000
+    },
+    {
+      "file": "hmda.csv.gz.part001",
+      "sha256": "26b9725aa023dfddb4e8ace791d5c701995be588f044b0074e6afd0191e19326",
+      "bytes": 200000
+    },
+    {
+      "file": "hmda.csv.gz.part002",
+      "sha256": "4ccc60614bb84e0445f35d8159384824707c5b34cce9d17b3bd070b834e6af8d",
+      "bytes": 200000
+    },
+    {
+      "file": "hmda.csv.gz.part003",
+      "sha256": "fcc2330d1c9a9ea90a20ae670af9e1ad7e98b5ccca19bb9769a552a05555b624",
+      "bytes": 200000
+    },
+    {
+      "file": "hmda.csv.gz.part004",
+      "sha256": "d5a878b20b742d8604185a8c31cfcd38a541ced45317466d9e7dc369bd7ef80e",
+      "bytes": 200000
+    },
+    {
+      "file": "hmda.csv.gz.part005",
+      "sha256": "e9387875d673ad68ea7d5e2c74971a27e357838799e8073449c9bd830f4b95d9",
+      "bytes": 200000
+    },
+    {
+      "file": "hmda.csv.gz.part006",
+      "sha256": "ba5698b4c0b759ebedac3d0a7f365d112580f63f270b4c94d01229aaa889dc9a",
+      "bytes": 200000
+    },
+    {
+      "file": "hmda.csv.gz.part007",
+      "sha256": "c4680b9916afd8c34d819e8af90ae0e523e120817169ce38b04fe3479aa7aca1",
+      "bytes": 200000
+    },
+    {
+      "file": "hmda.csv.gz.part008",
+      "sha256": "df56458fa1742de8ed8d166d666f1677da43ae616eadee1f3975ad9930c986be",
+      "bytes": 200000
+    },
+    {
+      "file": "hmda.csv.gz.part009",
+      "sha256": "fae280a54b6e23f2f59572686e5ba6bde63b3595356d540bc8b31246931375a5",
+      "bytes": 200000
+    },
+    {
+      "file": "hmda.csv.gz.part010",
+      "sha256": "79c7d1ded32375b94a79f093f36a5550eb757686a4dc74b9e9b94b68ca206fb1",
+      "bytes": 200000
+    },
+    {
+      "file": "hmda.csv.gz.part011",
+      "sha256": "bf1c732acc219b4eefbbdbffb9dd95237592feb21e0dc5aa11d3597dac3f867a",
+      "bytes": 200000
+    },
+    {
+      "file": "hmda.csv.gz.part012",
+      "sha256": "3b70f2025a95a83b387dc57b65915de995bbdddf33e48e2ed9dc7b8c13fe469a",
+      "bytes": 200000
+    },
+    {
+      "file": "hmda.csv.gz.part013",
+      "sha256": "940a01553dcc68b21c8a4e387b31b0c1309c7971649b4b820403ba1854e2b819",
+      "bytes": 200000
+    },
+    {
+      "file": "hmda.csv.gz.part014",
+      "sha256": "05ee2fdfd025f7a9c1809cb1a88fa7638d482d083fd1b03fc9ec9b866228fb59",
+      "bytes": 200000
+    },
+    {
+      "file": "hmda.csv.gz.part015",
+      "sha256": "236ad437e7b8a2710b1676c4519c649b7c75371e05c3ca503fe325d29b1b960d",
+      "bytes": 95806
+    }
+  ],
+  "privacy_scope": "Public financial/product fields and tract cluster only; demographic fields omitted; repeated public rows retained, not deduplicated.",
+  "filers": {
+    "url": "https://ffiec.cfpb.gov/v2/data-browser-api/view/filers?msamds=26420&years=2025",
+    "sha256": "0718bfe77f3a95161dafd0c2410aa4ef339c0c8abe512b83d92e8ce938a66de2"
+  },
+  "aggregate": {
+    "url": "https://ffiec.cfpb.gov/v2/data-browser-api/view/aggregations?msamds=26420&years=2025&actions_taken=1",
+    "sha256": "61852027ab104d2adee1cbe82ab1356e5a2589bb63596591b62d2351a03d8b59"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "source_rows": 123445,
+  "eligible_rows": 32095,
+  "selected_lenders": 5,
+  "common_cells": 18,
+  "matched_rows": 3867,
+  "selected_eligible_rows": 9344,
+  "replicates": 400,
+  "clusters": 1044,
+  "lender_spread_range_naive": 2.00119919817,
+  "lender_spread_range_matched": 1.90158993047,
+  "adoption_gate": false,
+  "interpretation": "Historical product/observed-risk overlap comparison, not causal lender effects, fair-lending conclusions or individual quotes."
+}

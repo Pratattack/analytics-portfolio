@@ -1,0 +1,78 @@
+name: Mortgage and energy research acceptance
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  mortgage-energy-source-method-reproduction:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: projects/2026-10-22/energy-mortgage-toolkit/requirements.txt
+      - name: Install pinned dependency in clean runner
+        run: python -m pip install -r projects/2026-10-22/energy-mortgage-toolkit/requirements.txt
+      - name: Input, independent methodology, SQL, clean deterministic rebuild
+        run: python projects/2026-10-22/energy-mortgage-toolkit/verify.py
+  mortgage-energy-browser-acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rebuild applications from pinned inputs
+        run: |
+          python -m pip install -r projects/2026-10-22/energy-mortgage-toolkit/requirements.txt
+          python projects/2026-10-22/energy-mortgage-toolkit/aro.py
+          python projects/2026-10-22/energy-mortgage-toolkit/mortgage.py
+          python projects/2026-10-22/energy-mortgage-toolkit/presentation.py
+      - name: Install actual Chromium, Firefox and WebKit
+        run: |
+          npm install --prefix .industry-browser playwright@1.56.1
+          .industry-browser/node_modules/.bin/playwright install --with-deps chromium firefox webkit
+      - name: Execute application/report acceptance on desktop/mobile
+        run: NODE_PATH="$PWD/.industry-browser/node_modules" node projects/2026-10-22/energy-mortgage-toolkit/browser_test.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mortgage-energy-browser-evidence
+          path: projects/2026-10-22/energy-mortgage-toolkit/browser_evidence/
+          retention-days: 30
+  mortgage-energy-evidence-release:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    needs: [mortgage-energy-source-method-reproduction, mortgage-energy-browser-acceptance]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: mortgage-energy-browser-evidence
+          path: mortgage-energy-browser-evidence
+      - name: Verify and package actual passing evidence
+        run: |
+          python - <<'PY'
+          import json, shutil
+          from pathlib import Path
+          p=Path('mortgage-energy-browser-evidence');a=json.loads((p/'results.json').read_text())
+          assert a['status']=='PASS' and len(a['results'])==24
+          assert all(r['status']=='PASS' and (p/r['screenshot']).is_file() for r in a['results'])
+          shutil.make_archive('mortgage-energy-browser-evidence','zip',p)
+          PY
+      - name: Publish permanent evidence for this exact commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          evidence_tag="mortgage-energy-2026-10-22-${GITHUB_SHA:0:12}"
+          if ! gh release view "$evidence_tag" >/dev/null 2>&1; then
+            gh release create "$evidence_tag" mortgage-energy-browser-evidence.zip --target "$GITHUB_SHA" --title "Mortgage pricing and upstream retirement research" --notes "Actual 24-case three-engine desktop/mobile application and report acceptance, with screenshots. Original-source numerical snapshots, executive briefs and offline applications are included in the tagged source. Historical pricing is not a causal lender effect; conditional retirement timing assumptions are not issuer forecasts or reserve approvals. Source publication is not live hosting."
+          fi

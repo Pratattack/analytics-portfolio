@@ -1,0 +1,8 @@
+stage,n
+source,123445
+excluded_product,89714
+passed_product,33731
+passed_numeric_complete,32224
+passed_domain,32095
+excluded_domain,129
+excluded_numeric_complete,1507

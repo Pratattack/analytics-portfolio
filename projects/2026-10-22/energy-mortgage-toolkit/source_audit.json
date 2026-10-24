@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "audit_date": "2026-10-22",
+  "original_sec_filings": 17,
+  "numeric_ledger_cells_independently_checked": 315,
+  "hmda_rows_compared_to_full_original": 123445,
+  "projected_source_fields_compared": 31,
+  "filings": [
+    {
+      "ticker": "APA",
+      "end": "2022-12-31",
+      "original_sha256": "e5f8f5cd6371fed006f0ef22d3750fb8e1073cca8f0db83cda0e3efff56e6499",
+      "numeric_ledger_cells": 20
+    },
+    {
+      "ticker": "APA",
+      "end": "2025-12-31",
+      "original_sha256": "f670b6190f4a2447cf605f48a20dfe753f94b0854385d309eded3ae29e43f8d5",
+      "numeric_ledger_cells": 20
+    },
+    {
+      "ticker": "COP",
+      "end": "2019-12-31",
+      "original_sha256": "01851a3a6e2c75158e7f98a4b228507b5a9bfca03fbe1362cc4d9a9de30f543f",
+      "numeric_ledger_cells": 16
+    },
+    {
+      "ticker": "COP",
+      "end": "2022-12-31",
+      "original_sha256": "2f78252025c4ab9e38a889b41bfc92014b8cb108ab4d15d83a7d40988fa8111c",
+      "numeric_ledger_cells": 16
+    },
+    {
+      "ticker": "COP",
+      "end": "2025-12-31",
+      "original_sha256": "23bfbad4b601220822faae11f406074b4667573347c64c439b683dc7fa55c16c",
+      "numeric_ledger_cells": 16
+    },
+    {
+      "ticker": "DVN",
+      "end": "2019-12-31",
+      "original_sha256": "54aa824fec49347db004d1be966b057bec9caf2bc8561726a144a7501013731d",
+      "numeric_ledger_cells": 16
+    },
+    {
+      "ticker": "DVN",
+      "end": "2022-12-31",
+      "original_sha256": "f59beb01e04d869a417b1faab6dd3ea1d5950b7ba4a9406eacb3bd44d73cb998",
+      "numeric_ledger_cells": 16
+    },
+    {
+      "ticker": "DVN",
+      "end": "2025-12-31",
+      "original_sha256": "6fd30ba8d55bf2609e745d604093c57ba27e2e6e6ea5001a06415bce234f955d",
+      "numeric_ledger_cells": 18
+    },
+    {
+      "ticker": "EOG",
+      "end": "2019-12-31",
+      "original_sha256": "4a91cb68d38de9cfea1609afcf14e68396a3dbabdc2f5994fe87b3cf6c292126",
+      "numeric_ledger_cells": 18
+    },
+    {
+      "ticker": "EOG",
+      "end": "2022-12-31",
+      "original_sha256": "2007d96405839bda3778b34c049f337f202774721b3ba5dea7fbf235c73dcd25",
+      "numeric_ledger_cells": 18
+    },
+    {
+      "ticker": "EOG",
+      "end": "2025-12-31",
+      "original_sha256": "6aa23eaf24feb5d94007f91ca4af202a52cd4bd1e5219e676f41baf20d2439eb",
+      "numeric_ledger_cells": 18
+    },
+    {
+      "ticker": "FANG",
+      "end": "2019-12-31",
+      "original_sha256": "69e3998f19cb5acb0f43ca625cc788772c3e1a09a476c9eb7f645fc50b40b09e",
+      "numeric_ledger_cells": 27
+    },
+    {
+      "ticker": "FANG",
+      "end": "2022-12-31",
+      "original_sha256": "ce2c5505f403d2bb61948b467f6d43ea01bf42fb0400932864e775cf2b8e5078",
+      "numeric_ledger_cells": 18
+    },
+    {
+      "ticker": "FANG",
+      "end": "2025-12-31",
+      "original_sha256": "f8349707c2ddb14a7af1d0b76f69bc3b40d2f3691315cc2114639f9c572f136b",
+      "numeric_ledger_cells": 18
+    },
+    {
+      "ticker": "MUR",
+      "end": "2019-12-31",
+      "original_sha256": "ed161e596cf4c1b76e5f7849b27b56a4da58d4dd002e9047ae97d6ea784081a7",
+      "numeric_ledger_cells": 22
+    },
+    {
+      "ticker": "MUR",
+      "end": "2022-12-31",
+      "original_sha256": "9e5f46bc9f20ad3a0cb56620ed52d3d961680fcee33acd133c4ae90481436a27",
+      "numeric_ledger_cells": 20
+    },
+    {
+      "ticker": "MUR",
+      "end": "2025-12-31",
+      "original_sha256": "c6c81ddb14d2836d66610a6a8f57daebe5cab32b5abcf0502ffce686b6083fe1",
+      "numeric_ledger_cells": 18
+    }
+  ],
+  "scope": "Actual full originals retrieved and audited; repeat with network recollection via acquire.py and pin_aro_tables.py. Standard CI validates pinned snapshots offline, not fresh SEC downloads."
+}

@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "stage_1": {
+    "input_methodology": "Pinned archive/member hashes; original HTML audit record; geography, year, row identity and independent aggregate reconciliation; SEC filing cutoff, units, dimensional scope, displayed signs, declared rounding and full-ledger closure."
+  },
+  "stage_2": {
+    "independent_reconciliation": "Hand-worked six latest ledgers, every ledger lineage, analytical Jensen fixture, independent extreme-point enumeration vs every unique LP case, hand-weighting fixture, independently loaded SQL matched totals and count partition."
+  },
+  "stage_3": {
+    "clean_reproduction": "Independent empty-output temporary directory rebuilt all files byte-identically. A fresh pinned environment is exercised in CI.",
+    "deterministic_outputs": 24,
+    "browser": "Required separately: browser_test.cjs executes actual engines/desktop/mobile, captures screenshots, invalid/blank/missing/infeasible/empty/recovery/keyboard states and financial reconciliations. See browser_evidence/results.json and commit-specific release; this script alone does not assert browser acceptance."
+  },
+  "output_sha256": {
+    "upstream-retirement-obligation-review/outputs/app.html": "f85302a06b4c4962c68bdb08112edea31859a0ef6c6a19824c0878c88e8e75ce",
+    "upstream-retirement-obligation-review/outputs/chart.svg": "ce709f22df6ea9fbbe8fe6dab8414f95c92b5281539381395e3ace8050b7f69a",
+    "upstream-retirement-obligation-review/outputs/exclusions.csv": "8c63f03e6855eeb7147b94b7390bbc23118c53b830a90744a7f7adb1514c6046",
+    "upstream-retirement-obligation-review/outputs/extremal_profiles.csv": "453aa24b2d7e1de227b3bb0125206df2b326b47918c3ad07c4fb1a904c0acd37",
+    "upstream-retirement-obligation-review/outputs/latest.csv": "f35aa3a1413b64a887c1230f952f4a7b2481e96ae8727c9170a4677b9f67c40d",
+    "upstream-retirement-obligation-review/outputs/metrics.json": "160949bf3b2aeceb618c30910e61a29fa284b14001b61cd80133901515e7ee3c",
+    "upstream-retirement-obligation-review/outputs/panel.csv": "30d92955be3d86f87f5f1b057907e9ec9fe7f38e9ab28a6dd902264ffd4544e8",
+    "upstream-retirement-obligation-review/outputs/report.html": "7f1f79ab3c6d47b76d5b2cbaeb373ab3d9e97e10b167f2e61b7d4093ece89511",
+    "upstream-retirement-obligation-review/outputs/source_lineage.csv": "cfc8bd160e787211cab58578e338fc7f3fd2d1f80756daedd3f636546833aa48",
+    "upstream-retirement-obligation-review/outputs/sql_history.csv": "55d47330b88d72b055b92a6eb9ba205a8e0e9875501c7998706385712d9c99c3",
+    "upstream-retirement-obligation-review/outputs/timing_bounds.csv": "b2f935ce0a6e878f224d8b565b7b04bce1034bb07d9f70992df036e69648c8b5",
+    "houston-mortgage-price-comparability/outputs/app.html": "06f7da345d73288123c654d62efa87f8f52c50b374abe76c5b32f224ee18107f",
+    "houston-mortgage-price-comparability/outputs/chart.svg": "7d18a5a535e912232824cec59fc1ea0b6304acc565004ba4f2e2ff432dfbcb68",
+    "houston-mortgage-price-comparability/outputs/common_cells.csv": "6e9f6f0ca4653cfc6ed94ffc54afafad42ec9c7c4e123ee565aa43fbe4ab25aa",
+    "houston-mortgage-price-comparability/outputs/covariate_balance.csv": "863e6862da2c9b80e62ee5722ff3c426a2b3817e9f3e52de34825037a1c5f721",
+    "houston-mortgage-price-comparability/outputs/eligible.csv": "1b017884d09328f048f38bf219341b71be499331b5175998fa65839470aefe70",
+    "houston-mortgage-price-comparability/outputs/exclusion_flow.csv": "142752fa9c5a51a5c36ffedad6737946b9b8df5e678f39460effa4092e58a6ca",
+    "houston-mortgage-price-comparability/outputs/lenders.csv": "01de915fad4258735ac8da4218f8e255861cc85b33e27a05ac11cd1345b8fae0",
+    "houston-mortgage-price-comparability/outputs/metrics.json": "94ae9286bd20465982c323397ee93e36ed542d600cc2edcd9e2423776f2e1e3a",
+    "houston-mortgage-price-comparability/outputs/pair_stability.csv": "d59c54a8ec9dc6c2714ecbe55b0c98c4c176ac0cdcb00d62651d6e1b63486404",
+    "houston-mortgage-price-comparability/outputs/pricing_disclosure.csv": "a4e9e22879707162cbe2582c6d04eb5c0584774f337d1a32331ca0fb7d584b52",
+    "houston-mortgage-price-comparability/outputs/report.html": "ece7da2fc43fe40fb88fe13221d75dfebd0c3acd22e5024f481a9a8d7a9f9b35",
+    "houston-mortgage-price-comparability/outputs/sensitivity.csv": "f397675a31f3f48b3292d3e12d97156de7682d0bf69d2311499df99777d2abd3",
+    "houston-mortgage-price-comparability/outputs/sql_cells.csv": "43a9963101606a269ee4116197a668c1fd4ad0506115a669033d97f02f4b13d8"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "observations": 35,
+  "source_filings": 17,
+  "ledger_operands": 257,
+  "issuers": 6,
+  "latest_book_pv": 15274867000.0,
+  "explicit_cash_issuer_years": 6,
+  "scenarios": 216,
+  "infeasible_assumption_combinations": 18,
+  "adoption_gate": false,
+  "interpretation": "Conditional common-discount cash equivalents, not issuer forecasts, actuarial estimates or changes to GAAP ARO."
+}
