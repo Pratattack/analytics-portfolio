@@ -1,0 +1,12 @@
+[
+  {
+    "path": "dist/assets/inter-variable.woff2",
+    "url": "https://raw.githubusercontent.com/rsms/inter/master/docs/font-files/InterVariable.woff2",
+    "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3"
+  },
+  {
+    "path": "dist/assets/prathamesh-singh-resume.pdf",
+    "url": "https://prathamesh-singh-portfolio.perky-iris-2051.chatgpt.site/assets/prathamesh-singh-resume.pdf",
+    "sha256": "903d962e73b2058995f997453d864137149d3670b50fd8cdb6485beabec06396"
+  }
+]
