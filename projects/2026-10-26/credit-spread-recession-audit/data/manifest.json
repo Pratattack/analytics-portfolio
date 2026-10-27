@@ -1,6 +1,6 @@
 {
   "observation_cutoff": "2024-12-31",
-  "projection_sha256": "66503c60377331b277b4a7658bef4bd8872ba8c137f20f8d2e0d7017947e8924",
+  "projection_sha256": "f2cae26486270dffdaa3aa632481b2e9fc896383dd9c6ec4e887acd67cee3ba1",
   "raw_file": "original_response.csv",
   "raw_sha256": "75064ac65112efe31f151329aec4f561e8829d3981e456bd7f35715d1063895b",
   "retrieval_date": "2026-10-26",

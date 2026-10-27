@@ -22,7 +22,7 @@ def main():
  p=ROOT/'credit-spread-recession-audit/data';p.mkdir(parents=True,exist_ok=True);(ROOT/'restaurant-lease-operating-leverage/data').mkdir(parents=True,exist_ok=True);CACHE.mkdir(parents=True,exist_ok=True);u='https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA10YM,GS10,TB3MS,USREC&cosd=1960-01-01&coed=2024-12-31';raw=CACHE/'fred.download';
  if not raw.exists():raw.write_bytes(get(u))
  src=raw; rows=list(csv.DictReader(src.open()));rows=[x for x in rows if '1960-01-01'<=x['observation_date']<='2024-12-31'];out=p/'monthly.csv'
- with out.open('w') as f:w=csv.DictWriter(f,fieldnames=['observation_date','BAA10YM','GS10','TB3MS','USREC']);w.writeheader();w.writerows(rows)
+ with out.open('w') as f:w=csv.DictWriter(f,fieldnames=['observation_date','BAA10YM','GS10','TB3MS','USREC'],lineterminator='\n');w.writeheader();w.writerows(rows)
  (p/'original_response.csv').write_bytes(raw.read_bytes());meta={'url':u,'sha256':sha(raw.read_bytes()),'raw_file':'original_response.csv','raw_sha256':sha(raw.read_bytes())};meta.update(series={x:'https://fred.stlouisfed.org/series/'+x for x in ['BAA10YM','GS10','TB3MS','USREC']},projection_sha256=sha(out.read_bytes()),rows=len(rows),observation_cutoff='2024-12-31',retrieval_date='2026-10-26',vintage='As-served revised history; not an ALFRED real-time vintage.');dump(p/'manifest.json',meta)
  panel=[];facts=[];audits=[];manifest=[];exclusions=[]
  for ticker,cik in ISS.items():

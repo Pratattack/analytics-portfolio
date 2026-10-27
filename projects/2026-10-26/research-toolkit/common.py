@@ -7,7 +7,7 @@ def dump(path,x):path.parent.mkdir(parents=True,exist_ok=True);path.write_text(j
 def csvout(path,rows):
  path.parent.mkdir(parents=True,exist_ok=True)
  with path.open('w',newline='') as f:
-  if rows:w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+  if rows:w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator="\n");w.writeheader();w.writerows(rows)
 def digest(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 
 def readcsv(p):
