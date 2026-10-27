@@ -52,3 +52,16 @@ Two added issuers fill gaps in the old 3-company sample. **HP Inc. (HPQ)** is a 
 All 20 added statement inputs were checked against same-accession SEC CompanyConcept US-GAAP facts (including previous-year balances in the current annual report). The full ledger now contains **50 facts**. HP Inc.'s cash capex uses XBRL `PaymentsToAcquireProductiveAssets` (not the capex tag used by Cisco). Ranking the whole five-company universe by CCC alone is misleading: gross margins, services intensity, hardware mix, contract terms, supplier-finance programs and reporting dates differ.
 
 **Managerial interpretation:** use HP and Dell to challenge assumptions about equipment inventory, receivable terms and component procurement; treat Cisco as infrastructure sensitivity; benchmark Microsoft as software/cloud contrast only. The Apple cash-release scenario remains an illustrative decision tool, not a prediction that peer CCC can be replicated.\n
+## Fifteen-company SEC XBRL benchmark — ten companies added October 27, 2026
+The original five companies are joined by **Nvidia, AMD, Intel, Qualcomm, Texas Instruments, IBM, Amazon, Lam Research, KLA and Analog Devices**. All 100 newly added statement inputs are verified against same-annual-accession SEC CompanyConcept XBRL records, making **150 traceable facts**. LRCX, KLAC and ADI report some values with precision finer than USD one million; source values are kept at USD 1,000 precision, and verification compares whole USD rather than truncated million-dollar integers.
+
+**Cohorts, not one league table:**
+- Devices & systems: Apple, Dell, HP Inc.
+- Semiconductors: Nvidia, AMD, Intel, Qualcomm, Texas Instruments, Analog Devices.
+- Semiconductor equipment: Lam Research, KLA.
+- Enterprise technology: Cisco, Microsoft, IBM.
+- Platform & logistics: Amazon.
+
+**Interpretation:** Cash conversion is capital-model-dependent: chip inventories and foundry cycles, cloud infrastructure cash spending, supplier financing and product-service revenue mix change what constitutes a good cash cycle. The dashboard compares within cohorts and plots capex intensity against FCF margin to make the cross-group differences visible. Amazon is shown as a single-constituent operational reference, not a peer median or policy target. Annual results are not seasonally adjusted and should not be treated as causal effects or direct attainable targets.
+
+**Source and methodology:** [All 150 selected XBRL facts](../data/xbrl_audit.csv) include issuer, accession, element name, original USD amount and statement end date; cash capex maps to the issuer's reported US-GAAP capital spending concept, which varies by filing. The analysis file and independent SQLite benchmark both use average beginning/end balances and a constant 365-day convention.
