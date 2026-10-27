@@ -1,4 +1,4 @@
 company,ticker,cik,fiscal_end,revenue,cogs,ar,inventory,ap,cfo,capex,prior_ar,prior_inventory,prior_ap,source,extraction_warning
 Apple,AAPL,0000320193,2025-09-27,416161,220960,39777,5718,69860,111482,12715,33410,7286,68960,https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm,
-Dell,DELL,0001571996,2026-01-30,113538,90831,17585,10437,33630,11185,2630,10298,6716,20832,https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm,Firecrawl input truncated
+Dell,DELL,0001571996,2026-01-30,113538,90831,17585,10437,33630,11185,2633,10298,6716,20832,https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm,Firecrawl input truncated
 Microsoft,MSFT,0000789019,2026-06-30,331839,106374,80876,1397,42416,182935,115948,69905,938,27724,https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm,Firecrawl input truncated
