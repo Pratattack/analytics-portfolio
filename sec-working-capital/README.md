@@ -1,13 +1,13 @@
 # SEC Working Capital Optimization | CFO Advisory
 
-**SEC XBRL-reconciled analytics and business decision case** using Apple FY2025, Dell FY2026 and Microsoft FY2026 annual reports.
+**SEC XBRL-reconciled analytics and business decision case** using Apple FY2025, Dell FY2026, HP Inc FY2025, Cisco FY2026 and Microsoft FY2026 annual reports.
 
-[Live Streamlit dashboard](https://sec-working-capital-advisory.onrender.com) · [CFO executive memo](docs/executive_memo.md) · [SEC XBRL source validation](docs/xbrl_reconciliation.md) · [Audit ledger: 30 facts](data/xbrl_audit.csv)
+[Live Streamlit dashboard](https://sec-working-capital-advisory.onrender.com) · [CFO executive memo](docs/executive_memo.md) · [SEC XBRL source validation](docs/xbrl_reconciliation.md) · [Audit ledger: 50 facts](data/xbrl_audit.csv)
 
 ## Model
 Analyze working-capital days (DSO, DIO, DPO), cash conversion, cash capex and FCF. Test hypothetical one-time liquidity release versus implementation costs, financing benefit, and realization uncertainty. Heatmap sensitivity and risk-aware peer benchmarking are included.
 
-**Correction:** The Dell FY2026 cash-capex fact is **USD 2,633 million**, correcting the original extracted USD 2,630 million; Dell FCF is USD **8,552 million**. All modeled source facts were separately reconciled to accession-linked SEC XBRL companyconcept values. See `data/xbrl_audit.csv` for CIK, GAAP tag, accession, exact USD value, and source URL. The dashboard checks the audit ledger before calculating ratios.
+**Correction:** The Dell FY2026 cash-capex fact is **USD 2,633 million**, correcting the original extracted USD 2,630 million; Dell FCF is USD **8,552 million**. All **50** modeled source facts were separately reconciled to accession-linked SEC XBRL companyconcept values. See `data/xbrl_audit.csv` for CIK, GAAP tag, accession, exact USD value, and source URL. The dashboard offers peer filters and a margin-vs-CCC operating model visualization; it checks the audit ledger before calculating ratios.
 
 ## Reproduce
 ```bash
