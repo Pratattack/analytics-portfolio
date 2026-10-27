@@ -17,7 +17,7 @@ Authorize a tightly controlled **90-day diagnostic and limited pilot**, not an e
 | DPO (days) | 114.66 | 109.43 | 120.34 |
 | CCC (days) | -71.82 | -30.14 | -33.40 |
 
-See [SEC audit ledger](../data/xbrl_audit.csv); all **30 inputs** were checked against relevant annual 10-K accession-linked XBRL facts. Fiscal year ends and operating economics are unlike one another. **Peer CCC differences are not attainable targets**, especially for a company already exhibiting substantial negative CCC.
+See [SEC audit ledger](../data/xbrl_audit.csv); the initial **30 inputs** were checked against relevant annual 10-K accession-linked XBRL facts. Fiscal year ends and operating economics are unlike one another. **Peer CCC differences are not attainable targets**, especially for a company already exhibiting substantial negative CCC.
 
 ## Scenario and sensitivity
 Working-capital cash-release estimate: realization × [(revenue/365 × days of DSO reduced) + (COGS/365 × days of DIO reduced + days of DPO extended)].
@@ -40,3 +40,15 @@ Budget and financing rates are **illustrative**, not SEC-reported or validated f
 
 ## Key limitations
 This is a descriptive three-company annual-filing comparison. Apple, Dell and Microsoft have different fiscal calendars, product versus service mixes, vendor and trade balances, payment programs and growth trajectories. None of the proposed policy impacts is causally identified; no operational feasibility has been established. Extensions of DPO may harm suppliers or sacrifice discounts, reductions in inventory may impair availability, and faster customer collections may require rebates. Derived ratios and scenarios are **analyst calculations**, not SEC-reported metrics or investment advice.
+
+## Expanded peer universe (SEC XBRL, October 27, 2026)
+Two added issuers fill gaps in the old 3-company sample. **HP Inc. (HPQ)** is a closer hardware and PC comparison to Dell and Apple's device manufacturing; **Cisco (CSCO)** adds networking equipment and enterprise-infrastructure economics. Cisco and Microsoft are *context*, not direct supplier-term or CCC targets for Apple. HPE was investigated but deliberately excluded from this scored panel until its consolidated cost-of-sales XBRL mapping can be defensibly reproduced.
+
+| Company | Fiscal end | Revenue ($m) | COGS ($m) | DSO | DIO | DPO | CCC | FCF ($m) |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| HP Inc. | 2025-10-31 | 55,295 | 43,903 | 35.67 | 67.47 | 145.30 | -42.15 | 2,800 |
+| Cisco Systems | 2026-07-25 | 63,325 | 22,465 | 40.84 | 71.96 | 47.88 | 64.92 | 12,767 |
+
+All 20 added statement inputs were checked against same-accession SEC CompanyConcept US-GAAP facts (including previous-year balances in the current annual report). The full ledger now contains **50 facts**. HP Inc.'s cash capex uses XBRL `PaymentsToAcquireProductiveAssets` (not the capex tag used by Cisco). Ranking the whole five-company universe by CCC alone is misleading: gross margins, services intensity, hardware mix, contract terms, supplier-finance programs and reporting dates differ.
+
+**Managerial interpretation:** use HP and Dell to challenge assumptions about equipment inventory, receivable terms and component procurement; treat Cisco as infrastructure sensitivity; benchmark Microsoft as software/cloud contrast only. The Apple cash-release scenario remains an illustrative decision tool, not a prediction that peer CCC can be replicated.\n
