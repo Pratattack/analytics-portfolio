@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+data/sec_raw/
+data/finance.db
+data/metrics.csv
+data/scenarios.csv
+.streamlit/secrets.toml
