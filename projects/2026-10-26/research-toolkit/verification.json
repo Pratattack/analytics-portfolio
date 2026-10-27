@@ -1,0 +1,34 @@
+{
+  "analytical_tests": 12,
+  "browser": "Separate required gate; this script does not execute or certify browser acceptance.",
+  "independent_checks": "Finite-difference logistic gradient, rank/Brier hand fixtures, independent SQL scores; 216 HiGHS LP checks, 2D vertex enumeration and no-rent-double-count hand cases.",
+  "output_sha256": {
+    "credit-spread-recession-audit/outputs/app.html": "6ed573c54fe28fa6f8d63977ffd7ce270d1e789646e7100ccde460f6aa5c10a8",
+    "credit-spread-recession-audit/outputs/chart.svg": "d85d0e147b83f0b54ae94e252f1f819b657ea0c493d8cd2bd4885262b161d454",
+    "credit-spread-recession-audit/outputs/metrics.json": "8d1966f1a42d9feab88323496e04b75bf55dafe80522e55eb26937822b40ece6",
+    "credit-spread-recession-audit/outputs/panel.csv": "bebe7c8f0ae87536a5c5a788ac35bd3e51642a4dbdded6380cdf313d855781bc",
+    "credit-spread-recession-audit/outputs/report.html": "4ef3fb9feb9ad94dd83f0e31b4e61b61c53a46f6d0ae9f272879249f2bf05186",
+    "credit-spread-recession-audit/outputs/sensitivity.csv": "fa6bdbf6966b752b08fc75c8d547d1094ecb90eb29359cb7b51387a9b49c6bdc",
+    "credit-spread-recession-audit/outputs/sql_annual_scores.csv": "733a74a55b5fa496c29ea7ab144bce69aa6d46003da892224677540038d6d80f",
+    "credit-spread-recession-audit/outputs/test_predictions.csv": "cd9a2c042e6f4b28acf7fb29b868bbab5adf7aa895f0ffd3d92adf4a341bc82b",
+    "credit-spread-recession-audit/outputs/thresholds.csv": "ca522a9dfb7c8d1ae6771843175866e45f26f3aca43f34df6c5825fdb6c2b409",
+    "credit-spread-recession-audit/outputs/tuning.csv": "bb5b933bc5bfceb2b24c7c9c4b2830bd48d66bdd4c397b13a2543c96bf996491",
+    "restaurant-lease-operating-leverage/outputs/annual_panel.csv": "a23351a3bbe1ec257515cf907fa72cded34af42a448e0c8dd26470d2196eddc6",
+    "restaurant-lease-operating-leverage/outputs/app.html": "72f071b83070e29235d5ce5823889a6a590b489b2d5842ba1f687c1d364d265f",
+    "restaurant-lease-operating-leverage/outputs/chart.svg": "1555b206c008fee9ceab822b16979851318b2885d418143018d3a7d28ad4be78",
+    "restaurant-lease-operating-leverage/outputs/historical_challenge.csv": "b226a02e26975559feec219bb4469210e9d583a9b8554bd9eece8389ea030afc",
+    "restaurant-lease-operating-leverage/outputs/latest.csv": "30756b5b78e0952f47c4edad323a52d876c3f1ab3f8a07ec661f885033fb5b81",
+    "restaurant-lease-operating-leverage/outputs/metrics.json": "faf1aedb0aa1b2f418d23b2da15301b7bea34b5c1b80c4382f57de61377ae32f",
+    "restaurant-lease-operating-leverage/outputs/report.html": "a5337b4e39be9fbe740c3497f33b1dbb49d40147f849c3ebc67c6c5cd3949892",
+    "restaurant-lease-operating-leverage/outputs/scenario_frontier.csv": "5fc0ffc62394aed5970a82641c1fc19b63f56a3f7cc002de9a008519d163c729",
+    "restaurant-lease-operating-leverage/outputs/sql_feasibility.csv": "fa4b95fb4e91011655f719c065a7712a73f764df720621567f003890820043db",
+    "restaurant-lease-operating-leverage/outputs/support_sensitivity.csv": "49a0a1e8a6bf3a28257e1391bd5c2ae54bb6b20636d027d65d7848a2980e97f3"
+  },
+  "reproduction": {
+    "byte_identical_in_this_run": 20,
+    "empty_output_files": 20,
+    "numeric_tolerance": "relative 1e-7, absolute 1e-8; code/layout exact, numerical HTML data checked semantically"
+  },
+  "source_checks": "FRED full-response projection and monthly continuity; source fingerprints, 24 original SEC cells, same-accession panel lineage; 32 retained issuer-years with explicit missing coverage.",
+  "status": "PASS"
+}

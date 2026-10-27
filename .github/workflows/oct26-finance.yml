@@ -1,0 +1,78 @@
+name: Credit and restaurant finance acceptance
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  source-method-reproduction:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: projects/2026-10-26/research-toolkit/requirements.txt
+      - name: Install pinned clean environment
+        run: python -m pip install -r projects/2026-10-26/research-toolkit/requirements.txt
+      - name: Audit source contracts, independent math, and empty-output reproduction
+        run: python projects/2026-10-26/research-toolkit/verify.py
+  browser-acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build from pinned source data
+        run: |
+          python -m pip install -r projects/2026-10-26/research-toolkit/requirements.txt
+          python projects/2026-10-26/research-toolkit/credit.py
+          python projects/2026-10-26/research-toolkit/restaurant.py
+          python projects/2026-10-26/research-toolkit/presentation.py
+      - name: Install three actual browser engines
+        run: |
+          npm install --prefix .oct26-browser playwright@1.56.1
+          .oct26-browser/node_modules/.bin/playwright install --with-deps chromium firefox webkit
+      - name: Execute desktop/mobile interaction and error-recovery cases
+        run: NODE_PATH="$PWD/.oct26-browser/node_modules" node projects/2026-10-26/research-toolkit/browser_test.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: oct26-finance-browser-evidence
+          path: projects/2026-10-26/research-toolkit/browser_evidence/
+          retention-days: 30
+  evidence-release:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    needs: [source-method-reproduction, browser-acceptance]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: oct26-finance-browser-evidence
+          path: oct26-finance-browser-evidence
+      - name: Verify and package actual passing evidence
+        run: |
+          python - <<'PY'
+          import json,shutil
+          from pathlib import Path
+          p=Path('oct26-finance-browser-evidence');a=json.loads((p/'results.json').read_text())
+          assert a['status']=='PASS' and len(a['results'])==24
+          assert all(x['status']=='PASS' and (p/x['screenshot']).is_file() for x in a['results'])
+          shutil.make_archive('oct26-finance-browser-evidence','zip',p)
+          PY
+      - name: Publish permanent commit-specific browser evidence
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          evidence_tag="finance-2026-10-26-${GITHUB_SHA:0:12}"
+          if ! gh release view "$evidence_tag" >/dev/null 2>&1; then
+            gh release create "$evidence_tag" oct26-finance-browser-evidence.zip --target "$GITHUB_SHA" --title "Credit spread and restaurant finance research" --notes "Actual 24-case Chromium/Firefox/WebKit desktop/mobile application and report acceptance. Source snapshots, analytical outputs, executive briefs and offline applications are in the tagged source. Revised-data recession classification fails model promotion. Restaurant response levers are conditional assumptions, not achieved savings, liquidity forecasts or lender covenant results. Source publication is not live hosting."
+          fi

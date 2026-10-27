@@ -153,5 +153,25 @@
     "status": "published_research_prototype",
     "delivery": "Locally runnable/offline workbench and executive report; source publication is not live hosting",
     "quality_gate": "Original-source audit, independent reconciliation, clean deterministic reproduction and actual cross-engine browser acceptance; production decision adoption withheld"
+  },
+  {
+    "date": "2026-10-26",
+    "industry": "US macro-finance and credit research",
+    "title": "Credit Spread Recession Signal Audit",
+    "path": "projects/2026-10-26/credit-spread-recession-audit",
+    "data": "Pinned official monthly FRED response; revised history through 2024, 1970–2023 origins",
+    "status": "published_research_prototype",
+    "method": "Expanding logistic estimation with twelve-month target embargo, separate penalty/threshold selection, unconditional/curve baselines, paired block sensitivity and SQL reconciliation",
+    "limitations": "Fails promotion; unconditional benchmark wins; two positive target runs; no real-time vintage or NBER announcement-delay replay."
+  },
+  {
+    "date": "2026-10-26",
+    "industry": "US listed restaurant operators",
+    "title": "Restaurant Lease & Operating Leverage Review",
+    "path": "projects/2026-10-26/restaurant-lease-operating-leverage",
+    "data": "32 issuer-years from same-accession SEC companyfacts selections; 24 latest source cells audited to six original filings; dated FY2025 base",
+    "status": "published_research_prototype",
+    "method": "Lease-aware earnings stress and bounded two-lever response frontier; 216 independent LP checks and 72 cap/recovery sensitivities",
+    "limitations": "Assumed contribution margins, response weights and caps; uneven historical coverage/fiscal dates; no current liquidity, covenant or actual savings claims."
   }
 ]

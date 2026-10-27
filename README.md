@@ -78,3 +78,11 @@ The [Houston mortgage case](projects/2026-10-22/houston-mortgage-price-comparabi
 The [upstream retirement case](projects/2026-10-22/upstream-retirement-obligation-review/) reconstructs35 liability ledgers from17 original SEC filings and separates cash spending from liability removals. Constrained timing bounds show what additional assumptions are needed to translate book values into hypothetical cash equivalents; reserve approval remains withheld. Both cases include original-source audits, independent reconciliations, pinned dependencies, clean reproduction, executive briefs, measured resume bullets and interview defenses. These research prototypes do not imply employer work, guaranteed outcomes or years of tenure.
 
 Install `projects/2026-10-22/energy-mortgage-toolkit/requirements.txt` under Python3.12 and run that directory's `verify.py`. [Setup, actual browser testing and source recollection](projects/2026-10-22/energy-mortgage-toolkit/) explain the three gates and commit-specific CI screenshot evidence. Reports/workbenches run locally/offline; source publication does not host a live application.
+
+
+## October 26: credit model governance and restaurant operating leverage
+
+- [Credit Spread Recession Signal Audit](projects/2026-10-26/credit-spread-recession-audit/): 648 research-panel months and 192 held-out origins. The credit model beats the curve model but loses to the unconditional baseline; model promotion is withheld. Includes prior-month features, label embargoes, paired block sensitivity, model-review workbench and interview materials.
+- [Restaurant Lease & Operating Leverage Review](projects/2026-10-26/restaurant-lease-operating-leverage/): 32 issuer-years, 24 original-source cells, 216 independently reconciled stress cases and 72 sensitivities. Thirty-two conditional cases remain infeasible. Earnings stress avoids double-counting base rent; assumptions do not establish savings or liquidity needs.
+
+Both include offline applications, executive briefs, source lineage, setup instructions and executed Chromium screenshots. Full three-engine desktop/mobile acceptance is tracked by [the finance workflow](.github/workflows/oct26-finance.yml); successful main runs publish a commit-specific `finance-2026-10-26-<commit>` evidence release. Applications are local research prototypes, not hosted services.

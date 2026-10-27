@@ -1,0 +1,60 @@
+{
+  "candidate": {
+    "brier": 0.16760479538345563,
+    "fn": 2,
+    "fp": 120,
+    "log_loss": 0.5197325621945398,
+    "n": 192,
+    "positive_months": 30,
+    "roc_auc": 0.7109053497942387,
+    "tn": 42,
+    "tp": 28
+  },
+  "curve_baseline": {
+    "brier": 0.17496712426159391,
+    "fn": 14,
+    "fp": 115,
+    "log_loss": 0.556338830884328,
+    "n": 192,
+    "positive_months": 30,
+    "roc_auc": 0.5343621399176954,
+    "tn": 47,
+    "tp": 16
+  },
+  "delta_brier": -0.007362328878138318,
+  "delta_brier_block24_interval": [
+    -0.067121362868059,
+    0.035372103476985994
+  ],
+  "delta_brier_vs_unconditional": 0.01887644074382423,
+  "delta_vs_unconditional_block24_interval": [
+    -0.044511853824088225,
+    0.10803727449340907
+  ],
+  "expanding_unconditional": {
+    "brier": 0.14872835463963138,
+    "fn": 0,
+    "fp": 162,
+    "log_loss": 0.47979022561514784,
+    "n": 192,
+    "positive_months": 30,
+    "roc_auc": 0.3538065843621399,
+    "tn": 0,
+    "tp": 30
+  },
+  "interpretation": "Revised-data retrospective classification, not a live forecast, causal signal or validated trading strategy.",
+  "panel_months": 648,
+  "positive_target_runs_in_test": 2,
+  "promotion_gate": false,
+  "promotion_requires": "Upper descriptive block intervals below zero against BOTH baselines AND at least three distinct positive target runs; no real-time adoption without vintage/publication-delay replay",
+  "selected_penalties": {
+    "credit": 10.0,
+    "curve": 10.0
+  },
+  "target": "Any NBER recession month in t+1 through t+12; prior-month features",
+  "test_months": 192,
+  "test_origins": "2008-01 to 2023-12; labels through 2024-12",
+  "threshold_5_to_1": 0.15,
+  "train_start": "1970-01",
+  "tuning_origins": "2000-01 to 2006-12; labels through 2007-12"
+}

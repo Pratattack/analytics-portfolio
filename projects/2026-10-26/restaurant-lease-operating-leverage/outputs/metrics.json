@@ -1,0 +1,17 @@
+{
+  "combined_only_feasible": 33,
+  "history_challenges": 23,
+  "independent_lp_reconciliations": 216,
+  "infeasible": 32,
+  "interpretation": "Dated FY2025 earnings stress; scenario levers, response costs and caps are assumed, not achieved savings, covenant tests or liquidity forecasts.",
+  "issuer_years": 32,
+  "issuers": 6,
+  "latest_operating_lease_cash": 1098897000,
+  "latest_operating_lease_cost": 1088639000,
+  "latest_revenue": 32445903000,
+  "original_cells_audited": 24,
+  "promotion_gate": false,
+  "scenarios": 216,
+  "source_original_filings_audited": 6,
+  "support_sensitivities": 72
+}

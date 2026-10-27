@@ -1,0 +1,50 @@
+[
+  {
+    "context": "c-1",
+    "decimals": "-5",
+    "dimensions": {},
+    "element_index": 9242,
+    "end": "2025-05-25",
+    "scale": 6,
+    "start": "2024-05-27",
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "unit": "iso4217:USD",
+    "value": 12076700000.0
+  },
+  {
+    "context": "c-1",
+    "decimals": "-5",
+    "dimensions": {},
+    "element_index": 9444,
+    "end": "2025-05-25",
+    "scale": 6,
+    "start": "2024-05-27",
+    "tag": "us-gaap:OperatingIncomeLoss",
+    "unit": "iso4217:USD",
+    "value": 1362300000.0
+  },
+  {
+    "context": "c-1",
+    "decimals": "-5",
+    "dimensions": {},
+    "element_index": 19356,
+    "end": "2025-05-25",
+    "scale": 6,
+    "start": "2024-05-27",
+    "tag": "us-gaap:OperatingLeaseCost",
+    "unit": "iso4217:USD",
+    "value": 413700000.0
+  },
+  {
+    "context": "c-1",
+    "decimals": "-5",
+    "dimensions": {},
+    "element_index": 19731,
+    "end": "2025-05-25",
+    "scale": 6,
+    "start": "2024-05-27",
+    "tag": "us-gaap:OperatingLeasePayments",
+    "unit": "iso4217:USD",
+    "value": 410400000.0
+  }
+]

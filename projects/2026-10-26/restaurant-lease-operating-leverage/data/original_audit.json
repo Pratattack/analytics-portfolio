@@ -1,0 +1,218 @@
+[
+  {
+    "context": "c-1",
+    "element_index": 9242,
+    "field": "revenue",
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "ticker": "DRI",
+    "url": "https://www.sec.gov/Archives/edgar/data/940944/000094094425000038/dri-20250525.htm",
+    "value": 12076700000
+  },
+  {
+    "context": "c-1",
+    "element_index": 9444,
+    "field": "ebit",
+    "tag": "OperatingIncomeLoss",
+    "ticker": "DRI",
+    "url": "https://www.sec.gov/Archives/edgar/data/940944/000094094425000038/dri-20250525.htm",
+    "value": 1362300000
+  },
+  {
+    "context": "c-1",
+    "element_index": 19356,
+    "field": "lease_cost",
+    "tag": "OperatingLeaseCost",
+    "ticker": "DRI",
+    "url": "https://www.sec.gov/Archives/edgar/data/940944/000094094425000038/dri-20250525.htm",
+    "value": 413700000
+  },
+  {
+    "context": "c-1",
+    "element_index": 19731,
+    "field": "lease_cash",
+    "tag": "OperatingLeasePayments",
+    "ticker": "DRI",
+    "url": "https://www.sec.gov/Archives/edgar/data/940944/000094094425000038/dri-20250525.htm",
+    "value": 410400000
+  },
+  {
+    "context": "Duration_1_1_2025_To_12_30_2025_d1MmrX2xEkmXyAsVTEnYvA",
+    "element_index": 12146,
+    "field": "revenue",
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "ticker": "TXRH",
+    "url": "https://www.sec.gov/Archives/edgar/data/1289460/000110465926021292/txrh-20251230x10k.htm",
+    "value": 5878075000
+  },
+  {
+    "context": "Duration_1_1_2025_To_12_30_2025_d1MmrX2xEkmXyAsVTEnYvA",
+    "element_index": 12548,
+    "field": "ebit",
+    "tag": "OperatingIncomeLoss",
+    "ticker": "TXRH",
+    "url": "https://www.sec.gov/Archives/edgar/data/1289460/000110465926021292/txrh-20251230x10k.htm",
+    "value": 474740000
+  },
+  {
+    "context": "Duration_1_1_2025_To_12_30_2025_d1MmrX2xEkmXyAsVTEnYvA",
+    "element_index": 19489,
+    "field": "lease_cost",
+    "tag": "OperatingLeaseCost",
+    "ticker": "TXRH",
+    "url": "https://www.sec.gov/Archives/edgar/data/1289460/000110465926021292/txrh-20251230x10k.htm",
+    "value": 93564000
+  },
+  {
+    "context": "Duration_1_1_2025_To_12_30_2025_d1MmrX2xEkmXyAsVTEnYvA",
+    "element_index": 19989,
+    "field": "lease_cash",
+    "tag": "OperatingLeasePayments",
+    "ticker": "TXRH",
+    "url": "https://www.sec.gov/Archives/edgar/data/1289460/000110465926021292/txrh-20251230x10k.htm",
+    "value": 84730000
+  },
+  {
+    "context": "c-1",
+    "element_index": 7211,
+    "field": "revenue",
+    "tag": "Revenues",
+    "ticker": "EAT",
+    "url": "https://www.sec.gov/Archives/edgar/data/703351/000070335125000035/eat-20250625.htm",
+    "value": 5384200000
+  },
+  {
+    "context": "c-1",
+    "element_index": 7355,
+    "field": "ebit",
+    "tag": "OperatingIncomeLoss",
+    "ticker": "EAT",
+    "url": "https://www.sec.gov/Archives/edgar/data/703351/000070335125000035/eat-20250625.htm",
+    "value": 512000000
+  },
+  {
+    "context": "c-1",
+    "element_index": 12486,
+    "field": "lease_cost",
+    "tag": "OperatingLeaseCost",
+    "ticker": "EAT",
+    "url": "https://www.sec.gov/Archives/edgar/data/703351/000070335125000035/eat-20250625.htm",
+    "value": 183900000
+  },
+  {
+    "context": "c-1",
+    "element_index": 12688,
+    "field": "lease_cash",
+    "tag": "OperatingLeasePayments",
+    "ticker": "EAT",
+    "url": "https://www.sec.gov/Archives/edgar/data/703351/000070335125000035/eat-20250625.htm",
+    "value": 189400000
+  },
+  {
+    "context": "c-1",
+    "element_index": 14288,
+    "field": "revenue",
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "ticker": "BLMN",
+    "url": "https://www.sec.gov/Archives/edgar/data/1546417/000154641726000009/blmn-20251228.htm",
+    "value": 3955996000
+  },
+  {
+    "context": "c-1",
+    "element_index": 14456,
+    "field": "ebit",
+    "tag": "OperatingIncomeLoss",
+    "ticker": "BLMN",
+    "url": "https://www.sec.gov/Archives/edgar/data/1546417/000154641726000009/blmn-20251228.htm",
+    "value": 37163000
+  },
+  {
+    "context": "c-1",
+    "element_index": 28699,
+    "field": "lease_cost",
+    "tag": "OperatingLeaseCost",
+    "ticker": "BLMN",
+    "url": "https://www.sec.gov/Archives/edgar/data/1546417/000154641726000009/blmn-20251228.htm",
+    "value": 169867000
+  },
+  {
+    "context": "c-1",
+    "element_index": 29296,
+    "field": "lease_cash",
+    "tag": "OperatingLeasePayments",
+    "ticker": "BLMN",
+    "url": "https://www.sec.gov/Archives/edgar/data/1546417/000154641726000009/blmn-20251228.htm",
+    "value": 183358000
+  },
+  {
+    "context": "Duration_1_1_2025_To_12_30_2025_2AFrTOuWZUqhXv8IHe7MIw",
+    "element_index": 23046,
+    "field": "revenue",
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "ticker": "CAKE",
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926018643/cake-20251230x10k.htm",
+    "value": 3751806000
+  },
+  {
+    "context": "Duration_1_1_2025_To_12_30_2025_2AFrTOuWZUqhXv8IHe7MIw",
+    "element_index": 10492,
+    "field": "ebit",
+    "tag": "OperatingIncomeLoss",
+    "ticker": "CAKE",
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926018643/cake-20251230x10k.htm",
+    "value": 187285000
+  },
+  {
+    "context": "Duration_1_1_2025_To_12_30_2025_2AFrTOuWZUqhXv8IHe7MIw",
+    "element_index": 18350,
+    "field": "lease_cost",
+    "tag": "OperatingLeaseCost",
+    "ticker": "CAKE",
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926018643/cake-20251230x10k.htm",
+    "value": 168504000
+  },
+  {
+    "context": "Duration_1_1_2025_To_12_30_2025_2AFrTOuWZUqhXv8IHe7MIw",
+    "element_index": 18579,
+    "field": "lease_cash",
+    "tag": "OperatingLeasePayments",
+    "ticker": "CAKE",
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926018643/cake-20251230x10k.htm",
+    "value": 165944000
+  },
+  {
+    "context": "C_ef7e355e-3e64-4a89-9b2e-bb01bad746a2",
+    "element_index": 12141,
+    "field": "revenue",
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "ticker": "BJRI",
+    "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312526083331/bjri-20251230.htm",
+    "value": 1399126000
+  },
+  {
+    "context": "C_ef7e355e-3e64-4a89-9b2e-bb01bad746a2",
+    "element_index": 12559,
+    "field": "ebit",
+    "tag": "OperatingIncomeLoss",
+    "ticker": "BJRI",
+    "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312526083331/bjri-20251230.htm",
+    "value": 46310000
+  },
+  {
+    "context": "C_ef7e355e-3e64-4a89-9b2e-bb01bad746a2",
+    "element_index": 19247,
+    "field": "lease_cost",
+    "tag": "OperatingLeaseCost",
+    "ticker": "BJRI",
+    "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312526083331/bjri-20251230.htm",
+    "value": 59104000
+  },
+  {
+    "context": "C_ef7e355e-3e64-4a89-9b2e-bb01bad746a2",
+    "element_index": 16898,
+    "field": "lease_cash",
+    "tag": "OperatingLeasePayments",
+    "ticker": "BJRI",
+    "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312526083331/bjri-20251230.htm",
+    "value": 65065000
+  }
+]
