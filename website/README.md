@@ -37,4 +37,4 @@ Browser QA was blocked by automatic approval review because the user previously 
 
 The current host is ChatGPT Sites. No paid hosting service or subscription was purchased in this task. GoDaddy remains the registrar. Apex and www custom domains have been registered with the host and await user DNS configuration; see LAUNCH.md. Both are intended to serve the same website, with the apex declared canonical.
 
-The lightweight GitHub source downloads the licensed Inter font and the approved public resume with pinned SHA-256 checks. The managed hosting source retains both binaries.
+The approved public resume is included. The asset helper downloads the licensed Inter font from its upstream GitHub repository with a pinned SHA-256 check. See live-verification-summary.json for live-check limitations.

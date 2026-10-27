@@ -1,0 +1,9 @@
+{
+  "host_deployment": "succeeded",
+  "audience": "public",
+  "version": 2,
+  "url": "https://prathamesh-singh-portfolio.perky-iris-2051.chatgpt.site",
+  "direct_http_checks": "76 attempts were blocked by Cloudflare 1010 / HTTP 403. Anonymous visitor behavior is unverified.",
+  "browser_qa": "Automatic approval review rejected opening the test tab because of the user instruction not to operate the browser.",
+  "custom_domain": "Apex and www pending DNS configuration and SSL validation."
+}
