@@ -27,13 +27,18 @@ def scenario_detail(row,dso_days,dio_days,dpo_days,realization,implementation_co
     return dict(gross_release_musd=gross,implementation_cost_musd=implementation_cost_musd,net_first_year_liquidity_musd=gross-implementation_cost_musd,annual_financing_benefit_musd=gross*annual_carry_rate,net_first_year_value_musd=gross*annual_carry_rate-implementation_cost_musd)
 ASSUMPTIONS=[('Conservative',1,.5,.5,.5,150,.04),('Base',2,1,1,.7,350,.05),('Stretch',3,2,2,.8,800,.06)]
 def audit_snapshot(snapshot,audit):
-    expected={(str(x.ticker),x.field):int(x.value_musd) for x in audit.itertuples()}
-    if len(expected)!=len(audit):raise ValueError('Duplicate audit keys')
-    for x in snapshot.itertuples():
+    """Validate source values at full reported USD precision, not truncated integer millions."""
+    if snapshot.ticker.duplicated().any():raise ValueError('Duplicate company')
+    if audit.duplicated(['ticker','field']).any():raise ValueError('Duplicate XBRL field')
+    if len(audit)!=len(snapshot)*len(NUMERIC):raise ValueError('XBRL audit incomplete')
+    expected={(str(r.ticker),str(r.field)):int(r.value_usd) for r in audit.itertuples()}
+    for row in snapshot.itertuples():
         for field in NUMERIC:
-            if (x.ticker,field) not in expected or int(getattr(x,field))!=expected[(x.ticker,field)]:raise ValueError(f'XBRL mismatch: {x.ticker} {field}')
-    if len(expected)!=len(snapshot)*len(NUMERIC):raise ValueError('Audit incomplete')
+            key=(str(row.ticker),field)
+            if key not in expected or round(float(getattr(row,field))*1e6)!=expected[key]:
+                raise ValueError(f'XBRL audit mismatch: {key}')
     return True
+
 if __name__=='__main__':
     raw=pd.read_csv(BASE/'data/firecrawl_snapshot.csv',dtype={'cik':str})
     audit_snapshot(raw,pd.read_csv(BASE/'data/xbrl_audit.csv'))
