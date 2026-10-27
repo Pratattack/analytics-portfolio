@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[1]
 RAW=pd.read_csv(ROOT/'data/firecrawl_snapshot.csv',dtype={'cik':str})
 AUDIT=pd.read_csv(ROOT/'data/xbrl_audit.csv')
 def test_audit_complete():assert audit_snapshot(RAW,AUDIT)
-def test_exact_source_count():assert len(AUDIT)==30 and set(AUDIT.ticker)=={'AAPL','DELL','MSFT'}
+def test_exact_source_count():assert len(AUDIT)==50 and set(AUDIT.ticker)=={'AAPL','DELL','MSFT','HPQ','CSCO'}
 def test_dell_capex_corrected():assert int(RAW.loc[RAW.ticker=='DELL','capex'].iloc[0])==2633
 def test_unique_sources():assert not AUDIT.duplicated(['ticker','field']).any()
 def test_expected_accession():assert AUDIT.groupby('ticker').accession.nunique().eq(1).all()
@@ -30,3 +30,16 @@ def test_scenario_investment_case():
 def test_invalid_scenarios(kwargs):
     a=analyze(RAW).iloc[0]
     with pytest.raises(ValueError):scenario(a,**kwargs)
+
+def test_new_peer_capex_tags():
+    hp=AUDIT[(AUDIT.ticker=='HPQ')&(AUDIT.field=='capex')].iloc[0]
+    assert hp.tag=='PaymentsToAcquireProductiveAssets' and hp.value_musd==897
+    cs=AUDIT[(AUDIT.ticker=='CSCO')&(AUDIT.field=='capex')].iloc[0]
+    assert cs.value_musd==1410
+def test_all_five_have_positive_flow_inputs():
+    x=analyze(RAW)
+    assert len(x)==5
+    assert x[['revenue','cogs','cfo']].gt(0).all().all()
+    assert x['gross_margin'].between(0,1).all()
+def test_hardware_peer_set():
+    assert {'AAPL','DELL','HPQ'}.issubset(set(RAW.ticker))
