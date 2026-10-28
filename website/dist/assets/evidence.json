@@ -1,0 +1,16 @@
+{
+  "bank": {
+    "path": "projects/2026-10-19/bank-deposit-cost-attribution/outputs/metrics.json",
+    "sha256": "f230b102e0b932021d976c134a11e07e9e2fbb27213ef479a5b0c6bad4fcf6b6"
+  },
+  "rentals": {
+    "path": "projects/2026-10-18/02-bike-share-forecast-planning/outputs/prequential_forecasts.csv",
+    "sha256": "86cbf37302b5bed285c305e79beda4179bda3fe0618afacef1b0e73a99974790"
+  },
+  "mortgage": {
+    "eligible_selected_lenders": 9344,
+    "common_support": 3867,
+    "retained_pct": 41.38484589041096,
+    "source": "projects/2026-10-22/houston-mortgage-price-comparability/EXECUTIVE_BRIEF.md"
+  }
+}

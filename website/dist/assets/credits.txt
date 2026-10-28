@@ -1,19 +1,17 @@
-Prathamesh Singh — Portfolio homepage preview
+Prathamesh Singh | Portfolio
 
-Original website layout, monogram and decorative night composition created for this portfolio.
-Inter variable font by Rasmus Andersson / The Inter Project Authors.
-Source: https://github.com/rsms/inter
-License: SIL Open Font License 1.1; bundled as Inter-LICENSE.txt.
+Inter: https://github.com/rsms/inter
+The Inter Project Authors. SIL Open Font License 1.1. Bundled license: Inter-LICENSE.txt.
 
-Analytical graphics are redrawn from committed project outputs, not generated imagery.
-Utility: flagships/utility-reliability-due-diligence/outputs/published_state_reconciliation.csv
-Mortgage: projects/2026-10-22/houston-mortgage-price-comparability/EXECUTIVE_BRIEF.md
-Mobility: projects/2026-10-18/02-bike-share-forecast-planning/outputs/test_evaluation.csv
-Credit: projects/2026-10-26/credit-spread-recession-audit/outputs/metrics.json
-All paths refer to https://github.com/Pratattack/analytics-portfolio
-Underlying sources: EIA, CFPB/HMDA, UCI Bike Sharing, FRED.
-UCI Bike Sharing: Fanaee-T, H. (2013). DOI 10.24432/C5W894. CC BY 4.0.
-Source creators do not endorse this independent portfolio.
+Instrument Serif: https://github.com/Instrument/instrument-serif
+Font distribution: https://github.com/google/fonts/tree/main/ofl/instrumentserif
+The Instrument Serif Project Authors. SIL Open Font License 1.1. Bundled license: InstrumentSerif-OFL.txt.
 
-The decorative night artwork does not represent data or a specific geographic view.
-No Haikei asset is used in this preview; original SVG keeps the composition specific to this site.
+Original website layout and analytical SVG redraws created for this portfolio. No generated bitmap or stock business imagery is used.
+
+Evidence sources: FDIC bank records, EIA-861 reliability schedules, CFPB/HMDA 2025 originated loans and the UCI Bike Sharing dataset.
+UCI dataset: Fanaee-T, H. (2013), Bike Sharing, DOI 10.24432/C5W894, CC BY 4.0.
+Selected source files, hashes and graphic inputs: evidence.json.
+Analytical code and source documentation: https://github.com/Pratattack/analytics-portfolio
+
+The portfolio uses the approved editorial design across its homepage, library and case studies. Original analytical source files remain separate from site presentation copies.

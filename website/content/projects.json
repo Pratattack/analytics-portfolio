@@ -5,12 +5,12 @@
     "shortTitle": "Pricing & margins",
     "category": "Finance",
     "dataKind": "Simulation",
-    "question": "What changed the margin—and which contracts need review?",
+    "question": "What changed the margin, and which contracts need review?",
     "audience": "Commercial finance and pricing teams reviewing customer and product profitability.",
     "data": "180 synthetic customer-product-period records across 30 fictional customers and two illustrative annual snapshots. No company operating data are used.",
     "methods": "Python and SQL separate volume, product/customer mix, realized price and variable cost in an exactly reconciling ordered margin bridge. A 135-case grid varies price, elasticity, churn and cost inflation.",
-    "findings": "Variable contribution falls by $157,706 in the simulation. Higher realized prices add $979,360, while higher unit costs subtract $1,380,513. The bridge explains the movement rather than treating revenue growth as profitable growth.",
-    "implications": "Review individual contracts and service-cost allocation drivers before applying a broad price increase. Evaluate demand response and cost inflation together.",
+    "findings": "In the simulation, variable contribution falls by $157,706. Higher realized prices add $979,360, while higher unit costs subtract $1,380,513. Volume and mix complete the reconciliation. Revenue growth alone would miss the cost pressure.",
+    "implications": "Use the bridge to identify contracts for review before proposing a general price increase. Check service-cost allocations and test how demand could respond.",
     "limitations": "Elasticities, churn and allocated service costs are invented. The three-year NPV excludes tax, capex, working capital and service costs. No willingness to pay or actual savings is estimated.",
     "path": "projects/2026-10-17/01-catalyst-commercial-economics",
     "date": "2026-10-17",
@@ -18,7 +18,8 @@
       "Python",
       "SQL"
     ],
-    "featured": false
+    "featured": false,
+    "summary": "Higher prices did not offset rising costs in this simulated customer portfolio. A margin bridge explains the $157,706 decline in contribution."
   },
   {
     "slug": "02-card-acquisition-economics",
@@ -30,8 +31,8 @@
     "audience": "Consumer-finance acquisition and campaign teams deciding whether to scale an incentive.",
     "data": "A fully synthetic randomized campaign with 12,000 fictional prospects and assumed account economics.",
     "methods": "Intention-to-treat conversion comparison, segment standardization, a three-year account NPV model and a conversion-only parametric bootstrap. Eighty-one scenarios vary credit loss, funding and retention.",
-    "findings": "The treatment raises simulated conversion by 0.89 percentage points, but modeled incremental NPV is −$2.20 per prospect. The approximate lift interval spans −0.19 to 1.96 percentage points; the conditional NPV interval spans −$10.80 to $5.34.",
-    "implications": "Keep the control and seek stronger value evidence before scaling the simulated incentive. Conversion is an intermediate outcome; acquisition cost, losses and retention determine value.",
+    "findings": "Treatment conversion is 0.89 percentage points higher in the simulation, but modeled incremental NPV is negative at $2.20 per prospect. Neither uncertainty interval rules out zero: the lift interval is −0.19 to 1.96 points, and the conditional NPV interval is −$10.80 to $5.34.",
+    "implications": "The simulated result does not support scaling the incentive. Evaluate acquisition costs, losses and retention alongside conversion, then collect stronger evidence of value.",
     "limitations": "All prospects and parameters are simulated. Uncertainty covers conversion conditional on the assumed economics, not full business uncertainty. This is not a lending engine or an observed customer result.",
     "path": "projects/2026-10-17/02-card-acquisition-economics",
     "date": "2026-10-17",
@@ -39,7 +40,8 @@
       "Python",
       "SQL"
     ],
-    "featured": false
+    "featured": false,
+    "summary": "A simulated incentive increased conversion, but its estimated value per prospect fell. The case separates acquisition growth from risk-adjusted economics."
   },
   {
     "slug": "03-grid-resilience-capital-allocation",
@@ -51,8 +53,8 @@
     "audience": "An investment committee balancing outage-related social value, crew capacity and critical-service commitments.",
     "data": "EIA 2023/2024 state reliability benchmarks for ten selected states, combined with fictional districts, projects and investment assumptions.",
     "methods": "An exact finite-scenario optimizer evaluates 59,049 allocations under budget, crew and service constraints. Equal-weight optimization, a greedy baseline, an independent dynamic-programming check and coverage sensitivity challenge the choice.",
-    "findings": "The conditional plan selects three upgrades, reserving $7.716 million of the $20 million envelope. Its worst specified social NPV is $0.827 million, compared with −$8.539 million for the comparison plans. A harsher outside-set stress remains negative at −$6.316 million.",
-    "implications": "Keep unused investment capacity when additional spending worsens modeled downside. Seek feeder-level evidence and engineering validation before committing money.",
+    "findings": "The model selects three upgrades and reserves $7.716 million of a $20 million envelope. Its worst specified social NPV is $0.827 million, compared with −$8.539 million for the comparison plans. An additional stress outside the original scenario set produces −$6.316 million.",
+    "implications": "The case makes the cost of different allocation rules visible. It supports questions for engineering and investment review, with no guarantee that the chosen scenarios cover future conditions.",
     "limitations": "Project costs, effectiveness and outage valuation are hypothetical. The objective is social value, not utility cash profit. State averages are not feeder forecasts, and robustness applies only to the specified uncertainty set.",
     "path": "projects/2026-10-17/03-grid-resilience-capital-allocation",
     "date": "2026-10-17",
@@ -60,7 +62,8 @@
       "Python",
       "SQL"
     ],
-    "featured": false
+    "featured": false,
+    "summary": "A constrained investment model selects three hypothetical upgrades. It also shows why a plan that survives the chosen scenarios can still fail a harsher stress."
   },
   {
     "slug": "01-outpatient-access-simulation",
@@ -72,8 +75,8 @@
     "audience": "Outpatient scheduling and operations leaders reviewing urgent and routine booking policies.",
     "data": "Synthetic requests, administrative urgency labels, no-show probabilities and staffing assumptions. No patient data or clinical predictions are used.",
     "methods": "Paired booking simulations use common random streams, ten development replications for policy selection and thirty separate holdout replications. Capacity audits, unbooked requests and arrival/absence stresses retain operational constraints.",
-    "findings": "The selected flexible policy with added capacity meets both booking targets in the synthetic holdout: 100% urgent access within one business day and 100% routine access within seven. Modeled incremental contribution versus first-come-first-served is −$53,600.",
-    "implications": "Better access may require a cost. Review both request groups, staffing, no-shows and unbooked demand rather than treating a lower average wait as sufficient evidence.",
+    "findings": "Across thirty holdout simulations, the selected policy books all urgent requests within one business day and all routine requests within seven. Under the assumed visit and staffing costs, incremental contribution versus first-come-first-served is −$53,600.",
+    "implications": "Review urgent and routine access together with staffing, attendance and unbooked demand. A shorter average wait does not establish that a policy is affordable or ready for clinical use.",
     "limitations": "The results are conditional simulation outcomes, not clinical effectiveness or observed revenue. Assumed advance knowledge of capacity lost to absence is optimistic. Continuity, patient preferences and real staffing distributions need prospective validation.",
     "path": "projects/2026-10-18/01-outpatient-access-simulation",
     "date": "2026-10-18",
@@ -81,7 +84,8 @@
       "Python",
       "SQL"
     ],
-    "featured": false
+    "featured": false,
+    "summary": "The simulated scheduling policy meets both booking targets, but reduces modeled contribution. Better access comes with a staffing tradeoff."
   },
   {
     "slug": "02-bike-share-forecast-planning",
@@ -89,12 +93,12 @@
     "shortTitle": "Rental demand planning",
     "category": "Forecasting",
     "dataKind": "Public data",
-    "question": "A better forecast. What changes in the plan?",
+    "question": "Does a better rental forecast improve a capacity plan?",
     "audience": "An operations planner deciding how a rental forecast should influence a capacity rule.",
     "data": "731 daily observations from the UCI Bike Sharing dataset, covering historical 2011–2012 Capital Bikeshare rentals. Capacity-cost inputs are hypothetical.",
     "methods": "Five forecast specifications, chronological validation, rolling one-day-ahead predictions and a separate 184-day test period. Validation selects ridge regression with penalty 1. Residuals inform asymmetric-cost planning rules.",
-    "findings": "Test WAPE is 13.35% for the selected ridge model and 18.70% for the seven-day seasonal baseline. The nominal 90% band covers 87.5% of test observations, so future coverage is not guaranteed.",
-    "implications": "Connect forecast quality to the cost of excess and insufficient capacity, then examine sensitivity to those assumed costs.",
+    "findings": "On 184 test days, the selected ridge model has weighted absolute percentage error of 13.35%, compared with 18.70% for a seven-day seasonal baseline. Its nominal 90% prediction band covers 87.5% of observations, below the intended level.",
+    "implications": "Compare forecasting methods using both error and the consequences of underplanning or overplanning. The capacity-cost examples depend on assumed costs and do not measure operational savings.",
     "limitations": "The target is realized rentals, not uncensored demand. Trip-equivalent capacity is not a physical fleet-size recommendation. Any modeled cost difference is a counterfactual under invented costs, not observed savings.",
     "path": "projects/2026-10-18/02-bike-share-forecast-planning",
     "date": "2026-10-18",
@@ -102,7 +106,8 @@
       "Python",
       "SQL"
     ],
-    "featured": true
+    "featured": true,
+    "summary": "The selected model reduces historical test error from 18.70% to 13.35%. A separate planning model tests what those errors could cost."
   },
   {
     "slug": "utility-reliability-due-diligence",
@@ -114,8 +119,8 @@
     "audience": "An analyst reviewing utility peers and deciding which source releases can inform due diligence.",
     "data": "Six official EIA reliability workbooks from 2020–2025: 11,552 method-specific records across 1,010 utility-state keys, with original workbook, sheet and row lineage.",
     "methods": "Python ETL, SQLite aggregation, method-consistent peer cohorts, state-total reconciliation and report-year-separated model testing. Utility-cluster bootstrap uncertainty checks whether an apparent accuracy gain is convincing.",
-    "findings": "All 51 available state summaries reconcile in each of 2023 and 2024. Twenty-six summaries in 2025 fall outside the 0.11-minute tolerance. The full 2025 release is excluded from decision inputs, and the workbench uses 2024.",
-    "implications": "A newer release and a better point estimate each need evidence gates. Retain source discrepancies for investigation and use the reconciled release for peer review.",
+    "findings": "All 51 available state summaries reconcile in each of 2023 and 2024. Twenty-six summaries in 2025 exceed the 0.11-minute reconciliation tolerance. The workbench uses 2024 and retains the newer discrepancies for investigation. A separate predictive candidate also fails its approval checks.",
+    "implications": "Check a release before treating it as an upgrade. Analysts can inspect comparable utility groups using the reconciled year while pursuing the unresolved source differences.",
     "limitations": "The predictive candidate also fails promotion: its improvement interval crosses zero and nominal interval coverage falls short. That diagnostic uses the quarantined source year. No engineering recommendation or actual upgrade saving is established.",
     "path": "flagships/utility-reliability-due-diligence",
     "date": "2026-10-18",
@@ -123,7 +128,8 @@
       "Python",
       "SQL"
     ],
-    "featured": true
+    "featured": true,
+    "summary": "Twenty-six state summaries fail reconciliation in the 2025 release. The workbench keeps that release out of its decision inputs."
   },
   {
     "slug": "airline-delay-intervention-screen",
@@ -135,8 +141,8 @@
     "audience": "An airline operations team with ten investigation slots and a limit of two sites per airport.",
     "data": "60,093 official BTS carrier-airport-month source rows from January 2024 to August 2026. The pipeline quarantines 148 rows and retains 35,270 peer-eligible monthly rows.",
     "methods": "Leave-one-out airport/month benchmarking separates unusual carrier delay from raw size. Discovery priorities are frozen on January–August 2024, checked in 2025 and diagnosed in 2026. Two-month blocks examine retrospective stability.",
-    "findings": "The fixed shortlist captures 43.38% of eligible positive peer excess in the diagnostic period, versus 33.34% for the raw-burden baseline. The 10.04-point gap concerns concentration of a benchmark, not delay reduction.",
-    "implications": "Use the shortlist for structured investigation. Obtain flight rotations, staffing, maintenance and turnaround evidence before pricing a prospective pilot.",
+    "findings": "The frozen shortlist captures 43.38% of eligible positive peer excess in the 2026 diagnostic period, compared with 33.34% for the raw-burden baseline. The 10.04-point difference measures how the shortlist concentrates an accounting benchmark. It is not a reduction in delay minutes.",
+    "implications": "Use the shortlist to request operational evidence at the selected carrier-airport sites. Comparable schedules, aircraft, staffing and maintenance data are needed before proposing and evaluating a pilot.",
     "limitations": "The data omit flight-level schedule, fleet and route comparability, and use a revised snapshot. No causal intervention effect, attainable saving or point-in-time backtest is established.",
     "path": "projects/2026-10-19/airline-delay-intervention-screen",
     "date": "2026-10-19",
@@ -144,7 +150,8 @@
       "Python",
       "SQL"
     ],
-    "featured": false
+    "featured": false,
+    "summary": "A fixed shortlist captures more eligible peer-excess delay than a raw-burden ranking. It prioritizes investigation rather than claiming an intervention effect."
   },
   {
     "slug": "bank-deposit-cost-attribution",
@@ -152,12 +159,12 @@
     "shortTitle": "Bank deposit costs",
     "category": "Finance",
     "dataKind": "Public data",
-    "question": "Why did deposit interest expense change?",
+    "question": "Why did bank deposit interest expense fall?",
     "audience": "Bank treasury and finance teams reviewing balance growth, interest-bearing mix and pricing pressure.",
     "data": "A pinned FDIC panel of 48,814 bank-quarters across eleven dates. The matched screen retains 4,018 banks and 91% of latest domestic deposits.",
     "methods": "Quarterly/YTD reconciliation and deposit-stock checks precede an exact three-factor Shapley attribution. Six replacement orders allocate interactions symmetrically. Cohort screens and hypothetical attrition scenarios test sensitivity.",
-    "findings": "Quarterly domestic deposit interest expense falls by $5.012 billion from Q2 2025 to Q2 2026 in the screened cohort. Balance growth adds about $5.242 billion, mix adds $0.057 billion and the proxy-rate component subtracts $10.310 billion.",
-    "implications": "Separate the accounting drivers before proposing blanket repricing. Customer attrition and replacement funding can erase an apparent rate-cut benefit.",
+    "findings": "From Q2 2025 to Q2 2026, quarterly domestic deposit interest expense falls by $5.012 billion in the screened cohort. Balance growth adds $5.242 billion, interest-bearing mix adds $0.057 billion and the proxy-rate component subtracts $10.310 billion. The contributions reconcile to the total.",
+    "implications": "Use the breakdown to frame a treasury pricing review. Account-level rates, renewal dates and customer behavior are needed before assuming a rate cut will save money after attrition and replacement funding.",
     "limitations": "The proxy rate is derived from endpoint-average balances and absorbs composition and timing effects. It is not a quoted product rate or causal deposit beta. Certificate matching and a growth screen do not fully remove acquisition effects.",
     "path": "projects/2026-10-19/bank-deposit-cost-attribution",
     "date": "2026-10-19",
@@ -165,7 +172,8 @@
       "Python",
       "SQL"
     ],
-    "featured": false
+    "featured": false,
+    "summary": "Quarterly deposit interest expense falls by $5.01 billion across 4,018 screened banks. The bridge separates balances, mix and a derived rate measure."
   },
   {
     "slug": "insurance-reserve-capital-review",
@@ -177,8 +185,8 @@
     "audience": "A finance and actuarial diligence committee deciding where further reserve investigation is needed.",
     "data": "4,046 paid/incurred cells from six original 2025 insurer filings. Thirty-one of forty-eight disclosed triangles meet the selected development gates.",
     "methods": "Gated paid-development chain ladder, volume and median methods, masked-diagonal benchmark comparisons and explicit tail sensitivities. Source scope and numerical cells are retained.",
-    "findings": "Across 468 masked one-step cells, development WAPE is 14.54%, versus 44.50% for repeating the latest increment. A tail factor of 1.10 adds $17.12 billion to the modeled unpaid balance—material model-risk evidence.",
-    "implications": "Investigate the largest dollar tail sensitivities. Request actuarial selections, claims-handling changes, reinsurance detail and an independent reserve opinion.",
+    "findings": "The development method has 14.54% weighted absolute percentage error across 468 masked one-step cells, compared with 44.50% for repeating the latest increment. Adding a 1.10 tail factor raises the modeled unpaid balance by $17.12 billion. The result shows substantial sensitivity to late claims development.",
+    "implications": "Investigate the largest tail sensitivities first. Request actuarial selections, claims-handling changes and reinsurance detail before discussing reserves or capital returns.",
     "limitations": "The current disclosure contains revised historical cells, so this is not an as-released forecast. Older claims, expense scope and sparse late-development factors matter. The model does not justify reserve release or capital returns.",
     "path": "projects/2026-10-20/insurance-reserve-capital-review",
     "date": "2026-10-20",
@@ -186,7 +194,8 @@
       "Python",
       "SQL"
     ],
-    "featured": false
+    "featured": false,
+    "summary": "A modest change to the assumed claims-development tail adds $17.12 billion to the modeled unpaid balance. The gap warrants investigation, not a reserve release."
   },
   {
     "slug": "retail-reit-refinancing-review",
@@ -198,8 +207,8 @@
     "audience": "A treasury and finance committee reviewing a five-year refinancing plan against cash floors.",
     "data": "Six original 2025 REIT filings disclose $53.25 billion of face principal, including $31.23 billion due in 2026–2030. Entity scope, cash facts and historical operating cash flows are reconciled.",
     "methods": "Five-year cash paths produce exact affine constraints on a common rollover fraction. Independent linear programming checks the bounds. Persistent CFO shocks, spread changes and recovery cases challenge feasibility.",
-    "findings": "All six issuers pass the unchanged-CFO/full-rollover baseline. Thirty-seven of ninety issuer/scenario combinations fail the selected cash floors with rollover alone; none remains feasible across the expanded grid.",
-    "implications": "Use the conditional frontier to structure a funding discussion and request facilities, extension rights, recurring capex and distribution constraints.",
+    "findings": "All six issuers pass the unchanged-CFO, full-rollover baseline. Thirty-seven of ninety issuer/scenario combinations cannot meet all five cash floors using rollover alone. No issuer remains feasible across the expanded scenario grid. These are conditional stresses with no assigned probabilities.",
+    "implications": "Use the cash-floor frontier to identify questions about funding flexibility. Validate committed facilities, extensions, recurring property investment and distribution requirements before drawing a current liquidity conclusion.",
     "limitations": "This is a dated annual-base scenario, not current liquidity or a refinancing approval. Cash floors, capex, fees and spreads are assumptions; shocks have no assigned probabilities. Market access and actual covenants require further diligence.",
     "path": "projects/2026-10-20/retail-reit-refinancing-review",
     "date": "2026-10-20",
@@ -207,7 +216,8 @@
       "Python",
       "SQL"
     ],
-    "featured": false
+    "featured": false,
+    "summary": "Thirty-seven of ninety financing scenarios fail the assumed cash floors even with full debt rollover. The model exposes the conditions behind that result."
   },
   {
     "slug": "semiconductor-inventory-funding",
@@ -215,12 +225,12 @@
     "shortTitle": "Inventory forecast governance",
     "category": "Forecasting",
     "dataKind": "Public data",
-    "question": "Should a more complex inventory forecast be promoted?",
+    "question": "Should a more complex inventory forecast replace the baseline?",
     "audience": "Procurement and treasury analysts deciding which inventory balance forecast can support further planning.",
-    "data": "332 coherent SEC issuer-quarters and 1,160 retained source operands, with 47 later test outcomes across five semiconductor-equipment issuers.",
+    "data": "332 coherent SEC company-quarters and 1,160 retained source figures, with 47 later test outcomes across five semiconductor-equipment issuers.",
     "methods": "Filing-availability-aware rolling ridge estimates use separate selection, calibration and test windows. Last-balance and seasonal baselines, issuer-cluster uncertainty and source-definition exclusions check model and data risk.",
-    "findings": "Candidate test WAPE is 3.025%, worse than 2.624% for the last disclosed balance. Nominal 90% bands cover 86.11% of 36 eligible test outcomes. The candidate is not promoted.",
-    "implications": "Retain the simpler baseline, repair inconsistent source definitions and obtain SKU aging, purchase commitments and service requirements before funding decisions.",
+    "findings": "Across 47 later outcomes, candidate WAPE is 3.025%, versus 2.624% for the last balance. The nominal 90% bands cover 86.11% of 36 eligible outcomes. The candidate is not approved for use. Only four issuers have consistently defined current inputs for the planning screen.",
+    "implications": "Keep the baseline and repair source-definition gaps before testing a new model. Procurement planning also requires inventory aging, purchase commitments and service constraints.",
     "limitations": "Only four issuers have coherent current inputs. Five dependent sector histories limit uncertainty assessment. Inventory balance is not a procurement cash forecast, and assumed carry-cost examples are not savings.",
     "path": "projects/2026-10-21/semiconductor-inventory-funding",
     "date": "2026-10-21",
@@ -228,7 +238,8 @@
       "Python",
       "SQL"
     ],
-    "featured": false
+    "featured": false,
+    "summary": "The ridge model performs worse than the last disclosed inventory balance. The simpler baseline remains the default."
   },
   {
     "slug": "freight-rail-capital-review",
@@ -238,10 +249,10 @@
     "dataKind": "Public data",
     "question": "How do cash returns sit alongside reinvestment?",
     "audience": "Corporate finance and treasury teams reviewing distributions against capital commitments.",
-    "data": "32 admitted issuer-years and 256 SEC source operands. Latest comparisons use a coherent FY2025 across Union Pacific, CSX and Norfolk Southern.",
+    "data": "32 admitted company-years and 256 SEC source figures. Latest comparisons use a coherent FY2025 across Union Pacific, CSX and Norfolk Southern.",
     "methods": "Original-filing reconciliation, a cash-return subtotal, reverse CFO stress and three-year coverage. Net/gross productive-asset and tax/hurdle sensitivity expose the limits of accounting-return proxies.",
-    "findings": "FY2025 operating cash totals $18.264 billion, cash PP&E capex $8.897 billion and dividends plus repurchases $10.032 billion. The specified residual is −$665 million; two issuers have a negative subtotal.",
-    "implications": "Review discretionary distributions alongside validated maintenance, safety and growth commitments. Reconcile the current treasury plan before acting on the historical subtotal.",
+    "findings": "Across Union Pacific, CSX and Norfolk Southern in FY2025, operating cash totals $18.264 billion, cash PP&E capex $8.897 billion, and dividends plus repurchases $10.032 billion. The specified residual is −$665 million, with two issuers showing a negative subtotal.",
+    "implications": "Review distributions alongside maintenance, safety and committed growth spending. Other cash sources and uses belong in the actual treasury plan before changing investment or shareholder returns.",
     "limitations": "Cash is fungible: this subtotal does not show which payment was debt-funded or establish a current funding deficit. Fixed-asset proxies are not issuer ROIC. Safe capex cuts cannot be inferred from the scenario controls.",
     "path": "projects/2026-10-21/freight-rail-capital-review",
     "date": "2026-10-21",
@@ -249,7 +260,8 @@
       "Python",
       "SQL"
     ],
-    "featured": false
+    "featured": false,
+    "summary": "Three railroads distribute more than FY2025 operating cash less reported cash capex. The $665 million subtotal is a prompt for treasury review, not proof of a funding deficit."
   },
   {
     "slug": "homebuilder-land-option-diligence",
@@ -257,20 +269,21 @@
     "shortTitle": "Land option diligence",
     "category": "Finance",
     "dataKind": "Public + assumptions",
-    "question": "When might walking away from land be rational?",
+    "question": "When might walking away from a land contract be rational?",
     "audience": "Homebuilder acquisition and finance teams reviewing deposits, optional future outlays and contract boundaries.",
     "data": "74 contract-scope/date records from 24 original SEC numerical filing snapshots. Disclosed capital-at-risk bases and observation dates differ by issuer.",
     "methods": "A source-linked contract register reconciles total and component scopes. Two-stage exercise, wait and abandon choices are evaluated in 243 assumed scenarios and 27 refund sensitivities.",
-    "findings": "The retained observations reconcile $1.613 billion of mixed-basis disclosed capital at risk and $13.711 billion of conditional remaining purchase prices. The contract register distinguishes funded exposure from optional future outlays.",
-    "implications": "Request tract-level values, refund rights, extension terms and minimum-take schedules before authorizing exercise or extensions. A sunk deposit alone does not make a future purchase attractive.",
-    "limitations": "Parcel values, probabilities, discounts, extension costs and refundability are assumed. The scenarios are not estimated option values or issuer-specific acquisition recommendations. A reused accounting tag does not establish a legal refund right.",
+    "findings": "The retained disclosures reconcile $1.613 billion of mixed-basis capital at risk and $13.711 billion of conditional remaining purchase prices. Contract scopes and dates differ. The exercise, wait and abandon scenarios use hypothetical values and terms rather than estimated parcel option values.",
+    "implications": "Request tract-level values, refund rights, extension terms and minimum purchase schedules. A sunk deposit is relevant exposure, but does not by itself make a future purchase attractive.",
+    "limitations": "Parcel values, probabilities, discounts, extension costs and refundability are assumed. The scenarios are not estimated option values or company-specific acquisition recommendations. A reused accounting tag does not establish a legal refund right.",
     "path": "projects/2026-10-22/homebuilder-land-option-diligence",
     "date": "2026-10-22",
     "tools": [
       "Python",
       "SQL"
     ],
-    "featured": false
+    "featured": false,
+    "summary": "A contract register separates deposits already at risk from conditional future purchases. The option scenarios show why those are different decisions."
   },
   {
     "slug": "hotel-reimbursement-economics",
@@ -278,12 +291,12 @@
     "shortTitle": "Hotel reimbursement economics",
     "category": "Finance",
     "dataKind": "Public data",
-    "question": "How much margin change comes from reimbursement accounting?",
+    "question": "How does reimbursement accounting change a hotel margin comparison?",
     "audience": "Hotel-management/franchising FP&A and program-budget committees comparing operating performance.",
-    "data": "34 issuer-period observations, including 22 annual periods, from 12 original SEC filings for Marriott, Hilton and Choice Hotels. Exact original-source operands and matched periods are retained.",
+    "data": "34 issuer-period observations, including 22 annual periods, from 12 original SEC filings for Marriott, Hilton and Choice Hotels. Exact original-source figures and matched periods are retained.",
     "methods": "Reported-income identities and matched year-over-year bridges isolate reimbursement revenue and costs. A 216-case scenario grid tests incremental program spending against explicit income-floor assumptions.",
-    "findings": "H1 2026 reported revenue totals $20.784 billion, including $13.926 billion in reimbursements. The net reimbursement balance is −$326 million. Removing reimbursement revenue and net balances changes the margin ordering of two issuers.",
-    "implications": "Reconcile the numerator and denominator before comparing margins or approving program spending. Seek recoverability terms and forward budgets.",
+    "findings": "Across the selected operators in H1 2026, reported revenue totals $20.784 billion, including $13.926 billion in reimbursements. The net reimbursement balance is −$326 million. Excluding reimbursement revenue and net balances changes the margin ordering of two issuers, without isolating pure fee profitability.",
+    "implications": "Reconcile both income and revenue before comparing margins or approving program spending. Recoverability terms and a forward budget are needed to assess the cash and operating consequences.",
     "limitations": "The net balance is an accrual subtotal, not a current cash deficit. Normalization does not isolate pure fee profit or remove all mix differences. Budget scenarios hold the other business fixed and are not earnings forecasts.",
     "path": "projects/2026-10-22/hotel-reimbursement-economics",
     "date": "2026-10-22",
@@ -291,7 +304,8 @@
       "Python",
       "SQL"
     ],
-    "featured": false
+    "featured": false,
+    "summary": "Reimbursements make up much of the selected operators’ reported revenue. Adjusting the denominator changes the apparent margin comparison."
   },
   {
     "slug": "houston-mortgage-price-comparability",
@@ -299,12 +313,12 @@
     "shortTitle": "Houston mortgage pricing",
     "category": "Research",
     "dataKind": "Public data",
-    "question": "Are we comparing lenders—or different borrowers?",
+    "question": "How comparable are Houston lenders’ mortgage prices?",
     "audience": "Consumer-finance researchers deciding which historical lender-price comparisons have observable common support.",
     "data": "123,445 public Houston-area HMDA originated loans from the pinned 2025 vintage. Product and completeness checks retain 32,095 eligible observations.",
     "methods": "The five largest eligible lenders are selected by counts before inspecting prices. Coarsened matching uses public loan, leverage, debt-to-income and geography bands; 400 tract perturbations examine descriptive stability.",
-    "findings": "The five lenders have 9,344 eligible loans, but only 3,867 in 18 common-support cells: 41.38% retained. The spread range changes from 2.001 to 1.902 percentage points after matching.",
-    "implications": "Check support before ranking lender averages. Historical diagnostics can inform questions to ask, while a borrower decision needs dated Loan Estimates for the same product.",
+    "findings": "The five selected lenders have 9,344 eligible loans. Of those, 3,867 fall in 18 borrower/loan groups represented at every lender, retaining 41.38%. The observed price-spread range changes from 2.001 to 1.902 percentage points after matching. The remaining gap is descriptive.",
+    "implications": "Check which borrowers a comparison represents before ranking lender averages. For a borrower decision, request dated Loan Estimates for the same product and review rates, fees, credits and holding period.",
     "limitations": "Missing credit scores, incentives, channels and shopping behavior leave hidden selection. Remaining differences are descriptive, not lender effects or current offers. Workbench rates, fees and holding periods are hypothetical.",
     "path": "projects/2026-10-22/houston-mortgage-price-comparability",
     "date": "2026-10-22",
@@ -312,7 +326,8 @@
       "Python",
       "SQL"
     ],
-    "featured": true
+    "featured": true,
+    "summary": "Only 41.38% of eligible loans at the five selected lenders enter the common-support comparison. The analysis makes that restriction visible before comparing prices."
   },
   {
     "slug": "upstream-retirement-obligation-review",
@@ -320,12 +335,12 @@
     "shortTitle": "Retirement obligations",
     "category": "Finance",
     "dataKind": "Public + assumptions",
-    "question": "Can a book liability become a cash budget?",
+    "question": "Can a book retirement liability become a cash budget?",
     "audience": "Upstream corporate finance and acquisition diligence teams assessing retirement-reserve evidence.",
     "data": "17 original SEC annual filings across six issuers; 35 reconciled issuer-year retirement-obligation ledgers reconstructed from 257 operands.",
     "methods": "Opening balances and movements are reconciled to original disclosures, separating cash evidence from settlements and transfers. Linear-programming bounds test conditional timing, discount and near-term-share constraints.",
-    "findings": "The latest observed book ARO is $15.275 billion at December 31, 2025. Only six explicit cash-paid observations are identified, all for one issuer. Eighteen of 216 timing cases are infeasible under their assumed constraints.",
-    "implications": "Withhold a reserve approval until asset-level schedules, engineering costs, discount layers and transfer agreements establish timing and settlement scope.",
+    "findings": "The latest observed book retirement obligation totals $15.275 billion at December 31, 2025. Only six explicit cash-paid observations are identified, all for one issuer. Eighteen of 216 timing cases are infeasible under their assumed constraints, which does not imply issuer insolvency.",
+    "implications": "Request asset-level retirement schedules, engineering cost estimates, discount layers and transfer agreements before approving a cash reserve. Separate payments from liability movements caused by dispositions or remeasurement.",
     "limitations": "A discounted book stock does not identify nominal cash or its timing. Exact mathematical bounds remain conditional on assumed rates and timing constraints. Infeasible assumptions do not imply issuer insolvency.",
     "path": "projects/2026-10-22/upstream-retirement-obligation-review",
     "date": "2026-10-22",
@@ -333,7 +348,8 @@
       "Python",
       "SQL"
     ],
-    "featured": false
+    "featured": false,
+    "summary": "The disclosures support a reconciled liability ledger, but do not identify the full cash payment schedule. Timing assumptions produce a range rather than a forecast."
   },
   {
     "slug": "credit-spread-recession-audit",
@@ -341,20 +357,21 @@
     "shortTitle": "Recession signal audit",
     "category": "Research",
     "dataKind": "Public data",
-    "question": "When does the simpler model win?",
+    "question": "Do credit spreads improve a recession model enough to use it?",
     "audience": "Credit-research model-governance reviewers assessing incremental predictive value.",
     "data": "Pinned monthly FRED spreads, Treasury yields and NBER recession labels: 648 panel origins, with 192 held-out origins from 2008–2023 and labels through 2024.",
     "methods": "Expanding logistic estimation uses prior-month features, a twelve-month label gap, training-only scaling and separate penalty selection. Curve and historical-probability baselines, paired blocks and SQL checks challenge the candidate.",
-    "findings": "Brier loss is 0.1676 for credit plus curve, 0.1750 for the curve model and 0.1487 for the expanding historical baseline. The candidate improves one comparison but loses the simpler benchmark.",
-    "implications": "Withhold model promotion rather than retune the already reviewed test to obtain a positive result. Preserve the failed benchmark comparison as part of the research finding.",
-    "limitations": "The paired uncertainty band crosses zero and testing includes only two positive target runs. Revised data and eventual NBER labels do not recreate real-time knowledge. This is not a live recession forecast or a validated trading signal.",
+    "findings": "Across 192 held-out forecast dates, Brier loss is 0.1676 for credit plus curve, 0.1750 for the curve model and 0.1487 for the expanding historical baseline. Lower loss is better. The candidate therefore fails its simplest benchmark despite improving on the curve model.",
+    "implications": "Preserve the failed comparison and withhold approval. Testing another design requires new evaluation evidence, rather than retuning the reviewed test until it looks positive.",
+    "limitations": "The paired uncertainty band crosses zero and testing includes only two separate recession-target episodes. Revised data and eventual NBER labels do not recreate real-time knowledge. This is not a live recession forecast or a validated trading signal.",
     "path": "projects/2026-10-26/credit-spread-recession-audit",
     "date": "2026-10-26",
     "tools": [
       "Python",
       "SQL"
     ],
-    "featured": true
+    "featured": true,
+    "summary": "Credit spreads improve one model comparison but lose to a simple historical probability. The candidate is not approved for use."
   },
   {
     "slug": "restaurant-lease-operating-leverage",
@@ -362,12 +379,12 @@
     "shortTitle": "Restaurant operating leverage",
     "category": "Finance",
     "dataKind": "Public + assumptions",
-    "question": "When do fixed commitments exceed response capacity?",
+    "question": "When do fixed restaurant commitments exceed response capacity?",
     "audience": "Restaurant corporate finance and operations committees investigating an earnings stress.",
-    "data": "32 SEC issuer-years across six operators. Twenty-four latest source facts reconcile to six original filings; selected fiscal ends differ.",
+    "data": "32 SEC company-years across six operators. Twenty-four latest source facts reconcile to six original filings; selected fiscal ends differ.",
     "methods": "Lease-aware earnings stress avoids deducting base rent already included in EBIT. A bounded two-lever response model is checked against independent linear programming across 216 cases, with 72 additional sensitivities.",
-    "findings": "Selected FY2025 lease expense totals $1.089 billion, versus $1.099 billion in lease payments. Thirty-two reference cases are infeasible within assumed response caps, and thirty-three require both modeled levers.",
-    "implications": "Prioritize store-level contribution margins, lease resets, execution costs and credible sales recovery before approving a response.",
+    "findings": "Selected FY2025 lease expense totals $1.089 billion, versus $1.099 billion in lease payments. Thirty-two of 216 reference cases cannot meet the assumed earnings floor within the response caps. Thirty-three are feasible only when both cost savings and sales recovery are available.",
+    "implications": "Investigate store contribution margins, lease resets, execution costs and credible sales recovery before approving a response. Earnings sensitivity alone does not establish liquidity or covenant headroom.",
     "limitations": "Sales shocks, contribution margins, resource weights and response caps are assumptions. Earnings and lease cash are different concepts. The exercise establishes no actual savings, current liquidity gap or covenant result.",
     "path": "projects/2026-10-26/restaurant-lease-operating-leverage",
     "date": "2026-10-26",
@@ -375,7 +392,8 @@
       "Python",
       "SQL"
     ],
-    "featured": false
+    "featured": false,
+    "summary": "Thirty-two assumed earnings stresses remain infeasible within the modeled response caps. The model also avoids deducting rent twice."
   },
   {
     "slug": "sec-working-capital",
@@ -383,12 +401,12 @@
     "shortTitle": "Working capital & liquidity",
     "category": "Finance",
     "dataKind": "Public + assumptions",
-    "question": "Does releasing cash create economic value?",
+    "question": "Does releasing working capital create economic value?",
     "audience": "Corporate finance, treasury and procurement teams evaluating a working-capital diagnostic and limited pilot.",
     "data": "Fifteen publicly traded technology, device, semiconductor and infrastructure companies, using FY2025–FY2026 annual filings. A 150-fact ledger records selected SEC XBRL values, accessions, tags and reporting periods.",
     "methods": "Python and independent SQL calculations use average beginning/end balances and a 365-day convention for receivable, inventory and payable days. Cohort filters contextualize comparisons; a separate Apple scenario varies days, realization, implementation costs and financing rates.",
-    "findings": "The illustrative Apple base case produces about $2.44 billion of one-time gross liquidity release. At an assumed 5% financing rate, about $122 million of annual financing benefit does not recover the assumed $350 million first-year implementation cost.",
-    "implications": "Distinguish a balance-sheet cash release from earnings and economic value. Investigate receivable quality, inventory service levels and negotiated supplier terms before expansion. Peer differences are questions for diligence, not attainable targets.",
+    "findings": "The Apple base scenario produces about $2.44 billion of one-time gross liquidity release. At an assumed 5% financing rate, that supports about $122 million of annual financing benefit, below the assumed $350 million first-year implementation cost. The fifteen-company comparison provides context, not attainable cash-cycle targets.",
+    "implications": "Separate balance-sheet liquidity from profit and economic value. Investigate receivable quality, service levels, supplier terms and implementation costs before assessing a limited pilot or broader rollout.",
     "limitations": "The scenarios have no identified causal effect or demonstrated operational feasibility. Fiscal dates, classifications and business models differ; cohort medians remain descriptive, and Amazon is a single-member reference. The Streamlit application is externally hosted and may cold-start. The external server timed out during this portfolio release’s availability check.",
     "path": "sec-working-capital",
     "date": "2026-10-27",
@@ -398,6 +416,7 @@
       "Streamlit"
     ],
     "featured": false,
-    "externalDemo": "https://sec-working-capital-advisory.onrender.com"
+    "externalDemo": "https://sec-working-capital-advisory.onrender.com",
+    "summary": "The illustrative Apple case releases cash, but its first-year financing benefit does not cover the assumed implementation cost."
   }
 ]

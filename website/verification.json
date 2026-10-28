@@ -1,9 +1,14 @@
 {
   "html_pages": 53,
-  "local_link_asset_checks": 512,
+  "local_link_asset_checks": 472,
   "javascript_syntax_checks": 17,
   "zip_integrity_checks": 19,
   "search_filter_checks": 9,
   "case_studies": 19,
-  "browser_qa": "Blocked by automatic approval review: explicit user instruction prohibited browser operation. Mobile rendering, keyboard interaction and demo recalculation remain unverified in this release."
+  "css_asset_checks": 2,
+  "em_dashes_in_served_copy": 0,
+  "browser_qa": "Blocked by automatic approval review: explicit user instruction prohibited browser operation. Mobile rendering, keyboard interaction and demo recalculation remain unverified in this release.",
+  "source_data_files_byte_identical": 160,
+  "project_urls_preserved": 19,
+  "download_urls_preserved": 19
 }

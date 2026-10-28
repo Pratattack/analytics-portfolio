@@ -1,6 +1,6 @@
 # Prathamesh Singh — portfolio website
 
-Public portfolio for prathameshsingh.com. Buildless HTML/CSS/JavaScript; a self-hosted Inter font. No framework, package installation or runtime database is needed. The analytics projects remain separate and unchanged.
+Public portfolio for prathameshsingh.com. Buildless HTML/CSS/JavaScript; self-hosted Inter and Instrument Serif fonts. No framework, package installation or runtime database is needed. The analytics projects remain separate and unchanged.
 
 ## Build
 
@@ -37,4 +37,8 @@ Browser QA was blocked by automatic approval review because the user previously 
 
 The current host is ChatGPT Sites. No paid hosting service or subscription was purchased in this task. GoDaddy remains the registrar. Apex and www custom domains have been registered with the host and await user DNS configuration; see LAUNCH.md. Both are intended to serve the same website, with the apex declared canonical.
 
-The approved public resume is included. The asset helper downloads the licensed Inter font from its upstream GitHub repository with a pinned SHA-256 check. See live-verification-summary.json for live-check limitations.
+The approved public resume is included. The asset helper downloads the licensed Inter and Instrument Serif fonts from their upstream GitHub distributions with pinned SHA-256 checks. Source licenses are bundled. See live-verification-summary.json for live-check limitations.
+
+## Editorial refinement
+
+The approved homepage introduces Prathamesh by name and uses actual mortgage, bank and rental evidence. Case pages lead with a short finding and decision relevance, with methods in an accessible disclosure. The library displays concise evidence summaries. All site-controlled HTML, JS, SVG, Markdown and text copy is checked for em dashes. Hosted report copies receive explicitly reviewed presentation-only rewrites through scripts/copy_refinement.py; source data files are copied unchanged. The static verifier now also checks CSS asset paths to prevent missing fonts and background files.

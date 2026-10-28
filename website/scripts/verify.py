@@ -65,6 +65,16 @@ def main():
         with zipfile.ZipFile(package) as archive:
             assert archive.testzip() is None, package
             assert archive.namelist(), package
+    css_references = 0
+    for stylesheet in DIST.rglob('*.css'):
+        for url in re.findall(r'url\([\"\']?([^\)\"\']+)', stylesheet.read_text()):
+            if urlsplit(url).scheme or url.startswith('data:'):
+                continue
+            target = DIST/url.lstrip('/') if url.startswith('/') else stylesheet.parent/url
+            assert target.exists(), (stylesheet, url)
+            css_references += 1
+    served_text = [p for p in DIST.rglob('*') if p.suffix in {'.html','.js','.svg','.md','.txt','.css'}]
+    assert all('—' not in p.read_text() for p in served_text), 'Em dash remains in served copy'
     records = json.loads((ROOT/'content/projects.json').read_text())
     test = '''const assert=require('node:assert/strict');
 const fs=require('node:fs');
@@ -84,6 +94,7 @@ console.log('9 search/filter boundary checks passed');'''
     result = dict(html_pages=len(pages),local_link_asset_checks=assertions,
                   javascript_syntax_checks=script_count,zip_integrity_checks=len(packages),
                   search_filter_checks=9,case_studies=len(records),
+                  css_asset_checks=css_references,em_dashes_in_served_copy=0,
                   browser_qa='Blocked by automatic approval review: explicit user instruction prohibited browser operation. Mobile rendering, keyboard interaction and demo recalculation remain unverified in this release.')
     (ROOT/'verification.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result,indent=2))
