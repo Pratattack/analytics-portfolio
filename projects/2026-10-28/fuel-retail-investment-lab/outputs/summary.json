@@ -1,0 +1,19 @@
+{
+  "reference_stabilized_dscr": 0.9772454548045624,
+  "reference_year1_dscr": 0.6074706002258365,
+  "reference_cfads_monthly": 16503.565,
+  "reference_debt_service_monthly": 16887.84012129329,
+  "reference_peak_sponsor_funding_36m": 1223540.2878665584,
+  "financing_capacity_eligible_budget": 2173393.891485347,
+  "required_sales_multiplier": 1.1014232025244108,
+  "required_fuel_gallons": 62578.940606466465,
+  "full_scope_stabilized_dscr": 0.8979063216316854,
+  "nine_month_delay_extra_opening_funding": 40312.5,
+  "risk_records": 31,
+  "risk_band_mismatches": 4,
+  "unverified_evidence_gates": 8,
+  "scenario_count": 24,
+  "coverage_grid_points": 195,
+  "python_javascript_parity_cases": 33,
+  "source_totals_reconcile": true
+}

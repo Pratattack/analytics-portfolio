@@ -46,7 +46,7 @@
     "path": "flagships/utility-reliability-due-diligence",
     "kind": "flagship_upgrade",
     "upgrades": "projects/2026-10-17/03-grid-resilience-capital-allocation",
-    "data": "official EIA utility-level 2020–2025 workbooks; decision view restricted to reconciled 2024 release",
+    "data": "official EIA utility-level 2020\u20132025 workbooks; decision view restricted to reconciled 2024 release",
     "status": "published_research_prototype",
     "limitations": "2025 release quarantined; predictive promotion fails evidence gates; browser acceptance tracked in dedicated CI; physical-device and stakeholder validation unavailable",
     "last_updated": "2026-10-20",
@@ -67,7 +67,7 @@
     "industry": "insured domestic banking",
     "title": "Bank Deposit Cost Attribution",
     "path": "projects/2026-10-19/bank-deposit-cost-attribution",
-    "data": "Official FDIC bank-quarter 2023Q4–2026Q2 snapshots; generic retention scenarios kept separate",
+    "data": "Official FDIC bank-quarter 2023Q4\u20132026Q2 snapshots; generic retention scenarios kept separate",
     "status": "published_research_prototype",
     "method": "Exact three-factor Shapley expense attribution; source/YTD reconciliation and cohort sensitivity",
     "limitations": "Endpoint-average proxy rates; incomplete acquisition adjustment; no observed retention elasticity; browser acceptance tracked by a separate CI job"
@@ -87,7 +87,7 @@
     "industry": "listed retail-property REITs",
     "title": "Retail REIT Refinancing Resilience",
     "path": "projects/2026-10-20/retail-reit-refinancing-review",
-    "data": "Original SEC 2025 maturity ladders and cash facts; 2019–2025 CFO history; dated annual base with entity-scope reconciliation",
+    "data": "Original SEC 2025 maturity ladders and cash facts; 2019\u20132025 CFO history; dated annual base with entity-scope reconciliation",
     "status": "published_research_prototype",
     "method": "Exact five-year cash-floor / rollover affine constraints, independently reconciled with linear programming; severity and recovery sensitivity",
     "limitations": "Assumed capex, distributions, cash floors and refinancing terms; no current facility/covenant approval or actual funding-deficit estimate; separate browser CI evidence"
@@ -159,7 +159,7 @@
     "industry": "US macro-finance and credit research",
     "title": "Credit Spread Recession Signal Audit",
     "path": "projects/2026-10-26/credit-spread-recession-audit",
-    "data": "Pinned official monthly FRED response; revised history through 2024, 1970–2023 origins",
+    "data": "Pinned official monthly FRED response; revised history through 2024, 1970\u20132023 origins",
     "status": "published_research_prototype",
     "method": "Expanding logistic estimation with twelve-month target embargo, separate penalty/threshold selection, unconditional/curve baselines, paired block sensitivity and SQL reconciliation",
     "limitations": "Fails promotion; unconditional benchmark wins; two positive target runs; no real-time vintage or NBER announcement-delay replay."
@@ -188,6 +188,14 @@
     "title": "Diesel Fuel Budget Risk: A 13-Week Reserve Test",
     "path": "projects/2026-10-27/diesel-budget-risk",
     "data": "1,035 weekly EIA U.S. retail diesel observations through October 26, 2026, including taxes. Historical prices are observed. The 100,000-gallon quarterly exposure and equal weekly purchases are hypothetical.",
+    "status": "published"
+  },
+  {
+    "date": "2026-10-28",
+    "industry": "fuel retail development underwriting",
+    "title": "Fuel Retail Investment Decision Lab",
+    "path": "projects/2026-10-28/fuel-retail-investment-lab",
+    "data": "Anonymized report estimates and hypothetical underwriting assumptions",
     "status": "published"
   }
 ]

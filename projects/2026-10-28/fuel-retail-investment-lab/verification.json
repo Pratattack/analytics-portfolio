@@ -1,0 +1,27 @@
+{
+  "local_references": 15,
+  "html_pages": 2,
+  "labelled_controls": 41,
+  "javascript_syntax_checks": 3,
+  "input_default_step_checks": 37,
+  "privacy_scanned_text_files": 44,
+  "external_snapshot_hashes": 3,
+  "python_tests": 21,
+  "python_javascript": {
+    "parity_cases": 33,
+    "numerical_values_reconciled": 26737,
+    "invalid_input_cases": 6,
+    "known_annuity_value": true
+  },
+  "body_contrast_ratios": {
+    "body": 15.81,
+    "muted": 10.25,
+    "blue": 12.14,
+    "gold": 10.82,
+    "red": 9.65
+  },
+  "minimum_grid_text_contrast": 6.75,
+  "em_dashes_in_visitor_copy": 0,
+  "browser_qa": "Not performed. The owner prohibited browser operation; visual mobile rendering, focus traversal and actual download clicks remain unverified. Pure calculations and static control associations were checked.",
+  "publication": "Release checks passed; publication status recorded separately"
+}

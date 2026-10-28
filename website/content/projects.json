@@ -1,5 +1,31 @@
 [
   {
+    "slug": "fuel-retail-investment-lab",
+    "title": "Fuel Retail Investment Decision Lab",
+    "shortTitle": "Fuel-retail investment underwriting",
+    "category": "Finance",
+    "dataKind": "Report + assumptions",
+    "question": "Can the sales estimate support the development budget?",
+    "audience": "Investment, lending, finance and consulting analysts testing a development case before capital is committed.",
+    "data": "Anonymized numerical extracts from two user-supplied April 2026 feasibility and risk documents. Sales are unverified report estimates. Costs, margins, staffing, financing, wash economics and ramp inputs are explicitly hypothetical. Official Texas references support the commission minimum and general due-diligence checks.",
+    "methods": "Reconcile reported sales, separate lottery ticket proceeds from commission, calculate contribution and pre-tax cash available for debt, amortize a hypothetical loan, and model sponsor-funded fees, draw-based interest, carry and an opening ramp. Compare 24 scope/sales/delay cases, reverse-solve coverage thresholds and audit 31 ordinal risk records. SQL independently reconciles contribution, and Python and JavaScript agree across 33 scenarios.",
+    "findings": "The report’s average $138,031 monthly nonfuel receipts reconcile. Under the reference hypothetical economics, cash available for debt is $16,504 against a $16,888 payment: 0.98x stabilized coverage. The sales ramp lowers opening-year coverage to 0.61x, below the chosen 1.25x screen. Four of 31 risk labels conflict with the source’s own rules.",
+    "implications": "Replace broad claims of feasibility with explicit financing conditions and evidence gates. Change costs, margins, sales and loan inputs to see what would restore coverage. A passing scenario still leaves civil site fit, access, environmental condition and other project-specific approvals unresolved.",
+    "limitations": "No actual budget, lender quote, operating history or underlying market study was supplied. Sales categories may overlap and require clarification. Financing capacity is not fair value. Taxes, terminal value, refinancing and future working-capital changes are excluded. The model claims no actual return, savings, business impact or event probabilities. Original reports and identifying details are not distributed.",
+    "path": "projects/2026-10-28/fuel-retail-investment-lab",
+    "date": "2026-10-28",
+    "tools": [
+      "Python",
+      "SQL"
+    ],
+    "featured": false,
+    "summary": "The sales totals reconcile. In one explicit cost and financing illustration, debt coverage is 0.98x. An underwriting lab shows what would have to change and which evidence is still missing.",
+    "evidence": {
+      "file": "receipts-to-cash.svg",
+      "caption": "Report estimates plus hypothetical economics. Lottery ticket proceeds are separated from retailer commission; contribution includes net fuel income. These are not actual operating results."
+    }
+  },
+  {
     "date": "2026-10-27",
     "tools": [
       "Python",

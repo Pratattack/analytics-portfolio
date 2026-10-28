@@ -1,0 +1,41 @@
+key,label,value,unit,basis
+report_scenario,Report sales case,average,category,F01 p.1 estimates; not independently verified
+scope,Development scope,core,category,Scenario choice; core excludes car wash
+sales_multiplier,Sales relative to selected report case,1.0,multiple,"Hypothetical; scales all sales and gallons, not fixed staffing"
+fuel_source,Fuel volume method,report,category,Report gallons or explicitly hypothetical traffic funnel
+aadt,Average daily traffic assumption,10200,vehicles/day,F01 p.2 approximate estimate; station/date/location not verified
+eligible_traffic_share,Accessible share of traffic,0.5,fraction,Hypothetical directional/access exposure; prevents assuming every passing vehicle is reachable
+capture_rate,Capture of eligible vehicles,0.03,fraction,"Hypothetical; F01 p.2 mentions 3% of total traffic, a different denominator"
+gallons_per_transaction,Average fuel purchase,10.0,gallons/transaction,Hypothetical; not reported
+net_fuel_margin,Fuel contribution after variable costs,0.25,USD/gallon,"Hypothetical; net of fuel purchase and fuel payment fees, before labor and overhead"
+store_margin,Store gross margin,0.32,fraction,"Hypothetical after merchandise cost, before card fees and overhead"
+deli_margin,Deli gross margin,0.5,fraction,"Hypothetical after ingredients, before shared labor, card fees and overhead"
+pizza_margin,Pizza gross margin,0.45,fraction,"Hypothetical after ingredients, before shared labor, card fees and overhead"
+lottery_commission,Lottery sales commission,0.05,fraction,5% assumption anchored to Texas Comptroller statutory minimum; actual terms and bonuses unverified
+nonfuel_card_fee,Card fee on non-lottery merchandise and wash sales,0.02,fraction,Hypothetical blended charge; fuel fees already included in net fuel margin
+hours_open_per_day,Opening hours,19.0,hours/day,R01 p.5 describes 5 a.m. to midnight; operating schedule unverified
+average_staff_on_duty,Average concurrent paid staff,1.5,people,Hypothetical full-day coverage; shared food and store staff
+hourly_wage,Hourly wage,18.0,USD/hour,"Hypothetical, not a local market estimate"
+payroll_load,Payroll burden above wages,0.18,fraction,Hypothetical blended benefits/tax allowance; not a statutory rate
+fixed_opex_monthly,Fixed operating costs,9000.0,USD/month,"Hypothetical property costs, insurance, utilities and admin/management above hourly coverage; excludes debt and maintenance reserve"
+maintenance_reserve_monthly,Maintenance capital reserve,1500.0,USD/month,Hypothetical cash set-aside deducted before coverage; not depreciation
+land_cost,Acquisition input,350000.0,USD,Hypothetical; no purchase quote supplied
+hard_cost,Core construction input,1900000.0,USD,Hypothetical before contingency; not a contractor bid or verified benchmark
+soft_cost,Design and other upfront soft costs,150000.0,USD,Hypothetical; treated as paid at closing for draw simplification
+contingency_rate,Construction contingency assumed spent,0.2,fraction,"Hypothetical; applied to core and wash hard costs, fully spent in this conservative budget"
+working_capital,Opening inventory and working capital,150000.0,USD,Hypothetical inventory and other working-capital investment at opening, excluding the loss reserve; not deducted again as an operating expense
+loan_to_cost,Debt share of eligible project budget,0.7,fraction,"Hypothetical; covers acquisition, soft costs and hard costs including contingency; excludes fees, carry, development interest and working capital"
+annual_interest_rate,Loan interest rate,0.085,annual fraction,Hypothetical fixed nominal APR; not a quote or current market claim
+amortization_years,Amortization term,20,years,"Hypothetical monthly amortization, no balloon/refinance"
+loan_fee_rate,Upfront loan fee,0.015,fraction of committed loan,Hypothetical equity-funded fee
+target_dscr,Target debt coverage,1.25,multiple,"Hypothetical screen, not a lender covenant"
+construction_months,Construction period,12,months,Hypothetical equal monthly hard-cost draws
+permit_delay_months,Additional delay before construction,0,months,Hypothetical; not an official permit service standard
+preopening_carry_monthly,Pre-opening non-interest carry,2000.0,USD/month,"Hypothetical property/admin carry, separate from construction interest"
+ramp_months,Sales ramp duration,6,months,Hypothetical straight-line ramp to selected sales level; staffing and fixed costs start in full
+ramp_start,Opening-month sales fraction,0.45,fraction,Hypothetical fraction of stabilized sales
+wash_hard_cost,Incremental wash construction input,450000.0,USD,Hypothetical; no bid supplied; same contingency applies
+wash_sales_monthly,Incremental wash sales,6000.0,USD/month,Hypothetical; not in the feasibility revenue table
+wash_margin,Wash gross margin,0.55,fraction,"Hypothetical after variable costs, before card fees, added labor and maintenance"
+wash_extra_labor_hours_monthly,Additional wash labor,60.0,hours/month,"Hypothetical, charged at loaded hourly wage"
+wash_maintenance_monthly,Additional wash maintenance reserve,300.0,USD/month,Hypothetical incremental cash reserve

@@ -1,0 +1,47 @@
+{
+  "document_id": "F01",
+  "description": "Anonymized April 2026 investment decision memo supplied by the project owner. Original document not distributed.",
+  "status": "Report estimates, not observed operations or independently verified forecasts",
+  "page_reference": "Original PDF page order; seven pages including a blank final page",
+  "scenarios": {
+    "low": {
+      "fuel_gallons": 39739,
+      "store_sales": 78650,
+      "lottery_ticket_sales": 33623,
+      "deli_sales": 10460,
+      "pizza_sales": 1494,
+      "reported_nonfuel_receipts": 124227
+    },
+    "average": {
+      "fuel_gallons": 44154,
+      "store_sales": 87389,
+      "lottery_ticket_sales": 37359,
+      "deli_sales": 11623,
+      "pizza_sales": 1660,
+      "reported_nonfuel_receipts": 138031
+    },
+    "high": {
+      "fuel_gallons": 48569,
+      "store_sales": 96128,
+      "lottery_ticket_sales": 41095,
+      "deli_sales": 12785,
+      "pizza_sales": 1826,
+      "reported_nonfuel_receipts": 151834
+    }
+  },
+  "fuel_table_page": 1,
+  "traffic_assumption_page": 2,
+  "monthly_traffic_assumption_aadt": 10200,
+  "reported_capture_rate": 0.03,
+  "physical_program_page": 4,
+  "reported_site_acres": 0.25,
+  "reported_store_sqft": 1900,
+  "reported_parking_spaces": 25,
+  "notes": [
+    "The fuel row is expressed in gallons despite a dollar/margin heading. No fuel margin is supplied.",
+    "Lottery is assumed to mean face-value ticket sales; the source does not explicitly distinguish sales from commission.",
+    "Store, deli, pizza and lottery categories are assumed mutually exclusive; the original definitions are unavailable.",
+    "No underlying feasibility data, operating history, acquisition quote, contractor bid or lender term sheet was supplied.",
+    "Exact location, parcel identifiers, personal and business names, and original attachments are omitted."
+  ]
+}

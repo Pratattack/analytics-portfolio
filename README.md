@@ -94,3 +94,8 @@ Both include offline applications, executive briefs, source lineage, setup instr
 - [Diesel Fuel Budget Risk](projects/2026-10-27/diesel-budget-risk): EIA prices and an honest holdout comparison of quarterly reserve rules.
 
 Each project includes pinned raw data, source hashes, reproducible Python, SQL reconciliation, SVG charts, a report and a browser-local scenario workbench.
+
+
+## Fuel Retail Investment Decision Lab
+
+[Anonymized scenario underwriting](projects/2026-10-28/fuel-retail-investment-lab) reconciles report estimates, models staged construction funding, and separates debt coverage from unresolved site evidence. Original private attachments and identifying details are excluded.

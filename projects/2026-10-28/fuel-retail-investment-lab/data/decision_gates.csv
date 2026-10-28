@@ -1,0 +1,9 @@
+id,gate,required_evidence,status,report_reference
+G01,Civil site fit,"Licensed civil engineer confirms circulation, setbacks, parking and equipment fit",Unverified,F01 p.4; R01 p.3
+G02,Highway access,Written access decision and design requirements from the relevant authority,Unverified,F01 p.4; R01 pp.3-4
+G03,Zoning and local approvals,Written confirmation of permitted use and applicable requirements,Unverified,F01 p.4
+G04,Environmental condition,Site-specific environmental assessment and resolution of identified conditions,Unverified,R01 p.5
+G05,Tank installation requirements,Qualified installer scope and required agency notifications/registration,Unverified,R01 pp.4-5
+G06,Construction budget,Current scope-matched contractor bids and contingency treatment,Unverified,R01 p.8; bids not supplied
+G07,Finance and sponsor capacity,Written loan terms and evidence of equity/liquidity capacity,Unverified,Not supplied
+G08,Demand and category definitions,"Traffic station match, accessible exposure, capture evidence and non-overlapping sales definitions",Unverified,F01 pp.1-2

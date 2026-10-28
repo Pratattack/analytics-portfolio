@@ -1,0 +1,7 @@
+driver,key,low_input,high_input,low_dscr,high_dscr,reference_dscr
+All sales,sales_multiplier,0.80000000,1.20000000,0.43939112,1.51509979,0.97724545
+Core construction,hard_cost,1500000.00000000,2300000.00000000,1.18119233,0.83335655,0.97724545
+Fuel contribution / gallon,net_fuel_margin,0.10000000,0.40000000,0.58506386,1.36942705,0.97724545
+Store gross margin,store_margin,0.25000000,0.39000000,0.61501855,1.33947236,0.97724545
+Concurrent staff,average_staff_on_duty,1.25000000,1.75000000,1.15895830,0.79553261,0.97724545
+Loan interest rate,annual_interest_rate,0.06500000,0.10500000,1.13748239,0.84945252,0.97724545

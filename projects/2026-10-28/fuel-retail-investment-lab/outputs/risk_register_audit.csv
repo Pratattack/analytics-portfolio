@@ -1,0 +1,32 @@
+id,category,reported_band,likelihood,impact,recomputed_score,recomputed_band,mismatch,description,source_document,source_pages,score_basis
+1,Market,HIGH,4,4,16,HIGH,False,Existing retailers discount fuel,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+2,Market,HIGH,4,4,16,HIGH,False,Grocery-anchored rival attracts inside sales,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+3,Market,MEDIUM,3,4,12,MEDIUM,False,Travel-center rival captures highway demand,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+4,Market,HIGH,3,5,15,HIGH,False,Local demand may not support planned categories,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+5,Market,MEDIUM,2,4,8,MEDIUM,False,New competitor opens,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+6,Site,HIGH,4,5,20,CRITICAL,True,Site may not accommodate the proposed program,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+7,Site,MEDIUM,3,4,12,MEDIUM,False,Pump setbacks need verification,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+8,Site,MEDIUM,2,5,10,MEDIUM,False,Access and visibility may constrain capture,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+9,Site,MEDIUM,3,3,9,MEDIUM,False,Subsurface conditions increase cost,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+10,Regulatory,MEDIUM,3,5,15,HIGH,True,Highway access approval denied or delayed,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+11,Regulatory,MEDIUM,3,4,12,MEDIUM,False,Underground tank registration or installation process delayed,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+12,Regulatory,MEDIUM,2,4,8,MEDIUM,False,Environmental requirements change project scope,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+13,Regulatory,LOW,2,3,6,LOW,False,Local building approvals delayed,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+14,Traffic,MEDIUM,3,4,12,MEDIUM,False,Traffic falls below the report estimate,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+15,Traffic,MEDIUM,3,4,12,MEDIUM,False,Capture rate below assumption,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+16,Traffic,MEDIUM,3,3,9,MEDIUM,False,Opening-year sales below report average,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+17,Traffic,LOW,2,3,6,LOW,False,Regulated-product demand changes,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+18,Financial,HIGH,4,4,16,HIGH,False,Construction costs exceed the planning budget,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+19,Financial,MEDIUM,3,3,9,MEDIUM,False,Fuel contribution per gallon compresses,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+20,Financial,MEDIUM,3,3,9,MEDIUM,False,Borrowing rates increase,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+21,Financial,MEDIUM,3,3,9,MEDIUM,False,Car wash does not justify incremental cost,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+22,Operational,HIGH,3,5,15,HIGH,False,Food-service quality falls short,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+23,Operational,MEDIUM,4,3,12,MEDIUM,False,Staffing coverage is insufficient,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+24,Operational,MEDIUM,3,3,9,MEDIUM,False,Inventory loss exceeds allowance,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+25,Operational,LOW,2,4,8,MEDIUM,True,Payment or POS outage disrupts operations,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+26,Environmental,MEDIUM,2,5,10,MEDIUM,False,Pre-existing soil or groundwater contamination,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+27,Environmental,LOW,2,5,10,MEDIUM,True,Post-opening underground tank leak,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+28,Environmental,LOW,2,3,6,LOW,False,Stormwater controls are inadequate,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+29,Macro,LOW,1,5,5,LOW,False,Long-term fuel demand changes,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+30,Macro,LOW,2,3,6,LOW,False,Regional downturn weakens spending,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities
+31,Macro,LOW,2,3,6,LOW,False,Fuel-price increases reduce visits,R01,3-6,Subjective ordinal ratings transcribed from report; not probabilities

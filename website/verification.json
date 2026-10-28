@@ -1,10 +1,10 @@
 {
-  "html_pages": 59,
-  "local_link_asset_checks": 555,
-  "javascript_syntax_checks": 19,
-  "zip_integrity_checks": 21,
-  "search_filter_checks": 12,
-  "case_studies": 21,
+  "html_pages": 62,
+  "local_link_asset_checks": 590,
+  "javascript_syntax_checks": 22,
+  "zip_integrity_checks": 22,
+  "search_filter_checks": 14,
+  "case_studies": 22,
   "css_asset_checks": 2,
   "em_dashes_in_served_copy": 0,
   "browser_qa": "Blocked by automatic approval review: explicit user instruction prohibited browser operation. Mobile rendering, keyboard interaction and demo recalculation remain unverified in this release."

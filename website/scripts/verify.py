@@ -92,11 +92,13 @@ assert.equal(m(p,'','Finance','Public + assumptions').length,5);
 assert.equal(m(p,'diesel').length,1);
 assert.equal(m(p,'real wages').length,1);
 assert.equal(m(p,'','Operations','Public + assumptions').some(x=>x.slug==='diesel-budget-risk'),true);
-console.log('12 search/filter boundary checks passed');'''
+assert.deepEqual(m(p,'','Finance','Report + assumptions').map(x=>x.slug),['fuel-retail-investment-lab']);
+assert.equal(m(p,'underwriting').some(x=>x.slug==='fuel-retail-investment-lab'),true);
+console.log('14 search/filter boundary checks passed');'''
     subprocess.run(['node','-e',test],cwd=ROOT,check=True)
     result = dict(html_pages=len(pages),local_link_asset_checks=assertions,
                   javascript_syntax_checks=script_count,zip_integrity_checks=len(packages),
-                  search_filter_checks=12,case_studies=len(records),
+                  search_filter_checks=14,case_studies=len(records),
                   css_asset_checks=css_references,em_dashes_in_served_copy=0,
                   browser_qa='Blocked by automatic approval review: explicit user instruction prohibited browser operation. Mobile rendering, keyboard interaction and demo recalculation remain unverified in this release.')
     (ROOT/'verification.json').write_text(json.dumps(result,indent=2)+'\n')

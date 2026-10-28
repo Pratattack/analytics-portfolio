@@ -1,0 +1,4 @@
+case,fuel_gallons,store_sales,lottery_ticket_sales,deli_sales,pizza_sales,reported_nonfuel_receipts
+low,39739,78650,33623,10460,1494,124227
+average,44154,87389,37359,11623,1660,138031
+high,48569,96128,41095,12785,1826,151834

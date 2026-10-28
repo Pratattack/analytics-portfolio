@@ -1,0 +1,23 @@
+[
+  {
+    "file": "lottery_commission.html",
+    "url": "https://fmcpa.cpa.state.tx.us/fiscalmoa/exp.jsp?num=7260",
+    "sha256": "471b372fbc7081ec7c412718963fea17f3f1e9069df9c7bda77392a0de5f6d9b",
+    "bytes": 9022,
+    "retrieved_utc": "2026-10-28T16:05:12.109096+00:00"
+  },
+  {
+    "file": "ust_installation.pdf",
+    "url": "https://www.tceq.texas.gov/downloads/assistance/publications/rg-475b.pdf/@@download/file/rg-475b.pdf",
+    "sha256": "92206bfa6c48c7d68928f5f99a10aef27d943dde4858c1d5834bad26daad7958",
+    "bytes": 208546,
+    "retrieved_utc": "2026-10-28T16:05:14.288662+00:00"
+  },
+  {
+    "file": "traffic_source.html",
+    "url": "https://www.txdot.gov/data-maps/traffic-count-maps.html",
+    "sha256": "60eb1a3ea189d3954e3d348ef649e220a15a9d577fb63991d7520f073cd5f522",
+    "bytes": 156415,
+    "retrieved_utc": "2026-10-28T16:05:17.461005+00:00"
+  }
+]
