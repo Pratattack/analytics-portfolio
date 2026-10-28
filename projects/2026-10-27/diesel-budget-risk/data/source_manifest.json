@@ -1,0 +1,20 @@
+{
+  "vintage": "Current revised historical export, not real-time vintages",
+  "retrieved_utc": "2026-10-28",
+  "analysis_cutoff": "2026-10-26",
+  "sources": [
+    {
+      "series": "GASDESW",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GASDESW&cosd=2007-01-01&coed=2026-10-26",
+      "metadata_url": "https://fred.stlouisfed.org/series/GASDESW",
+      "retrieved_utc": "2026-10-28",
+      "sha256": "8433ae1a7b7fffa918ce3da3c61d74ba461098a22024e4946db93875c79cf8d0",
+      "bytes": 17620,
+      "name": "U.S. No 2 Diesel Retail Prices",
+      "units": "USD per gallon including taxes",
+      "frequency": "weekly ending Monday",
+      "adjustment": "not seasonally adjusted",
+      "agency": "EIA"
+    }
+  ]
+}

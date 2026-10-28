@@ -42,3 +42,6 @@ The approved public resume is included. The asset helper downloads the licensed 
 ## Editorial refinement
 
 The approved homepage introduces Prathamesh by name and uses actual mortgage, bank and rental evidence. Case pages lead with a short finding and decision relevance, with methods in an accessible disclosure. The library displays concise evidence summaries. All site-controlled HTML, JS, SVG, Markdown and text copy is checked for em dashes. Hosted report copies receive explicitly reviewed presentation-only rewrites through scripts/copy_refinement.py; source data files are copied unchanged. The static verifier now also checks CSS asset paths to prevent missing fonts and background files.
+
+
+October 2026 update: the library now includes 21 projects. New projects live under `projects/2026-10-27/`. To add another, reproduce and verify its outputs, append `portfolio_registry.json`, add a reviewed case record to `website/content/projects.json`, run the site builder with the full repository as `--projects-source`, and run the website verifier. Retain existing slugs and keep observations separate from scenario assumptions.

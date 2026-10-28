@@ -86,3 +86,11 @@ Install `projects/2026-10-22/energy-mortgage-toolkit/requirements.txt` under Pyt
 - [Restaurant Lease & Operating Leverage Review](projects/2026-10-26/restaurant-lease-operating-leverage/): 32 issuer-years, 24 original-source cells, 216 independently reconciled stress cases and 72 sensitivities. Thirty-two conditional cases remain infeasible. Earnings stress avoids double-counting base rent; assumptions do not establish savings or liquidity needs.
 
 Both include offline applications, executive briefs, source lineage, setup instructions and executed Chromium screenshots. Full three-engine desktop/mobile acceptance is tracked by [the finance workflow](.github/workflows/oct26-finance.yml); successful main runs publish a commit-specific `finance-2026-10-26-<commit>` evidence release. Applications are local research prototypes, not hosted services.
+
+
+## New research, October 27, 2026
+
+- [Real Wages & Payroll Budget Tradeoffs](projects/2026-10-27/real-wage-payroll-budget): BLS pay, hours and CPI with explicit missing-data treatment.
+- [Diesel Fuel Budget Risk](projects/2026-10-27/diesel-budget-risk): EIA prices and an honest holdout comparison of quarterly reserve rules.
+
+Each project includes pinned raw data, source hashes, reproducible Python, SQL reconciliation, SVG charts, a report and a browser-local scenario workbench.

@@ -1,0 +1,17 @@
+{
+  "months": 237,
+  "complete_real_pay_months": 236,
+  "missing_cpi_months": [
+    "2025-10-01"
+  ],
+  "start": "2007-01-01",
+  "end": "2026-09-01",
+  "latest_hourly_usd": 37.81,
+  "latest_weekly_hours": 34.4,
+  "real_hourly_yoy_pct": -0.6679001591993527,
+  "real_weekly_yoy_pct": -0.08701068644612064,
+  "since_feb2020_real_hourly_pct": 2.1285554533063467,
+  "since_feb2020_real_weekly_pct": 2.4263063438407784,
+  "sql_rows_verified": 237,
+  "max_log_identity_error": 2.6645352591003757e-14
+}

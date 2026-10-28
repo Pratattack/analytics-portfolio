@@ -1,0 +1,46 @@
+{
+  "vintage": "Current revised historical export, not real-time vintages",
+  "retrieved_utc": "2026-10-28",
+  "analysis_cutoff": "2026-10-26",
+  "sources": [
+    {
+      "series": "CES0500000003",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CES0500000003&cosd=2007-01-01&coed=2026-10-26",
+      "metadata_url": "https://fred.stlouisfed.org/series/CES0500000003",
+      "retrieved_utc": "2026-10-28",
+      "sha256": "41670e6f870260b7f111cb8bd46c219348ace276b8561cb6d11d290135386585",
+      "bytes": 4060,
+      "name": "Average Hourly Earnings of All Employees, Total Private",
+      "units": "USD per hour",
+      "frequency": "monthly",
+      "adjustment": "seasonally adjusted",
+      "agency": "BLS CES"
+    },
+    {
+      "series": "AWHAETP",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=AWHAETP&cosd=2007-01-01&coed=2026-10-26",
+      "metadata_url": "https://fred.stlouisfed.org/series/AWHAETP",
+      "retrieved_utc": "2026-10-28",
+      "sha256": "f36341fb92e02ef2b4c17ace5a78fb579ee076e730a8bb992b41e8b134430ba5",
+      "bytes": 3817,
+      "name": "Average Weekly Hours of All Employees, Total Private",
+      "units": "hours per week",
+      "frequency": "monthly",
+      "adjustment": "seasonally adjusted",
+      "agency": "BLS CES"
+    },
+    {
+      "series": "CPIAUCSL",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL&cosd=2007-01-01&coed=2026-10-26",
+      "metadata_url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "retrieved_utc": "2026-10-28",
+      "sha256": "9fde2981a9c5d9a8477bf2b3b878b8d73bd99d26358f8e2e08f60a520a49fe79",
+      "bytes": 4522,
+      "name": "Consumer Price Index for All Urban Consumers: All Items in U.S. City Average",
+      "units": "index 1982-1984=100",
+      "frequency": "monthly",
+      "adjustment": "seasonally adjusted",
+      "agency": "BLS"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>How much diesel-price risk should a budget carry? | Prathamesh Singh</title><link rel="stylesheet" href="report.css"></head><body><a class="skip" href="#main">Skip to content</a><div class="wrap"><header><p class="eyebrow">Independent research / Prathamesh Singh</p><nav aria-label="Project"><a href="report.html">Research report</a><a href="workbench.html">Budget workbench</a><a href="../README.md">Documentation</a></nav></header><main id="main"><h1>How much diesel-price risk should a budget carry?</h1><p class="lead">The historical q90 rule covered 20 of 26 completed holdout quarters (76.9%), compared with 92.3% for a fixed 10% buffer. Its average reserve was 7.2% of the prior-week quote. The worst shortfall was $22,176 at an assumed 100,000 gallons.</p><div class="metrics"><div class="metric"><b>20/26</b><span>Holdout coverage, historical q90</span></div><div class="metric"><b>7.2%</b><span>Average reserve over quote</span></div><div class="metric"><b>$22,176</b><span>Worst shortfall, assumed 100k gallons</span></div></div><h2>The decision</h2><p>How much cash should an operations team reserve for thirteen weeks of diesel purchases? Compare a flat quote, a fixed 10% buffer and a reserve calibrated from completed historical quarters.</p><h2>The result</h2><p>The historical q90 rule covered 20 of 26 completed holdout quarters (76.9%), compared with 92.3% for a fixed 10% buffer. Its average reserve was 7.2% of the prior-week quote. The worst shortfall was $22,176 at an assumed 100,000 gallons.</p><p class="note">A q90 label is a calibration target, not a coverage guarantee. Reserves tie up budget capacity. An unused reserve is not an economic saving.</p><figure><img src="diesel-history.svg" alt="Observed weekly EIA retail diesel prices from 2007 through the snapshot cutoff. The series includes taxes and is not seasonally adjusted."><figcaption>Observed weekly EIA retail diesel prices from 2007 through the snapshot cutoff. The series includes taxes and is not seasonally adjusted.</figcaption></figure><figure><img src="diesel-budget.svg" alt="Holdout: budgets set from the prior-week quote compared with the subsequent completed 13-week mean. No outcome from the current quarter enters its reserve estimate."><figcaption>Holdout: budgets set from the prior-week quote compared with the subsequent completed 13-week mean. No outcome from the current quarter enters its reserve estimate.</figcaption></figure><h2>Budget adequacy and the price of conservatism</h2><p>All dollar columns assume 100,000 gallons per quarter, evenly distributed across thirteen weeks. Shortfall and unused reserve measure budget adequacy, not operating profit.</p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>rule</th>
+      <th>quarters</th>
+      <th>covered</th>
+      <th>coverage_pct</th>
+      <th>mean_buffer_pct</th>
+      <th>Mean shortfall ($)</th>
+      <th>Worst shortfall ($)</th>
+      <th>Mean unused reserve ($)</th>
+      <th>mean_pinball_usd_per_gallon</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>No buffer</td>
+      <td>26</td>
+      <td>11</td>
+      <td>42.308</td>
+      <td>0.000</td>
+      <td>10,318.343</td>
+      <td>58,792.308</td>
+      <td>6,319.527</td>
+      <td>0.099</td>
+    </tr>
+    <tr>
+      <td>Fixed 10%</td>
+      <td>26</td>
+      <td>24</td>
+      <td>92.308</td>
+      <td>10.000</td>
+      <td>444.556</td>
+      <td>10,202.308</td>
+      <td>34,971.124</td>
+      <td>0.039</td>
+    </tr>
+    <tr>
+      <td>Historical q90</td>
+      <td>26</td>
+      <td>20</td>
+      <td>76.923</td>
+      <td>7.235</td>
+      <td>1,942.024</td>
+      <td>22,175.676</td>
+      <td>26,008.497</td>
+      <td>0.043</td>
+    </tr>
+  </tbody>
+</table></div><figure><img src="diesel-shortfalls.svg" alt="Three budget rules applied to the same actual prices and hypothetical 100,000-gallon exposure. Zero means the budget covered that quarter, not that diesel was free."><figcaption>Three budget rules applied to the same actual prices and hypothetical 100,000-gallon exposure. Zero means the budget covered that quarter, not that diesel was free.</figcaption></figure><h2>Validation before holdout</h2><p>Candidate histories were the most recent 20 completed quarters, 40 completed quarters and all completed quarters. The 2016 to 2019 validation period selected the lowest mean 90th-quantile pinball loss in dollars per gallon. Ties use candidate order. The selected window was all. The window and quantile were frozen for 2020 onward; newly completed history could update the reserve at later origins.</p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>window</th>
+      <th>validation_blocks</th>
+      <th>mean_pinball_usd_per_gallon</th>
+      <th>coverage_pct</th>
+      <th>mean_buffer_pct</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>20</td>
+      <td>16</td>
+      <td>0.022</td>
+      <td>87.500</td>
+      <td>6.106</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>16</td>
+      <td>0.017</td>
+      <td>87.500</td>
+      <td>6.930</td>
+    </tr>
+    <tr>
+      <td>all</td>
+      <td>16</td>
+      <td>0.016</td>
+      <td>87.500</td>
+      <td>6.842</td>
+    </tr>
+  </tbody>
+</table></div><h2>Timing and method</h2><p>Blocks begin on the second Monday in the snapshot and advance thirteen weeks. Each budget uses the preceding Monday quote, allowing time for publication. Training targets must end at least seven days before the decision origin. At least twenty completed blocks are required. The historical rule is the higher empirical 90th quantile of realized quarter mean divided by its prior-week quote, floored at one. Only complete thirteen-week outcomes are scored. SQL independently recalculates all realized quarter means and budget shortfalls.</p><h2>Use the scenario tool</h2><p>The <a href="workbench.html">fuel budget workbench</a> makes volume, price and reserve assumptions explicit. It does not predict future prices. <a href="current_reserve_sensitivity.csv">Current window and quantile sensitivity</a> shows how the chosen reserve depends on those choices; this table is not used to retune holdout results.</p><h2>Limitations</h2><p>National retail pump prices include taxes; they are not fleet contract invoices, local route costs or wholesale hedging prices. Equal gallons across weeks and 100,000 gallons per quarter are illustrative. The current revised export is not an archived real-time vintage. A one-week quote lag guards publication timing, but does not eliminate revision risk. Non-overlapping quarters avoid shared outcomes but can remain serially dependent. Coverage is historical frequency, not a guaranteed future probability. No actual company savings or hedge performance is claimed.</p><h2>Inspect the evidence</h2><p><a href="weekly_evidence.csv">Weekly observations</a> · <a href="completed_13week_blocks.csv">Quarter construction</a> · <a href="budget_evaluation.csv">Every evaluated budget</a> · <a href="holdout_metrics.csv">Holdout metrics</a> · <a href="validation_selection.csv">Window selection</a> · <a href="sql_quarter_reconciliation.csv">SQL reconciliation</a> · <a href="summary.json">Summary</a></p><p>Sources: <a href="https://fred.stlouisfed.org/series/GASDESW">EIA diesel series via FRED</a>, <a href="https://www.eia.gov/petroleum/gasdiesel/diesel_proc-methods.php">EIA survey methodology</a>, <a href="https://www.eia.gov/dnav/pet/PET_PRI_GND_A_EPD2D_PTE_DPGAL_W.htm">EIA historical series</a>. These prices are retail cash self-serve observations including taxes. Older history includes the transition from low-sulfur to ultra-low-sulfur diesel; the series is not a uniform fuel specification across all years.</p></main><footer>Reproducible portfolio research. Current-vintage data retrieved 28 October 2026. Observed results and hypothetical budgets are labeled separately.</footer></div></body></html>

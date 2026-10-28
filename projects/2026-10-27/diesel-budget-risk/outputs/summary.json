@@ -1,0 +1,20 @@
+{
+  "weekly_observations": 1035,
+  "start": "2007-01-01",
+  "end": "2026-10-26",
+  "completed_blocks": 79,
+  "validation_selected_window": "all",
+  "validation_blocks": 16,
+  "holdout_blocks": 26,
+  "holdout_covered": 20,
+  "holdout_coverage_pct": 76.92307692307693,
+  "fixed10_coverage_pct": 92.3076923076923,
+  "historical_q90_mean_buffer_pct": 7.234766144251436,
+  "historical_q90_mean_shortfall_usd_100k": 1942.024217233862,
+  "historical_q90_max_shortfall_usd_100k": 22175.676357762874,
+  "latest_observed_price": 6.352,
+  "next_origin": "2026-11-02",
+  "illustrative_reserve_pct": 7.664932931836854,
+  "sql_blocks_verified": 79,
+  "sql_budget_rows_verified": 126
+}

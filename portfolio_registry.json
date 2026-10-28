@@ -173,5 +173,21 @@
     "status": "published_research_prototype",
     "method": "Lease-aware earnings stress and bounded two-lever response frontier; 216 independent LP checks and 72 cap/recovery sensitivities",
     "limitations": "Assumed contribution margins, response weights and caps; uneven historical coverage/fiscal dates; no current liquidity, covenant or actual savings claims."
+  },
+  {
+    "date": "2026-10-27",
+    "industry": "labor economics",
+    "title": "Real Wages & Payroll Budget Tradeoffs",
+    "path": "projects/2026-10-27/real-wage-payroll-budget",
+    "data": "237 monthly rows from January 2007 through September 2026. BLS hourly earnings, weekly hours and CPI-U are seasonally adjusted. October 2025 CPI is missing and remains unfilled, leaving 236 real-pay observations.",
+    "status": "published"
+  },
+  {
+    "date": "2026-10-27",
+    "industry": "transportation operations",
+    "title": "Diesel Fuel Budget Risk: A 13-Week Reserve Test",
+    "path": "projects/2026-10-27/diesel-budget-risk",
+    "data": "1,035 weekly EIA U.S. retail diesel observations through October 26, 2026, including taxes. Historical prices are observed. The 100,000-gallon quarterly exposure and equal weekly purchases are hypothetical.",
+    "status": "published"
   }
 ]

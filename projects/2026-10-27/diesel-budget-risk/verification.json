@@ -1,0 +1,8 @@
+{
+  "python_tests": 9,
+  "javascript_checks": 11,
+  "deterministic_outputs_verified": 15,
+  "source_hashes_verified": true,
+  "sql_reconciled": true,
+  "browser_qa": "Not performed; browser operation not authorized"
+}

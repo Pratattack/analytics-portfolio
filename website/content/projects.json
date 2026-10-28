@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-10-27",
+    "tools": [
+      "Python",
+      "SQL"
+    ],
+    "featured": false,
+    "slug": "real-wage-payroll-budget",
+    "title": "Real Wages & Payroll Budget Tradeoffs",
+    "shortTitle": "Real wages & payroll budgets",
+    "category": "Research",
+    "dataKind": "Public data",
+    "question": "When does a pay rise buy more?",
+    "audience": "Economic researchers and workforce-finance teams separating purchasing power from nominal pay growth.",
+    "data": "237 monthly rows from January 2007 through September 2026. BLS hourly earnings, weekly hours and CPI-U are seasonally adjusted. October 2025 CPI is missing and remains unfilled, leaving 236 real-pay observations.",
+    "methods": "Calendar-aligned earnings and CPI, exact log decomposition, twelve-month changes without forward filling, three prespecified comparison anchors and an independent SQL reconciliation. A separate calculator solves a hypothetical real weekly pay target.",
+    "findings": "Real hourly earnings rose 2.1% from February 2020 to September 2026; real weekly earnings rose 2.4%. Over the latest twelve months, real hourly earnings fell 0.7% and real weekly earnings fell 0.1%. The conclusion depends on the comparison period.",
+    "implications": "Separate hourly pay, hours and inflation before choosing a payroll assumption. The workbench makes the inflation rate, hours change and real-pay target explicit; it does not recommend a compensation rate.",
+    "limitations": "National averages change with the mix of workers and industries. They do not measure the same people over time or describe Houston wages. CPI-U is not an individual household budget. Benefits, employer payroll taxes and irregular bonuses are excluded. Revised history is not a real-time forecast, and missing CPI collection affects adjacent estimates.",
+    "path": "projects/2026-10-27/real-wage-payroll-budget",
+    "summary": "Real hourly earnings rose 2.1% from February 2020, but fell 0.7% in the latest twelve months. Hours and inflation explain why the comparison period matters.",
+    "evidence": {
+      "file": "wage-index.svg",
+      "caption": "Observed BLS series through September 2026, rebased to February 2020 = 100. Real pay divides earnings by CPI-U. The October 2025 CPI gap remains missing."
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "tools": [
+      "Python",
+      "SQL"
+    ],
+    "featured": false,
+    "slug": "diesel-budget-risk",
+    "title": "Diesel Fuel Budget Risk: A 13-Week Reserve Test",
+    "shortTitle": "Diesel budget risk",
+    "category": "Operations",
+    "dataKind": "Public + assumptions",
+    "question": "How much diesel-price risk should a budget carry?",
+    "audience": "Operations, procurement and FP&A teams reviewing cash reserves for a thirteen-week fuel budget.",
+    "data": "1,035 weekly EIA U.S. retail diesel observations through October 26, 2026, including taxes. Historical prices are observed. The 100,000-gallon quarterly exposure and equal weekly purchases are hypothetical.",
+    "methods": "79 complete non-overlapping thirteen-week blocks. Each rule uses a prior-week quote and completed historical targets. A 2016 to 2019 validation period selects the reserve window before a 2020 onward holdout. SQL independently verifies realized quarter means and shortfalls.",
+    "findings": "The historical q90 reserve covered 20 of 26 holdout quarters (76.9%), compared with 24 of 26 (92.3%) for a fixed 10% buffer. Its average reserve was 7.2% above the quote. The worst shortfall was $22,176 at an assumed 100,000 gallons. The historical rule missed its nominal coverage target.",
+    "implications": "Compare protection against budget capacity tied up in reserve. A simpler, larger buffer covered more historical quarters. Use the workbench to inspect price and volume assumptions before applying the idea to actual fleet invoices.",
+    "limitations": "Retail national prices differ from local fleet contracts and wholesale hedges. Fuel specifications changed over the historical series. There are only 26 holdout quarters, and serial dependence remains possible. Current revised history is not a point-in-time vintage backtest. Historical coverage is not a future probability guarantee. Unused reserve is not savings.",
+    "path": "projects/2026-10-27/diesel-budget-risk",
+    "summary": "A historical reserve covered 20 of 26 quarters. A fixed 10% buffer covered 24. The comparison makes the cost of a smaller reserve visible.",
+    "evidence": {
+      "file": "diesel-budget.svg",
+      "caption": "Actual EIA prices compared with three budget rules in completed holdout quarters. Budgets use a prior-week quote; realized prices are thirteen-week means."
+    }
+  },
+  {
     "slug": "01-catalyst-commercial-economics",
     "title": "Catalyst Pricing & Contract Economics",
     "shortTitle": "Pricing & margins",
