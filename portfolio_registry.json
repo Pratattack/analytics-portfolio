@@ -197,5 +197,21 @@
     "path": "projects/2026-10-28/fuel-retail-investment-lab",
     "data": "Anonymized report estimates and hypothetical underwriting assumptions",
     "status": "published"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Private Credit Measurement & Funding Exposure",
+    "path": "projects/2026-10-28/private-credit-measurement",
+    "industry": "credit research",
+    "data": "Official public data plus explicitly hypothetical scenarios",
+    "status": "published"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Import Duties & Sourcing Tradeoffs",
+    "path": "projects/2026-10-28/import-duty-sourcing",
+    "industry": "international trade and procurement",
+    "data": "Official public data plus explicitly hypothetical scenarios",
+    "status": "published"
   }
 ]

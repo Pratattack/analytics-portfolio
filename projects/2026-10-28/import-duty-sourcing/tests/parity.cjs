@@ -1,0 +1,4 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');const root=path.resolve(__dirname,'..');const {sourcing}=require('../outputs/calculator.js');
+const fixtures=JSON.parse(fs.readFileSync(path.join(root,'outputs/parity_fixtures.json')));let n=0;
+function eq(a,b){if(typeof b==='number'){assert.ok(Number.isFinite(a));assert.ok(Math.abs(a-b)<1e-7+Math.abs(b)*1e-10);n++;}else if(Array.isArray(b)){assert.equal(a.length,b.length);b.forEach((v,i)=>eq(a[i],v));}else if(b&&typeof b==='object'){assert.deepEqual(Object.keys(a).sort(),Object.keys(b).sort());Object.keys(b).forEach(k=>eq(a[k],b[k]));}else assert.equal(a,b);}
+fixtures.forEach(f=>eq(sourcing(...f.args),f.expected));console.log(JSON.stringify({cases:fixtures.length,numeric_checks:n}));

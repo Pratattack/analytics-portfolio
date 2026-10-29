@@ -1,0 +1,46 @@
+[
+  {
+    "vehicle": "Private debt funds",
+    "assets": 939.0,
+    "liabilities": 397.0,
+    "equity": 541.0,
+    "us_private_loans": 498.0,
+    "cash": 38.0,
+    "corporate_equities": 173.0,
+    "bank_loans": 150.0,
+    "balance_rounding_residual": 1.0
+  },
+  {
+    "vehicle": "Business development companies",
+    "assets": 572.0,
+    "liabilities": 286.0,
+    "equity": 287.0,
+    "us_private_loans": 456.0,
+    "cash": 14.0,
+    "corporate_equities": 42.0,
+    "bank_loans": 181.0,
+    "balance_rounding_residual": -1.0
+  },
+  {
+    "vehicle": "Interval / tender-offer funds",
+    "assets": 292.0,
+    "liabilities": 56.0,
+    "equity": 237.0,
+    "us_private_loans": 76.0,
+    "cash": 6.0,
+    "corporate_equities": 129.0,
+    "bank_loans": 18.0,
+    "balance_rounding_residual": -1.0
+  },
+  {
+    "vehicle": "Domestic middle-market CLOs",
+    "assets": 54.0,
+    "liabilities": 54.0,
+    "equity": null,
+    "us_private_loans": 53.0,
+    "cash": null,
+    "corporate_equities": null,
+    "bank_loans": null,
+    "balance_rounding_residual": null
+  }
+]

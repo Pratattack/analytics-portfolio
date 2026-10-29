@@ -1,0 +1,26 @@
+{
+  "slug": "private-credit-measurement",
+  "title": "Private Credit Measurement & Funding Exposure",
+  "shortTitle": "Private-credit funding and measurement",
+  "category": "Finance",
+  "dataKind": "Public + assumptions",
+  "question": "Who funds private credit, and which totals are comparable?",
+  "audience": "Credit, investment research and financial-risk analysts deciding where more funding and valuation diligence is needed.",
+  "data": "Official Federal Reserve October 16, 2026 publication, with rounded balance sheets observed at 2025 Q4. Public aggregate tables only; confidential Form PF microdata are not used. Hypothetical marks and an equity/assets screen are separate from observed balances.",
+  "methods": "Source-table extraction, units and scope reconciliation, independent SQL equity identities, and accounting mark-down scenarios on U.S. private loans and corporate equities. Reverse-solve the mark that reaches an assumed equity/assets screen. Preserve source blanks and rounding residuals; exclude CLOs from equity comparisons.",
+  "findings": "The publication reports $1.458 trillion of private loans to U.S. businesses, while the nonfinancial-business debt table reports $1.310 trillion, or 5.62% of that debt denominator. The difference is scope. Bank funding of credit vehicles is a separate intermediation layer. Newly identifying the sector in 2026 does not mean its existing balances were newly borrowed.",
+  "implications": "Reconcile borrower and vehicle scope before comparing exposure totals or adding intermediation layers. Use the scenario explorer to identify what further funding, valuation and instrument-detail evidence would be needed before judging a vehicle type.",
+  "limitations": "The observations are 2025 Q4, not live 2026 holdings. Aggregate fund populations hide dispersion. CLO equity is not separately reported and is not treated as zero. Missing maturity, withdrawal and unencumbered-cash data prevent a redemption or liquidity model. No default probability, regulatory solvency finding or institution-level contagion is established.",
+  "summary": "A 2026 measurement change makes private credit more visible. A scope ledger separates $1.458 trillion of broad business lending from $1.310 trillion in the nonfinancial-business debt table.",
+  "evidence": {
+    "file": "funding.svg",
+    "caption": "Observed rounded 2025 Q4 balances from an October 2026 Federal Reserve publication. CLOs are excluded here because equity is not separately reported."
+  },
+  "path": "projects/2026-10-28/private-credit-measurement",
+  "date": "2026-10-28",
+  "tools": [
+    "Python",
+    "SQL"
+  ],
+  "featured": false
+}

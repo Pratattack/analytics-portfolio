@@ -1,0 +1,10 @@
+{
+  "source_url": "https://www.federalreserve.gov/econres/notes/feds-notes/introducing-private-credit-into-the-financial-accounts-of-the-united-states-20261016.html",
+  "publication_date": "2026-10-16",
+  "observation_period": "2025:Q4",
+  "retrieved_utc": "2026-10-29T03:16:24.251341+00:00",
+  "snapshot_sha256": "da0c27cfd37e944dcfb237f129232c8fe58d2f89b4b6d0b6ef7838a622fec566",
+  "table": "Table 1 and final debt composition table",
+  "units": "Table 1 USD billions; debt composition USD trillions",
+  "vintage": "Publication snapshot, not a live 2026 balance sheet; no confidential microdata used"
+}

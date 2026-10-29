@@ -1,0 +1,15 @@
+{
+  "analytical_tests": 7,
+  "source_hashes": 11,
+  "html_pages": 3,
+  "local_references": 19,
+  "labelled_controls": 5,
+  "javascript_syntax_checks": 2,
+  "python_javascript_parity": {
+    "cases": 24,
+    "numeric_checks": 64
+  },
+  "em_dashes_in_visitor_copy": 0,
+  "browser_qa": "Not performed because the owner prohibited browser operation. Rendering, mobile interaction, focus traversal and actual download clicks remain unverified.",
+  "publication": "Approved release"
+}

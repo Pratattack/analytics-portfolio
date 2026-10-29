@@ -1,5 +1,57 @@
 [
   {
+    "slug": "private-credit-measurement",
+    "title": "Private Credit Measurement & Funding Exposure",
+    "shortTitle": "Private-credit funding and measurement",
+    "category": "Finance",
+    "dataKind": "Public + assumptions",
+    "question": "Who funds private credit, and which totals are comparable?",
+    "audience": "Credit, investment research and financial-risk analysts deciding where more funding and valuation diligence is needed.",
+    "data": "Official Federal Reserve October 16, 2026 publication, with rounded balance sheets observed at 2025 Q4. Public aggregate tables only; confidential Form PF microdata are not used. Hypothetical marks and an equity/assets screen are separate from observed balances.",
+    "methods": "Source-table extraction, units and scope reconciliation, independent SQL equity identities, and accounting mark-down scenarios on U.S. private loans and corporate equities. Reverse-solve the mark that reaches an assumed equity/assets screen. Preserve source blanks and rounding residuals; exclude CLOs from equity comparisons.",
+    "findings": "The publication reports $1.458 trillion of private loans to U.S. businesses, while the nonfinancial-business debt table reports $1.310 trillion, or 5.62% of that debt denominator. The difference is scope. Bank funding of credit vehicles is a separate intermediation layer. Newly identifying the sector in 2026 does not mean its existing balances were newly borrowed.",
+    "implications": "Reconcile borrower and vehicle scope before comparing exposure totals or adding intermediation layers. Use the scenario explorer to identify what further funding, valuation and instrument-detail evidence would be needed before judging a vehicle type.",
+    "limitations": "The observations are 2025 Q4, not live 2026 holdings. Aggregate fund populations hide dispersion. CLO equity is not separately reported and is not treated as zero. Missing maturity, withdrawal and unencumbered-cash data prevent a redemption or liquidity model. No default probability, regulatory solvency finding or institution-level contagion is established.",
+    "summary": "A 2026 measurement change makes private credit more visible. A scope ledger separates $1.458 trillion of broad business lending from $1.310 trillion in the nonfinancial-business debt table.",
+    "evidence": {
+      "file": "funding.svg",
+      "caption": "Observed rounded 2025 Q4 balances from an October 2026 Federal Reserve publication. CLOs are excluded here because equity is not separately reported."
+    },
+    "path": "projects/2026-10-28/private-credit-measurement",
+    "date": "2026-10-28",
+    "tools": [
+      "Python",
+      "SQL"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "import-duty-sourcing",
+    "title": "Import Duties & Sourcing Tradeoffs",
+    "shortTitle": "Import duties and sourcing decisions",
+    "category": "Operations",
+    "dataKind": "Public + assumptions",
+    "question": "Did import-duty exposure change, or did the sourcing basket change?",
+    "audience": "Procurement, commercial-finance and consulting analysts identifying product groups that warrant quote, classification and sourcing diligence.",
+    "data": "Official Census August 2025 and August 2026 detailed import archives. Primary comparison: January-August YTD imports for consumption and calculated duties. Prespecified HS4 groups 8504, 8507 and 8541. Scenario budgets and switching costs are hypothetical.",
+    "methods": "Fixed-width extraction and exact reconciliation to independently published commodity totals. Positive-value, identical-description HTS10/origin panels separate starting-basket rate changes from composition. Report matched value coverage and August-only sensitivity. Sourcing pairs standardize both origins to a common source basket with at least 80% coverage; SQL independently reconciles totals.",
+    "findings": "Full-population historical duty ratios rise from 8.57% to 12.61% for transformers/converters/inductors and from 14.11% to 16.97% for accumulators; semiconductor-device ratios move from 7.23% to 7.27%. Only 46.7% of 2026 accumulator value enters the strict cross-year panel, so its decomposition cannot be generalized to the whole category.",
+    "implications": "Inspect product comparability and coverage before treating an origin-level average as a sourcing opportunity. The tool tests which hypothetical supplier premium and switching cost would offset a historical duty difference; it does not select a supplier or quote a legal tariff.",
+    "limitations": "Calculated duties are not final collections or causal tariff incidence. Same-code cells can conceal quality and supplier changes. Countries are not suppliers. Current legal rates, origin eligibility, quotes, capacity, freight and switching feasibility are not established. Historical retrieved files may contain revisions, and modeled budget differences are not observed savings.",
+    "summary": "Import-duty ratios and sourcing mix can move in different directions. A strict comparison exposes a major coverage gap before turning historical duty differences into a budget scenario.",
+    "evidence": {
+      "file": "comparison-coverage.svg",
+      "caption": "Actual Census value retained by the strict HTS10/origin match. The 2026 accumulator and semiconductor panels have materially incomplete coverage."
+    },
+    "path": "projects/2026-10-28/import-duty-sourcing",
+    "date": "2026-10-28",
+    "tools": [
+      "Python",
+      "SQL"
+    ],
+    "featured": false
+  },
+  {
     "slug": "fuel-retail-investment-lab",
     "title": "Fuel Retail Investment Decision Lab",
     "shortTitle": "Fuel-retail investment underwriting",

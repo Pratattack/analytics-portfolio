@@ -1,0 +1,53 @@
+from common import *
+import pandas as pd,numpy as np,io,sqlite3,hashlib
+
+def stress(rows,loan_mark=.1,equity_mark=.2,floor=.25):
+ if not all(np.isfinite(x) for x in [loan_mark,equity_mark,floor]) or not 0<=loan_mark<=1 or not 0<=equity_mark<=1 or not 0<floor<1:raise ValueError('Invalid scenario')
+ out=[]
+ for r in rows:
+  if r['equity'] is None or r['corporate_equities'] is None:continue
+  loss=r['us_private_loans']*loan_mark+r['corporate_equities']*equity_mark;assets=r['assets']-loss;equity=r['equity']-loss
+  ratio=equity/assets if assets>0 else None
+  bound=(r['equity']-floor*r['assets']-(1-floor)*equity_mark*r['corporate_equities'])/((1-floor)*r['us_private_loans'])
+  out.append(dict(vehicle=r['vehicle'],loss=loss,stressed_equity=equity,stressed_assets=assets,equity_share=ratio,loan_mark_at_floor_raw=bound,below_screen=assets<=0 or ratio<floor))
+ return out
+
+def main():
+ m=json.loads((ROOT/'data/source_manifest.json').read_text());raw=(ROOT/'data/raw/fed-note.html').read_bytes();assert hashlib.sha256(raw).hexdigest()==m['snapshot_sha256']
+ tables=pd.read_html(io.StringIO(raw.decode()));t=tables[0];labels=t.iloc[:,0].tolist();rows=[]
+ fields={'assets':'Total financial assets','liabilities':'Total liabilities','equity':'Total equity and shares','us_private_loans':'Private credit loans to the U.S.','cash':'Checkable deposits and currency','corporate_equities':'Corporate equities','bank_loans':'Depository institution loans n.e.c.'}
+ for i,name in [(1,'Private debt funds'),(2,'Business development companies'),(3,'Interval / tender-offer funds'),(4,'Domestic middle-market CLOs')]:
+  r={'vehicle':name}
+  for key,label in fields.items():
+   x=t.iloc[labels.index(label),i];r[key]=None if pd.isna(x) else float(x)
+  r['balance_rounding_residual']=None if r['equity'] is None else r['assets']-r['liabilities']-r['equity'];rows.append(r)
+ assert all(abs(r['balance_rounding_residual'])<=1.5 for r in rows if r['balance_rounding_residual'] is not None)
+ dump(ROOT/'data/vehicle_balance_sheets.json',rows);pd.DataFrame(rows).to_csv(OUT/'vehicle_balance_sheets.csv',index=False)
+ # Full scope ledger keeps domestic/foreign and financial/nonfinancial denominators distinct.
+ loans=[float(t.iloc[4,i]) for i in [1,2,3,4,6,7]];published=float(t.iloc[4,8]);assert abs(sum(loans)-published)<=3
+ debt=tables[-1];nonfinancial_pc=float(debt.loc[debt.iloc[:,0]=='Private credit'].iloc[0,1]);totaldebt=float(debt.loc[debt.iloc[:,0]=='Total nonfinancial business debt'].iloc[0,1]);share=100*nonfinancial_pc/totaldebt
+ scope=pd.DataFrame([dict(measure='Private credit to U.S. businesses, broad Table 1 scope',usd_billions=published),dict(measure='Private credit within nonfinancial-business debt table',usd_billions=nonfinancial_pc*1000),dict(measure='Difference is scope, not a reconciliation error',usd_billions=published-nonfinancial_pc*1000)])
+ scope.to_csv(OUT/'scope_reconciliation.csv',index=False)
+ con=sqlite3.connect(':memory:');pd.DataFrame(rows).to_sql('vehicles',con,index=False)
+ sql=pd.read_sql_query((ROOT/'reconcile.sql').read_text(),con);assert np.allclose(sql.rounding_residual.dropna(),[r['balance_rounding_residual'] for r in rows if r['equity'] is not None]);sql.to_csv(OUT/'sql_reconciliation.csv',index=False)
+ grid=[]
+ for l in np.linspace(0,.5,11):
+  for e in np.linspace(0,.5,11):
+   for r in stress(rows,float(l),float(e)):grid.append(dict(loan_mark=l,equity_mark=e,**r))
+ pd.DataFrame(grid).to_csv(OUT/'hypothetical_stress_grid.csv',index=False);ref=stress(rows);pd.DataFrame(ref).to_csv(OUT/'reference_stress.csv',index=False)
+ def funding(ax):
+  names=[r['vehicle'].replace('Business development companies','BDCs').replace('Interval / tender-offer funds','Interval / tender funds') for r in rows[:3]];x=np.arange(3)
+  ax.bar(x,[r['liabilities'] for r in rows[:3]],color=COLORS[0],label='Liabilities');ax.bar(x,[r['equity'] for r in rows[:3]],bottom=[r['liabilities'] for r in rows[:3]],color=COLORS[1],label='Equity and shares');ax.set_xticks(x);ax.set_xticklabels(names,fontsize=9);ax.set_ylabel('USD billions, 2025 Q4');ax.legend(frameon=False)
+ plot('funding','Different funding structures need different questions','Observed rounded Fed Table 1 balances | Domestic vehicles | CLO equity is not separately reported',funding)
+ def stressplot(ax):
+  x=np.arange(3);ax.bar(x-.18,[r['equity']/r['assets']*100 for r in rows[:3]],.36,color=COLORS[0],label='Reported equity / assets');ax.bar(x+.18,[r['equity_share']*100 for r in ref],.36,color=COLORS[2],label='Hypothetical marked equity / assets');ax.axhline(25,color=COLORS[3],ls='--',label='Assumed 25% screen');ax.set_xticks(x);ax.set_xticklabels(['Private debt funds','BDCs','Interval / tender funds']);ax.set_ylabel('Equity / assets (%)');ax.legend(frameon=False,fontsize=8)
+ plot('equity-stress','A mark-down scenario is not a default forecast','Hypothetical: 10% mark on U.S. private loans, 20% on corporate equities; fixed liabilities',stressplot)
+ limits='The observations are 2025 Q4 balances published in October 2026, not current live holdings. Aggregate populations conceal individual fund dispersion. Private loans may include some syndicated loans; foreign positions use estimation assumptions. Missing cells remain null. CLO equity is not separately reported, so CLOs are excluded from equity-buffer comparisons. No redemption, liquidity runway, default probability, recovery forecast, mark-to-market timing or institution-level contagion is inferred.'
+ finding=f'The note reports ${published:,.0f} billion of private loans to U.S. businesses, while the nonfinancial-business debt table identifies ${nonfinancial_pc*1000:,.0f} billion, or {share:.2f}% of its debt denominator. The difference reflects scope. Domestic bank funding is $349 billion in the published subtotal; it must not be added to fund lending as if it were a separate loan to the same end borrower.'
+ body='<section class="section"><h2>What changed in 2026?</h2><p>The September 2026 Financial Accounts release separately identified private-credit vehicles and instruments. The new visibility includes reclassification of existing positions. It should not be presented as new borrowing that happened during the release month.</p><h2>Finding</h2><p>'+finding+'</p>'+table(scope)+figure('funding','Source: Federal Reserve Table 1, published 16 October 2026; observation 2025 Q4. Rounded source components can differ from totals.')+'<h2>Who should use this?</h2><p>Investment and credit researchers deciding which vehicle types need further funding and valuation diligence. The ledger identifies comparable scopes and missing evidence before a stress scenario is applied.</p><h2>Scenario, not prediction</h2>'+figure('equity-stress','Reported balances and an explicitly hypothetical asset mark-down. Liabilities remain fixed. No probability is assigned to either mark.')+table(pd.DataFrame(ref))+'<p><a href="workbench.html">Change the mark-down and equity-screen assumptions</a>. The tool reverse-solves the loan mark that would cross the assumed screen after a chosen equity mark. This screen is not a regulatory capital rule or a covenant.</p><h2>Methods and limitations</h2><p>HTML tables are parsed from a hashed official publication snapshot. A scope ledger separates U.S./foreign vehicles and broad-business/nonfinancial-business borrowers. SQL independently reconciles rounded equity identities. Scenario equity = reported equity minus the assumed marked asset loss; assets fall by the same amount. The source rounding residual is preserved.</p><p>'+limits+'</p><h2>Evidence</h2><p><a href="vehicle_balance_sheets.csv">Balance sheets</a> · <a href="scope_reconciliation.csv">Scope reconciliation</a> · <a href="hypothetical_stress_grid.csv">Stress grid</a> · <a href="sql_reconciliation.csv">SQL reconciliation</a> · <a href="summary.json">Results</a></p><p><a href="'+m['source_url']+'">Official Fed note, methodology, caveats and tables</a>. Raw HTML, retrieval timestamp and SHA-256 are retained with the source.</p></section>'
+ page('report.html','Who funds private credit, and what do the balances mean?',finding,body)
+ work='<section class="section"><h2>Challenge the equity buffer.</h2><p>Rounded 2025 Q4 balances. All mark-downs and the equity screen are hypothetical. This is not a liquidity model, probability estimate or investment recommendation.</p><form id="scenario"><div class="fields"><div><label for="loan">U.S. private-loan mark-down (%)</label><input id="loan" type="number" min="0" max="100" step="1" value="10" required></div><div><label for="equity">Corporate-equity mark-down (%)</label><input id="equity" type="number" min="0" max="100" step="1" value="20" required></div><div><label for="floor">Illustrative equity / assets screen (%)</label><input id="floor" type="number" min="1" max="99" step="1" value="25" required></div></div><p id="status" role="status" aria-live="polite"></p><div class="scroll"><table><thead><tr><th>Vehicle</th><th>Marked loss ($bn)</th><th>Marked equity ($bn)</th><th>Equity / assets</th><th>Loan mark at screen</th></tr></thead><tbody id="result"></tbody></table></div><button type="button" id="download">Download scenario CSV</button></form><h2>Interpret the boundary</h2><p>Above 100% means marking the entire measured U.S. private-loan book would not reach the selected screen under the other fixed assumptions. A negative boundary means the screen is already breached after the equity mark. The tool does not extrapolate a feasible loss beyond 100%. CLOs are excluded because the table does not separately report equity. Cash is not assumed to be unencumbered or available for redemptions.</p><p>'+limits+'</p></section>'
+ page('workbench.html','How much marked loss would change the equity screen?','Inspect an explicit accounting scenario, with source scope and missing values kept visible.',work,(OUT/'calculator.js').read_text(),rows)
+ summary=dict(us_business_private_credit_billions=published,nonfinancial_private_credit_billions=nonfinancial_pc*1000,nonfinancial_debt_share_pct=share,eligible_vehicle_types=3,excluded_vehicle_types=1,rounding_tolerance_billions=1.5,scenario_rows=len(grid),reference_scenario=ref,observation_period='2025:Q4',publication_date='2026-10-16')
+ dump(OUT/'summary.json',summary);(ROOT/'docs/executive_memo.md').write_text('# Private credit measurement and funding exposure\n\n'+finding+'\n\n## Decision use\nUse the scope and funding ledger to prioritize further diligence, not to label individual funds safe or unsafe. Reclassification is not origination.\n\n## Limits\n'+limits+'\n');print(json.dumps(summary,indent=2))
+if __name__=='__main__':main()

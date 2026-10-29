@@ -1,0 +1,13 @@
+{
+  "data/published-totals-2026.json": "54b614bbcbed3244ff8dc167f2da43e4a15d62d099316e0bc0965d66acb4243e",
+  "data/published-totals-2025.json": "16dd64e4b215dd50c679e6559cec45cf38c5cc90e6c04537cf612ded5a6e8848",
+  "data/source_manifest.json": "1294ebc9aac1db4edaa7404b5c0182ff4b4196f56cc5729ea533ccefb82fd947",
+  "data/raw/country-2025.txt": "250ec27c3fcc74d8a29ee2357d184d41c0c0b8f09345b24b8ad5e6690b3f7913",
+  "data/raw/import-layout.html": "c8a6f012de3b800b8d963e5ccd60f3ae35ebb134de760a22de5c5c54df53beca",
+  "data/raw/concord-2025.txt": "1d4d21ca8407555ee9fa84162fa07ecab3b8022b7b278520620deb095923b2ba",
+  "data/raw/product-country-2026.csv": "fd1705de5c19ce20764ab57e9af13a96a51b11a4eab9454cf829226a74ff32c6",
+  "data/raw/import-detail-layout.txt": "5e44059c456c280db7402a436bb18d1ae6f5f1450a2b29c1efc3306c0c79dd6f",
+  "data/raw/country-2026.txt": "143ff4e5a971193cfe19db107845830d368901434e6834e7c13d7cfe50c5d78d",
+  "data/raw/product-country-2025.csv": "50979718e11442510b34d5ceb9642cb5680cc491acfdbb5fa75934d9724b5c5f",
+  "data/raw/concord-2026.txt": "752847c31814f57ddb49a6a0986fba0cf4e28e339f88415b78271c599b601ba1"
+}

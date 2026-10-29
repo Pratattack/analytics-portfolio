@@ -1,0 +1,33 @@
+{
+  "scope": "Prespecified HS4 8504 transformers/static converters, 8507 electric accumulators, 8541 semiconductor devices; no selection by result",
+  "sources": [
+    {
+      "year": 2025,
+      "observation_period": "January-August YTD and August monthly",
+      "url": "https://www.census.gov/trade/downloads/2025/Merch/im_m/IMDB2508.ZIP",
+      "archive_sha256": "4fd343e4b33fdbe013329db1f46264abe93363e1c04216855fc27fd6f76da022",
+      "archive_bytes": 264168323,
+      "detail_rows_scanned": 2982910,
+      "detail_rows_selected": 56030,
+      "aggregated_rows": 3467,
+      "retrieved_utc": "2026-10-29T03:19:36.837165+00:00",
+      "reconciliation": "Detailed totals exactly equal independently published IMP_COMM totals for all three HS4 chapters",
+      "publication_date": "Original archive publication date not independently verified; observation and retrieval dates retained"
+    },
+    {
+      "year": 2026,
+      "observation_period": "January-August YTD and August monthly",
+      "url": "https://www.census.gov/trade/downloads/2026/Merch/im_m/IMDB2608.ZIP",
+      "archive_sha256": "78c41b5f75f474f4973c174233c54d6d7cba62ce78bef3ebfb3ef7e3026ffbbd",
+      "archive_bytes": 227480759,
+      "detail_rows_scanned": 2656515,
+      "detail_rows_selected": 52883,
+      "aggregated_rows": 3971,
+      "retrieved_utc": "2026-10-29T03:19:49.319795+00:00",
+      "reconciliation": "Detailed totals exactly equal independently published IMP_COMM totals for all three HS4 chapters",
+      "publication_date": "2026-10-06 (August 2026 trade release; retrieved bulk file can contain revisions)"
+    }
+  ],
+  "vintage": "Pinned retrieved historical files, not a point-in-time policy backtest",
+  "software": "Only fixed-width text was read; no executable or DLL was extracted or run"
+}

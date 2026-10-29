@@ -1,0 +1,40 @@
+{
+  "us_business_private_credit_billions": 1458.0,
+  "nonfinancial_private_credit_billions": 1310.0,
+  "nonfinancial_debt_share_pct": 5.624731644482611,
+  "eligible_vehicle_types": 3,
+  "excluded_vehicle_types": 1,
+  "rounding_tolerance_billions": 1.5,
+  "scenario_rows": 363,
+  "reference_scenario": [
+    {
+      "vehicle": "Private debt funds",
+      "loss": 84.4,
+      "stressed_equity": 456.6,
+      "stressed_assets": 854.6,
+      "equity_share": 0.534285045635385,
+      "loan_mark_at_floor_raw": 0.7504685408299866,
+      "below_screen": false
+    },
+    {
+      "vehicle": "Business development companies",
+      "loss": 54.0,
+      "stressed_equity": 233.0,
+      "stressed_assets": 518.0,
+      "equity_share": 0.4498069498069498,
+      "loan_mark_at_floor_raw": 0.4026315789473684,
+      "below_screen": false
+    },
+    {
+      "vehicle": "Interval / tender-offer funds",
+      "loss": 33.4,
+      "stressed_equity": 203.6,
+      "stressed_assets": 258.6,
+      "equity_share": 0.7873163186388243,
+      "loan_mark_at_floor_raw": 2.537719298245614,
+      "below_screen": false
+    }
+  ],
+  "observation_period": "2025:Q4",
+  "publication_date": "2026-10-16"
+}

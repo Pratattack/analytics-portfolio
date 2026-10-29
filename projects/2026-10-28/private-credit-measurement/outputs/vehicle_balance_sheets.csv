@@ -1,0 +1,5 @@
+vehicle,assets,liabilities,equity,us_private_loans,cash,corporate_equities,bank_loans,balance_rounding_residual
+Private debt funds,939.0,397.0,541.0,498.0,38.0,173.0,150.0,1.0
+Business development companies,572.0,286.0,287.0,456.0,14.0,42.0,181.0,-1.0
+Interval / tender-offer funds,292.0,56.0,237.0,76.0,6.0,129.0,18.0,-1.0
+Domestic middle-market CLOs,54.0,54.0,,53.0,,,,

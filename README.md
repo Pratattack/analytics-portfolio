@@ -99,3 +99,8 @@ Each project includes pinned raw data, source hashes, reproducible Python, SQL r
 ## Fuel Retail Investment Decision Lab
 
 [Anonymized scenario underwriting](projects/2026-10-28/fuel-retail-investment-lab) reconciles report estimates, models staged construction funding, and separates debt coverage from unresolved site evidence. Original private attachments and identifying details are excluded.
+
+## October 2026 market research
+
+- [Private Credit Measurement & Funding Exposure](projects/2026-10-28/private-credit-measurement/)
+- [Import Duties & Sourcing Tradeoffs](projects/2026-10-28/import-duty-sourcing/)
