@@ -1,0 +1,11 @@
+Persona 3 inspired portfolio preview
+
+Original interface, SVG backdrop, PS monogram, transitions and synthesized optional tones: Prathamesh Singh portfolio. Original implementation created for this portfolio. No reference-repository source code, character artwork, video or audio is included.
+
+Visual reference: https://github.com/wal-z1/persona3-portfolio
+Reference inspected at commit 5b5750a29b457da7e63aff25e4102f4757b5da37.
+
+Barlow Condensed Bold: Copyright 2017 The Barlow Project Authors, https://github.com/jpt/barlow. SIL Open Font License 1.1, bundled as Barlow-OFL.txt.
+Inter: existing portfolio font, SIL Open Font License; original credits at /assets/Inter-LICENSE.txt.
+
+Project writing, analytical evidence and resume are retained from the current portfolio. The decorative backdrop is an original geometric city composition, not analytical evidence or a photograph of Houston.
