@@ -45,3 +45,7 @@ The approved homepage introduces Prathamesh by name and uses actual mortgage, ba
 
 
 October 2026 update: the library now includes 21 projects. New projects live under `projects/2026-10-27/`. To add another, reproduce and verify its outputs, append `portfolio_registry.json`, add a reviewed case record to `website/content/projects.json`, run the site builder with the full repository as `--projects-source`, and run the website verifier. Retain existing slugs and keep observations separate from scenario assumptions.
+
+## Approved Persona 3 inspired design
+
+The production interface is generated from `designs/persona3`. Every case keeps its canonical URL and server-rendered findings. Original analytical tools, reports, downloads and resume remain intact. The old homepage template is retained at `designs/charcoal/index.html`; full deployment restoration is pinned in `designs/persona3/restore-point.json`.
