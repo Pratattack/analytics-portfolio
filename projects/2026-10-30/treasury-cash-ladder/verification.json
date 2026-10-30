@@ -1,0 +1,11 @@
+{
+  "analytical_tests": 9,
+  "source_hash_checks": 4,
+  "local_references": 11,
+  "inline_javascript_checks": 1,
+  "python_javascript_parity": {
+    "scenarios": 20,
+    "numerical_checks": 72
+  },
+  "browser_qa": "Not performed: owner instruction excludes browser operation. Mobile rendering and focus traversal remain unverified."
+}

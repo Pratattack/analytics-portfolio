@@ -1,0 +1,9 @@
+{
+  "data/release_table_extract.csv": "e2d0a914939e8b6c845207d260d1a748371b164f9576919164460250e666a711",
+  "data/source_manifest.json": "1e222caa6fb6e6d9a4fb9297a8f9c8ff3793e7a796724747dc8bcb2a8bc15420",
+  "data/observations.csv": "f5cc9ca173454d7d3c86d9203f11056bdc15d762b4c3db4cb990b0230f4f52aa",
+  "data/technical_note.txt": "da7bdc303cd7a58312a2eb6139d4a37e5c027f7354b1ca2c53ff7793641a3cfc",
+  "data/series.csv": "870e401067e9f1493920fe9a3cee730af824915021b268e034fd6f6398d58f12",
+  "data/industry-codes.txt": "94c0c48daa6c3e93d898367a944c8357faba6be22c4bf034d99ad587713d3b50",
+  "data/industries.json": "6cadf4247632ea8c4c9e792eafbd1c09e7e5b067bf3d433822b1475e001dc0d6"
+}

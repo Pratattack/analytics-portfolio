@@ -1,0 +1,426 @@
+[
+  {
+    "args": [
+      [
+        3.91,
+        4.02,
+        4
+      ],
+      1000000,
+      100000,
+      50000,
+      0
+    ],
+    "expected": {
+      "feasible": true,
+      "factors": [
+        1.003050387678975,
+        1.0062926835813286,
+        1.0102143899427545
+      ],
+      "terminal_cash": 306279.4926478842,
+      "incremental_interest": 6279.492647884181,
+      "all_cash_terminal": 300000.0
+    }
+  },
+  {
+    "args": [
+      [
+        3.91,
+        4.02,
+        4
+      ],
+      1000000,
+      200000,
+      100000,
+      10
+    ],
+    "expected": {
+      "feasible": true,
+      "factors": [
+        1.0020483393396353,
+        1.0052873961851436,
+        1.0092051847579966
+      ],
+      "terminal_cash": 254040.89052714047,
+      "incremental_interest": 4040.8905271404656,
+      "all_cash_terminal": 250000.0
+    }
+  },
+  {
+    "args": [
+      [
+        3.91,
+        4.02,
+        4
+      ],
+      1000000,
+      100000,
+      400000,
+      0
+    ],
+    "expected": {
+      "feasible": false,
+      "reason": "No allocation meets all payment and reserve constraints."
+    }
+  },
+  {
+    "args": [
+      [
+        3.91,
+        4.02,
+        4
+      ],
+      1000000,
+      0,
+      0,
+      100
+    ],
+    "expected": {
+      "feasible": true,
+      "factors": [
+        0.9931191957217573,
+        0.9963293896844838,
+        1.000212267270054
+      ],
+      "terminal_cash": 350116.74699852965,
+      "incremental_interest": 116.74699852964841,
+      "all_cash_terminal": 350000.0
+    }
+  },
+  {
+    "args": [
+      [
+        3.91,
+        4.02,
+        4
+      ],
+      1000000,
+      100000,
+      1000000,
+      0
+    ],
+    "expected": {
+      "feasible": false,
+      "reason": "No allocation meets all payment and reserve constraints."
+    }
+  },
+  {
+    "args": [
+      [
+        0,
+        0,
+        0
+      ],
+      1000000,
+      100000,
+      50000,
+      0
+    ],
+    "expected": {
+      "feasible": true,
+      "factors": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "terminal_cash": 300000.0,
+      "incremental_interest": 0.0,
+      "all_cash_terminal": 300000.0
+    }
+  },
+  {
+    "args": [
+      [
+        0,
+        0,
+        0
+      ],
+      1000000,
+      200000,
+      100000,
+      10
+    ],
+    "expected": {
+      "feasible": true,
+      "factors": [
+        0.9990009990009991,
+        0.9990009990009991,
+        0.9990009990009991
+      ],
+      "terminal_cash": 250000.0,
+      "incremental_interest": 0.0,
+      "all_cash_terminal": 250000.0
+    }
+  },
+  {
+    "args": [
+      [
+        0,
+        0,
+        0
+      ],
+      1000000,
+      100000,
+      400000,
+      0
+    ],
+    "expected": {
+      "feasible": false,
+      "reason": "No allocation meets all payment and reserve constraints."
+    }
+  },
+  {
+    "args": [
+      [
+        0,
+        0,
+        0
+      ],
+      1000000,
+      0,
+      0,
+      100
+    ],
+    "expected": {
+      "feasible": true,
+      "factors": [
+        0.9900990099009901,
+        0.9900990099009901,
+        0.9900990099009901
+      ],
+      "terminal_cash": 350000.0,
+      "incremental_interest": 0.0,
+      "all_cash_terminal": 350000.0
+    }
+  },
+  {
+    "args": [
+      [
+        0,
+        0,
+        0
+      ],
+      1000000,
+      100000,
+      1000000,
+      0
+    ],
+    "expected": {
+      "feasible": false,
+      "reason": "No allocation meets all payment and reserve constraints."
+    }
+  },
+  {
+    "args": [
+      [
+        5,
+        3,
+        1
+      ],
+      1000000,
+      100000,
+      50000,
+      0
+    ],
+    "expected": {
+      "feasible": true,
+      "factors": [
+        1.003904071388734,
+        1.0046885465505693,
+        1.0025341836308446
+      ],
+      "terminal_cash": 303828.97968296485,
+      "incremental_interest": 3828.979682964855,
+      "all_cash_terminal": 300000.0
+    }
+  },
+  {
+    "args": [
+      [
+        5,
+        3,
+        1
+      ],
+      1000000,
+      200000,
+      100000,
+      10
+    ],
+    "expected": {
+      "feasible": true,
+      "factors": [
+        1.0029011702185155,
+        1.0036848616888805,
+        1.0015326509798648
+      ],
+      "terminal_cash": 252423.1182971974,
+      "incremental_interest": 2423.1182971973903,
+      "all_cash_terminal": 250000.0
+    }
+  },
+  {
+    "args": [
+      [
+        5,
+        3,
+        1
+      ],
+      1000000,
+      100000,
+      400000,
+      0
+    ],
+    "expected": {
+      "feasible": false,
+      "reason": "No allocation meets all payment and reserve constraints."
+    }
+  },
+  {
+    "args": [
+      [
+        5,
+        3,
+        1
+      ],
+      1000000,
+      0,
+      0,
+      100
+    ],
+    "expected": {
+      "feasible": true,
+      "factors": [
+        0.9939644271175584,
+        0.9947411351985834,
+        0.9926081026047966
+      ],
+      "terminal_cash": 350000.0,
+      "incremental_interest": 0.0,
+      "all_cash_terminal": 350000.0
+    }
+  },
+  {
+    "args": [
+      [
+        5,
+        3,
+        1
+      ],
+      1000000,
+      100000,
+      1000000,
+      0
+    ],
+    "expected": {
+      "feasible": false,
+      "reason": "No allocation meets all payment and reserve constraints."
+    }
+  },
+  {
+    "args": [
+      [
+        -1,
+        -1,
+        -1
+      ],
+      1000000,
+      100000,
+      50000,
+      0
+    ],
+    "expected": {
+      "feasible": true,
+      "factors": [
+        0.999222826690352,
+        0.9984468604393166,
+        0.9974785957717992
+      ],
+      "terminal_cash": 300000.0,
+      "incremental_interest": 0.0,
+      "all_cash_terminal": 300000.0
+    }
+  },
+  {
+    "args": [
+      [
+        -1,
+        -1,
+        -1
+      ],
+      1000000,
+      200000,
+      100000,
+      10
+    ],
+    "expected": {
+      "feasible": true,
+      "factors": [
+        0.9982246020882638,
+        0.9974494110282884,
+        0.9964821136581412
+      ],
+      "terminal_cash": 250000.0,
+      "incremental_interest": 0.0,
+      "all_cash_terminal": 250000.0
+    }
+  },
+  {
+    "args": [
+      [
+        -1,
+        -1,
+        -1
+      ],
+      1000000,
+      100000,
+      400000,
+      0
+    ],
+    "expected": {
+      "feasible": false,
+      "reason": "No allocation meets all payment and reserve constraints."
+    }
+  },
+  {
+    "args": [
+      [
+        -1,
+        -1,
+        -1
+      ],
+      1000000,
+      0,
+      0,
+      100
+    ],
+    "expected": {
+      "feasible": true,
+      "factors": [
+        0.9893295313765862,
+        0.9885612479597194,
+        0.9876025700710883
+      ],
+      "terminal_cash": 350000.0,
+      "incremental_interest": 0.0,
+      "all_cash_terminal": 350000.0
+    }
+  },
+  {
+    "args": [
+      [
+        -1,
+        -1,
+        -1
+      ],
+      1000000,
+      100000,
+      1000000,
+      0
+    ],
+    "expected": {
+      "feasible": false,
+      "reason": "No allocation meets all payment and reserve constraints."
+    }
+  }
+]

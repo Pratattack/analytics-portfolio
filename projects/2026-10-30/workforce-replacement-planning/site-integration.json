@@ -1,0 +1,26 @@
+{
+  "slug": "workforce-replacement-planning",
+  "title": "Workforce Replacement & Recruiting Capacity",
+  "shortTitle": "The hiring behind headcount growth",
+  "category": "Operations",
+  "dataKind": "Public + assumptions",
+  "question": "How much hiring does growth really require?",
+  "audience": "Workforce-planning, operations, research and consulting analysts assessing whether recruiting capacity and hiring budgets can support a headcount target.",
+  "data": "Official BLS JOLTS monthly seasonally adjusted levels and rates for seven national industry aggregates, January 2015 through August 2026. Latest month is preliminary. Separate release-table values audit three months. Employer staffing, growth, cost and hiring capacity are hypothetical.",
+  "methods": "Analytical headcount recurrence separates replacement hires from net expansion. Use a trailing 12-month mean separation rate as a clearly labeled industry proxy. Independently reconcile inputs in SQL and 126 source-table cells. Chronologically select among four prespecified forecasting baselines using 2023-2024 validation and evaluate 2025-2026 held-out target windows.",
+  "findings": "At the 3.56% trailing mean monthly private-sector separation rate, a hypothetical employer growing from 1,000 to 1,100 staff needs about 548 hires over twelve months. Roughly 448 replace exits. Forecast methods selected on validation beat the last-month baseline in four of seven series, tie in one and do worse in two. This does not establish production forecast quality.",
+  "implications": "A budget for 100 new roles may leave most recruiting work unaccounted for. Test replacement demand and monthly hiring capacity together, then replace the industry proxy with company-level exit evidence before approving a plan.",
+  "limitations": "National rates are not employer-level exit probabilities. The model applies the proxy to beginning-month staff, which differs from the official denominator. Targets, costs and capacity are scenarios. Revised and concurrently adjusted data prevent a real-time backtest claim. Target windows and industry aggregates overlap. No causal conclusion, predictive interval or actual employer result is claimed.",
+  "summary": "100 net new roles can require about 548 hires in the reference scenario. Replacement demand changes the recruiting budget and can expose a capacity shortfall.",
+  "evidence": {
+    "file": "hiring-bridge.svg",
+    "caption": "Hypothetical 1,000-to-1,100 staffing plans calibrated to observed industry separation rates. Replacement hires and the assumed 100-person net increase are shown separately."
+  },
+  "path": "projects/2026-10-30/workforce-replacement-planning",
+  "date": "2026-10-30",
+  "tools": [
+    "Python",
+    "SQL"
+  ],
+  "featured": false
+}

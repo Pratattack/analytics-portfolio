@@ -1,0 +1,41 @@
+{
+  "observation_date": "2026-10-29",
+  "discount_rates_pct": [
+    3.91,
+    4.02,
+    4.0
+  ],
+  "reference": {
+    "feasible": true,
+    "allocations": [
+      199391.77777777775,
+      248436.66666666666,
+      402171.5555555556,
+      150000.0
+    ],
+    "factors": [
+      1.003050387678975,
+      1.0062926835813286,
+      1.0102143899427545
+    ],
+    "balances": [
+      100000.0,
+      100000.0,
+      100000.0,
+      306279.4926478842
+    ],
+    "terminal_cash": 306279.4926478842,
+    "incremental_interest": 6279.492647884181,
+    "all_cash_terminal": 300000.0,
+    "constraint_slack": [
+      0.0,
+      0.0,
+      0.0,
+      206279.49264788418
+    ]
+  },
+  "finding": "Using 2026-10-29 quotations, the illustrative $1 million plan earns $6,279 above zero-yield cash while preserving a $100,000 reserve after $700,000 of scheduled and stress payments. This is a modeled bill return, not an executed trade.",
+  "limitations": "Indicative secondary-market bid quotations are not executable offers. Fixed 28-, 56- and 91-day tenors stand in for actual security settlement and maturity dates. No reinvestment, early sale, bid-ask spread, taxes, lot sizes, holiday adjustment or credit facility is modeled. Cash earns zero in the baseline. Actual cash forecasts, offers and security identifiers are required before implementation. Reserve and payments are hypothetical; this is not a forecast of a real company\u2019s cash.",
+  "quote_rows": 457,
+  "sensitivity_cases": 175
+}

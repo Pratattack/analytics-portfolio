@@ -1,0 +1,1 @@
+SELECT industry_code,AVG(value) AS trailing12_mean_pct, COUNT(*) AS months FROM observations WHERE dataelement_code='TS' AND ratelevel_code='R' AND date >= '2025-09-01' AND date < '2026-09-01' GROUP BY industry_code;

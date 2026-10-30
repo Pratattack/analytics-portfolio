@@ -213,5 +213,21 @@
     "industry": "international trade and procurement",
     "data": "Official public data plus explicitly hypothetical scenarios",
     "status": "published"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Treasury Cash Ladder & Liquidity Constraints",
+    "path": "projects/2026-10-30/treasury-cash-ladder",
+    "industry": "corporate treasury",
+    "data": "Official public data plus explicit hypothetical business inputs",
+    "status": "published"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Workforce Replacement & Recruiting Capacity",
+    "path": "projects/2026-10-30/workforce-replacement-planning",
+    "industry": "workforce planning",
+    "data": "Official public data plus explicit hypothetical business inputs",
+    "status": "published"
   }
 ]

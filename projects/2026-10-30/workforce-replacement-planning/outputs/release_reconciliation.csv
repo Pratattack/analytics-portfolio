@@ -1,0 +1,127 @@
+industry,kind,metric,date,bulk_value,release_value,difference
+Total private,L,JO,2025-08-01,6199.0,6199.0,0.0
+Total private,L,JO,2026-07-01,6562.0,6562.0,0.0
+Total private,L,JO,2026-08-01,6348.0,6348.0,0.0
+Total private,L,HI,2025-08-01,4851.0,4851.0,0.0
+Total private,L,HI,2026-07-01,4847.0,4847.0,0.0
+Total private,L,HI,2026-08-01,4846.0,4846.0,0.0
+Total private,L,TS,2025-08-01,4864.0,4864.0,0.0
+Total private,L,TS,2026-07-01,4785.0,4785.0,0.0
+Total private,L,TS,2026-08-01,4761.0,4761.0,0.0
+Construction,L,JO,2025-08-01,213.0,213.0,0.0
+Construction,L,JO,2026-07-01,299.0,299.0,0.0
+Construction,L,JO,2026-08-01,251.0,251.0,0.0
+Construction,L,HI,2025-08-01,336.0,336.0,0.0
+Construction,L,HI,2026-07-01,358.0,358.0,0.0
+Construction,L,HI,2026-08-01,308.0,308.0,0.0
+Construction,L,TS,2025-08-01,351.0,351.0,0.0
+Construction,L,TS,2026-07-01,315.0,315.0,0.0
+Construction,L,TS,2026-08-01,272.0,272.0,0.0
+Manufacturing,L,JO,2025-08-01,416.0,416.0,0.0
+Manufacturing,L,JO,2026-07-01,576.0,576.0,0.0
+Manufacturing,L,JO,2026-08-01,522.0,522.0,0.0
+Manufacturing,L,HI,2025-08-01,299.0,299.0,0.0
+Manufacturing,L,HI,2026-07-01,293.0,293.0,0.0
+Manufacturing,L,HI,2026-08-01,332.0,332.0,0.0
+Manufacturing,L,TS,2025-08-01,303.0,303.0,0.0
+Manufacturing,L,TS,2026-07-01,284.0,284.0,0.0
+Manufacturing,L,TS,2026-08-01,311.0,311.0,0.0
+Retail trade,L,JO,2025-08-01,609.0,609.0,0.0
+Retail trade,L,JO,2026-07-01,707.0,707.0,0.0
+Retail trade,L,JO,2026-08-01,761.0,761.0,0.0
+Retail trade,L,HI,2025-08-01,562.0,562.0,0.0
+Retail trade,L,HI,2026-07-01,663.0,663.0,0.0
+Retail trade,L,HI,2026-08-01,667.0,667.0,0.0
+Retail trade,L,TS,2025-08-01,545.0,545.0,0.0
+Retail trade,L,TS,2026-07-01,662.0,662.0,0.0
+Retail trade,L,TS,2026-08-01,678.0,678.0,0.0
+Professional and business services,L,JO,2025-08-01,1095.0,1095.0,0.0
+Professional and business services,L,JO,2026-07-01,1305.0,1305.0,0.0
+Professional and business services,L,JO,2026-08-01,1186.0,1186.0,0.0
+Professional and business services,L,HI,2025-08-01,1037.0,1037.0,0.0
+Professional and business services,L,HI,2026-07-01,899.0,899.0,0.0
+Professional and business services,L,HI,2026-08-01,935.0,935.0,0.0
+Professional and business services,L,TS,2025-08-01,1086.0,1086.0,0.0
+Professional and business services,L,TS,2026-07-01,908.0,908.0,0.0
+Professional and business services,L,TS,2026-08-01,917.0,917.0,0.0
+Private education and health services,L,JO,2025-08-01,1512.0,1512.0,0.0
+Private education and health services,L,JO,2026-07-01,1585.0,1585.0,0.0
+Private education and health services,L,JO,2026-08-01,1484.0,1484.0,0.0
+Private education and health services,L,HI,2025-08-01,807.0,807.0,0.0
+Private education and health services,L,HI,2026-07-01,790.0,790.0,0.0
+Private education and health services,L,HI,2026-08-01,810.0,810.0,0.0
+Private education and health services,L,TS,2025-08-01,780.0,780.0,0.0
+Private education and health services,L,TS,2026-07-01,789.0,789.0,0.0
+Private education and health services,L,TS,2026-08-01,813.0,813.0,0.0
+Leisure and hospitality,L,JO,2025-08-01,1050.0,1050.0,0.0
+Leisure and hospitality,L,JO,2026-07-01,768.0,768.0,0.0
+Leisure and hospitality,L,JO,2026-08-01,829.0,829.0,0.0
+Leisure and hospitality,L,HI,2025-08-01,943.0,943.0,0.0
+Leisure and hospitality,L,HI,2026-07-01,915.0,915.0,0.0
+Leisure and hospitality,L,HI,2026-08-01,905.0,905.0,0.0
+Leisure and hospitality,L,TS,2025-08-01,897.0,897.0,0.0
+Leisure and hospitality,L,TS,2026-07-01,893.0,893.0,0.0
+Leisure and hospitality,L,TS,2026-08-01,851.0,851.0,0.0
+Total private,R,JO,2025-08-01,4.4,4.4,0.0
+Total private,R,JO,2026-07-01,4.6,4.6,0.0
+Total private,R,JO,2026-08-01,4.5,4.5,0.0
+Total private,R,HI,2025-08-01,3.6,3.6,0.0
+Total private,R,HI,2026-07-01,3.6,3.6,0.0
+Total private,R,HI,2026-08-01,3.6,3.6,0.0
+Total private,R,TS,2025-08-01,3.6,3.6,0.0
+Total private,R,TS,2026-07-01,3.5,3.5,0.0
+Total private,R,TS,2026-08-01,3.5,3.5,0.0
+Construction,R,JO,2025-08-01,2.5,2.5,0.0
+Construction,R,JO,2026-07-01,3.5,3.5,0.0
+Construction,R,JO,2026-08-01,2.9,2.9,0.0
+Construction,R,HI,2025-08-01,4.1,4.1,0.0
+Construction,R,HI,2026-07-01,4.3,4.3,0.0
+Construction,R,HI,2026-08-01,3.7,3.7,0.0
+Construction,R,TS,2025-08-01,4.3,4.3,0.0
+Construction,R,TS,2026-07-01,3.8,3.8,0.0
+Construction,R,TS,2026-08-01,3.2,3.2,0.0
+Manufacturing,R,JO,2025-08-01,3.2,3.2,0.0
+Manufacturing,R,JO,2026-07-01,4.4,4.4,0.0
+Manufacturing,R,JO,2026-08-01,4.0,4.0,0.0
+Manufacturing,R,HI,2025-08-01,2.4,2.4,0.0
+Manufacturing,R,HI,2026-07-01,2.3,2.3,0.0
+Manufacturing,R,HI,2026-08-01,2.6,2.6,0.0
+Manufacturing,R,TS,2025-08-01,2.4,2.4,0.0
+Manufacturing,R,TS,2026-07-01,2.3,2.3,0.0
+Manufacturing,R,TS,2026-08-01,2.5,2.5,0.0
+Retail trade,R,JO,2025-08-01,3.8,3.8,0.0
+Retail trade,R,JO,2026-07-01,4.4,4.4,0.0
+Retail trade,R,JO,2026-08-01,4.7,4.7,0.0
+Retail trade,R,HI,2025-08-01,3.6,3.6,0.0
+Retail trade,R,HI,2026-07-01,4.3,4.3,0.0
+Retail trade,R,HI,2026-08-01,4.3,4.3,0.0
+Retail trade,R,TS,2025-08-01,3.5,3.5,0.0
+Retail trade,R,TS,2026-07-01,4.3,4.3,0.0
+Retail trade,R,TS,2026-08-01,4.4,4.4,0.0
+Professional and business services,R,JO,2025-08-01,4.7,4.7,0.0
+Professional and business services,R,JO,2026-07-01,5.5,5.5,0.0
+Professional and business services,R,JO,2026-08-01,5.0,5.0,0.0
+Professional and business services,R,HI,2025-08-01,4.6,4.6,0.0
+Professional and business services,R,HI,2026-07-01,4.0,4.0,0.0
+Professional and business services,R,HI,2026-08-01,4.2,4.2,0.0
+Professional and business services,R,TS,2025-08-01,4.9,4.9,0.0
+Professional and business services,R,TS,2026-07-01,4.0,4.0,0.0
+Professional and business services,R,TS,2026-08-01,4.1,4.1,0.0
+Private education and health services,R,JO,2025-08-01,5.2,5.2,0.0
+Private education and health services,R,JO,2026-07-01,5.4,5.4,0.0
+Private education and health services,R,JO,2026-08-01,5.0,5.0,0.0
+Private education and health services,R,HI,2025-08-01,2.9,2.9,0.0
+Private education and health services,R,HI,2026-07-01,2.8,2.8,0.0
+Private education and health services,R,HI,2026-08-01,2.9,2.9,0.0
+Private education and health services,R,TS,2025-08-01,2.8,2.8,0.0
+Private education and health services,R,TS,2026-07-01,2.8,2.8,0.0
+Private education and health services,R,TS,2026-08-01,2.9,2.9,0.0
+Leisure and hospitality,R,JO,2025-08-01,5.9,5.9,0.0
+Leisure and hospitality,R,JO,2026-07-01,4.3,4.3,0.0
+Leisure and hospitality,R,JO,2026-08-01,4.7,4.7,0.0
+Leisure and hospitality,R,HI,2025-08-01,5.6,5.6,0.0
+Leisure and hospitality,R,HI,2026-07-01,5.4,5.4,0.0
+Leisure and hospitality,R,HI,2026-08-01,5.3,5.3,0.0
+Leisure and hospitality,R,TS,2025-08-01,5.3,5.3,0.0
+Leisure and hospitality,R,TS,2026-07-01,5.3,5.3,0.0
+Leisure and hospitality,R,TS,2026-08-01,5.0,5.0,0.0

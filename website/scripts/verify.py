@@ -88,7 +88,7 @@ assert.equal(m(p,'','all','Simulation').length,3);
 assert.equal(m(p,'nonexistent-query-xyz').length,0);
 assert.equal(m(p,'','unknown-category').length,0);
 assert.equal(m(p,'python').length,p.length);
-assert.equal(m(p,'','Finance','Public + assumptions').length,6);
+assert.equal(m(p,'','Finance','Public + assumptions').length,7);
 assert.equal(m(p,'diesel').length,1);
 assert.equal(m(p,'real wages').length,1);
 assert.equal(m(p,'','Operations','Public + assumptions').some(x=>x.slug==='diesel-budget-risk'),true);
@@ -96,13 +96,15 @@ assert.deepEqual(m(p,'','Finance','Report + assumptions').map(x=>x.slug),['fuel-
 assert.equal(m(p,'underwriting').some(x=>x.slug==='fuel-retail-investment-lab'),true);
 assert.equal(m(p,'private credit').some(x=>x.slug==='private-credit-measurement'),true);
 assert.equal(m(p,'sourcing').some(x=>x.slug==='import-duty-sourcing'),true);
-console.log('16 search/filter boundary checks passed');'''
+assert.equal(m(p,'cash deadlines').some(x=>x.slug==='treasury-cash-ladder'),true);
+assert.equal(m(p,'recruiting capacity').some(x=>x.slug==='workforce-replacement-planning'),true);
+console.log('18 search/filter boundary checks passed');'''
     subprocess.run(['node','-e',test],cwd=ROOT,check=True)
     result = dict(html_pages=len(pages),local_link_asset_checks=assertions,
                   javascript_syntax_checks=script_count,zip_integrity_checks=len(packages),
-                  search_filter_checks=16,case_studies=len(records),
+                  search_filter_checks=18,case_studies=len(records),
                   css_asset_checks=css_references,em_dashes_in_served_copy=0,
-                  browser_qa='Blocked by automatic approval review: explicit user instruction prohibited browser operation. Mobile rendering, keyboard interaction and demo recalculation remain unverified in this release.')
+                  browser_qa='Not performed: owner instruction excludes browser operation. Mobile rendering, keyboard interaction and demo recalculation remain unverified in this release.')
     (ROOT/'verification.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result,indent=2))
 

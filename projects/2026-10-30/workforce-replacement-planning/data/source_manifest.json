@@ -1,0 +1,42 @@
+[
+  {
+    "file": "jolts-data.txt",
+    "url": "https://download.bls.gov/pub/time.series/jt/jt.data.1.AllItems",
+    "retrieved_at": "2026-10-30T05:05:23.869390+00:00",
+    "bytes": 34522999,
+    "sha256": "d61a3699ea0d93f11778b0b5ca819d9e1eb16c45e062ee3197293b38f03f93f4",
+    "last_modified": "Tue, 29 Sep 2026 14:00:00 GMT"
+  },
+  {
+    "file": "jolts-series.txt",
+    "url": "https://download.bls.gov/pub/time.series/jt/jt.series",
+    "retrieved_at": "2026-10-30T05:05:20.520841+00:00",
+    "bytes": 158802,
+    "sha256": "e0de35550b3925c6564f9e61fbd14153f5853f3b9049a351cc1b811e84e5d976",
+    "last_modified": "Tue, 29 Sep 2026 14:00:00 GMT"
+  },
+  {
+    "file": "jolts-industry.txt",
+    "url": "https://download.bls.gov/pub/time.series/jt/jt.industry",
+    "retrieved_at": "2026-10-30T05:05:20.381943+00:00",
+    "bytes": 1174,
+    "sha256": "94c0c48daa6c3e93d898367a944c8357faba6be22c4bf034d99ad587713d3b50",
+    "last_modified": "Tue, 29 Sep 2026 14:00:00 GMT"
+  },
+  {
+    "file": "jolts-release.html",
+    "url": "https://www.bls.gov/news.release/jolts.htm",
+    "retrieved_at": "2026-10-30T05:05:22.641121+00:00",
+    "bytes": 752486,
+    "sha256": "a9ae1466a565c1feeb6726bf62cc18114c1e3b724c692f8d7d34bd3e6b79c993",
+    "last_modified": null
+  },
+  {
+    "file": "jolts-notes.html",
+    "url": "https://www.bls.gov/news.release/jolts.tn.htm",
+    "retrieved_at": "2026-10-30T05:05:22.504916+00:00",
+    "bytes": 60670,
+    "sha256": "db7e445c8a029634da766fb6663c06fc250a525315ba8582cbd4e7ad3eb61384",
+    "last_modified": null
+  }
+]

@@ -104,3 +104,8 @@ Each project includes pinned raw data, source hashes, reproducible Python, SQL r
 
 - [Private Credit Measurement & Funding Exposure](projects/2026-10-28/private-credit-measurement/)
 - [Import Duties & Sourcing Tradeoffs](projects/2026-10-28/import-duty-sourcing/)
+
+## October 30 decision tools
+
+- [Treasury Cash Ladder & Liquidity Constraints](projects/2026-10-30/treasury-cash-ladder/)
+- [Workforce Replacement & Recruiting Capacity](projects/2026-10-30/workforce-replacement-planning/)

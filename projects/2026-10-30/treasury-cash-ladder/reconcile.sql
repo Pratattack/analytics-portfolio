@@ -1,0 +1,1 @@
+SELECT (SELECT SUM(purchase_dollars) FROM allocation) AS capital, (SELECT MIN(cash_after_outflow) FROM ledger) AS minimum_cash, (SELECT SUM(maturity_dollars)-SUM(purchase_dollars) FROM allocation) AS interest;

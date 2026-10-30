@@ -1,0 +1,874 @@
+ 
+ 
+  Job Openings and Labor Turnover Technical Note
+ - 2026 M08 Results  
+
+	 
+	 
+     
+	 
+	 
+	 
+ 
+ 
+ 	 
+	 
+
+	 
+	 
+	 
+	 
+	
+	 
+	 
+	 
+
+
+	 
+	 
+	 
+	 
+	 
+     
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+
+	 
+     
+	 
+	 
+	 
+	 
+		 
+			td.gsc-table-cell-thumbnail{
+			display:none !important;
+			}
+		 
+	 
+	 
+	 
+	 
+	 
+	 
+     
+ 
+
+
+ 
+
+ 
+ 
+ 
+   
+		 Skip to Content 
+ 
+		 
+ 
+	 
+	 
+	 
+	 An official website of the United States government 
+	  
+	 Here is how you know  
+	 
+	 
+		   United States Department of Labor 
+	 
+	
+	 	
+	 
+	 
+		 
+
+		 
+			 The .gov means it's official. 
+			  Federal government websites often end in .gov or .mil. Before sharing sensitive information,
+			make sure you're on a federal government site.
+		 
+	 
+
+	 
+	 
+	
+		 
+			 The site is secure. 
+			  The
+			 https://  ensures that you are connecting to the official website and that any
+			information you provide is encrypted and transmitted securely.
+		 
+	 
+	 
+	 		
+ 
+ 
+
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+		 
+ 
+   
+     
+       U.S. Bureau of Labor Statistics 
+     
+     
+ Release Calendar  |  Subscribe  
+       
+         
+		   Search button 
+           
+		   Search: 
+           
+
+         
+       
+     
+     
+   
+ 
+ 
+ 
+   
+ 
+ 
+
+
+ 
+	 
+		 
+			
+ 
+ 
+
+   
+     Menu 
+   
+   
+  
+
+
+ 
+	   
+         
+		   Search button 
+           
+		   Search: 
+           
+
+         
+       
+	
+	   Release Calendar  |  Subscribe 
+	 
+     Home  
+         
+ 
+ 
+	 
+	
+		 About BLS 
+		 History 	
+		 Our Leadership 
+		 Budget and Performance 		
+		 Questions and Answers 	
+		 A-Z Index 	
+		 Glossary 	
+		 BLS Speakers Available 
+		 Errata   				
+		 Contact BLS 	
+
+	 	
+	 	
+ 	
+		 Overview of BLS Statistics 
+		 Guide to Programs & Services 
+		 Demographics 
+		 Industries 
+		 Business Costs 
+		 Occupations 
+		 Geography 	
+	
+	 
+	 
+	 
+		 Resources For 
+		 Business Leaders 
+		 Consumers 
+		 Developers 
+		 Economists 
+		 Investors 
+		 Jobseekers 
+		 Media 
+		 Public Policymakers 
+		 Researcher 		
+		 Students & Teachers 
+		 Survey Respondents 
+	 
+ 
+
+  
+
+ 
+     
+     Subjects  
+         
+ 
+ 
+	 
+		 Inflation & Prices 
+		 Consumer Price Index 
+		 Producer Price Indexes 
+		 Import/Export Price Indexes 
+		 Contract Escalation 
+		 Price Index Research 
+		 Pay & Benefits 
+		 Employment Cost Index 
+		 Employer Costs for Employee Compensation 
+						 Wage Data by Occupation 
+		 Earnings by Demographics 
+		 Earnings by Industry 
+		 County Wages    
+		 Benefits 
+		 Modeled Wage Estimates 		
+		 Compensation Research 
+		 Strikes & Lockouts  
+		 Wage Records from Unemployment Insurance 
+		 Occupational Requirements 		
+	 
+	 
+	 
+		 Unemployment 
+		 National Unemployment Rate  
+		 State & Local Unemployment Rates  
+		 Unemployment Research 
+		 Employment 
+		 National Employment  
+		 State & Local Employment  
+		 County Employment    
+		 Worker Characteristics  
+		 American Indian Report 
+		 Employment Projections  
+		 Job Openings & Labor Turnover Survey  
+		 Business Response Survey 
+		 Employment by Occupation  
+		 Work Experience Over Time  
+		 Business Employment Dynamics  
+		 Foreign Direct Investment  
+		 Employment Research 
+		 Workplace Injuries 
+	 
+	 
+	 
+		 Productivity 
+		 Labor and Total Factor Productivity 
+		 Productivity Research 
+		 Spending & Time Use 
+		 Consumer Expenditures  
+		 How Americans Spend Time 			
+		 International 
+		 International Technical Cooperation 
+		 Import/Export Price Indexes 
+		 Geographic Information 
+		 Northeast (Boston-New York) 
+		 Mid-Atlantic (Philadelphia) 
+		 Southeast (Atlanta) 
+		 Midwest (Chicago) 
+		 Southwest (Dallas) 
+		 Mountain-Plains (Kansas City) 
+		 West (San Francisco) 
+	 
+ 
+  
+	 	
+     
+     Data Tools  
+         
+ 
+     
+         Data Retrieval Tools 
+		 BLS Popular Series 
+		 Series Report 
+		 Top Picks, One Screen, Multi-Screen, and Maps 
+		 Data Finder 
+		 Public Data API 
+
+     
+     
+     
+         Charts and Applications 
+		 Charts for Economic News Releases 	
+		 CPI Inflation Calculator 	
+		 Injury and Illness Calculator 		
+		 Pay Measure Comparison 
+		 Demographic Data Sources 
+		 COVID-19 Economic Trends 
+		 Industry Productivity Viewer 
+		 Employment and Wages Data Viewer 
+		 Industry Finder from the Quarterly Census of Employment and Wages 
+	
+     
+	 
+	 
+	     Customized Tables 
+		 U.S. Economy at a Glance 
+		 Regions, States & Areas at a Glance 
+		 Industry at a Glance 			
+		 Text Files 
+		 News Release Tables 
+		
+		 More Sources of Data 
+		 Restricted Data Access 
+		 Discontinued Databases  
+		 Questions & Answers 
+		 Special Notices  	
+	 
+ 
+ 
+     
+     Publications  
+         
+     
+      
+		 Latest Publications 
+		 The Economics Daily 
+		 Monthly Labor Review 
+		 Beyond the Numbers 
+		 Spotlight on Statistics 
+		 Reports 
+		 Videos 
+		 Career Outlook 		
+     
+     
+     
+		 Occupational Outlook Handbook 
+		 Geographic Profile 
+		 Handbook of Methods 
+		 Research Papers 
+		 Copyright Information 
+		 Contact & Help  
+		 Weekly Update 		
+     
+ 
+   
+     
+     Economic Releases  
+         
+ 
+
+ 
+     
+         Latest Releases 
+		 Major Economic Indicators 
+		 Schedules for news Releases 
+		 By Month 
+		 By News Release 
+		 Current Year 
+		 Prior Years 
+		 Archived News Releases 
+     
+     
+     
+         Employment & Unemployment 
+		 Monthly 
+		 Quarterly, annual, and other 
+		  Inflation & Prices 
+		 Pay & Benefits & Workplace Injuries 
+		 Productivity & Technology 
+		 Employment Projections 
+		 Regional News Releases 
+     
+ 
+     
+     Classroom  
+         
+ 
+	 
+		 K-12 Student & Teacher Resources 		
+         Games & Quizzes 
+		 Student's Desk 
+		 Teacher's Desk 
+		 Questions & Answers 
+     
+ 
+ 
+     
+     Beta  
+         
+
+ 
+   
+     Redesigned News Releases 
+   
+ 
+ 
+     
+
+ 
+
+
+   
+ 
+ 
+
+
+		 
+		 
+	 
+ 
+
+
+ 
+
+ 
+
+	 
+	
+ 
+ 
+				 
+					 
+					
+ 
+ 
+ 
+ Economic News Release 
+
+ 
+ 
+ 
+		 		
+ 
+	 
+        
+            SHARE ON:
+            
+            
+            
+            
+          
+     
+	 
+		 PRINT: 
+	 
+ 
+
+ 
+	
+ 
+   JOLTS  
+   
+   
+     
+       
+         
+           Job Openings and Labor Turnover Survey 
+             ×   
+         
+         
+           
+             		 JOLTS Homepage 
+					 JOLTS Overview 
+					 JOLTS FAQs 
+					 Contact JOLTS 
+           
+         
+         
+           Close 
+         
+       
+     
+   
+ 
+ 
+    
+	   
+	 
+
+ 
+
+ 	
+	 
+	 
+		 
+		
+
+ 
+
+ 
+ 
+ Job Openings and Labor Turnover Technical Note
+ 
+ 
+ 
+Technical Note
+
+This news release presents statistics from the Job Openings and Labor Turnover Survey (JOLTS). The JOLTS 
+program provides information on labor demand and turnover. Additional information about the JOLTS program can 
+be found at www.bls.gov/jlt/. Estimates are published for job openings, hires, quits, layoffs and discharges, other 
+separations, and total separations. The JOLTS program covers all private nonfarm establishments, as well as civilian 
+federal, state, and local government entities in the 50 states and the District of Columbia. Starting with data for 
+January 2023, industries are classified in accordance with the 2022 North American Industry Classification System.
+
+Definitions
+
+Employment. Employment includes persons on the payroll who worked or received pay for the pay period that 
+includes the 12th day of the reference month. Full-time, part-time, permanent, short-term, seasonal, salaried, and 
+hourly employees are included, as are employees on paid vacation or other paid leave. Proprietors or partners of 
+unincorporated businesses, unpaid family workers, employees on strike for the entire pay period, and employees on 
+leave without pay for the entire pay period are not counted as employed. Employees of temporary help agencies, 
+employee leasing companies, outside contractors, and consultants are counted by their employer of record, not by 
+the establishment where they are working. JOLTS does not publish employment estimates but uses the reported 
+employment for validation of the other reported data elements.
+
+Job Openings. Job openings include all positions that are open on the last business day of the reference month.
+
+A job is open only if it meets all three of these conditions:
+* A specific position exists, and there is work available for that position. The position can be full-time or 
+part-time, and it can be permanent, short-term, or seasonal.
+* The job could start within 30 days, whether or not the employer can find a suitable candidate during that 
+time.
+* The employer is actively recruiting workers from outside the establishment to fill the position. Active 
+recruiting means that the establishment is taking steps to fill a position. It may include advertising in 
+newspapers, on television, or on the radio; posting internet notices, posting “help wanted” signs, 
+networking or making “word-of-mouth” announcements; accepting applications; interviewing candidates; 
+contacting employment agencies; or soliciting employees at job fairs, state or local employment offices, or 
+similar sources.
+
+Excluded are positions open only to internal transfers, promotions or demotions, or recall from layoffs. Also 
+excluded are openings for positions with start dates more than 30 days in the future; positions for which employees 
+have been hired but have not yet reported for work; and positions to be filled by employees of temporary help 
+agencies, employee leasing companies, outside contractors, or consultants. The job openings rate is computed by 
+dividing the number of job openings by the sum of employment and job openings—that is, all filled and unfilled 
+jobs—and multiplying that quotient by 100.
+
+Hires. Hires include all additions to the payroll during the entire reference month, including newly hired and 
+rehired employees; full-time and part-time employees; permanent, short-term, and seasonal employees; employees 
+who were recalled to a job at the location following a layoff (formal suspension from pay status) lasting more than 7 
+days; on-call or intermittent employees who returned to work after having been formally separated; workers who 
+were hired and separated during the month, and transfers from other locations. Excluded are transfers or promotions 
+within the reporting location, employees returning from strike, employees of temporary help agencies, employee 
+leasing companies, outside contractors, or consultants. The hires rate is computed by dividing the number of hires by 
+employment and multiplying that quotient by 100.
+
+Separations. Separations include all separations from the payroll during the entire reference month and is 
+reported by type of separation: quits, layoffs and discharges, and other separations. Quits include employees who 
+left voluntarily, with the exception of retirements or transfers to other locations. Layoffs and discharges includes 
+involuntary separations initiated by the employer, including layoffs with no intent to rehire; layoffs (formal 
+suspensions from pay status) lasting or expected to last more than 7 days; discharges resulting from mergers, 
+downsizing, or closings; firings or other discharges for cause; terminations of permanent or short-term employees; 
+and terminations of seasonal employees (whether or not they are expected to return the next season). Other 
+separations include retirements, transfers to other locations, separations due to employee disability, and deaths.
+Excluded from separations measures are transfers within the same location; employees on strike; and employees of 
+temporary help agencies, employee leasing companies, outside contractors, or consultants. The separations rate is 
+computed by dividing the number of separations by employment and multiplying that quotient by 100. The quits, 
+layoffs and discharges, and other separations rates are computed similarly.
+
+Estimation Method
+
+The JOLTS survey design is a stratified random sample of approximately 21,000 nonfarm business and 
+government establishments. The sample is stratified by ownership, region, industry sector, and establishment size 
+class.
+
+The sampling frame is made up of establishments from two sources: the Bureau of Labor Statistics (BLS) 
+Quarterly Census of Employment and Wages program (QCEW) and the Federal Railroad Administration (FRA). 
+The QCEW database contains establishments that cover approximately 95 percent of nonfarm payroll jobs in the 
+United States. This database is a compilation of administrative data from state unemployment insurance (UI) 
+programs and federal government establishments covered by the Unemployment Compensation for Federal 
+Employees (UCFE) program. A frame of railroad establishments is provided by the FRA. This is added to the 
+QCEW database to complete the JOLTS sampling frame. 
+
+The JOLTS estimation method involves the following processes: unit nonresponse adjustment, item 
+nonresponse adjustment, monthly benchmarking and estimation, automatic outlier detection, birth and death model 
+estimation, estimates review and outlier selection, alignment, seasonal adjustment, and variance estimates. 
+Establishment size class levels are also produced. Detailed information about the estimation method can be found in 
+the Handbook of Methods at https://www.bls.gov/opub/hom/jlt/home.htm.
+
+Monthly benchmarking is the process through which the JOLTS weighted employment for each estimation cell 
+is adjusted. JOLTS estimation cells are benchmarked monthly to the current employment level from the BLS 
+Current Employment Statistics (CES) program. The sampled weight is benchmarked to ensure that JOLTS weighted 
+employment is equal to CES employment.
+
+Birth/death model. The time lag from the start up, or birth, of an establishment until its appearance on the 
+sampling frame is approximately one year. In addition, many new establishments fail within the first year, referred 
+to as a death. Because new and short-lived universe establishments cannot be reflected in the sampling frame 
+immediately, the JOLTS sample cannot capture job openings, hires, and separations from these establishments 
+during their early existence. BLS has developed a birth/death model that uses establishment birth and death activity 
+from previous years as collected by the QCEW and projects forward to the present using over-the-year change in the 
+CES. The birth/death model also uses historical JOLTS data to calculate the amount of churn (meaning the rates of 
+hires and separations) that exists in establishments of various sizes. The model then combines the calculated churn 
+with the projected employment change to estimate the number of hires and separations that take place in these 
+establishments that cannot be measured through sampling. The estimates of job openings, hires, and separations 
+produced by the birth/death model are added to the sample-based estimates produced from the survey to arrive at the 
+estimates for job openings, hires, and separations.
+
+Alignment. The JOLTS figure for hires minus separations can be used to derive a measure of net employment 
+change. This change should be comparable to the net employment change from the much larger CES survey. 
+However, definitional differences between the two surveys, as well as sampling and nonsampling errors, historically 
+caused JOLTS to diverge from CES over time. To limit the divergence and improve the quality of the JOLTS hires 
+and separations series, BLS implemented the monthly alignment method. There are four steps to this method: 
+seasonally adjust, align, back out the seasonal adjustment factors, and seasonally adjust again.
+
+Seasonal adjustment. After alignment, the seasonal adjustment program (X-13ARIMA-SEATS) is used to 
+seasonally adjust the JOLTS series. Each month, a concurrent seasonal adjustment methodology uses all relevant 
+data, up to and including the current month, to calculate new seasonal adjustment factors. Moving averages are used 
+as seasonal filters in seasonal adjustment. JOLTS seasonal adjustment includes both additive and multiplicative 
+models, as well as regression with autocorrelated errors (REGARIMA) modeling, to improve the seasonal 
+adjustment factors at the beginning and end of the series and to detect and adjust for outliers in the series. 
+
+Annual estimates and benchmarking. The JOLTS estimates are revised annually with the issuance of data for 
+January. Five years of data are subject to revision. The revised estimates incorporate: 1) benchmarks based on CES 
+employment estimates newly benchmarked to QCEW, 2) revised seasonal adjustment factors, and 3) any needed 
+special adjustments.
+
+The JOLTS employment levels are ratio-adjusted to the CES employment levels, and the resulting ratios are 
+applied to all JOLTS data elements.
+
+The seasonally adjusted estimates are recalculated for the most recent 5 years to reflect updated seasonal 
+adjustment factors. These annual updates result in revisions to both the seasonally adjusted and not seasonally 
+adjusted JOLTS data series for the period since the last benchmark was established.
+
+Annual levels for hires, quits, layoffs and discharges, other separations, and total separations are the sum of the 
+12 published monthly levels.
+
+Annual average levels for job openings are calculated by dividing the sum of the 12 published monthly levels 
+by 12. 
+
+Annual average rates for hires, quits, layoffs and discharges, other separations, and total separations are 
+calculated by dividing the sum of the 12 monthly JOLTS published levels for each data element by the sum of the 12 
+monthly CES published employment levels, and multiplying that quotient by 100.
+
+Annual average rates for job openings are calculated by dividing the sum of the 12 monthly JOLTS published 
+levels by the sum of the 12 monthly CES published employment levels plus the sum of the 12 monthly job openings 
+levels, and multiplying that quotient by 100.
+
+Reliability of the estimates
+
+JOLTS estimates are subject to two types of error: sampling error and nonsampling error.
+
+Sampling error can result when a sample, rather than an entire population, is surveyed. There is a chance that 
+the sample estimates may differ from the true population values they represent. The exact difference, or sampling 
+error, varies with the sample selected, and this variability is measured by the standard error of the estimate. BLS 
+analyses are generally conducted at the 90-percent level of confidence. This means that there is a 90-percent chance 
+that the true population mean will fall into the interval created by the sample mean plus or minus 1.65 standard 
+errors. Estimates of median standard errors are released monthly as part of the significant change tables on the 
+JOLTS webpage. Standard errors are updated annually with the most recent 5 years of data. Sampling error 
+estimates are available at www.bls.gov/jlt/jolts_median_standard_errors.htm.
+
+Nonsampling error can occur for many reasons, including the failure to include a segment of the population, the 
+inability to obtain data from all units in the sample, the inability or unwillingness of respondents to provide data on a 
+timely basis, mistakes made by respondents, errors made in the collection or processing of the data, and errors from 
+the employment benchmark data used in estimation. The JOLTS program uses quality control procedures to reduce 
+nonsampling error in the survey’s design.
+
+Other information
+
+If you are deaf, hard of hearing, or have a speech disability, please dial 7-1-1 to access telecommunications 
+relay services.
+
+ 
+ 
+   Table of Contents  
+ Last Modified Date:  September 29, 2026
+   
+ 
+ 
+ 
+ 
+		 
+ 
+		 
+	 
+	 
+
+
+ 
+
+
+ 
+		
+		
+		 
+
+
+	
+
+
+ 
+
+ 
+ 
+  
+ 
+ 
+    Home 
+    Subjects 
+    Data Tools 
+    Publications 
+    Economic Releases 
+    Classroom 
+    Beta 
+ 
+ 
+
+ 
+ /*<![CDATA[*/(function(){var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;sz.src = '//siteimproveanalytics.com/js/siteanalyze_6032860.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);})();/*]]>*/  
+
+ 
+ 
+
+ 
+ 
+ 
+	 
+	
+	
+ 	
+ 
+ 
+
+  
+   
+ 
+
+
+    
+ U.S. Bureau of Labor Statistics 
+ Job Openings and Labor Turnover Survey  
+ Office of Employment and Unemployment Statistics  
+ Suitland Federal Center 
+ Floor 3 
+ 4600 Silver Hill Road   
+ Washington, DC 20212-0002 
+ 
+
+ 
+
+
+ 
+
+
+   
+
+ 
+ Telephone:  202-691-5870  
+
+ 
+
+ www.bls.gov/JLT 
+ Contact JOLTS 
+
+ 
+		
+
+
+
+
+ 
+ 
+ 
+ 
+
+				 
+					 
+					 resources 
+					 
+						 
+							 						
+								 Inspector General (OIG) 
+								 Budget and Performance 
+								 Department of Labor Grants 
+								 No Fear Act 
+								 USA.gov 
+							 
+						 
+					 		
+					 
+					 about the site 
+					 
+						 
+							 	
+								 Sitemap 						
+								 Freedom of Information Act 
+								 Privacy and Security Statement 
+								 Disclaimers 
+								 Linking and Copyright Info 	
+								 Important Website Notices 
+								 Help and Tutorials 
+								 Accessibility Statement 
+							 
+						 
+					 				
+                 
+				 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ Connect With BLS 
+    
+
+			 
+               
+				 
+               Bluesky 
+           
+
+            
+               
+				 
+               Instagram 
+           
+
+            
+               
+			   
+               LinkedIn 
+           
+
+            
+               
+				 
+               Threads 
+             
+    
+            
+               
+               
+               Visit BLS on X 
+           
+                  
+            
+               
+               
+               Youtube 
+           
+           
+               
+               
+               Email 
+           
+         
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 

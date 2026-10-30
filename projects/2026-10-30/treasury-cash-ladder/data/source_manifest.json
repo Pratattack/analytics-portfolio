@@ -1,0 +1,26 @@
+[
+  {
+    "file": "bill_2026.csv",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_bill_rates&field_tdr_date_value=2026&page&_format=csv",
+    "retrieved_at": "2026-10-30T05:05:19.709220+00:00",
+    "bytes": 17224,
+    "sha256": "eef44dae51d4b0ed20f4968fc945031d24f6be8e741784f88a35611ddf5b55e5",
+    "last_modified": null
+  },
+  {
+    "file": "bill_2025.csv",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2025/all?type=daily_treasury_bill_rates&field_tdr_date_value=2025&page&_format=csv",
+    "retrieved_at": "2026-10-30T05:05:19.797610+00:00",
+    "bytes": 20297,
+    "sha256": "aa024dfde7700a971b287d7cc8284fd8c34f4dd6c66cb009cf39f501be33b562",
+    "last_modified": null
+  },
+  {
+    "file": "treasury-method.html",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_bill_rates&field_tdr_date_value=2026",
+    "retrieved_at": "2026-10-30T05:05:19.857947+00:00",
+    "bytes": 1329317,
+    "sha256": "4aac152d548400629bb40fce75804ad30e9f6ac50d43571c368d55663b02e626",
+    "last_modified": null
+  }
+]
