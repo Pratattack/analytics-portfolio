@@ -114,3 +114,7 @@ Each project includes pinned raw data, source hashes, reproducible Python, SQL r
 
 - [Cloud Capital Spending & Cash-Flow Pressure](projects/2026-10-30/cloud-capex-cash-pressure/)
 - [Currency Netting & Hedge-Policy Challenge](projects/2026-10-30/fx-netting-hedge-policy/)
+
+## Energy pricing and consumer decisions
+
+- [Houston Electricity Plan Audit](projects/2026-10-31/houston-electricity-plan-audit/): audited pricing rules, threshold effects and equal-consumption scenarios.

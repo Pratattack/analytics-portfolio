@@ -1,5 +1,38 @@
 [
   {
+    "slug": "houston-electricity-plan-audit",
+    "title": "Houston Electricity Plan Audit",
+    "shortTitle": "When using less electricity costs more",
+    "category": "Research",
+    "dataKind": "Public + assumptions",
+    "question": "When does the cheapest electricity plan stop being cheapest?",
+    "audience": "Consumers comparing Houston-area electricity contracts and analysts studying energy pricing, disclosure and consumer decisions.",
+    "data": "Seven provider-issued residential labels from four providers, dated April to October 2026 and retrieved on October 31. Pricing components are manually transcribed and source-linked. Older labels are identified; household usage profiles are hypothetical.",
+    "methods": "Reconstruct piecewise bill formulas in Python and an independently checked JavaScript calculator. Reconcile 21 published prices, reproduce scenario comparisons in SQL and test credit thresholds, contract horizons and delivery-charge normalization.",
+    "findings": "In one audited contract, reducing use from 1,000 to 999 kWh raises the modeled recurring bill by $124.81 because a $125 credit disappears. Two hypothetical profiles totaling 12,000 kWh produce a $750 difference across twelve 30-day billing cycles because they qualify for credits in different months.",
+    "implications": "Compare billing-cycle usage around each threshold rather than treating a single advertised average as a constant rate. Check contract duration, prepayment, eligibility and exit charges separately before making a decision.",
+    "limitations": "A selected seven-contract sample, not a complete or live market comparison. Two contracts share the same monthly price function. Profiles are hypothetical; no realized savings or consumer response is measured. Taxes and nonrecurring fees are excluded. Older offers and address eligibility are unverified. Normalized delivery charges are a scenario, not a future tariff forecast. Shorter contracts are excluded from twelve-cycle totals.",
+    "summary": "One audited contract charges $124.81 more at 999 kWh than at 1,000. Explore how usage credits change costs, and why an annual average can hide the difference.",
+    "evidence": {
+      "file": "threshold_curve.svg",
+      "caption": "Contract-derived recurring cost curves using common October delivery charges. The $125 credit begins at 1,000 kWh. These are modeled costs, not observed household bills; the two contracts have different durations."
+    },
+    "path": "projects/2026-10-31/houston-electricity-plan-audit",
+    "date": "2026-10-31",
+    "tools": [
+      "Python",
+      "SQL",
+      "JavaScript"
+    ],
+    "featured": true,
+    "demo": "/demos/houston-electricity-plan-audit/app/index.html",
+    "report": "/demos/houston-electricity-plan-audit/report.html",
+    "download": "/downloads/houston-electricity-plan-audit.zip",
+    "url": "/projects/houston-electricity-plan-audit/",
+    "repository": "https://github.com/Pratattack/analytics-portfolio/tree/main/projects/2026-10-31/houston-electricity-plan-audit",
+    "delivery": "Interactive contract calculator"
+  },
+  {
     "slug": "cloud-capex-cash-pressure",
     "title": "Cloud Capital Spending & Cash-Flow Pressure",
     "shortTitle": "The cash behind infrastructure spending",

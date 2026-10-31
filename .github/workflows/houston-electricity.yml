@@ -1,0 +1,28 @@
+name: Verify Houston electricity audit
+on:
+  push:
+    paths: ['projects/2026-10-31/houston-electricity-plan-audit/**', '.github/workflows/houston-electricity.yml']
+  pull_request:
+    paths: ['projects/2026-10-31/houston-electricity-plan-audit/**', '.github/workflows/houston-electricity.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/2026-10-31/houston-electricity-plan-audit
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m pip install -r requirements.txt
+      - run: python src/analyze.py
+      - run: python src/build_evidence.py
+      - run: python src/build_preview.py
+      - run: python -m unittest discover -s tests -v
+      - run: node tests/ui_smoke.js

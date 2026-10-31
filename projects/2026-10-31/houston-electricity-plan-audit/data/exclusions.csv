@@ -1,0 +1,22 @@
+source_id,url,disposition,reason
+efl-01,https://my.discountpowertx.com/defl/M1F00135557495A.pdf,modeled,Audited monthly structure; date and horizon restrictions retained
+efl-02,https://www.discountpowertx.com/defl/M1F00204456101A.pdf,modeled,Audited monthly structure; date and horizon restrictions retained
+efl-03,https://m-api.directenergy.com/de-mobile-oam-services/defl/D1F00200113026B.pdf,excluded,Malformed PDF: server returned only a 23-byte document header
+efl-04,https://www.constellation.com/bin/residential/GetContractVersionPDF?versionNum=5050221,excluded,The read operation timed out
+efl-05,https://www.discountpowertx.com/defl/M1F00183206888A.pdf,excluded,Time-of-use; requires interval consumption data
+efl-06,https://www.directenergy.com/en/learn/energy-choice/how-to-read-electricity-facts-label,excluded,Not PDF
+efl-07,https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=144136&type=EFL_TieredPricing&title=Electricity%20Facts%20Label&language=english,excluded,HTTP Error 403: Forbidden
+efl-08,https://ohm-gridlink.smartgridcis.net/Documents/Download.aspx?ProductDocumentID=33035,excluded,Unquantifiable ERCOT pass-through charges; no complete recurring-bill reconstruction
+efl-09,https://www.discountpowertx.com/defl/M1F00204456085A.pdf,modeled,Audited monthly structure; date and horizon restrictions retained
+efl-10,https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=mjgYqyFuQXo=&RCID=2yKHhk+37Rk=&L=6f+Ch9flI7k=,excluded,Solar export credit; requires export data and eligibility evidence
+efl-11,https://api-oam.directenergy.com/api/docs/files/0901751883c44baf.pdf,excluded,Not PDF
+efl-12,https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=z9R/Q0Z4kT8=&RCID=cacW2cvK/I0=&L=6f+Ch9flI7k=,excluded,Time-of-use plus one-time setup; requires interval data and horizon-specific treatment
+efl-13,https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=xZsVzKBDfq0=&RCID=d69iCv10vFg=&L=6f+Ch9flI7k=,excluded,HTTP Error 403: Forbidden
+efl-14,https://yesapdocstore.blob.core.windows.net/prod/EFL/EFL_ERPP82_CENT_E_20260430.pdf,modeled,Audited monthly structure; date and horizon restrictions retained
+efl-15,https://www.constellation.com/bin/residential/GetContractVersionPDF?versionNum=5046548,excluded,The read operation timed out
+efl-16,https://api.goodcharlie.com/products/2148/EFL/Centerpoint/latest/en,modeled,Audited monthly structure; date and horizon restrictions retained
+efl-17,https://documents.directenergy.com/dynamic/efl/D1F00183448956C.pdf,excluded,Malformed PDF: server returned only a 23-byte document header
+efl-18,https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=JZ3Oa7vI/o8=&RCID=gNASPlhlupI=&L=6f+Ch9flI7k=,excluded,HTTP Error 403: Forbidden
+efl-19,https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=150853&type=EFL&title=Electricity+Facts+Label&language=english,excluded,HTTP Error 403: Forbidden
+efl-20,https://yesapdocstore.blob.core.windows.net/prod/EFL/EFL_ERPP87_CENT_E_20260801.pdf,modeled,Audited monthly structure; date and horizon restrictions retained
+efl-21,https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=EN&prodcode=FSVRPLS12&tdspcode=CNP,modeled,Audited monthly structure; date and horizon restrictions retained

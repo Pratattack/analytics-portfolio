@@ -38,5 +38,8 @@
   "designs/persona3/assets/Barlow-OFL.txt",
   "designs/persona3/assets/credits.txt",
   "designs/persona3/assets/blue-hour.svg",
-  "designs/persona3/assets/barlow-condensed-bold.ttf"
+  "designs/persona3/assets/barlow-condensed-bold.ttf",
+  "dist/assets/houston-electricity-plan-audit-evidence.svg",
+  "dist/demos/houston-electricity-plan-audit/app/index.html",
+  "dist/demos/houston-electricity-plan-audit/report.html"
 ]

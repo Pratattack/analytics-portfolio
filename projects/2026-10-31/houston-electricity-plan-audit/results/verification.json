@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-31",
+  "python": "3.12.14",
+  "local_test_methods_passed": 21,
+  "cross_language_bill_cases": 189,
+  "source_comparison_points": 21,
+  "dom_simulation_assertions": 10,
+  "html_external_assets": 0,
+  "browser_layout_mobile_keyboard_csv_downloads": "Not tested in a real browser per user instruction",
+  "package_source_pdf_policy": "Not redistributed; source-hash test skips until exact provider PDFs are locally available",
+  "publication_status": "Approved release snapshot: 31 October 2026"
+}

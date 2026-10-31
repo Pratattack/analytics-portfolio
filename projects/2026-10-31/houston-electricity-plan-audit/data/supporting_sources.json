@@ -1,0 +1,13 @@
+[
+  {
+    "id": "discount-delivery-table",
+    "url": "https://www.discountpowertx.com/TDSPcharges",
+    "final_url": "https://www.discountpowertx.com/en/customer-care/billing/tdsp-delivery-charges",
+    "retrieved_at": "2026-10-31T23:05:29.075662+00:00",
+    "sha256": "59f3b6d9c0eb878e5705b1d3f25e6a3ba51845558f737704246fe874827db72c",
+    "as_of": "2026-10-04",
+    "monthly_dollars": 4.9,
+    "variable_dollars_per_kwh": 0.065333,
+    "source_format": "HTML"
+  }
+]

@@ -1,0 +1,205 @@
+[
+  {
+    "id": "efl-01",
+    "url": "https://my.discountpowertx.com/defl/M1F00135557495A.pdf",
+    "retrieved_at": "2026-10-31T22:56:02.194679+00:00",
+    "final_url": "https://my.discountpowertx.com/defl/M1F00135557495A.pdf",
+    "http_status": 200,
+    "sha256": "7a7c17b4e77daefd9e5280227f25f4e4cc8144e19d31f2fe411949ec36be8d04",
+    "bytes": 8233,
+    "pages": 2,
+    "status": "downloaded"
+  },
+  {
+    "id": "efl-02",
+    "url": "https://www.discountpowertx.com/defl/M1F00204456101A.pdf",
+    "retrieved_at": "2026-10-31T22:56:02.198636+00:00",
+    "final_url": "https://my.discountpowertx.com/defl/M1F00204456101A.pdf",
+    "http_status": 200,
+    "sha256": "116998b4ed4575cbd7bd57b788b9f47e076710356a8a9d2b379ab74fcfa5fedf",
+    "bytes": 8837,
+    "pages": 2,
+    "status": "downloaded"
+  },
+  {
+    "id": "efl-03",
+    "url": "https://m-api.directenergy.com/de-mobile-oam-services/defl/D1F00200113026B.pdf",
+    "retrieved_at": "2026-10-31T22:56:02.199867+00:00",
+    "final_url": "https://m-api.directenergy.com/de-mobile-oam-services/defl/D1F00200113026B.pdf",
+    "http_status": 200,
+    "sha256": "98a0b23689efc2c2c9afde31994e5ad3a29b28b4b1c6c839a5064a3387e5de6a",
+    "bytes": 23,
+    "status": "excluded_download_failure",
+    "error": "Failed to open file '/workspace/scratch/4cebc6544ac4/houston-electricity-audit/data/raw/efl-03.pdf'."
+  },
+  {
+    "id": "efl-04",
+    "url": "https://www.constellation.com/bin/residential/GetContractVersionPDF?versionNum=5050221",
+    "retrieved_at": "2026-10-31T22:56:02.200470+00:00",
+    "status": "excluded_download_failure",
+    "error": "The read operation timed out"
+  },
+  {
+    "id": "efl-05",
+    "url": "https://www.discountpowertx.com/defl/M1F00183206888A.pdf",
+    "retrieved_at": "2026-10-31T22:56:02.201102+00:00",
+    "final_url": "https://my.discountpowertx.com/defl/M1F00183206888A.pdf",
+    "http_status": 200,
+    "sha256": "2be17267a34de970e8c43ae4f41c2a6205474de0473669b2685eb25a035ee9cc",
+    "bytes": 8674,
+    "pages": 2,
+    "status": "downloaded"
+  },
+  {
+    "id": "efl-06",
+    "url": "https://www.directenergy.com/en/learn/energy-choice/how-to-read-electricity-facts-label",
+    "retrieved_at": "2026-10-31T22:56:02.202055+00:00",
+    "final_url": "https://www.directenergy.com/en/learn/energy-choice/how-to-read-electricity-facts-label",
+    "http_status": 200,
+    "status": "excluded_download_failure",
+    "error": "Not PDF"
+  },
+  {
+    "id": "efl-07",
+    "url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=144136&type=EFL_TieredPricing&title=Electricity%20Facts%20Label&language=english",
+    "retrieved_at": "2026-10-31T22:56:02.202707+00:00",
+    "status": "excluded_download_failure",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "efl-08",
+    "url": "https://ohm-gridlink.smartgridcis.net/Documents/Download.aspx?ProductDocumentID=33035",
+    "retrieved_at": "2026-10-31T22:56:02.203580+00:00",
+    "final_url": "https://ohm-gridlink.smartgridcis.net/Documents/Download.aspx?ProductDocumentID=33035",
+    "http_status": 200,
+    "sha256": "eeafac91ee076166e43587f45450e0e757bb2cc38205df8dd54b3b9991a23db7",
+    "bytes": 169109,
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "id": "efl-09",
+    "url": "https://www.discountpowertx.com/defl/M1F00204456085A.pdf",
+    "retrieved_at": "2026-10-31T22:56:07.588674+00:00",
+    "final_url": "https://my.discountpowertx.com/defl/M1F00204456085A.pdf",
+    "http_status": 200,
+    "sha256": "995cffd2aee79516a678afed03df71f8efad0bf6769a8af16266c1d539f900bf",
+    "bytes": 8886,
+    "pages": 2,
+    "status": "downloaded"
+  },
+  {
+    "id": "efl-10",
+    "url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=mjgYqyFuQXo=&RCID=2yKHhk+37Rk=&L=6f+Ch9flI7k=",
+    "retrieved_at": "2026-10-31T22:56:08.414302+00:00",
+    "final_url": "https://webs.amigoenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=mjgYqyFuQXo=&RCID=2yKHhk+37Rk=&L=6f+Ch9flI7k=",
+    "http_status": 200,
+    "sha256": "6437400619fd93caf95f6ff9e5ab0a877396e9748c0058bebdb14ed559efecdc",
+    "bytes": 82070,
+    "pages": 2,
+    "status": "downloaded"
+  },
+  {
+    "id": "efl-11",
+    "url": "https://api-oam.directenergy.com/api/docs/files/0901751883c44baf.pdf",
+    "retrieved_at": "2026-10-31T22:56:08.512520+00:00",
+    "final_url": "https://api-oam.directenergy.com/api/docs/files/0901751883c44baf.pdf",
+    "http_status": 200,
+    "status": "excluded_download_failure",
+    "error": "Not PDF"
+  },
+  {
+    "id": "efl-12",
+    "url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=z9R/Q0Z4kT8=&RCID=cacW2cvK/I0=&L=6f+Ch9flI7k=",
+    "retrieved_at": "2026-10-31T22:56:08.779872+00:00",
+    "final_url": "https://webs.taraenergy.com/Generate_Docs/Generate_EflLinks.aspx?RID=z9R/Q0Z4kT8=&RCID=cacW2cvK/I0=&L=6f+Ch9flI7k=",
+    "http_status": 200,
+    "sha256": "3aca8c8eecab74c38be5ec06f658ec53e34ea6c3610481db2ce89ee1e21b69cc",
+    "bytes": 148062,
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "id": "efl-13",
+    "url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=xZsVzKBDfq0=&RCID=d69iCv10vFg=&L=6f+Ch9flI7k=",
+    "retrieved_at": "2026-10-31T22:56:09.245510+00:00",
+    "status": "excluded_download_failure",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "efl-14",
+    "url": "https://yesapdocstore.blob.core.windows.net/prod/EFL/EFL_ERPP82_CENT_E_20260430.pdf",
+    "retrieved_at": "2026-10-31T22:56:09.586922+00:00",
+    "final_url": "https://yesapdocstore.blob.core.windows.net/prod/EFL/EFL_ERPP82_CENT_E_20260430.pdf",
+    "http_status": 200,
+    "sha256": "f20a11f7929ff42ea3b1969745fa72c0feeaee112f801b1a7fea8fb0612d09b2",
+    "bytes": 872072,
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "id": "efl-15",
+    "url": "https://www.constellation.com/bin/residential/GetContractVersionPDF?versionNum=5046548",
+    "retrieved_at": "2026-10-31T22:56:09.641456+00:00",
+    "status": "excluded_download_failure",
+    "error": "The read operation timed out"
+  },
+  {
+    "id": "efl-16",
+    "url": "https://api.goodcharlie.com/products/2148/EFL/Centerpoint/latest/en",
+    "retrieved_at": "2026-10-31T22:56:15.222581+00:00",
+    "final_url": "https://api.goodcharlie.com/products/2148/EFL/Centerpoint/latest/en",
+    "http_status": 200,
+    "sha256": "ef1c62e778cfbe8002f9ac64f9740b8aecc6555814f7e2afbaac6cf68c4f29e5",
+    "bytes": 110836,
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "id": "efl-17",
+    "url": "https://documents.directenergy.com/dynamic/efl/D1F00183448956C.pdf",
+    "retrieved_at": "2026-10-31T22:56:15.938471+00:00",
+    "final_url": "https://m-api.directenergy.com/de-mobile-oam-services/defl/D1F00183448956C.pdf",
+    "http_status": 200,
+    "sha256": "98a0b23689efc2c2c9afde31994e5ad3a29b28b4b1c6c839a5064a3387e5de6a",
+    "bytes": 23,
+    "status": "excluded_download_failure",
+    "error": "Failed to open file '/workspace/scratch/4cebc6544ac4/houston-electricity-audit/data/raw/efl-17.pdf'."
+  },
+  {
+    "id": "efl-18",
+    "url": "https://webs.justenergydeals.com/Generate_Docs/Generate_EflLinks.aspx?RID=JZ3Oa7vI/o8=&RCID=gNASPlhlupI=&L=6f+Ch9flI7k=",
+    "retrieved_at": "2026-10-31T22:56:17.406832+00:00",
+    "status": "excluded_download_failure",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "efl-19",
+    "url": "https://www.sparkenergy.com/products-and-services/?getproductpdf=1&PromotionCode=PTC&ProductID=150853&type=EFL&title=Electricity+Facts+Label&language=english",
+    "retrieved_at": "2026-10-31T22:56:17.770391+00:00",
+    "status": "excluded_download_failure",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "efl-20",
+    "url": "https://yesapdocstore.blob.core.windows.net/prod/EFL/EFL_ERPP87_CENT_E_20260801.pdf",
+    "retrieved_at": "2026-10-31T22:56:18.137735+00:00",
+    "final_url": "https://yesapdocstore.blob.core.windows.net/prod/EFL/EFL_ERPP87_CENT_E_20260801.pdf",
+    "http_status": 200,
+    "sha256": "8a3a9eedc4f57f56186588544e132d832fb8dfdd3a8b282ed6f22c0781fa6b43",
+    "bytes": 872072,
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "id": "efl-21",
+    "url": "https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=EN&prodcode=FSVRPLS12&tdspcode=CNP",
+    "retrieved_at": "2026-10-31T22:56:20.242854+00:00",
+    "final_url": "https://eflviewer.frontierutilities.com/eflviewer.aspx?lang=EN&prodcode=FSVRPLS12&tdspcode=CNP",
+    "http_status": 200,
+    "sha256": "b9e7c3c07a6853ec2c3a23cbf12b86b1f880dc91eb626b4fee75082aa2b8d0f0",
+    "bytes": 11174,
+    "pages": 2,
+    "status": "downloaded"
+  }
+]

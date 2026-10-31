@@ -1,0 +1,34 @@
+{
+  "plan_count": 7,
+  "provider_count": 4,
+  "reconciled_prices": 21,
+  "max_abs_rounding_difference_cents": 0.046700000000001296,
+  "source_attempts": 21,
+  "downloaded_pdfs": 11,
+  "common_delivery": {
+    "cents": 6.5333,
+    "dollars": 4.9,
+    "as_of": "2026-10-04"
+  },
+  "browser_qa": "Not performed: user excludes browser operation.",
+  "status": "Approved release snapshot: 31 October 2026",
+  "equal_total_comparison": {
+    "plan_id": "discount-credit-12",
+    "total_kwh": 12000,
+    "steady_cost": 871.9080000000001,
+    "uneven_cost": 1621.9080000000001,
+    "difference": 750.0,
+    "steady_credit_cycles": 12,
+    "uneven_credit_cycles": 6
+  },
+  "threshold": {
+    "plan_id": "discount-credit-12",
+    "threshold_kwh": 1000,
+    "bill_below": 197.466241,
+    "bill_at": 72.659,
+    "bill_above": 72.851759,
+    "change_below_to_at": -124.80724099999999,
+    "change_at_to_above": 0.19275899999999524
+  },
+  "crossing_kwh": 3871.287435349501
+}

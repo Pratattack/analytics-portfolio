@@ -245,5 +245,13 @@
     "industry": "foreign-exchange operating risk",
     "data": "Official public data and explicitly hypothetical business scenarios",
     "status": "published"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "Houston Electricity Plan Audit",
+    "path": "projects/2026-10-31/houston-electricity-plan-audit",
+    "industry": "retail electricity pricing",
+    "data": "Provider-issued pricing labels and explicitly hypothetical usage scenarios",
+    "status": "published"
   }
 ]
