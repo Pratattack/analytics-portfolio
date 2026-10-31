@@ -1,0 +1,27 @@
+{
+  "EUR": {
+    "series": "DEXUSEU",
+    "units": "USD per EUR",
+    "invert": false
+  },
+  "JPY": {
+    "series": "DEXJPUS",
+    "units": "JPY per USD",
+    "invert": true
+  },
+  "GBP": {
+    "series": "DEXUSUK",
+    "units": "USD per GBP",
+    "invert": false
+  },
+  "CAD": {
+    "series": "DEXCAUS",
+    "units": "CAD per USD",
+    "invert": true
+  },
+  "MXN": {
+    "series": "DEXMXUS",
+    "units": "MXN per USD",
+    "invert": true
+  }
+}

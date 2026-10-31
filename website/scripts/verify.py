@@ -88,7 +88,7 @@ assert.equal(m(p,'','all','Simulation').length,3);
 assert.equal(m(p,'nonexistent-query-xyz').length,0);
 assert.equal(m(p,'','unknown-category').length,0);
 assert.equal(m(p,'python').length,p.length);
-assert.equal(m(p,'','Finance','Public + assumptions').length,7);
+assert.equal(m(p,'','Finance','Public + assumptions').length,8);
 assert.equal(m(p,'diesel').length,1);
 assert.equal(m(p,'real wages').length,1);
 assert.equal(m(p,'','Operations','Public + assumptions').some(x=>x.slug==='diesel-budget-risk'),true);

@@ -1,0 +1,18 @@
+[
+  {
+    "file": "fx.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU,DEXJPUS,DEXUSUK,DEXCAUS,DEXMXUS&cosd=2015-01-01&coed=2026-10-30",
+    "retrieved_at": "2026-10-31T00:48:23.426294+00:00",
+    "bytes": 556807,
+    "sha256": "5f25dbb37fce0bce0c86acca01b0a04b909aa818d581f7ba3002e00cfe931928",
+    "last_modified": "Mon, 26 Oct 2026 20:16:42 GMT"
+  },
+  {
+    "file": "h10.html",
+    "url": "https://www.federalreserve.gov/releases/h10/current/",
+    "retrieved_at": "2026-10-31T00:48:20.177888+00:00",
+    "bytes": 84849,
+    "sha256": "4d16a308f75fa460e9e4a0ff23619485d180420336b3c62abfcf0d2d9f794b62",
+    "last_modified": "Mon, 26 Oct 2026 20:15:02 GMT"
+  }
+]

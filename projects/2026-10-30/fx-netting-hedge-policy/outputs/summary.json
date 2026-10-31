@@ -1,0 +1,61 @@
+{
+  "finding": "Matching same-currency payments and receipts reduces the hypothetical basket\u2019s hedged-notional base from $17.2 million gross to $6.8 million net, a 60.5% reduction. On the later-month replay, the fitted policy has lower empirical 90% CVaR than a uniform 50% hedge ($66,474 versus $85,969).",
+  "limitations": "Cash flows are hypothetical, same-currency and same-date, valued in USD at the base spot; legal netting and timing feasibility are assumed. The budget-lock proxy freezes covered cash flows at base spot and charges an assumed 15 basis points per monthly horizon. It is not a quoted forward, option or executed hedge and excludes rate differentials, basis, collateral, credit and bid-ask costs. Historical cash-cost replay is not realized P&L or a forecast. Only 45 holdout months are available, leaving about 4.5 observations of tail mass. No future coverage guarantee or significant outperformance is established. FRED history may be revised; no real-time vintage backtest is claimed.",
+  "latest_daily": "2026-10-23",
+  "last_completed_month": "2026-09-30",
+  "train_months": 95,
+  "holdout_months": 45,
+  "missing_counts": {
+    "DEXUSEU": 130,
+    "DEXJPUS": 130,
+    "DEXUSUK": 130,
+    "DEXCAUS": 130,
+    "DEXMXUS": 130
+  },
+  "raw_rows_in_window": 3082,
+  "common_quote_rows": 2952,
+  "independent_release_checks": 25,
+  "gross_notional": 17200000.0,
+  "net_notional": 6800000.0,
+  "netting_reduction_pct": 60.46511627906976,
+  "fitted_outperforms_uniform": true,
+  "frozen_weights": [
+    0.0,
+    0.0,
+    0.7387749435691672,
+    0.6228797034942793,
+    0.9182979073881858
+  ],
+  "holdout_scorecard": [
+    {
+      "split": "holdout",
+      "policy": "No hedge",
+      "months": 45,
+      "cvar90": 161737.42830784264,
+      "worst": 191326.587163522,
+      "mean": 7763.988054797191,
+      "assumed_cost": 0.0,
+      "hedged_notional": 0.0
+    },
+    {
+      "split": "holdout",
+      "policy": "Uniform 50%",
+      "months": 45,
+      "cvar90": 85968.71415392132,
+      "worst": 100763.293581761,
+      "mean": 8981.994027398596,
+      "assumed_cost": 5100.0,
+      "hedged_notional": 3400000.0
+    },
+    {
+      "split": "holdout",
+      "policy": "Fitted under 50% cap",
+      "months": 45,
+      "cvar90": 66473.90761677914,
+      "worst": 100096.32521756255,
+      "mean": 10275.68737523313,
+      "assumed_cost": 5099.999999999997,
+      "hedged_notional": 3399999.999999998
+    }
+  ]
+}

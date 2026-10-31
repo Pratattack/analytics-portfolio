@@ -1,7 +1,7 @@
 {
-  "projects": 26,
+  "projects": 28,
   "embedded_case_studies_match_source": true,
-  "static_local_references": 78,
+  "static_local_references": 84,
   "filter_route_escaping_checks": 47,
   "original_project_urls": true,
   "browser_verification": "Not performed; owner excludes browser operation. Rendering, focus traversal, PDF embedding and audio playback remain unverified."

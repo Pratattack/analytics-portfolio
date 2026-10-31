@@ -229,5 +229,21 @@
     "industry": "workforce planning",
     "data": "Official public data plus explicit hypothetical business inputs",
     "status": "published"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Cloud Capital Spending & Cash-Flow Pressure",
+    "path": "projects/2026-10-30/cloud-capex-cash-pressure",
+    "industry": "cloud capital allocation",
+    "data": "Official public data and explicitly hypothetical business scenarios",
+    "status": "published"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Currency Netting & Hedge-Policy Challenge",
+    "path": "projects/2026-10-30/fx-netting-hedge-policy",
+    "industry": "foreign-exchange operating risk",
+    "data": "Official public data and explicitly hypothetical business scenarios",
+    "status": "published"
   }
 ]

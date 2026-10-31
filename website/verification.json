@@ -1,10 +1,10 @@
 {
-  "html_pages": 79,
-  "local_link_asset_checks": 704,
-  "javascript_syntax_checks": 32,
-  "zip_integrity_checks": 26,
+  "html_pages": 85,
+  "local_link_asset_checks": 759,
+  "javascript_syntax_checks": 36,
+  "zip_integrity_checks": 28,
   "search_filter_checks": 18,
-  "case_studies": 26,
+  "case_studies": 28,
   "css_asset_checks": 8,
   "em_dashes_in_served_copy": 0,
   "browser_qa": "Not performed: owner instruction excludes browser operation. Mobile rendering, keyboard interaction and demo recalculation remain unverified in this release."

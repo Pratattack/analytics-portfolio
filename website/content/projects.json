@@ -1,5 +1,57 @@
 [
   {
+    "slug": "cloud-capex-cash-pressure",
+    "title": "Cloud Capital Spending & Cash-Flow Pressure",
+    "shortTitle": "The cash behind infrastructure spending",
+    "category": "Finance",
+    "dataKind": "Public + assumptions",
+    "question": "When does infrastructure spending squeeze operating cash?",
+    "audience": "Corporate-finance, investment-research and risk analysts challenging whether operating cash can support a capital-spending plan.",
+    "data": "Official SEC companyfacts and original filing contexts for Microsoft, Alphabet and Meta, using a common trailing year ending September 2026. Filings are cut off at October 30, 2026. Consolidated cash property purchases are not identified as AI-only spending. Scenario changes and cash-retention targets are hypothetical.",
+    "methods": "Reconcile 93 trailing-year observations from paired operating-cash and property-purchase facts. Interim TTM equals annual cash flow plus current YTD minus prior YTD; both YTD terms come from one accession. Audit 18 current and annual numeric cells to original filings and reproduce all totals in SQL. Reverse-solve spending and CFO boundaries under explicit assumptions.",
+    "findings": "Alphabet’s January-September 2026 cash property purchases exceed operating cash by $4.804 billion. Over October 2025-September 2026, operating cash after those purchases remains positive at $19.747 billion. Both statements can be true. A short-window deficit alone does not establish a funding crisis.",
+    "implications": "Align the cash-flow window before evaluating an investment headline. Then challenge how much spending growth or operating-cash decline fits a specified retained-cash target. Obtain a complete forecast of acquisitions, shareholder distributions, financing and investment commitments before making a funding decision.",
+    "limitations": "Company-wide cash purchases are not AI capex or total investment commitments. Noncash lease additions are outside the core measure. Fiscal YTD spans differ and are not ranked as equal windows. Cash after property purchases is before financing and other uses. Amazon’s broader productive-assets tag is excluded rather than silently substituted. No AI returns, stock valuation, liquidity conclusion or achieved business impact is claimed.",
+    "summary": "Alphabet’s property spending runs $4.804 billion ahead of operating cash in the first nine months of 2026, while the trailing-year residual stays positive. The window changes the funding story.",
+    "evidence": {
+      "file": "cash-coverage.svg",
+      "caption": "Observed consolidated operating cash and cash property purchases for the same trailing year ending September 2026. These are company-wide cash measures, not isolated AI investment."
+    },
+    "path": "projects/2026-10-30/cloud-capex-cash-pressure",
+    "date": "2026-10-30",
+    "tools": [
+      "Python",
+      "SQL"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "fx-netting-hedge-policy",
+    "title": "Currency Netting & Hedge-Policy Challenge",
+    "shortTitle": "Does the clever hedge earn its place?",
+    "category": "Research",
+    "dataKind": "Public + assumptions",
+    "question": "Does a fitted currency hedge beat a simple 50% policy?",
+    "audience": "Treasury, financial-risk and consulting analysts evaluating which currency exposures to cover and how to challenge a fitted hedge allocation.",
+    "data": "Official H.10/FRED daily EUR, JPY, GBP, CAD and MXN quotations through October 23, 2026, with 25 values independently checked to the H.10 release. Monthly policy fitting uses completed months through 2022; January 2023-September 2026 is held out. All company cash flows, deal costs and budget locks are hypothetical.",
+    "methods": "Normalize quotes to USD per foreign-currency unit, audit missing values without forward filling, and separate completed months from partial October. Net same-currency payments and receipts. Fit a constrained empirical adverse-cost CVaR policy on earlier months, freeze it and compare with uniform 50% coverage on 45 later months. Reconcile notional totals in SQL and replay cash costs independently in JavaScript.",
+    "findings": "Within-currency netting reduces the hypothetical transaction base from $17.2 million gross to $6.8 million net, or 60.5%. On the later-month replay, the frozen fitted policy has an empirical 90% adverse-cost CVaR of $66,474 versus $85,969 for uniform 50% coverage, including an assumed charge. That is a historical diagnostic, not an achieved hedge result or future guarantee.",
+    "implications": "Confirm which flows can legally settle together before hedging gross positions. Require a proposed allocation to beat a simple coverage rule on later observations, using actual execution costs before adoption. The historical result supports further investigation, not an implementation claim.",
+    "limitations": "The budget-lock proxy freezes covered exposure at base spot; it is not a quoted forward or option. Rate differentials, collateral, credit, basis and bid-ask costs are omitted. Netting assumes same-currency, same-date settlement. Only 45 holdout months provide about 4.5 observations of tail mass. Current history may be revised; no real-time backtest, statistical superiority, actual savings or predictive coverage is claimed.",
+    "summary": "A fitted hedge lowers the historical tail-cost diagnostic, but does it justify the complexity? Test it against uniform coverage after netting the cash flows that genuinely offset.",
+    "evidence": {
+      "file": "hedge-holdout.svg",
+      "caption": "Historical completed-month replay of hypothetical exposures and an assumed hedge charge. Lower empirical tail cost is preferable in this diagnostic; this is not actual hedge P&L or a future risk guarantee."
+    },
+    "path": "projects/2026-10-30/fx-netting-hedge-policy",
+    "date": "2026-10-30",
+    "tools": [
+      "Python",
+      "SQL"
+    ],
+    "featured": false
+  },
+  {
     "slug": "treasury-cash-ladder",
     "title": "Treasury Cash Ladder & Liquidity Constraints",
     "shortTitle": "Cash deadlines and Treasury yield",

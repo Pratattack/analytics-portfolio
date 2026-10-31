@@ -1,0 +1,7 @@
+{
+  "data/h10_release_cells.json": "59aeff93d829f2e22c56be96b57b3ff1b459254cf2ac34e0949e39c9f1912fa1",
+  "data/reference_cashflows.csv": "a8d0b59336c2bf1d10623a3a26cf9e81f8f3f0b3fdcf6ce5a1939637f5548662",
+  "data/source_manifest.json": "6d6dc5ad9f5b231ec824aa7956f564d0ed9314c436b7b4a32c2ad3418ede2c06",
+  "data/quote_conventions.json": "30fc5573a12d8d27a4d1b26dac13612467919c04d8bd69e6edeee56165e7bf0e",
+  "data/fred_response.csv.gz": "e9b00b6c0e21022d59dc1fd1c9bb73265adfa421e755681276ffbe6c3609b060"
+}

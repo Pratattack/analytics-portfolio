@@ -1,0 +1,39 @@
+{
+  "period_end": "2026-09-30",
+  "filing_cutoff": "2026-10-30",
+  "finding": "Alphabet's January-September 2026 cash purchases of property and equipment exceed operating cash flow by $4.804 billion. On a common trailing-year basis, operating cash remaining after those purchases is still $19.747 billion. The measurement window changes the funding story.",
+  "limitations": "These are consolidated company cash flows, not isolated AI or cloud-segment spending. Cash property purchases omit noncash finance-lease additions and do not measure total investment commitments. Cash after capex is before acquisitions, financing and shareholder distributions and is not a liquidity or covenant test. Fiscal YTD spans differ across companies and are never ranked as equal windows. Historical facts are original-current disclosure selections under a 120-day filing window, with prior YTD comparatives from the same current filing; they are not a real-time investment backtest. Amazon is excluded from the paired PPE comparison because its productive-asset cash tag has a different scope. No AI return, stock valuation or financing recommendation is inferred.",
+  "issuers": [
+    {
+      "symbol": "MSFT",
+      "end": "2026-09-30",
+      "period_start": "2025-10-01",
+      "cfo": 195878000000,
+      "capex": 135921000000,
+      "cash_after_capex": 59957000000,
+      "capex_to_cfo": 0.6939064111334606
+    },
+    {
+      "symbol": "GOOGL",
+      "end": "2026-09-30",
+      "period_start": "2025-10-01",
+      "cfo": 179551000000,
+      "capex": 159804000000,
+      "cash_after_capex": 19747000000,
+      "capex_to_cfo": 0.8900201057081275
+    },
+    {
+      "symbol": "META",
+      "end": "2026-09-30",
+      "period_start": "2025-10-01",
+      "cfo": 133087000000,
+      "capex": 104438000000,
+      "cash_after_capex": 28649000000,
+      "capex_to_cfo": 0.7847347975384523
+    }
+  ],
+  "original_filing_cells": 18,
+  "historical_rows": 93,
+  "excluded_periods": 0,
+  "amazon_scope": "PaymentsToAcquireProductiveAssets differs from the primary PPE tag; not silently substituted."
+}

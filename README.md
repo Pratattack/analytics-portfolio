@@ -109,3 +109,8 @@ Each project includes pinned raw data, source hashes, reproducible Python, SQL r
 
 - [Treasury Cash Ladder & Liquidity Constraints](projects/2026-10-30/treasury-cash-ladder/)
 - [Workforce Replacement & Recruiting Capacity](projects/2026-10-30/workforce-replacement-planning/)
+
+## Current-market decision research
+
+- [Cloud Capital Spending & Cash-Flow Pressure](projects/2026-10-30/cloud-capex-cash-pressure/)
+- [Currency Netting & Hedge-Policy Challenge](projects/2026-10-30/fx-netting-hedge-policy/)
