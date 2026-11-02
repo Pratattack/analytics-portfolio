@@ -1,0 +1,2 @@
+matplotlib==3.10.8
+lxml==6.1.1

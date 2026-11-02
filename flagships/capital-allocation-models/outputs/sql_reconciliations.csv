@@ -1,0 +1,19 @@
+company,period,check_name,difference_usd_m
+CROX,2023,Balance sheet,-2.2737367544323206e-13
+CROX,2023,Cash flow,-9.947598300641403e-14
+CROX,2024,Balance sheet,4.547473508864641e-13
+CROX,2024,Cash flow,1.0658141036401503e-14
+CROX,2025,Balance sheet,0.0
+CROX,2025,Cash flow,-7.105427357601002e-15
+CROX,9M2025,Cash flow,-1.7763568394002505e-14
+CROX,9M2026,Balance sheet,0.0
+CROX,9M2026,Cash flow,-2.842170943040401e-14
+URI,2023,Balance sheet,0.0
+URI,2023,Cash flow,0.0
+URI,2024,Balance sheet,0.0
+URI,2024,Cash flow,0.0
+URI,2025,Balance sheet,0.0
+URI,2025,Cash flow,0.0
+URI,9M2025,Cash flow,0.0
+URI,9M2026,Balance sheet,0.0
+URI,9M2026,Cash flow,0.0

@@ -88,7 +88,7 @@ assert.equal(m(p,'','all','Simulation').length,3);
 assert.equal(m(p,'nonexistent-query-xyz').length,0);
 assert.equal(m(p,'','unknown-category').length,0);
 assert.equal(m(p,'python').length,p.length);
-assert.equal(m(p,'','Finance','Public + assumptions').length,8);
+assert.equal(m(p,'','Finance','Public + assumptions').length,10);
 assert.equal(m(p,'diesel').length,1);
 assert.equal(m(p,'real wages').length,1);
 assert.equal(m(p,'','Operations','Public + assumptions').some(x=>x.slug==='diesel-budget-risk'),true);
@@ -104,7 +104,7 @@ console.log('18 search/filter boundary checks passed');'''
                   javascript_syntax_checks=script_count,zip_integrity_checks=len(packages),
                   search_filter_checks=18,case_studies=len(records),
                   css_asset_checks=css_references,em_dashes_in_served_copy=0,
-                  browser_qa='Not performed: owner instruction excludes browser operation. Mobile rendering, keyboard interaction and demo recalculation remain unverified in this release.')
+                  browser_qa='Static checks only; browser publication checks are recorded separately.')
     (ROOT/'verification.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result,indent=2))
 

@@ -17,4 +17,4 @@ The binding constraint is the cash needed to maintain and expand the fleet. Unde
 ## Caveats
 The fleet-cohort model is an approximation, not management's fleet-level forecast. Opening fleet stock is rounded, and terminal value represents about 74.9% of base DCF enterprise value. Do not treat modeled distributions as a board authorization or an investment recommendation.
 
-**Supporting work:** The full workbook, memo, methodology, charts, slide deck and reproducible sources are available in the Financial_Model_Review_Package review archive, pending asset upload.
+**Supporting work:** [Excel model, executive memo, presentation, research and reproducible Python/SQL](../../flagships/capital-allocation-models/cases/united-rentals/).

@@ -1,0 +1,122 @@
+{
+  "utility": {
+    "title": "Can we trust the latest reliability data?",
+    "url": "https://github.com/Pratattack/analytics-portfolio/tree/main/flagships/utility-reliability-due-diligence",
+    "sections": [
+      [
+        "The question & reader",
+        "For an analyst reviewing utility reliability: which peer comparisons and data releases deserve to inform a decision?"
+      ],
+      [
+        "Data",
+        "Six official EIA reliability workbooks, 2020–2025. The pipeline retains 11,552 method-specific records, source rows and missing values."
+      ],
+      [
+        "Approach",
+        "Python extraction, SQLite aggregation, method-consistent peer cohorts, state-total reconciliation and report-year-separated model testing. Utility-cluster resampling checks uncertainty."
+      ],
+      [
+        "What changed the decision",
+        "2023 and 2024 reconcile across all 51 available state summaries. Twenty-six 2025 summaries fall outside the 0.11-minute tolerance, so the 2025 release is excluded from decision inputs. The workbench uses 2024."
+      ],
+      [
+        "An important limit",
+        "The predictive candidate also fails its promotion gate: uncertainty crosses zero and nominal interval coverage falls short. The 2025 diagnostic uses a quarantined source year. No actual upgrade savings or engineering recommendation is established."
+      ],
+      [
+        "Delivery",
+        "A locally runnable API and a self-contained offline analyst workbench. The linked repository contains the implementation and verification evidence; it is not a public live application."
+      ]
+    ]
+  },
+  "mortgage": {
+    "title": "Are we comparing lenders—or different borrowers?",
+    "url": "https://github.com/Pratattack/analytics-portfolio/tree/main/projects/2026-10-22/houston-mortgage-price-comparability",
+    "sections": [
+      [
+        "The question & reader",
+        "For consumer-finance research: which historical lender-price comparisons involve sufficiently similar observable borrower groups?"
+      ],
+      [
+        "Data",
+        "123,445 public Houston-area HMDA originated-loan records from the pinned 2025 vintage. Product and completeness checks retain 32,095 eligible loans."
+      ],
+      [
+        "Approach",
+        "Python and SQL define a common product, select the five largest eligible lenders by counts and match loan amount, loan-to-value, debt-to-income and geography bands. Four hundred tract-level perturbations examine descriptive stability."
+      ],
+      [
+        "Finding",
+        "The five selected lenders have 9,344 eligible loans, but only 3,867 loans in 18 common-support cells. That is 41.38% retained. The observed price-spread range changes from 2.001 to 1.902 percentage points after matching."
+      ],
+      [
+        "Implication & limitations",
+        "Public matching leaves substantial selection and missing borrower information. These are descriptive historical differences, not lender effects or offers available today. Actual dated Loan Estimates are needed before recommending a lender."
+      ],
+      [
+        "Delivery",
+        "An offline rate, fee and holding-period workbench with a separate research report. Its scenarios are hypothetical, and the source repository is not a live lending application."
+      ]
+    ]
+  },
+  "mobility": {
+    "title": "A better forecast. What changes in the plan?",
+    "url": "https://github.com/Pratattack/analytics-portfolio/tree/main/projects/2026-10-18/02-bike-share-forecast-planning",
+    "sections": [
+      [
+        "The question & reader",
+        "For an operations planner: does a better rental forecast improve a capacity rule when shortage and excess capacity carry different costs?"
+      ],
+      [
+        "Data",
+        "731 daily observations from the UCI Bike Sharing dataset, covering historical 2011–2012 Capital Bikeshare rentals. Capacity costs are explicitly invented assumptions."
+      ],
+      [
+        "Approach",
+        "Five specifications are compared with chronological validation, rolling one-day-ahead forecasts and a separate 184-day test period. Validation selects ridge regression with penalty 1 before test results are reviewed."
+      ],
+      [
+        "Finding",
+        "The selected ridge model has test WAPE of 13.35%, compared with 18.70% for a seven-day seasonal baseline. Its nominal 90% prediction band covers 87.5% of test observations."
+      ],
+      [
+        "Implication & limitations",
+        "Forecast errors can be translated into conditional planning costs, but those modeled costs are not observed savings. The target is realized rentals, not unconstrained demand. Trip-equivalent capacity is not a physical bike-fleet recommendation."
+      ],
+      [
+        "Delivery",
+        "A reproducible Python pipeline, SQL analysis, CSV outputs and a downloadable HTML report. This is a historical benchmark, not a current forecasting service."
+      ]
+    ]
+  },
+  "credit": {
+    "title": "When the simpler model wins.",
+    "url": "https://github.com/Pratattack/analytics-portfolio/tree/main/projects/2026-10-26/credit-spread-recession-audit",
+    "sections": [
+      [
+        "The question & reader",
+        "For credit-research model governance: do credit spreads improve recession classification beyond the Treasury curve and a simple historical recession probability?"
+      ],
+      [
+        "Data",
+        "Pinned monthly FRED series for corporate spreads, Treasury yields and NBER recession labels. The research panel has 648 origins; testing uses 192 origins from 2008–2023, with labels through 2024."
+      ],
+      [
+        "Approach",
+        "Expanding logistic estimation uses prior-month features, a twelve-month label gap, training-only standardization and separate penalty selection. Paired blocks examine sensitivity to overlapping recession targets."
+      ],
+      [
+        "Finding",
+        "The credit-plus-curve candidate has Brier loss 0.1676. It improves on the curve model at 0.1750 but loses to the expanding historical baseline at 0.1487. Lower loss is better."
+      ],
+      [
+        "Decision & limitations",
+        "Withhold model promotion. The paired uncertainty band crosses zero, and the test has only two positive target runs. Revised data and eventual NBER labels do not reproduce a real-time information set. This is not a current recession forecast or validated trading signal."
+      ],
+      [
+        "Delivery",
+        "An offline review-threshold workbench, source-audited analysis and a reproducible Python/SQL workflow. Full methods and limitations are available in the repository."
+      ]
+    ]
+  }
+}

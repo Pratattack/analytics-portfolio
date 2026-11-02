@@ -1,0 +1,18 @@
+[
+  {
+    "file": "URI_Financial_Model.xlsx",
+    "sheet_count": 9,
+    "unique_sheet_ids": true,
+    "formula_count": 920,
+    "native_data_tables": 2,
+    "cached_errors": 0
+  },
+  {
+    "file": "CROX_Financial_Model.xlsx",
+    "sheet_count": 9,
+    "unique_sheet_ids": true,
+    "formula_count": 831,
+    "native_data_tables": 2,
+    "cached_errors": 0
+  }
+]

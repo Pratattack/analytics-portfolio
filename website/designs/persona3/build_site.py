@@ -29,5 +29,7 @@ def main():
  for p in records:write(p['url'],p['shortTitle'],p['summary'],views['project/'+p['slug']],'project')
  write('/404.html','Page not found','This page is not in the portfolio.',views['missing'],'missing')
  urls=list(mappings.values())+[p['url'] for p in records];(DIST/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>https://prathameshsingh.com'+u+'</loc></url>' for u in urls)+'</urlset>')
+ alias=DIST/'projects/crocs-buybacks-deleveraging';alias.mkdir(exist_ok=True)
+ shutil.copy2(D/'crocs-alias.html',alias/'index.html')
  print(json.dumps({'production_theme':'Persona 3 inspired','canonical_project_pages':len(records),'static_sections':6,'original_project_urls':True}))
 if __name__=='__main__':main()

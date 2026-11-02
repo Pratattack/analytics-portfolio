@@ -1,0 +1,74 @@
+[
+  {
+    "id": "URI-2025K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1067701/000106770126000007/uri-20251231.htm",
+    "sha256": "17b33f90ccd8fe431b32dec958c4061f8e273bdc6dca4b642c387a760bdc331d",
+    "bytes": 2629530,
+    "retrieved_at": "2026-11-02T00:39:29.865240+00:00",
+    "accession": "0001067701-26-000007",
+    "filed_dates": [
+      "2026-01-28"
+    ],
+    "observation_end": "2025-12-31"
+  },
+  {
+    "id": "URI-2026Q3",
+    "url": "https://www.sec.gov/Archives/edgar/data/1067701/000106770126000034/uri-20260930.htm",
+    "sha256": "dc33d4210bf211d60ac413d9377cabc3d5a27967d14e956bb14aa17fcbb86a18",
+    "bytes": 1501287,
+    "retrieved_at": "2026-11-02T00:39:29.616955+00:00",
+    "accession": "0001067701-26-000034",
+    "filed_dates": [
+      "2026-10-21"
+    ],
+    "observation_end": "2026-09-30"
+  },
+  {
+    "id": "URI-2024K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1067701/000106770125000008/uri-20241231.htm",
+    "sha256": "a379a85d167fd46a1eeeebd9f9efdaf729e8648c437aa46d019e96d2f670d715",
+    "bytes": 2709425,
+    "retrieved_at": "2026-11-02T00:39:29.879088+00:00",
+    "accession": "0001067701-25-000008",
+    "filed_dates": [
+      "2025-01-29"
+    ],
+    "observation_end": "2024-12-31"
+  },
+  {
+    "id": "CROX-2025K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000006/crox-20251231.htm",
+    "sha256": "cd7d2c64cc46ee650b566c67df30875221817c42ee9864de43f2e42d3433cb05",
+    "bytes": 2240031,
+    "retrieved_at": "2026-11-02T00:39:29.681278+00:00",
+    "accession": "0001334036-26-000006",
+    "filed_dates": [
+      "2026-02-12"
+    ],
+    "observation_end": "2025-12-31"
+  },
+  {
+    "id": "CROX-2026Q3",
+    "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000060/crox-20260930.htm",
+    "sha256": "e7856277597f720d7cb1134576cd4bec856154e316dd5f8443eeea666bc1139d",
+    "bytes": 1276894,
+    "retrieved_at": "2026-11-02T00:39:29.916928+00:00",
+    "accession": "0001334036-26-000060",
+    "filed_dates": [
+      "2026-10-29"
+    ],
+    "observation_end": "2026-09-30"
+  },
+  {
+    "id": "CROX-2024K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403625000009/crox-20241231.htm",
+    "sha256": "4473ba709a0ca53a0498771ebc70f3896ec8e105f1b174a8b1dbc82599b9050c",
+    "bytes": 2281517,
+    "retrieved_at": "2026-11-02T00:39:29.780103+00:00",
+    "accession": "0001334036-25-000009",
+    "filed_dates": [
+      "2025-02-13"
+    ],
+    "observation_end": "2024-12-31"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "case": "base",
+      "forecast_parity": true,
+      "balance_reconciliation": true,
+      "dcf_per_share": 159.70978441718478
+    },
+    {
+      "case": "down",
+      "forecast_parity": true,
+      "balance_reconciliation": true,
+      "dcf_per_share": 70.93457671928944
+    },
+    {
+      "case": "up",
+      "forecast_parity": true,
+      "balance_reconciliation": true,
+      "dcf_per_share": 212.9339396129465
+    }
+  ],
+  "native_table_base": true,
+  "native_table_nonbase": true,
+  "later_year_driver_propagation": true,
+  "notes": "Artifact Tool recalculation verified. Excel desktop behavior not tested."
+}

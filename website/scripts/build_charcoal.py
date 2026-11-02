@@ -15,9 +15,15 @@ def write(path, text):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--projects-source', type=Path, required=True)
+    parser.add_argument('--only-slugs', nargs='+', help='Update these project outputs while preserving other published files')
     args = parser.parse_args()
     repo = args.projects_source.resolve()
     records = json.loads((ROOT / 'content/projects.json').read_text())
+    if args.only_slugs:
+        previous = {p['slug']:p for p in json.loads((ROOT/'content/published-projects.json').read_text())}
+        for p in records:
+            for key,value in previous.get(p['slug'],{}).items():
+                p.setdefault(key,value)
     registry = json.loads((repo / 'portfolio_registry.json').read_text())
     assert {p['path'] for p in registry}.issubset({p['path'] for p in records})
     assert all((repo / p['path'] / 'README.md').exists() for p in records)
@@ -30,6 +36,8 @@ def main():
         return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | Prathamesh Singh</title><meta name="description" content="{esc(description, quote=True)}"><meta name="theme-color" content="#090f17"><link rel="canonical" href="https://prathameshsingh.com{canonical}"><meta property="og:title" content="{esc(title, quote=True)} | Prathamesh Singh"><meta property="og:description" content="{esc(description, quote=True)}"><meta property="og:type" content="website"><link rel="icon" href="/assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css"></head><body><a class="skip" href="#main">Skip to content</a>{header}<main id="main">{body}</main>{footer}{extra}</body></html>'''
     for p in records:
         slug = p['slug']
+        if args.only_slugs and slug not in args.only_slugs:
+            continue
         src = repo / p['path']
         dest = DIST / 'demos' / slug
         # Keep the original reports and scripts intact, including linked CSV evidence.
@@ -75,6 +83,9 @@ def main():
         p['url'] = f'/projects/{slug}/'
         p['repository'] = BASE + p['path']
         p['delivery'] = 'External dashboard' if p.get('externalDemo') else ('Interactive workbench' if app else 'Analytical report')
+        if p.get('financialModel'):
+            p['delivery'] = 'Downloadable Excel financial model'
+            p['download'] = f'/demos/{slug}/outputs/project-source.zip'
         sections = [('Finding', p['findings']), ('Why it matters', p['implications']),
                     ('Who could use this', p['audience']), ('Data and scope', p['data'])]
         overview = ''.join(f'<section class="case-section" id="section-{i}"><h2>{esc(label)}</h2><p>{esc(text)}</p></section>' for i, (label,text) in enumerate(sections))

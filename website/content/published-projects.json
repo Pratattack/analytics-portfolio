@@ -1,5 +1,81 @@
 [
   {
+    "slug": "united-rentals-fleet-capital-allocation",
+    "title": "United Rentals: Fleet Investment vs. Shareholder Returns",
+    "shortTitle": "Fleet investment before buybacks",
+    "category": "Finance",
+    "dataKind": "Public + assumptions",
+    "question": "How much cash can United Rentals return after funding its fleet?",
+    "audience": "Financial, investment-research and corporate-finance analysts evaluating capital allocation, cash requirements and downside resilience.",
+    "data": "Three annual SEC statement periods, 2023–2025, and latest nine-month 2026 comparatives. LTM flows end September 2026. Valuation uses the 30 October 2026 quote and dated cover-page shares. All five forecast periods and operating shocks are hypothetical scenarios. Package timestamps use UTC (2 November); the recovery publication date in Houston is 1 November 2026.",
+    "methods": "An integrated three-statement Excel model connects operating drivers, working capital, investment, depreciation and a cash-capped financing waterfall. DCF, reverse valuation and two-input sensitivities are independently checked with Python. SQL reconciles reported statements.",
+    "findings": "Operating cash of $5,430m less $4,336m net investing outflow leaves $1,094m before financing. After the cash reserve and an illustrative $500m dividend budget, first-period repurchases are $597m. The upside case supports only $448m initially because its fleet budget is larger.",
+    "implications": "Size distributions from cash available after investment and funding needs. Inspect the conditions behind valuation results rather than treating precise outputs as reliable price targets.",
+    "limitations": "Fleet cohorts, disposal ages and the rounded opening gross fleet are approximations. Future M&A is excluded. Refinancing and repayment budgets are assumptions, not commitments or contractual maturities. Terminal value is 74.9% of base DCF enterprise value. The demanding reverse margin may indicate model limits rather than mispricing.",
+    "summary": "The base scenario leaves $597m for first-period buybacks against an illustrative $1.5bn ceiling. Stronger demand can still mean smaller distributions when fleet investment rises.",
+    "evidence": {
+      "file": "cash-allocation.svg",
+      "caption": "Model calculations for five hypothetical September-ending forecast periods. Operating cash, gross cash investment and repurchases are scenario results, not observed outcomes or management guidance."
+    },
+    "path": "flagships/capital-allocation-models/cases/united-rentals",
+    "date": "2026-11-01",
+    "tools": [
+      "Excel",
+      "Python",
+      "SQL",
+      "Financial modeling"
+    ],
+    "featured": true,
+    "delivery": "Downloadable Excel financial model",
+    "financialModel": true,
+    "workbook": "/demos/united-rentals-fleet-capital-allocation/outputs/URI_Financial_Model.xlsx",
+    "presentation": "/demos/united-rentals-fleet-capital-allocation/outputs/URI_Five_Minute_Presentation.pptx",
+    "screenshot": null,
+    "demo": null,
+    "report": "/demos/united-rentals-fleet-capital-allocation/outputs/report.html",
+    "download": "/demos/united-rentals-fleet-capital-allocation/outputs/project-source.zip",
+    "url": "/projects/united-rentals-fleet-capital-allocation/",
+    "repository": "https://github.com/Pratattack/analytics-portfolio/tree/main/flagships/capital-allocation-models/cases/united-rentals"
+  },
+  {
+    "slug": "crocs-brand-cash-allocation",
+    "title": "Crocs: Buybacks vs. Debt Reduction",
+    "shortTitle": "Buybacks, brand margins and debt",
+    "category": "Finance",
+    "dataKind": "Public + assumptions",
+    "question": "Can Crocs fund buybacks while reducing debt?",
+    "audience": "Financial, investment-research and corporate-finance analysts evaluating capital allocation, cash requirements and downside resilience.",
+    "data": "Three annual SEC statement periods, 2023–2025, and latest nine-month 2026 comparatives. LTM flows end September 2026. Valuation uses the 30 October 2026 quote and dated cover-page shares. All five forecast periods and operating shocks are hypothetical scenarios. Package timestamps use UTC (2 November); the recovery publication date in Houston is 1 November 2026.",
+    "methods": "An integrated three-statement Excel model connects operating drivers, working capital, investment, depreciation and a cash-capped financing waterfall. DCF, reverse valuation and two-input sensitivities are independently checked with Python. SQL reconciles reported statements.",
+    "findings": "First-period operating cash of $801m less $80m capex supports $600m of buybacks and $134m of residual debt repayment after the reserve. In the downside, operating cash falls to $363m and net leverage reaches 1.73x. A hypothetical $200m nondeductible impairment reduces profit and assets without itself reducing cash.",
+    "implications": "Size distributions from cash available after investment and funding needs. Inspect the conditions behind valuation results rather than treating precise outputs as reliable price targets.",
+    "limitations": "Brand contribution margins are analyst assumptions, not disclosed cash margins. PPE and finite intangibles use a combined depreciation pool. Buyback share settlements use a fixed-price proxy. Terminal value is 64.4% of base DCF enterprise value. No probabilities or investment recommendation are assigned.",
+    "summary": "The base scenario funds $600m in first-period buybacks and $134m in debt reduction. Test the brand margins behind that cash, and separate EPS growth from operating recovery.",
+    "evidence": {
+      "file": "cash-allocation.svg",
+      "caption": "Model calculations for five hypothetical September-ending forecast periods. Operating cash, gross cash investment and repurchases are scenario results, not observed outcomes or management guidance."
+    },
+    "path": "flagships/capital-allocation-models/cases/crocs",
+    "date": "2026-11-01",
+    "tools": [
+      "Excel",
+      "Python",
+      "SQL",
+      "Financial modeling"
+    ],
+    "featured": true,
+    "delivery": "Downloadable Excel financial model",
+    "financialModel": true,
+    "workbook": "/demos/crocs-brand-cash-allocation/outputs/CROX_Financial_Model.xlsx",
+    "presentation": "/demos/crocs-brand-cash-allocation/outputs/CROX_Five_Minute_Presentation.pptx",
+    "screenshot": null,
+    "demo": null,
+    "report": "/demos/crocs-brand-cash-allocation/outputs/report.html",
+    "download": "/demos/crocs-brand-cash-allocation/outputs/project-source.zip",
+    "url": "/projects/crocs-brand-cash-allocation/",
+    "repository": "https://github.com/Pratattack/analytics-portfolio/tree/main/flagships/capital-allocation-models/cases/crocs"
+  },
+  {
     "slug": "houston-electricity-plan-audit",
     "title": "Houston Electricity Plan Audit",
     "shortTitle": "When using less electricity costs more",
@@ -464,7 +540,7 @@
       "Python",
       "SQL"
     ],
-    "featured": true,
+    "featured": false,
     "summary": "The selected model reduces historical test error from 18.70% to 13.35%. A separate planning model tests what those errors could cost.",
     "screenshot": null,
     "demo": null,
@@ -754,7 +830,7 @@
       "Python",
       "SQL"
     ],
-    "featured": true,
+    "featured": false,
     "summary": "Only 41.38% of eligible loans at the five selected lenders enter the common-support comparison. The analysis makes that restriction visible before comparing prices.",
     "screenshot": "/assets/houston-mortgage-price-comparability.png",
     "demo": "/demos/houston-mortgage-price-comparability/outputs/app.html",
@@ -812,7 +888,7 @@
       "Python",
       "SQL"
     ],
-    "featured": true,
+    "featured": false,
     "summary": "Credit spreads improve one model comparison but lose to a simple historical probability. The candidate is not approved for use.",
     "screenshot": "/assets/credit-spread-recession-audit.jpg",
     "demo": "/demos/credit-spread-recession-audit/outputs/app.html",

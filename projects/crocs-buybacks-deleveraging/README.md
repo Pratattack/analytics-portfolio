@@ -17,4 +17,4 @@ Repurchases and deleveraging compete for cash. Any buyback plan should be condit
 ## Caveats
 Crocs and HEYDUDE contribution margins are analyst assumptions, not disclosed cash margins. At fixed WACC and terminal growth, the operating scenarios produce DCF per-share values of approximately $71 to $213; this is a scenario range, not a confidence interval or price target.
 
-**Supporting work:** The full workbook, memo, methodology, charts, slide deck and reproducible sources are available in the Financial_Model_Review_Package review archive, pending asset upload.
+**Supporting work:** [Excel model, executive memo, presentation, research and reproducible Python/SQL](../../flagships/capital-allocation-models/cases/crocs/).

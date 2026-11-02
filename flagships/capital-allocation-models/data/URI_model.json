@@ -1,0 +1,902 @@
+{
+  "ticker": "URI",
+  "company": "United Rentals",
+  "historical": {
+    "2023": {
+      "revenue": 14332.0,
+      "assets": 25589.0,
+      "cash": 363.0,
+      "ar": 2230.0,
+      "inventory": 205.0,
+      "current_assets": 2933.0,
+      "goodwill": 5940.0,
+      "intangibles": 670.0,
+      "rou": 1099.0,
+      "liabilities": 17459.0,
+      "current_liabilities": 3637.0,
+      "ap": 905.0,
+      "lease": 1144.0,
+      "lease_current": 249.0,
+      "debt_current": 1465.0,
+      "debt_noncurrent": 10053.0,
+      "equity": 8130.0,
+      "ebit": 3827.0,
+      "ebt": 3211.0,
+      "tax": 787.0,
+      "net_income": 2424.0,
+      "cfo": 4704.0,
+      "cfi": -2976.0,
+      "cff": -1474.0,
+      "fx_cash": 3.0,
+      "sbc": 94.0,
+      "buybacks": 1070.0,
+      "sga": 1527.0,
+      "cogs": 8519.0,
+      "da": 2781.0,
+      "amort": 271.0,
+      "capex_other": 356.0,
+      "shares": 67.269577,
+      "cash_change": 257.0,
+      "fleet": 14001.0,
+      "fleet_gross": 21689.0,
+      "ppe": 903.0,
+      "capex_fleet": 3714.0,
+      "sales_fleet": 1574.0,
+      "gain_fleet": 786.0,
+      "dep_fleet": 2350.0,
+      "dividends": 406.0,
+      "owned_rental": 9948.0,
+      "rental": 12064.0
+    },
+    "2024": {
+      "revenue": 15345.0,
+      "assets": 28163.0,
+      "cash": 457.0,
+      "ar": 2357.0,
+      "inventory": 200.0,
+      "current_assets": 3249.0,
+      "goodwill": 6900.0,
+      "intangibles": 663.0,
+      "rou": 1337.0,
+      "liabilities": 19541.0,
+      "current_liabilities": 3323.0,
+      "ap": 748.0,
+      "lease": 1383.0,
+      "lease_current": 294.0,
+      "debt_current": 1178.0,
+      "debt_noncurrent": 12228.0,
+      "equity": 8622.0,
+      "ebit": 4065.0,
+      "ebt": 3388.0,
+      "tax": 813.0,
+      "net_income": 2575.0,
+      "cfo": 4546.0,
+      "cfi": -4148.0,
+      "cff": -274.0,
+      "fx_cash": -30.0,
+      "sbc": 112.0,
+      "buybacks": 1571.0,
+      "sga": 1645.0,
+      "cogs": 9195.0,
+      "da": 2903.0,
+      "amort": 258.0,
+      "capex_other": 374.0,
+      "shares": 65.305731,
+      "cash_change": 94.0,
+      "fleet": 14931.0,
+      "fleet_gross": 22990.0,
+      "ppe": 1034.0,
+      "capex_fleet": 3753.0,
+      "sales_fleet": 1521.0,
+      "gain_fleet": 710.0,
+      "dep_fleet": 2466.0,
+      "dividends": 434.0,
+      "owned_rental": 10559.0,
+      "rental": 13029.0
+    },
+    "2025": {
+      "revenue": 16099.0,
+      "assets": 29866.0,
+      "cash": 459.0,
+      "ar": 2510.0,
+      "inventory": 240.0,
+      "current_assets": 3608.0,
+      "goodwill": 7119.0,
+      "intangibles": 477.0,
+      "rou": 1395.0,
+      "liabilities": 20898.0,
+      "current_liabilities": 3819.0,
+      "ap": 776.0,
+      "lease": 1441.0,
+      "lease_current": 317.0,
+      "debt_current": 1577.0,
+      "debt_noncurrent": 12652.0,
+      "equity": 8968.0,
+      "ebit": 3973.0,
+      "ebt": 3338.0,
+      "tax": 844.0,
+      "net_income": 2494.0,
+      "cfo": 5190.0,
+      "cfi": -3369.0,
+      "cff": -1841.0,
+      "fx_cash": 22.0,
+      "sbc": 134.0,
+      "buybacks": 1969.0,
+      "sga": 1732.0,
+      "cogs": 9955.0,
+      "da": 3108.0,
+      "amort": 238.0,
+      "capex_other": 379.0,
+      "shares": 63.09597,
+      "cash_change": 2.0,
+      "fleet": 16069.0,
+      "fleet_gross": 24825.0,
+      "ppe": 1134.0,
+      "capex_fleet": 4149.0,
+      "sales_fleet": 1413.0,
+      "gain_fleet": 635.0,
+      "dep_fleet": 2670.0,
+      "dividends": 464.0,
+      "owned_rental": 11048.0,
+      "rental": 13806.0
+    }
+  },
+  "interim": {
+    "2025": {
+      "revenue": 11891.0,
+      "assets": null,
+      "cash": null,
+      "ar": null,
+      "inventory": null,
+      "current_assets": null,
+      "goodwill": null,
+      "intangibles": null,
+      "rou": null,
+      "liabilities": null,
+      "current_liabilities": null,
+      "ap": null,
+      "lease": null,
+      "lease_current": null,
+      "debt_current": null,
+      "debt_noncurrent": null,
+      "equity": null,
+      "ebit": 2921.0,
+      "ebt": 2464.0,
+      "tax": 623.0,
+      "net_income": 1841.0,
+      "cfo": 3934.0,
+      "cfi": -2766.0,
+      "cff": -1129.0,
+      "fx_cash": 16.0,
+      "sbc": 102.0,
+      "buybacks": 1338.0,
+      "sga": 1301.0,
+      "cogs": 7337.0,
+      "da": 2303.0,
+      "amort": null,
+      "capex_other": 273.0,
+      "shares": null,
+      "cash_change": 55.0,
+      "fleet": null,
+      "fleet_gross": null,
+      "ppe": null,
+      "capex_fleet": 3576.0,
+      "sales_fleet": 1027.0,
+      "gain_fleet": 460.0,
+      "dep_fleet": 1972.0,
+      "dividends": 350.0,
+      "owned_rental": 8204.0,
+      "rental": 10225.0
+    },
+    "2026": {
+      "revenue": 13288.0,
+      "assets": 32785.0,
+      "cash": 153.0,
+      "ar": 3096.0,
+      "inventory": 313.0,
+      "current_assets": 3985.0,
+      "goodwill": 7261.0,
+      "intangibles": 507.0,
+      "rou": 1454.0,
+      "liabilities": 23090.0,
+      "current_liabilities": 5006.0,
+      "ap": 1686.0,
+      "lease": null,
+      "lease_current": null,
+      "debt_current": 1607.0,
+      "debt_noncurrent": 13064.0,
+      "equity": 9695.0,
+      "ebit": 3416.0,
+      "ebt": 2939.0,
+      "tax": 735.0,
+      "net_income": 2204.0,
+      "cfo": 4934.0,
+      "cfi": -3949.0,
+      "cff": -1284.0,
+      "fx_cash": -7.0,
+      "sbc": 122.0,
+      "buybacks": 1191.0,
+      "sga": 1424.0,
+      "cogs": 8041.0,
+      "da": 2468.0,
+      "amort": null,
+      "capex_other": 280.0,
+      "shares": 61.990795,
+      "cash_change": -306.0,
+      "fleet": 18363.0,
+      "fleet_gross": null,
+      "ppe": 1154.0,
+      "capex_fleet": 4339.0,
+      "sales_fleet": 1028.0,
+      "gain_fleet": 470.0,
+      "dep_fleet": 2127.0,
+      "dividends": 371.0,
+      "owned_rental": 8992.0,
+      "rental": 11584.0
+    }
+  },
+  "market": {
+    "price": 1170.05,
+    "price_date": "2026-10-30",
+    "shares_millions": 61.916588,
+    "shares_date": "2026-10-19",
+    "price_source": "https://stockanalysis.com/stocks/uri/history/",
+    "price_corroboration": "https://chartexchange.com/symbol/nyse-uri/historical/",
+    "note": "Prices corroborated across two vendors. Financial balances are latest reported September 30, not contemporaneous October 30 balances."
+  },
+  "latest_finite_intangibles": 507.0,
+  "latest_amort_schedule": [
+    183.0,
+    128.0,
+    74.0,
+    49.0,
+    26.0
+  ],
+  "opening_fleet_gross_approx": 25000,
+  "ttm": {
+    "revenue": 17496.0,
+    "assets": 32785.0,
+    "cash": 153.0,
+    "ar": 3096.0,
+    "inventory": 313.0,
+    "current_assets": 3985.0,
+    "goodwill": 7261.0,
+    "intangibles": 507.0,
+    "rou": 1454.0,
+    "liabilities": 23090.0,
+    "current_liabilities": 5006.0,
+    "ap": 1686.0,
+    "lease": null,
+    "lease_current": null,
+    "debt_current": 1607.0,
+    "debt_noncurrent": 13064.0,
+    "equity": 9695.0,
+    "ebit": 4468.0,
+    "ebt": 3813.0,
+    "tax": 956.0,
+    "net_income": 2857.0,
+    "cfo": 6190.0,
+    "cfi": -4552.0,
+    "cff": -1996.0,
+    "fx_cash": -1.0,
+    "sbc": 154.0,
+    "buybacks": 1822.0,
+    "sga": 1855.0,
+    "cogs": 10659.0,
+    "da": 3273.0,
+    "amort": null,
+    "capex_other": 386.0,
+    "shares": 61.990795,
+    "cash_change": -359.0,
+    "fleet": 18363.0,
+    "fleet_gross": null,
+    "ppe": 1154.0,
+    "capex_fleet": 4912.0,
+    "sales_fleet": 1414.0,
+    "gain_fleet": 645.0,
+    "dep_fleet": 2825.0,
+    "dividends": 485.0,
+    "owned_rental": 11836.0,
+    "rental": 15165.0
+  },
+  "opening": {
+    "cash": 153.0,
+    "ar": 3096.0,
+    "inventory": 313.0,
+    "other_ca": 423.0,
+    "ppe": 1154.0,
+    "fleet": 18363.0,
+    "goodwill": 7261.0,
+    "intangibles": 507.0,
+    "rou": 1454.0,
+    "debt": 14671.0,
+    "ap": 1686.0,
+    "equity": 9695.0,
+    "shares": 61.916588,
+    "other_nca": 61.0,
+    "other_liab": 6733.0,
+    "finite": 507.0,
+    "indefinite": 0.0,
+    "pool": 1154.0,
+    "gross": 25000
+  },
+  "globals": {
+    "wacc": 0.1,
+    "terminal_growth": 0.025,
+    "min_cash": 150,
+    "leverage_limit": 2.5,
+    "terminal_roic": 0.1,
+    "first_period_weight": 0.9166666666666666,
+    "price": 1170.05,
+    "share_price_growth": 0,
+    "new_asset_life": 8.5,
+    "salvage": 0.12,
+    "first_year_principal": 1607.0,
+    "fixed_cost_fraction": 0.4,
+    "other_cost_fraction": 0.75,
+    "other_asset_life": 5
+  },
+  "base_direct_cost": 6433.0,
+  "legacy_ppe_dep_rate": 0.18197573656845753,
+  "amort_budget": [
+    180,
+    140,
+    90,
+    55,
+    35
+  ],
+  "drivers": {
+    "tax": {
+      "base": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "down": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "up": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "basis": "Analyst normalized cash tax rate. No immediate cash refunds for losses."
+    },
+    "interest": {
+      "base": [
+        0.055,
+        0.055,
+        0.055,
+        0.055,
+        0.055
+      ],
+      "down": [
+        0.075,
+        0.075,
+        0.075,
+        0.075,
+        0.075
+      ],
+      "up": [
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "basis": "Analyst blended financing cost. Interest uses opening debt, with year-end financing timing."
+    },
+    "dso": {
+      "base": [
+        64.58847736625515,
+        64.58847736625515,
+        64.58847736625515,
+        64.58847736625515,
+        64.58847736625515
+      ],
+      "down": [
+        72.58847736625515,
+        72.58847736625515,
+        72.58847736625515,
+        72.58847736625515,
+        72.58847736625515
+      ],
+      "up": [
+        61.58847736625515,
+        61.58847736625515,
+        61.58847736625515,
+        61.58847736625515,
+        61.58847736625515
+      ],
+      "basis": "Latest receivables / trailing revenue x 365. Scenario changes are assumptions."
+    },
+    "dio": {
+      "base": [
+        10.71817243643869,
+        10.71817243643869,
+        10.71817243643869,
+        10.71817243643869,
+        10.71817243643869
+      ],
+      "down": [
+        25.718172436438692,
+        25.718172436438692,
+        25.718172436438692,
+        25.718172436438692,
+        25.718172436438692
+      ],
+      "up": [
+        7.7181724364386906,
+        7.7181724364386906,
+        7.7181724364386906,
+        7.7181724364386906,
+        7.7181724364386906
+      ],
+      "basis": "Latest inventory / trailing reported cost of revenue x 365; forecast cost denominator excludes D&A and disposal book cost."
+    },
+    "dpo": {
+      "base": [
+        57.73430903461863,
+        57.73430903461863,
+        57.73430903461863,
+        57.73430903461863,
+        57.73430903461863
+      ],
+      "down": [
+        52.73430903461863,
+        52.73430903461863,
+        52.73430903461863,
+        52.73430903461863,
+        52.73430903461863
+      ],
+      "up": [
+        60.73430903461863,
+        60.73430903461863,
+        60.73430903461863,
+        60.73430903461863,
+        60.73430903461863
+      ],
+      "basis": "Latest payables / trailing reported cost of revenue x 365; forecast denominator follows forecast operating costs."
+    },
+    "sbc": {
+      "base": [
+        0.008802011888431641,
+        0.008802011888431641,
+        0.008802011888431641,
+        0.008802011888431641,
+        0.008802011888431641
+      ],
+      "down": [
+        0.008802011888431641,
+        0.008802011888431641,
+        0.008802011888431641,
+        0.008802011888431641,
+        0.008802011888431641
+      ],
+      "up": [
+        0.008802011888431641,
+        0.008802011888431641,
+        0.008802011888431641,
+        0.008802011888431641,
+        0.008802011888431641
+      ],
+      "basis": "Trailing reported stock compensation / revenue. Economic expense retained in DCF."
+    },
+    "repurchases": {
+      "base": [
+        1500,
+        1500,
+        1500,
+        1500,
+        1500
+      ],
+      "down": [
+        750,
+        750,
+        750,
+        750,
+        750
+      ],
+      "up": [
+        2000,
+        2000,
+        2000,
+        2000,
+        2000
+      ],
+      "basis": "Hypothetical annual repurchase ceiling, funded only after minimum cash and dividends."
+    },
+    "dividends": {
+      "base": [
+        500,
+        500,
+        500,
+        500,
+        500
+      ],
+      "down": [
+        500,
+        500,
+        500,
+        500,
+        500
+      ],
+      "up": [
+        550,
+        550,
+        550,
+        550,
+        550
+      ],
+      "basis": "Analyst distribution budget; not a future board declaration."
+    },
+    "debt_sweep": {
+      "base": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "down": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "up": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "basis": "Fraction of remaining surplus directed to debt after the repurchase ceiling."
+    },
+    "refinance": {
+      "base": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "down": [
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "up": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "basis": "Hypothetical fraction of the repayment budget refinanced. Borrowing availability is not assured."
+    },
+    "principal": {
+      "base": [
+        1607.0,
+        800,
+        1500,
+        1500,
+        3000
+      ],
+      "down": [
+        1607.0,
+        800,
+        1500,
+        1500,
+        3000
+      ],
+      "up": [
+        1607.0,
+        800,
+        1500,
+        1500,
+        3000
+      ],
+      "basis": "Repayment stress budget, not an instrument-level contractual maturity schedule. Year one uses latest current debt if disclosed; later years are analyst assumptions."
+    },
+    "impairment": {
+      "base": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "down": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "basis": "Hypothetical noncash, nondeductible brand impairment. No forecast of an actual charge."
+    },
+    "productivity": {
+      "base": [
+        0.03,
+        0.025,
+        0.02,
+        0.02,
+        0.02
+      ],
+      "down": [
+        -0.08,
+        -0.04,
+        0,
+        0.01,
+        0.02
+      ],
+      "up": [
+        0.06,
+        0.05,
+        0.04,
+        0.03,
+        0.025
+      ],
+      "basis": "Assumed change in rental yield after average OEC growth. Historical company productivity includes rate, time utilization and mix, not separately identifiable."
+    },
+    "fleet_capex": {
+      "base": [
+        5350,
+        5200,
+        5200,
+        5300,
+        5400
+      ],
+      "down": [
+        4000,
+        3500,
+        3500,
+        4000,
+        4300
+      ],
+      "up": [
+        6000,
+        6300,
+        6600,
+        6900,
+        7200
+      ],
+      "basis": "Cash fleet-purchase budget. First year is calibrated to 2026 cash-purchase guidance, not management guidance for these September-ending forecast periods."
+    },
+    "other_capex": {
+      "base": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "down": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ],
+      "up": [
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "basis": "Analyst cash investment in non-rental PPE; no future acquisition or intangible capitalization assumed."
+    },
+    "disposal_book_rate": {
+      "base": [
+        0.04187768883080107,
+        0.04187768883080107,
+        0.04187768883080107,
+        0.04187768883080107,
+        0.04187768883080107
+      ],
+      "down": [
+        0.055,
+        0.055,
+        0.055,
+        0.055,
+        0.055
+      ],
+      "up": [
+        0.04,
+        0.04,
+        0.04,
+        0.04,
+        0.04
+      ],
+      "basis": "Book value removed / opening net fleet. Base calibrated to trailing disposal proceeds less gains divided by latest net fleet."
+    },
+    "disposal_accum": {
+      "base": [
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "down": [
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "up": [
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "basis": "Analyst accumulated depreciation fraction on disposed original cost. Not disclosed by cohort."
+    },
+    "sale_multiple": {
+      "base": [
+        1.8387516254876464,
+        1.8387516254876464,
+        1.8387516254876464,
+        1.8387516254876464,
+        1.8387516254876464
+      ],
+      "down": [
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25
+      ],
+      "up": [
+        1.9,
+        1.9,
+        1.9,
+        1.9,
+        1.9
+      ],
+      "basis": "Disposal proceeds / disposed net book value. Base trailing ratio, not an asset-level resale forecast."
+    },
+    "legacy_dep": {
+      "base": [
+        0.1538419648205631,
+        0.1538419648205631,
+        0.1538419648205631,
+        0.1538419648205631,
+        0.1538419648205631
+      ],
+      "down": [
+        0.1538419648205631,
+        0.1538419648205631,
+        0.1538419648205631,
+        0.1538419648205631,
+        0.1538419648205631
+      ],
+      "up": [
+        0.1538419648205631,
+        0.1538419648205631,
+        0.1538419648205631,
+        0.1538419648205631,
+        0.1538419648205631
+      ],
+      "basis": "Legacy annual depreciation rate on opening net book fleet. Cohort approximation calibrated to trailing D&A."
+    },
+    "cost_inflation": {
+      "base": [
+        0.03,
+        0.03,
+        0.03,
+        0.03,
+        0.03
+      ],
+      "down": [
+        0.04,
+        0.04,
+        0.04,
+        0.04,
+        0.04
+      ],
+      "up": [
+        0.025,
+        0.025,
+        0.025,
+        0.025,
+        0.025
+      ],
+      "basis": "Assumed inflation in the fixed 40% of rental operating costs."
+    },
+    "maintenance": {
+      "base": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "down": [
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02
+      ],
+      "up": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "basis": "Additional rental operating cost as a revenue share. Scenario assumption; no estimated causal capex-to-maintenance relationship."
+    },
+    "other_growth": {
+      "base": [
+        0.03,
+        0.03,
+        0.03,
+        0.03,
+        0.03
+      ],
+      "down": [
+        -0.05,
+        0,
+        0.02,
+        0.02,
+        0.02
+      ],
+      "up": [
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "basis": "Growth in ancillary rental revenue and other non-rental revenue."
+    },
+    "sga_rate": {
+      "base": [
+        0.10602423411065387,
+        0.10602423411065387,
+        0.10602423411065387,
+        0.10602423411065387,
+        0.10602423411065387
+      ],
+      "down": [
+        0.11602423411065386,
+        0.11602423411065386,
+        0.11602423411065386,
+        0.11602423411065386,
+        0.11602423411065386
+      ],
+      "up": [
+        0.10302423411065387,
+        0.10302423411065387,
+        0.10302423411065387,
+        0.10302423411065387,
+        0.10302423411065387
+      ],
+      "basis": "Reported trailing SG&A / revenue, including stock compensation."
+    }
+  }
+}
