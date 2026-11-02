@@ -679,5 +679,51 @@
     "featured": false,
     "externalDemo": "https://sec-working-capital-advisory.onrender.com",
     "summary": "The illustrative Apple case releases cash, but its first-year financing benefit does not cover the assumed implementation cost."
+  },
+  {
+    "slug": "united-rentals-fleet-capital-allocation",
+    "title": "United Rentals: Fleet Investment vs. Shareholder Returns",
+    "shortTitle": "What remains for shareholders after fleet spending?",
+    "category": "Finance",
+    "dataKind": "Public + assumptions",
+    "question": "How much could United Rentals distribute after meeting fleet capital requirements and liquidity needs?",
+    "audience": "Equity research, corporate-finance and capital-allocation analysts",
+    "data": "Public filing-derived financial assumptions and modeled forecasts contained in a user-provided financial review archive. Sources and model cutoff require final cross-check before live publication.",
+    "methods": "Five-year integrated operating and three-statement forecasts, fleet capex planning, cash-allocation waterfall, DCF, reverse valuation and sensitivity analysis.",
+    "findings": "In the illustrative base scenario, modeled operating cash flow of $5.43 billion and net investing outflow of $4.336 billion constrain first-period buyback capacity to about $597 million after reserve and dividend assumptions.",
+    "implications": "Evaluate fleet reinvestment requirements before assuming cash flow can fund a higher shareholder return.",
+    "limitations": "Scenario outputs are not company guidance or board authorizations. Cohort fleet assumptions and terminal value are material valuation uncertainties; the underlying model and future-dated research cutoff need final verification.",
+    "summary": "Fleet investment and liquidity requirements limit illustrative first-period share repurchases to roughly $597 million.",
+    "path": "projects/united-rentals-fleet-capital-allocation",
+    "date": "2026-11-01",
+    "tools": [
+      "Excel",
+      "Python",
+      "SQL"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "crocs-buybacks-deleveraging",
+    "title": "Crocs: Buybacks vs. Debt Reduction",
+    "shortTitle": "When should buybacks give way to debt repayment?",
+    "category": "Finance",
+    "dataKind": "Public + assumptions",
+    "question": "Can Crocs fund share repurchases and reduce debt without relying on share-count-driven EPS growth?",
+    "audience": "Investment research, corporate-finance and capital-allocation analysts",
+    "data": "Public filing-derived financial assumptions and modeled forecasts contained in a user-provided financial review archive. Sources and model cutoff require final cross-check before live publication.",
+    "methods": "Five-year integrated three-statement model, brand contribution assumptions, capital-allocation waterfall, reverse valuation and downside sensitivities.",
+    "findings": "The illustrative first-period base case supports approximately $600 million of repurchases and $134 million of incremental debt repayment after maintaining a $150 million liquidity reserve.",
+    "implications": "Tie repurchase decisions to sustainable operating cash generation and explicitly model deleveraging priorities.",
+    "limitations": "Brand contribution margins are analyst estimates, not reported brand cash margins. Scenario valuation ranges are not confidence intervals or price targets. Underlying workbooks and a future-dated research cutoff require final verification.",
+    "summary": "The modeled capital allocation funds $600 million of buybacks while retaining capacity for approximately $134 million of debt repayment.",
+    "path": "projects/crocs-buybacks-deleveraging",
+    "date": "2026-11-01",
+    "tools": [
+      "Excel",
+      "Python",
+      "SQL"
+    ],
+    "featured": true
   }
 ]
