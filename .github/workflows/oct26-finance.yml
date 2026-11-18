@@ -19,7 +19,9 @@ jobs:
         run: python projects/2026-10-26/research-toolkit/verify.py
   browser-acceptance:
     runs-on: ubuntu-24.04
-    container: mcr.microsoft.com/playwright:v1.56.1-noble
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+      options: --user 1001
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
