@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio Preview Deployments | Project notes</title>
+<style>
+body{margin:0;background:#0e1a2a;color:#e5eef8;font:1rem/1.65 system-ui,sans-serif}
+main{max-width:44rem;margin:auto;padding:clamp(1.5rem,5vw,4rem)}
+h1,h2{line-height:1.15}h1{font-size:clamp(2rem,6vw,3.4rem);margin:1.1rem 0}
+a{color:#86dcff}li+li{margin-top:.6rem}
+</style>
+</head>
+<body><main id="main">
+<a href="/projects/portfolio-preview-deployments/">Back to case study</a>
+<h1>Portfolio Preview Deployments</h1>
+<p>A pull request can break an Excel download or a project link while the homepage still loads. This workflow builds the full portfolio and checks the resulting files before the update is published.</p>
+<h2>What the workflow checks</h2>
+<ol>
+<li>Rebuild case pages, reports, and downloads in a GitHub Actions job.</li>
+<li>Validate local URLs, assets, ZIP contents, and the Crocs and United Rentals Excel models.</li>
+<li>Open the site in Chromium at desktop and mobile sizes, use project search, and download an Excel workbook.</li>
+<li>Upload the preview ZIP and a build log to the run summary.</li>
+</ol>
+<h2>Verification</h2>
+<p>The initial passing run built 31 case studies, checked 818 internal link and asset references, and verified 31 archives. Two local test changes, a broken download link and a package missing an Excel workbook, both failed verification.</p>
+<p><a href="https://github.com/Pratattack/analytics-portfolio/actions/workflows/portfolio-preview.yml">Open build results and preview downloads</a></p>
+<p>Preview files are retained for seven days. Open the extracted site using a local HTTP server. Production publication runs separately through ChatGPT Sites.</p>
+</main></body></html>

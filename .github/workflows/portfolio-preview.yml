@@ -1,0 +1,80 @@
+name: Portfolio preview
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/portfolio-preview.yml'
+      - 'website/**'
+      - 'portfolio_registry.json'
+      - 'projects/**'
+      - 'flagships/**'
+      - 'sec-working-capital/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: portfolio-preview-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+      options: --user 1001
+    timeout-minutes: 12
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build and check the preview
+        run: |
+          {
+            python3 website/scripts/fetch_assets.py &&
+            python3 website/scripts/build.py --projects-source . &&
+            python3 website/scripts/verify.py
+          } 2>&1 | tee portfolio-preview.log
+      - name: Install matching Playwright library
+        run: |
+          npm install --prefix .preview-browser playwright@1.56.1
+      - name: Check desktop and mobile previews
+        run: NODE_PATH="$PWD/.preview-browser/node_modules" node website/scripts/check_preview.cjs 2>&1 | tee -a portfolio-preview.log
+      - name: Upload preview files
+        id: preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-preview
+          path: website/dist/
+          if-no-files-found: error
+          retention-days: 7
+      - name: Upload build log
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-preview-log
+          path: portfolio-preview.log
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Link the checked preview
+        env:
+          PREVIEW_URL: ${{ steps.preview.outputs.artifact-url }}
+        run: |
+          {
+            printf '## Portfolio preview\n\n'
+            printf '[Download the checked preview](%s)\n\n' "$PREVIEW_URL"
+            printf 'Extract the ZIP and run `python3 -m http.server 8000 --bind 127.0.0.1` from the extracted directory. Open http://127.0.0.1:8000/.\n\n'
+            printf '\n```json\n'
+            cat website/verification.json
+            printf '\n```\n'
+          } >> "$GITHUB_STEP_SUMMARY"

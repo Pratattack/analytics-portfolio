@@ -60,11 +60,25 @@ def main():
         for script in DIST.rglob('*.js'):
             subprocess.run(['node', '--check', str(script)], check=True, capture_output=True)
             script_count += 1
-    packages = list((DIST/'downloads').glob('*.zip'))
+    published = json.loads((ROOT/'content/published-projects.json').read_text())
+    packages = {DIST / p['download'].lstrip('/') for p in published}
     for package in packages:
         with zipfile.ZipFile(package) as archive:
             assert archive.testzip() is None, package
             assert archive.namelist(), package
+    for project in published:
+        if not project.get('financialModel'):
+            continue
+        project_files = DIST / 'demos' / project['slug'] / 'outputs'
+        workbooks = list(project_files.glob('*.xlsx'))
+        assert workbooks, f"No workbook in {project_files}"
+        with zipfile.ZipFile(DIST / project['download'].lstrip('/')) as archive:
+            for workbook in workbooks:
+                member = (Path(project['path']).relative_to('flagships') / 'outputs' / workbook.name).as_posix()
+                assert member in archive.namelist(), (archive.filename, member)
+                assert archive.read(member) == workbook.read_bytes(), (archive.filename, member)
+                with zipfile.ZipFile(workbook) as spreadsheet:
+                    assert 'xl/workbook.xml' in spreadsheet.namelist() and spreadsheet.testzip() is None, workbook
     css_references = 0
     for stylesheet in DIST.rglob('*.css'):
         for url in re.findall(r'url\([\"\']?([^\)\"\']+)', stylesheet.read_text()):

@@ -14,6 +14,12 @@ python3 website/scripts/verify.py
 
 Publish `website/dist/` with any static host. The managed Sites checkout uses the same files at its root.
 
+## Preview a pull request
+
+The Portfolio preview workflow in GitHub Actions builds website and project changes, checks internal links and downloads, and posts a link to the ZIP in the run summary. If a build or check fails, open its step log or download the separate `portfolio-preview-log` artifact. A successful preview is available for seven days.
+
+Extract the preview, run `python3 -m http.server 8000 --bind 127.0.0.1` inside the extracted directory, and open http://127.0.0.1:8000/. Serving the files over HTTP preserves root-relative paths. The workflow uses downloadable previews for this milestone. The hosted portfolio is published independently through ChatGPT Sites.
+
 ## Add a future project
 
 1. Review its README, implementation, source evidence and limitations.

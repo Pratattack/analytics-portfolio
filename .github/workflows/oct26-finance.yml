@@ -18,7 +18,10 @@ jobs:
       - name: Audit source contracts, independent math, and empty-output reproduction
         run: python projects/2026-10-26/research-toolkit/verify.py
   browser-acceptance:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+      options: --user 1001
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
@@ -34,10 +37,9 @@ jobs:
           python projects/2026-10-26/research-toolkit/credit.py
           python projects/2026-10-26/research-toolkit/restaurant.py
           python projects/2026-10-26/research-toolkit/presentation.py
-      - name: Install three actual browser engines
+      - name: Install matching Playwright library
         run: |
           npm install --prefix .oct26-browser playwright@1.56.1
-          .oct26-browser/node_modules/.bin/playwright install --with-deps chromium firefox webkit
       - name: Execute desktop/mobile interaction and error-recovery cases
         run: NODE_PATH="$PWD/.oct26-browser/node_modules" node projects/2026-10-26/research-toolkit/browser_test.cjs
       - uses: actions/upload-artifact@v4

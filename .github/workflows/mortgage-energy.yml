@@ -18,7 +18,10 @@ jobs:
       - name: Input, independent methodology, SQL, clean deterministic rebuild
         run: python projects/2026-10-22/energy-mortgage-toolkit/verify.py
   mortgage-energy-browser-acceptance:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+      options: --user 1001
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
@@ -34,10 +37,9 @@ jobs:
           python projects/2026-10-22/energy-mortgage-toolkit/aro.py
           python projects/2026-10-22/energy-mortgage-toolkit/mortgage.py
           python projects/2026-10-22/energy-mortgage-toolkit/presentation.py
-      - name: Install actual Chromium, Firefox and WebKit
+      - name: Install matching Playwright library
         run: |
           npm install --prefix .industry-browser playwright@1.56.1
-          .industry-browser/node_modules/.bin/playwright install --with-deps chromium firefox webkit
       - name: Execute application/report acceptance on desktop/mobile
         run: NODE_PATH="$PWD/.industry-browser/node_modules" node projects/2026-10-22/energy-mortgage-toolkit/browser_test.cjs
       - uses: actions/upload-artifact@v4

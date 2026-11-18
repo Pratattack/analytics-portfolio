@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-11-17",
+    "industry": "website operations",
+    "title": "Portfolio Preview Deployments",
+    "path": "projects/2026-11-17/portfolio-preview-deployments",
+    "data": "public workflow runs and build output",
+    "status": "published"
+  },
+  {
     "date": "2026-10-17",
     "industry": "specialty chemicals",
     "title": "Catalyst Pricing & Contract Economics",

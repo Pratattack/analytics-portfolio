@@ -1,5 +1,28 @@
 [
   {
+    "slug": "portfolio-preview-deployments",
+    "title": "Portfolio Preview Deployments",
+    "shortTitle": "Catch broken downloads before publishing",
+    "category": "Operations",
+    "dataKind": "Public data",
+    "question": "Can a portfolio update pass review before it reaches the live site?",
+    "audience": "Portfolio owners and small teams publishing static sites with research files.",
+    "data": "GitHub Actions builds, generated portfolio pages, and downloadable workbooks.",
+    "methods": "Build the proposed site in GitHub Actions, check internal links and archives, run Chromium at desktop and mobile sizes, and package the preview with its log.",
+    "findings": "The first run rebuilt 31 case studies and verified 818 links and asset references and 31 archives. Deliberate failures confirmed that the verifier catches a broken download URL and an archive missing its workbook.",
+    "implications": "Review the exact preview files and fix broken links or downloads before publishing a change.",
+    "limitations": "Preview files are downloadable for seven days. Browser checks cover selected portfolio routes and interactions. The live site is published through ChatGPT Sites.",
+    "summary": "A pull request builds a preview of this portfolio and checks its links and downloads before publication.",
+    "path": "projects/2026-11-17/portfolio-preview-deployments",
+    "date": "2026-11-17",
+    "tools": [
+      "GitHub Actions",
+      "Python",
+      "Playwright"
+    ],
+    "featured": true
+  },
+  {
     "slug": "united-rentals-fleet-capital-allocation",
     "title": "United Rentals: Fleet Investment vs. Shareholder Returns",
     "shortTitle": "Fleet investment before buybacks",
