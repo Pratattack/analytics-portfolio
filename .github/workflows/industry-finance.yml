@@ -18,7 +18,7 @@ jobs:
       - name: Input, independent methodology, SQL, clean deterministic rebuild
         run: python projects/2026-10-22/verify.py
   industry-browser-acceptance:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4

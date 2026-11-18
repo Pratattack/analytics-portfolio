@@ -20,7 +20,7 @@ jobs:
       - name: Audit sources, independently reconcile methods, and reproduce without outputs
         run: python projects/2026-10-21/verify.py
   capital-browser-acceptance:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:
       OPENBLAS_NUM_THREADS: '1'
