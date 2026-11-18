@@ -1,6 +1,6 @@
 """Build the portfolio from reviewed content and a pinned analytics repository."""
 from pathlib import Path
-import argparse, csv, hashlib, html, json, re, shutil, zipfile
+import argparse, csv, hashlib, html, json, re, shutil, subprocess, zipfile
 from copy_refinement import refine_visitor_text
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -11,6 +11,19 @@ BASE = 'https://github.com/Pratattack/analytics-portfolio/tree/main/'
 def write(path, text):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text)
+
+def package_financial_models(repo, target):
+    source = 'flagships/capital-allocation-models'
+    # Use the Git index so local credentials, caches, and generated scratch files
+    # cannot accidentally become website downloads.
+    paths = subprocess.check_output(['git', '-C', str(repo), 'ls-files', '-z', '--', source])
+    with zipfile.ZipFile(target, 'w', zipfile.ZIP_DEFLATED) as archive:
+        for name in filter(None, paths.decode().split('\0')):
+            file = repo / name
+            relative = file.relative_to(repo / source)
+            if any(part.startswith('.') for part in relative.parts):
+                continue
+            archive.write(file, file.relative_to(repo / 'flagships').as_posix())
 
 def main():
     parser = argparse.ArgumentParser()
@@ -34,14 +47,21 @@ def main():
     footer = re.search(r'<footer\b[^>]*>.*?</footer>', homepage, re.S).group().replace('href="assets/', 'href="/assets/').replace('href="#main"', 'href="#main"')
     def shell(title, description, canonical, body, extra=''):
         return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | Prathamesh Singh</title><meta name="description" content="{esc(description, quote=True)}"><meta name="theme-color" content="#090f17"><link rel="canonical" href="https://prathameshsingh.com{canonical}"><meta property="og:title" content="{esc(title, quote=True)} | Prathamesh Singh"><meta property="og:description" content="{esc(description, quote=True)}"><meta property="og:type" content="website"><link rel="icon" href="/assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css"></head><body><a class="skip" href="#main">Skip to content</a>{header}<main id="main">{body}</main>{footer}{extra}</body></html>'''
+    model_package = None
     for p in records:
         slug = p['slug']
         if args.only_slugs and slug not in args.only_slugs:
             continue
         src = repo / p['path']
         dest = DIST / 'demos' / slug
+        electricity_layout = slug == 'houston-electricity-plan-audit'
+        report_path = 'report.html' if electricity_layout else 'outputs/report.html'
         # Keep the original reports and scripts intact, including linked CSV evidence.
-        if p.get('externalDemo'):
+        if electricity_layout:
+            for directory in ('app', 'data', 'docs', 'results'):
+                shutil.copytree(src / directory, dest / directory, dirs_exist_ok=True,
+                                ignore=shutil.ignore_patterns('template.html', '*.sqlite', '__pycache__'))
+        elif p.get('externalDemo'):
             shutil.copytree(src, dest, dirs_exist_ok=True, ignore=shutil.ignore_patterns('__pycache__', '*.sqlite', '*.db', '.gitignore'))
         else:
             shutil.copytree(src / 'outputs', dest / 'outputs', dirs_exist_ok=True,
@@ -50,7 +70,7 @@ def main():
             shutil.copy2(doc, dest / doc.name)
         # Older reports contain two links to files absent from the repository snapshot.
         # Adapt navigation only; retain every analytical value and application script.
-        report_file = dest / 'outputs/report.html'
+        report_file = dest / report_path
         report_text = report_file.read_text() if report_file.exists() else ''
         if slug == 'bank-deposit-cost-attribution':
             report_text = report_text.replace('href="bank_cost_bridge.csv">Bank bridges', 'href="review_queue.csv">Bank review queue')
@@ -77,8 +97,9 @@ def main():
             shutil.copy2(screenshot, DIST / 'assets' / name)
             p['screenshot'] = '/assets/' + name
         app = 'app.html' if (dest / 'outputs/app.html').exists() else ('workbench.html' if (dest / 'outputs/workbench.html').exists() else None)
-        p['demo'] = p.get('externalDemo') or (f'/demos/{slug}/outputs/{app}' if app else None)
-        p['report'] = BASE + p['path'] + '/docs/executive_memo.md' if p.get('externalDemo') else f'/demos/{slug}/outputs/report.html'
+        app_path = 'app/index.html' if electricity_layout else f'outputs/{app}' if app else None
+        p['demo'] = p.get('externalDemo') or (f'/demos/{slug}/{app_path}' if app_path else None)
+        p['report'] = BASE + p['path'] + '/docs/executive_memo.md' if p.get('externalDemo') else f'/demos/{slug}/{report_path}'
         p['download'] = f'/downloads/{slug}.zip'
         p['url'] = f'/projects/{slug}/'
         p['repository'] = BASE + p['path']
@@ -86,6 +107,12 @@ def main():
         if p.get('financialModel'):
             p['delivery'] = 'Downloadable Excel financial model'
             p['download'] = f'/demos/{slug}/outputs/project-source.zip'
+            destination = DIST / p['download'].lstrip('/')
+            if model_package is None:
+                package_financial_models(repo, destination)
+                model_package = destination
+            else:
+                shutil.copyfile(model_package, destination)
         sections = [('Finding', p['findings']), ('Why it matters', p['implications']),
                     ('Who could use this', p['audience']), ('Data and scope', p['data'])]
         overview = ''.join(f'<section class="case-section" id="section-{i}"><h2>{esc(label)}</h2><p>{esc(text)}</p></section>' for i, (label,text) in enumerate(sections))
@@ -95,11 +122,12 @@ def main():
         image = f'<figure class="case-screenshot"><img src="{p["screenshot"]}" alt="Published desktop screenshot of the {esc(p["shortTitle"], quote=True)} research workbench" loading="lazy"><figcaption>Original project screenshot. The workbench link opens the interactive version.</figcaption></figure>' if p['screenshot'] else ''
         if p.get('evidence'):
             evidence = p['evidence']
-            chart = src / 'outputs' / evidence['file']
+            chart_directory = 'results' if electricity_layout else 'outputs'
+            chart = src / chart_directory / evidence['file']
             assert chart.exists()
             target = DIST / 'assets' / (slug + '-evidence.svg')
             shutil.copy2(chart, target)
-            image = f'<figure class="case-evidence"><a href="/demos/{slug}/outputs/{evidence["file"]}" target="_blank" rel="noopener"><img src="/assets/{target.name}" alt="{esc(evidence["caption"], quote=True)}" loading="lazy"></a><figcaption>{esc(evidence["caption"])} Open the chart for a larger view; the report includes downloadable observations.</figcaption></figure>'
+            image = f'<figure class="case-evidence"><a href="/demos/{slug}/{chart_directory}/{evidence["file"]}" target="_blank" rel="noopener"><img src="/assets/{target.name}" alt="{esc(evidence["caption"], quote=True)}" loading="lazy"></a><figcaption>{esc(evidence["caption"])} Open the chart for a larger view; the report includes downloadable observations.</figcaption></figure>'
             overview = image + overview
             image = ''
         related = [x for x in records if x['slug'] != slug and x['category'] == p['category']][:2]
