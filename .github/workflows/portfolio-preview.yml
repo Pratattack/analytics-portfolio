@@ -21,6 +21,9 @@ concurrency:
 jobs:
   preview:
     runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+      options: --user 1001
     timeout-minutes: 12
     defaults:
       run:
@@ -42,10 +45,9 @@ jobs:
             python3 website/scripts/build.py --projects-source . &&
             python3 website/scripts/verify.py
           } 2>&1 | tee portfolio-preview.log
-      - name: Install Chromium for browser checks
+      - name: Install matching Playwright library
         run: |
           npm install --prefix .preview-browser playwright@1.56.1
-          .preview-browser/node_modules/.bin/playwright install --with-deps chromium
       - name: Check desktop and mobile previews
         run: NODE_PATH="$PWD/.preview-browser/node_modules" node website/scripts/check_preview.cjs 2>&1 | tee -a portfolio-preview.log
       - name: Upload preview files

@@ -21,6 +21,9 @@ jobs:
         run: python projects/2026-10-21/verify.py
   capital-browser-acceptance:
     runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+      options: --user 1001
     timeout-minutes: 20
     env:
       OPENBLAS_NUM_THREADS: '1'
@@ -37,10 +40,9 @@ jobs:
           python -m pip install -r projects/2026-10-21/requirements.txt
           python projects/2026-10-21/analyze.py
           python projects/2026-10-21/presentation.py
-      - name: Install pinned browser runtime and three actual browser engines
+      - name: Install matching Playwright library
         run: |
           npm install --prefix .capital-browser playwright@1.56.1
-          .capital-browser/node_modules/.bin/playwright install --with-deps chromium firefox webkit
       - name: Execute reports and main analyst flows on desktop and mobile
         run: NODE_PATH="$PWD/.capital-browser/node_modules" node projects/2026-10-21/browser_test.cjs
       - uses: actions/upload-artifact@v4
