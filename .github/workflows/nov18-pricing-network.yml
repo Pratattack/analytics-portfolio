@@ -1,0 +1,24 @@
+name: Verify Costco and UPS case studies
+on:
+  push:
+    paths:
+      - 'projects/2026-11-18/**'
+      - '.github/workflows/nov18-pricing-network.yml'
+  pull_request:
+    paths:
+      - 'projects/2026-11-18/**'
+      - '.github/workflows/nov18-pricing-network.yml'
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -B projects/2026-11-18/verify.py

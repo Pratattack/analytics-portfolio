@@ -1,0 +1,10 @@
+{
+  "revenue_loss_pct": [0, 1, 2, 3, 4, 5, 6],
+  "incremental_contribution_pct": [20, 35, 50],
+  "quarterly_savings_m": [0, 50, 100],
+  "implementation_cost_m": [75, 150, 300],
+  "quarterly_discount_rate_pct": 2.5,
+  "quarters": 8,
+  "savings_ramp": [0.25, 0.5, 0.75, 1, 1, 1, 1, 1],
+  "decision_case": {"revenue_loss_pct": 2, "incremental_contribution_pct": 35, "implementation_cost_m": 150}
+}

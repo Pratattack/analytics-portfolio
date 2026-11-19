@@ -13,6 +13,13 @@ The October 19 projects' CI restores their immutable original official-data snap
 
 Industry-specific economics and business analytics cases by Prathamesh Singh, using Python and SQL with Excel-compatible outputs.
 
+## November 18 case studies
+
+- [Costco membership pricing and retention](projects/2026-11-18/costco-membership-pricing/) models how paid-member attrition and lost merchandise contribution constrain the next fee increase.
+- [UPS network redesign savings hurdle](projects/2026-11-18/ups-network-economics/) reconciles GAAP and adjusted operating profit and estimates how much recurring savings a hypothetical redesign would need.
+
+Both cases include filing-linked inputs, Python models, independent SQL reconciliations, scenario CSVs, and an HTML decision brief. Verify both from the repository root with `python3 projects/2026-11-18/verify.py`.
+
 ## Projects
 
 | Date | Industry | Project |
